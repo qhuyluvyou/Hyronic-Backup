@@ -1,3 +1,5 @@
+# Absolute legit Hyronic Survival Setup
+
 ⚙️ Setup status: 95% done – I got lazy at the finish line 😅
 
 🧩 Missing:
