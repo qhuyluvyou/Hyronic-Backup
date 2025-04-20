@@ -14,7 +14,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sleep 3
 
 echo "📦 Installing necessary packages..."
-sudo apt install openjdk-17-jdk ufw ngrok screen unzip p7zip-full neofetch btop wget curl git
+sudo apt install -y openjdk-17-jdk ufw ngrok screen unzip p7zip-full neofetch btop wget curl git
 sleep 3
 
 echo "📂 Creating directory 'Main'..."
