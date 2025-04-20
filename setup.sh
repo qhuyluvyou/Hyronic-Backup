@@ -27,4 +27,4 @@ rm -rf .git
 screen -dmS tunnel ngrok tcp 11611
 sleep 5
 
-echo "Done :3, restart your shell session and start server with 'qhuy'"
+echo "🎉 Setup complete! Now restart your terminal (or run source ~/.bashrc) and summon your mighty server with qhuy"
