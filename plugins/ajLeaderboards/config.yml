@@ -1,0 +1,62 @@
+
+
+
+stat-refresh: 1200
+
+enable-dontupdate-permission: true
+
+blocking-fetch: true
+
+register-lp-contexts: true
+
+only-register-lpc-for: []
+
+reverse-sort: []
+
+sign-update: 20
+
+update-on-join: true
+
+extras: 
+- "statistic_player_kills"
+
+comma: ","
+
+decimal: "."
+
+reset-weekly-on: sunday
+
+value-names: 
+- "ajtr_stats_wins_nocache%wins"
+
+update-stats: true
+
+only-update: []
+
+require-zero-validation: true
+
+dont-add-zero: []
+
+fetch-prefix-suffix-from-vault: true
+
+
+debug: false
+
+update-de-bug: false
+
+particles: false
+
+fetching-de-bug: false
+
+max-fetching-threads: 70
+
+
+
+
+
+
+
+config-version: 28
+
+no-data-name: ---
+no-data-score: ---

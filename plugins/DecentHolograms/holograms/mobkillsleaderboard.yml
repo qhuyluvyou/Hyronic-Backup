@@ -1,0 +1,28 @@
+location: spawn:-115.550:186.848:-221.910
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&4🗡'
+    height: 0.3
+  - content: '&#ff817bʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ: &cꜱʟᴀᴜɢʜᴛᴇʀ'
+    height: 0.3
+  - content: '&c1. &f%ajlb_lb_statistic_mob_kills_1_alltime_name% &8- &f%ajlb_lb_statistic_mob_kills_1_alltime_value%&4🗡'
+    height: 0.3
+  - content: '&c2. &f%ajlb_lb_statistic_mob_kills_2_alltime_name% &8- &f%ajlb_lb_statistic_mob_kills_2_alltime_value%&4🗡'
+    height: 0.3
+  - content: '&c3. &f%ajlb_lb_statistic_mob_kills_3_alltime_name% &8- &f%ajlb_lb_statistic_mob_kills_3_alltime_value%&4🗡'
+    height: 0.3
+  - content: '&c4. &f%ajlb_lb_statistic_mob_kills_4_alltime_name% &8- &f%ajlb_lb_statistic_mob_kills_4_alltime_value%&4🗡'
+    height: 0.3
+  - content: '&c5. &f%ajlb_lb_statistic_mob_kills_5_alltime_name% &8- &f%ajlb_lb_statistic_mob_kills_5_alltime_value%&4🗡'
+    height: 0.3
+  - content: '&7&m                   '
+    height: 0.3
+  - content: '&c%ajlb_position_statistic_mob_kills_alltime%. &f%player_name% &8- &f%ajlb_value_statistic_mob_kills_alltime%&4🗡'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,228 @@
+bow1:
+  displayname: '&1'
+  material: BOW
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/handheld
+    textures:
+    - custom/items/bow/catastrophe
+    pulling_models:
+    - custom/bows/catastrophe_pulling_0
+    - custom/bows/catastrophe_pulling_1
+    - custom/bows/catastrophe_pulling_2
+
+bow2:
+  displayname: '&1'
+  material: BOW
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/handheld
+    textures:
+    - custom/items/bow/divenetto
+    pulling_models:
+    - custom/bows/divinetto_pulling_0
+    - custom/bows/divinetto_pulling_1
+    - custom/bows/divinetto_pulling_2
+
+bow3:
+  displayname: '&1'
+  material: BOW
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/handheld
+    textures:
+    - custom/items/bow/hospitality
+
+staff1:
+  displayname: '&epaper'
+  material: STICK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 1
+    parent_model: item/generated
+    textures:
+    - custom/items/staff/cataclysm
+
+staff2:
+  displayname: '&epaper'
+  material: STICK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/generated
+    textures:
+    - custom/items/staff/frigid
+
+staff3:
+  displayname: '&eironsword'
+  material: STICK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/handheld
+    textures:
+    - custom/items/staff/scorpio
+
+staff4:
+  displayname: '&eironsword'
+  material: STICK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/handheld
+    textures:
+    - custom/items/staff/starcaller
+
+sword1:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: false
+    custom_model_data: 1
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/harbinger_of_death
+
+sword2:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/harbinger_of_death
+
+sword3:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/ark_of_the_cosmos
+
+sword4:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/absolute_zero
+
+sword5:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 5
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/the_trickster
+
+sword6:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 6
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/calamity
+
+sword7:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 7
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/mythril_greatsword
+
+sword8:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 8
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/orichalcum_sword
+
+sword9:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 9
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/titanium_blade
+
+sword10:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 10
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/immolus
+
+sword11:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 11
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/securus
+
+sword12:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 12
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/daedalus_replica
+
+sword13:
+  displayname: '&eironsword'
+  material: IRON_SWORD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 13
+    parent_model: item/handheld
+    textures:
+    - custom/items/sword/cobra
+

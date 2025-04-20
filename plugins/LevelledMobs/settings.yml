@@ -1,0 +1,46 @@
+
+debug-entity-damage: false
+debug-misc: [ ]
+
+async-task-update-period: 6
+async-task-max-blocks-from-player: 100
+
+customize-summon-command-limit: 10
+
+customcommand-amount-limit: 100
+
+assert-entity-validity-with-nametag-packets: true
+
+mob-process-delay: 0
+
+ensure-mobs-are-levelled-on-chunk-load: true
+
+attributes-use-preset-base-values: false
+
+summon-command-spawn-distance-from-player: 5
+
+use-update-checker: true
+
+kill-skip-conditions:
+
+  nametagged: true
+  tamed: true
+  leashed: true
+
+  convertingZombieVillager: true
+
+mobs-multiply-head-drops: false
+
+exceed-kill-in-chunk-message: true
+
+player-levelling-relevel-min-time: 5s
+
+nametag-placeholder-maxblocks: 30
+
+use-adventure: true
+
+use-translation-components: true
+
+use-legacy-serializer: true
+
+file-version: 34

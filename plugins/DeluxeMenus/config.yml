@@ -1,0 +1,30 @@
+# DeluxeMenus 1.13.7-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  stats:
+    file: stats.yml
+  menu:
+    file: menu.yml
+  lands:
+    file: lands.yml
+  warp:
+    file: warp.yml
+  settings:
+    file: settings.yml
+  dungeon:
+    file: dungeon.yml
+  ranks:
+    file: ranks.yml
+  update:
+    file: update.yml
+  equipment_unlock:
+    file: equipment_unlock.yml
+  miner_guide:
+    file: miner_guide.yml
+  admin:
+    file: admin.yml

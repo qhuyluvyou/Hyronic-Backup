@@ -1,0 +1,188 @@
+config-version: 4
+
+debug: false
+
+max-sync-tries: 5
+
+number-format:
+  decimal-separator: .
+
+defense-application:
+  natural: '#damage# * (1 - (#defense# / (5 * #damage# + #defense#)))'
+  elemental: '#damage# * (1 - (#defense# / (5 * #damage# + #defense#)))'
+
+health-scale:
+  enabled: true
+  scale: 20
+  delay: 0
+
+casting-delay:
+  slowness: 60 # A % based speed reduction when casting
+  cancel-on-move: false # If the casting should cancel if the player moves
+
+  cast-script: # MythicLib script called when the countdown begins
+    enabled: true
+    script:
+      mechanics:
+        play_sound:
+          type: sound
+          sound: BLOCK_END_PORTAL_FRAME_FILL
+          volume: 1
+          pitch: 2
+
+  cancel-script: # MythicLib script called if the countdown is cancelled
+    enabled: true
+    script:
+      mechanics:
+        play_sound:
+          type: sound
+          sound: ENTITY_VILLAGER_NO
+          volume: 1
+          pitch: 2
+
+  bossbar: # Displayed during casting delay
+    enabled: true
+    format: 'CASTING'
+
+
+critical-strikes:
+  weapon:
+    coefficient: 1.5
+    cooldown: 0
+    max-chance: 100
+  skill:
+    coefficient: 1.5
+    cooldown: 0
+    max-chance: 100
+
+mitigation:
+
+  message:
+
+    action-bar: true
+
+    parry: '&cYou just parried #damage# damage.'
+    block: '&cYou just blocked #damage# damage.' # Use #power# to display block power.
+    dodge: '&cYou just dodged #damage# damage.'
+
+  block:
+    power:
+      default: 25.0
+      max: 75.0
+    rating-max: 80.0
+    cooldown:
+      base: 5.0
+      min: 1.0
+
+  dodge:
+    knockback:
+      enabled: true
+      force: 1.0
+    rating-max: 80.0
+    cooldown:
+      base: 5.0
+      min: 1.0
+
+  parry:
+    knockback:
+      enabled: true
+      force: 1.0
+    rating-max: 80.0
+    cooldown:
+      base: 8.0
+      min: 2.0
+
+game-indicators:
+
+  damage:
+    enabled: true
+    decimal-format: '0.#'
+    format: '{icon} {value}'
+    custom-font:
+      enabled: false
+      normal:
+        '0': 'ᜀ'
+        '1': 'ᜁ'
+        '2': 'ᜂ'
+        '3': 'ᜃ'
+        '4': 'ᜄ'
+        '5': 'ᜅ'
+        '6': 'ᜆ'
+        '7': 'ᜇ'
+        '8': 'ᜈ'
+        '9': 'ᜉ'
+        'dot': 'ᜊ'
+        'inter': 'ᜍ'
+      crit:
+        '0': 'ᜐ'
+        '1': 'ᜑ'
+        '2': 'ᜒ'
+        '3': 'ᜓ'
+        '4': '᜔'
+        '5': '᜕'
+        '6': '᜖'
+        '7': '᜗'
+        '8': '᜘'
+        '9': '᜙'
+        'dot': 'ᜋ'
+        'inter': 'ᜍ'
+    icon:
+      weapon:
+        normal: '&c'
+        crit: '&4&l'
+      skill:
+        normal: '&d'
+        crit: '&5&l'
+    split-holograms: true
+    radial-velocity: 1
+    gravity: 1
+    initial-upward-velocity: 1
+    entity-height-percent: 0.75
+    y-offset: 0.1
+
+  regen:
+    enabled: false
+    decimal-format: '0.#'
+    format: '&a+#'
+    radial-velocity: 1
+    gravity: 1
+    initial-upward-velocity: 1
+    entity-height-percent: 0.75
+    y-offset: 0.1
+
+fix-movement-speed: true
+
+damage-particles-cap:
+  max-per-tick: 10
+  enabled: false
+
+fix-too-large-packets: false
+
+interaction_rules:
+
+  enabled: false
+
+  support_skills_on_mobs: true
+
+  pvp_off:
+
+    support:
+      party_member: true
+      party_other: true
+      guild_ally: true
+      guild_neutral: true
+      guild_enemy: true
+
+  pvp_on:
+
+    support:
+      party_member: true
+      party_other: false
+      guild_ally: true
+      guild_neutral: true
+      guild_enemy: false
+
+    offense:
+      party_member: false
+      guild_ally: false
+      guild_neutral: true

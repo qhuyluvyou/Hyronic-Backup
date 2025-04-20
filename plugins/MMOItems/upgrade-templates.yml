@@ -1,0 +1,10 @@
+
+dungeon:
+    attack-damage: 5%
+    critical-strike-power: 5%
+    defense: 5%
+    movement_speed: 5%
+    max-health: 5%
+    skill-damage: 5%
+    projectile-damage: 5%
+    weapon-damage: 5%

@@ -1,0 +1,148 @@
+info:
+  namespace: hsur
+
+items:
+  
+  derunator:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 100
+      material: EMERALD
+      textures:
+      - custom/items/rune/derunator
+
+  rune1:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 1
+      material: EMERALD
+      textures:
+      - custom/items/rune/vitality_1
+
+  rune2:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 2
+      material: EMERALD
+      textures:
+      - custom/items/rune/vitality_2
+
+  rune3:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 3
+      material: EMERALD
+      textures:
+      - custom/items/rune/vitality_3
+
+  rune4:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 4
+      material: EMERALD
+      textures:
+      - custom/items/rune/vitality_4
+
+  rune5:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 5
+      material: EMERALD
+      textures:
+      - custom/items/rune/vitality_5
+
+  rune6:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 6
+      material: EMERALD
+      textures:
+      - custom/items/rune/precision_1
+
+  rune7:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 7
+      material: EMERALD
+      textures:
+      - custom/items/rune/precision_2
+
+  rune8:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 8
+      material: EMERALD
+      textures:
+      - custom/items/rune/precision_3
+
+  rune9:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 9
+      material: EMERALD
+      textures:
+      - custom/items/rune/precision_4
+
+  rune10:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 10
+      material: EMERALD
+      textures:
+      - custom/items/rune/precision_5
+
+  rune11:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 11
+      material: EMERALD
+      textures:
+      - custom/items/rune/sorcery_1
+
+  rune12:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 12
+      material: EMERALD
+      textures:
+      - custom/items/rune/sorcery_2
+
+  rune13:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 13
+      material: EMERALD
+      textures:
+      - custom/items/rune/sorcery_3
+
+  rune14:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 14
+      material: EMERALD
+      textures:
+      - custom/items/rune/sorcery_4
+
+  rune15:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 15
+      material: EMERALD
+      textures:
+      - custom/items/rune/sorcery_5

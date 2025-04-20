@@ -1,0 +1,550 @@
+
+name: '&fఋ'
+
+max-queue-size: 5
+
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: AIR
+        name: '&8No Recipe'
+    no-queue-item:
+        material: AIR
+        name: '&8No Item in Queue'
+
+recipes:
+    forge1:
+        output:
+            type: MATERIAL
+            id: IGNETTO_ALLOY
+            amount: 1
+
+        crafting-time: 300
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~19;display="Mining XX"}
+
+        ingredients:
+        - vanilla{type=BLAZE_ROD,amount=128}
+        - vanilla{type=GOLD_INGOT,amount=64}
+        - vanilla{type=MAGMA_CREAM,amount=64}
+
+    forge2:
+        output:
+            type: MATERIAL
+            id: DIVINE_GEODE
+            amount: 1
+
+        crafting-time: 300
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~19;display="Mining XX"}
+
+        ingredients:
+        - vanilla{type=IRON_INGOT,amount=128}
+        - vanilla{type=QUARTZ,amount=64}
+        - vanilla{type=NETHER_BRICK,amount=32}
+        - vanilla{type=COPPER_INGOT,amount=16}
+        - vanilla{type=GOLD_INGOT,amount=16}
+
+    forge3:
+        output:
+            type: MATERIAL
+            id: WARDEN_HEART
+            amount: 1
+
+        crafting-time: 300
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~19;display="Mining XX"}
+
+        ingredients:
+        - vanilla{type=ROTTEN_FLESH,amount=256}
+        - vanilla{type=DIAMOND,amount=16}
+        - vanilla{type=GHAST_TEAR,amount=32}
+
+    forge4:
+        output:
+            type: MATERIAL
+            id: EXO_STONE
+            amount: 1
+
+        crafting-time: 600
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~24;display="Mining XXV"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MYTHRIL_INGOT,amount=1}
+        - mmoitem{type=MATERIAL,id=ORICHALCUM_INGOT,amount=1}
+        - mmoitem{type=MATERIAL,id=TITANIUM_INGOT,amount=1}
+
+    forge5:
+        output:
+            type: MATERIAL
+            id: NIGHTMARE_BAR
+            amount: 1
+
+        crafting-time: 1200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~24;display="Mining XXV"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=EXO_STONE,amount=1}
+        - mmoitem{type=MATERIAL,id=NIGHTMARE_FUEL,amount=3}
+
+    forge6:
+        output:
+            type: SWORD
+            id: CALAMITY
+            amount: 1
+
+        crafting-time: 21600
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~29;display="Mining XXX"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=CALAMITY_HANDLE,amount=1}
+        - mmoitem{type=MATERIAL,id=NIGHTMARE_BAR,amount=32}
+
+    forge7:
+        output:
+            type: BOW
+            id: CATASTROPHE
+            amount: 1
+
+        crafting-time: 21600
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~29;display="Mining XXX"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=CATASTROPHE_BROKEN,amount=1}
+        - mmoitem{type=MATERIAL,id=NIGHTMARE_BAR,amount=32}
+
+    forge8:
+        output:
+            type: STAFF
+            id: CATACLYSM
+            amount: 1
+
+        crafting-time: 21600
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~29;display="Mining XXX"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=CATACLYSM_HANDLE,amount=1}
+        - mmoitem{type=MATERIAL,id=NIGHTMARE_BAR,amount=32}
+
+    forge9:
+        output:
+            type: ARMOR
+            id: APOCALYPSE_HELMET
+            amount: 1
+
+        crafting-time: 21600
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~29;display="Mining XXX"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NIGHTMARE_BAR,amount=16}
+
+    forge10:
+        output:
+            type: ARMOR
+            id: APOCALYPSE_CHESTPLATE
+            amount: 1
+
+        crafting-time: 21600
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~29;display="Mining XXX"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NIGHTMARE_BAR,amount=16}
+
+    forge11:
+        output:
+            type: ARMOR
+            id: APOCALYPSE_LEGGINGS
+            amount: 1
+
+        crafting-time: 21600
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~29;display="Mining XXX"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NIGHTMARE_BAR,amount=16}
+
+    forge12:
+        output:
+            type: ARMOR
+            id: APOCALYPSE_BOOTS
+            amount: 1
+
+        crafting-time: 21600
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_mining%~>~29;display="Mining XXX"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NIGHTMARE_BAR,amount=16}
+
+    forge13:
+        output:
+            type: MATERIAL
+            id: URANIUM
+            amount: 1
+
+        crafting-time: 1200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=URANIUM_DEBRIS,amount=8}
+
+    forge14:
+        output:
+            type: MATERIAL
+            id: IRIDIUM_CRYSTAL
+            amount: 1
+
+        crafting-time: 1200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_SHARD,amount=8}
+
+    forge15:
+        output:
+            type: SWORD
+            id: DAEDALUS
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=10}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=20}
+
+    forge16:
+        output:
+            type: STAFF
+            id: STARCALLER
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=10}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=20}
+
+    forge17:
+        output:
+            type: MATERIAL
+            id: ENDERCORE
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=20}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=64}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=10}
+
+    forge18:
+        output:
+            type: ARMOR
+            id: STARBORN_HELMET
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=10}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=15}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=5}
+
+    forge19:
+        output:
+            type: ARMOR
+            id: STARBORN_CHESTPLATE
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=10}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=15}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=5}
+
+    forge20:
+        output:
+            type: ARMOR
+            id: STARBORN_LEGGINGS
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=10}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=15}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=5}
+
+    forge21:
+        output:
+            type: ARMOR
+            id: STARBORN_BOOTS
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=10}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=15}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=5}
+
+    forge22:
+        output:
+            type: SWORD
+            id: ARK_OF_THE_COSMOS
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=10}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=30}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=15}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=15}
+
+    forge23:
+        output:
+            type: SWORD
+            id: COBRA
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=URANIUM,amount=25}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=30}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=10}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=20}
+
+    forge28:
+        output:
+            type: STAFF
+            id: Scorpio
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=URANIUM,amount=25}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=30}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=10}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=20}
+    
+    forge24:
+        output:
+            type: ARMOR
+            id: URANIUM_HELMET
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=URANIUM,amount=15}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=25}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=5}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=10}
+
+    forge25:
+        output:
+            type: ARMOR
+            id: URANIUM_CHESTPLATE
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=URANIUM,amount=15}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=25}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=5}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=10}
+
+    forge26:
+        output:
+            type: ARMOR
+            id: URANIUM_LEGGINGS
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=URANIUM,amount=15}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=25}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=5}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=10}
+
+    forge27:
+        output:
+            type: ARMOR
+            id: URANIUM_BOOTS
+            amount: 1
+
+        crafting-time: 43200
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=URANIUM,amount=15}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=25}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=5}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=10}

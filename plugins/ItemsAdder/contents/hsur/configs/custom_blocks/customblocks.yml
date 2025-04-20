@@ -1,0 +1,99 @@
+info:
+  namespace: hsur
+  
+items:
+  mythril_ore:
+    display_name: Mythril Ore
+    resource:
+      generate: true
+      model_id: 1
+      material: GHAST_TEAR
+      textures:
+        - custom/blocks/mythril_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 3
+        break_tools_whitelist:
+        - NETHERITE_PICKAXE
+        - mythril_pickaxe
+        - orichalcum_pickaxe
+        - titanium_pickaxe
+        - iridium_pickaxe
+  orichalcum_ore:
+    display_name: Orichalcum Ore
+    resource:
+      generate: true
+      model_id: 2
+      material: GHAST_TEAR
+      textures:
+        - custom/blocks/orichalcum_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 3
+        break_tools_whitelist:
+        - mythril_pickaxe
+        - orichalcum_pickaxe
+        - titanium_pickaxe
+        - iridium_pickaxe
+  titanium_ore:
+    display_name: Titanium Ore
+    resource:
+      generate: true
+      model_id: 3
+      material: GHAST_TEAR
+      textures:
+        - custom/blocks/titanium_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - orichalcum_pickaxe
+        - titanium_pickaxe
+        - iridium_pickaxe
+  iridium_ore:
+    display_name: Iridium Ore
+    resource:
+      generate: true
+      model_id: 4
+      material: GHAST_TEAR
+      textures:
+        - custom/blocks/iridium_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - titanium_pickaxe
+        - iridium_pickaxe
+  uranium_ore:
+    display_name: Uranium Ore
+    resource:
+      generate: true
+      model_id: 5
+      material: GHAST_TEAR
+      textures:
+        - custom/blocks/uranium_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 5
+        break_tools_whitelist:
+        - iridium_pickaxe

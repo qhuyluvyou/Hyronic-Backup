@@ -1,0 +1,55 @@
+THE_NULL:
+  Type: ENDERMAN
+  Display: 'The Null'
+  Health: 500000
+  Damage: 100
+  BossBar:
+    Enabled: true
+    Title: '&f௝ <GRADIENT:#770737:#51414F>ᴛʜᴇ ɴᴜʟʟ &8- <GRADIENT:#770737:#51414F><caster.hp>❤'
+    Range: 50
+    Color: WHITE
+    Style: SOLID
+    CreateFog: true
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+  Drops:
+  - mmoitems{type=MATERIAL;id=NULL_CELL} 5-15 1
+  - mmoitems{type=MATERIAL;id=ENDERCORE} 1 0.001
+  - mmoitems{type=MATERIAL;id=VOID_GEM} 1 0.01
+  - mmoitems{type=ACCESSORY;id=RUNICATOR} 1 0.0005 
+  Skills:
+  - skill{s=UA_Stasis;sync=true} ~onDamaged
+  - skill{s=UA_Spawn} @self ~onSpawn
+  - skill{s=Dimensional_Warping} =75%
+  - skill{s=Dimensional_Warping} =50%
+  - skill{s=Dimensional_Warping} =25%
+  - skill{s=Dimensional_Warping2} =10%
+  - effect:particles{p=smoke_large;amount=3;hS=0.4;vS=1;speed=0.05} @self ~onTimer:5
+  - mmodamage{a=100;pk=true} @PIR{r=3} ~onTimer:60
+  - skill{s=Blackhole} ~onTimer:600
+  - skill{s=UA_Death} ~onDeath
+
+Abnormality:
+  Type: ENDERMAN
+  Display: '&0Abnormality'
+  Health: 100000
+  Damage: 200
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+    MovementSpeed: 0.4
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+  Skills:
+  - stun{d=20;stopai=true} @self ~onDamaged
+  - skill{s=Necromancy-Despawn;delay=200} @self ~onSpawn

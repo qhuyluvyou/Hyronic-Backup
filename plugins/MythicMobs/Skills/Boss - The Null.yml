@@ -1,0 +1,77 @@
+UA_Stasis:
+  Conditions:
+  - stance stasis
+  Skills:
+  - CancelEvent
+  - sound{s=entity.bat.hurt;cooldown=2} @self
+  - message{m="&5Unknown Anomaly&7 is currently &f✘ invulnerable&7.";cooldown=2} @trigger
+
+UA_Spawn:
+  Skills:
+  - delay 1
+  - setAI{ai=false} @self
+  - setstance{stance=dimensionalwarp_phase stasis} @self
+  - sendtitle{title="&cʙʀᴀᴄᴇ ʏᴏᴜʀꜱᴇʟꜰ!";subtitle="&7An anomaly is happening...";d=20;fo=10} @PlayersInRadius{r=10}
+  - sound{s=entity.wither.spawn;v=2} @self
+  - effect:particles{p=smoke_large;amount=100;hS=0.5;vS=0.5}
+  - delay 20
+  - effect:particletornado{p=smoke_large;cp=largeexplode;mr=1;h=3;i=1;d=100;rs=1;sh=1;cs=0;ca=0;chs=0.1;cvs=0.1;cps=1;cyo=2}
+  - effect:particleorbital{p=redstone;color=#51414F;a=3;points=15;y=1.75;in=2;r=1;rx=1;ticks=100;oy=-0.5} @self
+  - effect:particleorbital{p=redstone;color=#722F37;a=3;points=15;y=1.75;in=2;r=1;rz=1;ticks=100;oy=-0.5} @self
+  - delay 60
+  - effect:particles{p=smoke_large;amount=20;hS=0.5;vS=0.5;repeat=4;repeatinterval=10}
+  - sound{s=entity.evoker.cast_spell;v=1;p=1} @self
+  - sound{s=entity.evoker.cast_spell;v=1;p=0.75;delay=10} @self
+  - sound{s=entity.evoker.cast_spell;v=1;p=0.5;delay=20} @self
+  - sound{s=entity.evoker.cast_spell;v=1;p=0.25;delay=30} @self
+  - delay 40
+  - effect:particles{p=hugeexplosion;amount=1;speed=0;hS=0.2;vS=0.2} 
+  - effect:particles{p=smoke_large;amount=1000;hS=5;vS=5}
+  - throw{velocity=10;velocityY=1} @PlayersInRadius{r=10}
+  - sound{s=entity.generic.explode} @self
+  - sound{s=block.end_gateway.spawn} @self
+  - setAI{ai=true} @self
+  - setstance{stance=normal} @self
+
+Blackhole:
+  Conditions:
+  - stance dimensionalwarp_phase false
+  Skills:
+  - potion{type=SLOW;duration=100;level=10;p=false;i=false} @self
+  - sound{s=entity.illusioner.prepare_mirror;v=2;repeat=10;repeatInterval=10} @self
+  - effect:particles{p=smoke_large;amount=30;hS=5;vS=5;speed=0.3;repeat=10;repeatInterval=10;directionReversed=true} @self
+  - effect:particleline{particle=smoke_large;amount=1;syo=1;tyo=1;repeat=10;repeatInterval=10} @pir{r=30}
+  - effect:particlering{particle=falling_dust;color=#DC143C;radius=7;points=10;amount=1;hS=1;vS=0;y=0.5;repeat=50;repeatInterval=2} @self
+  - sound{s=block.note_block.pling;p=1;audience=target;repeat=50;repeatInterval=2} @pir{r=7}
+  - pull{velocity=4.2;repeat=10;repeatInterval=10} @PIR{r=30}
+  - mmodamage{a=150;pk=true;pi=true;ie=true;element=TRUE_DAMAGE;delay=100} @PIR{r=7}
+  - effect:lightning{delay=100} @pir{r=7}
+
+Dimensional_Warping:
+  Skills:
+  - sound{s=block.end_portal.spawn} @self
+  - setstance{stance=dimensionalwarp_phase} @self
+  - summon{type=Abnormality;amount=10;radius=1} @self
+  - potion{type=SLOW;duration=200;level=10;p=false;i=false} @self
+  - effect:particles{p=smoke_large;amount=100;hS=1;vS=1;speed=0.3} @self
+  - hide{d=200} @Server
+  - velocity{m=add;x=1;y=0;z=1;repeat=10;repeatinterval=20} @pir{r=30}
+  - delay 200
+  - setstance{stance=normal} @self
+
+Dimensional_Warping2:
+  Skills:
+  - sound{s=block.end_portal.spawn} @self
+  - setstance{stance=dimensionalwarp_phase} @self
+  - summon{type=Abnormality;amount=20;radius=1} @self
+  - potion{type=SLOW;duration=200;level=10;p=false;i=false} @self
+  - effect:particles{p=smoke_large;amount=100;hS=1;vS=1;speed=0.3} @self
+  - hide{d=200} @Server
+  - velocity{m=add;x=1;y=0;z=1;repeat=10;repeatinterval=20} @pir{r=30}
+  - delay 200
+  - setstance{stance=normal} @self
+
+UA_Death:
+  Skills:
+  - delay 1
+  - message{m="<GRADIENT:#770737:#51414F>Unknown Anomaly&7 has been defeated!"} @PIR{r=20}

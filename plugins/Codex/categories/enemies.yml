@@ -1,0 +1,101 @@
+name: "&c&lWorld &7&lHistory"
+discover_title:
+  title: "&c&lCODEX UPDATED"
+  subtitle: "&7World History: %name%"
+  fade_in: 0
+  stay: 0
+  fade_out: 0
+discover_message:
+- "&6&lCODEX UPDATED!&7 %name%&7 has been added to your codex!"
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&cReanimated Corpse"
+    lore:
+    - "&7Health: &c2,000❤"
+    - "&7Damage: &c25 &8(Melee)"
+    - ""
+    - "&6★ ᴀʙɪʟɪᴛɪᴇꜱ:"
+    - "&7Teleports at targets and"
+    - "&7slashes them repeatedly."
+    discovered_on_mob_kill: 
+      mythic_mobs_id: HexWarrior
+  2:
+    name: "&cHexified Blasters"
+    lore:
+    - "&7Health: &c1,450❤"
+    - "&7Damage: &cMedium &8(Ranged)"
+    - ""
+    - "&6★ ᴀʙɪʟɪᴛɪᴇꜱ:"
+    - "&7Shoots Hex Arrows which"
+    - "&7inflict Hex Flame."
+    discovered_on_mob_kill: 
+      mythic_mobs_id: HexArcher
+  3:
+    name: "&cHexrathon Runners"
+    lore:
+    - "&7Health: &c900❤"
+    - "&7Damage: &c35 &8(Melee)"
+    - ""
+    - "&6★ ᴀʙɪʟɪᴛɪᴇꜱ:"
+    - "&7Charges at players dealing"
+    - "&7high damage."
+    discovered_on_mob_kill: 
+      mythic_mobs_id: HexSprinter
+  4:
+    name: "&cHexmancer"
+    lore:
+    - "&7Health: &c3,500❤"
+    - "&7Damage: &cHigh &8(Ability)"
+    - ""
+    - "&6★ ᴀʙɪʟɪᴛɪᴇꜱ:"
+    - "&7Shoots disabling hex"
+    - "&7beams."
+    discovered_on_mob_kill: 
+      mythic_mobs_id: Hexmancer
+  5: 
+    name: "&dLight Bender"
+    lore:
+    - "&7Lvl Range: #ffdaae1 &8→ #ffad48100"
+    - "&7Base Health: &c10,000❤"
+    - "&7Damage: &cHigh &8(Ability)"
+    - ""
+    - "&6★ ᴀʙɪʟɪᴛɪᴇꜱ:"
+    - "&7Casts a spell once"
+    - "&7in a while:"
+    - "&7"
+    - "&e♦ ᴅʀᴏᴘꜱ:"
+    - "&8- #AEC6CF1-3x &fIridium Shards"
+    - "&8- #AEC6CF1-5x &fVoid Stone"
+    - "&8- #AEC6CF1x &fBloom Doom &8(10%)"
+    discovered_on_mob_kill: 
+      mythic_mobs_id: LightBender
+
+  6: 
+    name: "&dHarbinger"
+    lore:
+    - "&7Lvl Range: #ffdaae1 &8→ #ffad48100"
+    - "&7Base Health: &c60❤"
+    - "&7Damage: &c20 &8(Melee)"
+    - ""
+    - "&6★ ᴀʙɪʟɪᴛɪᴇꜱ:"
+    - "&7Has a small chance of"
+    - "&7spawning a Light Bender."
+    discovered_on_mob_kill: 
+      mythic_mobs_id: Harbinger
+
+  7: 
+    name: "&dDaedalus Warrior"
+    lore:
+    - "&7Lvl Range: #ffdaae1 &8→ #ffad48100"
+    - "&7Base Health: &c300❤"
+    - "&7Damage: &c30 &8(Melee)"
+    - "&7"
+    - "&e♦ ᴅʀᴏᴘꜱ:"
+    - "&8- #AEC6CF1-3x &fIridium Shards"
+    - "&8- #AEC6CF1x &fVoid Stone &8(25%)"
+    discovered_on_mob_kill: 
+      mythic_mobs_id: daedalus_warrior

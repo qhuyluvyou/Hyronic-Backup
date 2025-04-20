@@ -1,0 +1,169 @@
+title: '{level_progression_menu_title}'
+size: 6
+fill:
+  enabled: true
+  material: clay_ball
+  nbt:
+    CustomModelData: 1
+items:
+  rank:
+    pos: 5,5
+    material: book
+    nbt:
+      CustomModelData: 4
+    display_name: '{your_ranking}'
+    lore:
+    - '{out_of}'
+    - '{percent}'
+    - ' '
+    - '{leaderboard_click}'
+  back:
+    pos: 5,3
+    material: book
+    nbt:
+      CustomModelData: 40
+    display_name: '{back}'
+    lore:
+    - '{back_click}'
+  close:
+    pos: 5,4
+    material: book
+    nbt:
+      CustomModelData: 2
+    display_name: '{close}'
+  next_page:
+    pos: 5,8
+    material: book
+    nbt:
+      CustomModelData: 41
+    display_name: '{next_page}'
+    lore:
+    - '{next_page_click}'
+  previous_page:
+    pos: 5,0
+    material: book
+    nbt:
+      CustomModelData: 38
+    display_name: '{previous_page}'
+    lore:
+    - '{previous_page_click}'
+  sources:
+    pos: 0,6
+    material: book
+    nbt:
+      CustomModelData: 42
+    display_name: '{sources}'
+    lore:
+    - '{sources_desc}'
+    - ' '
+    - '{sources_click}'
+  abilities:
+    pos: 0,2
+    material: book
+    nbt:
+      CustomModelData: 39
+    display_name: '{abilities}'
+    lore:
+    - '{abilities_desc}'
+    - ' '
+    - '{abilities_click}'
+templates:
+  skill:
+    pos: 0,4
+    farming:
+      material: book
+      nbt:
+        CustomModelData: 30
+      flags:
+      - hide_attributes
+    foraging:
+      material: book
+      nbt:
+        CustomModelData: 35
+      flags:
+      - hide_attributes
+    mining:
+      material: book
+      nbt:
+        CustomModelData: 31
+      flags:
+      - hide_attributes
+    fishing:
+      material: book
+      nbt:
+        CustomModelData: 36
+    excavation:
+      material: golden_shovel
+      flags:
+      - hide_attributes
+    archery:
+      material: book
+      nbt:
+        CustomModelData: 32
+    defense:
+      material: book
+      nbt:
+        CustomModelData: 34
+      flags:
+      - hide_attributes
+    fighting:
+      material: book
+      nbt:
+        CustomModelData: 33
+      flags:
+      - hide_attributes
+    endurance:
+      material: golden_apple
+    agility:
+      material: feather
+    alchemy:
+      material: book
+      nbt:
+        CustomModelData: 37
+    enchanting:
+      material: book
+      nbt:
+        CustomModelData: 72
+    sorcery:
+      material: blaze_rod
+    healing:
+      material: splash_potion
+      potion_data:
+        type: instant_heal
+      flags:
+      - hide_potion_effects
+    forging:
+      material: anvil
+    display_name: '&e{skill} &8&l(&7{level}&8&l)'
+    lore:
+    - '{skill_desc}'
+    - ''
+    - '{ability_levels}'
+    - '{progress_to_level}{max_level}'
+  unlocked:
+    material: lime_stained_glass_pane
+    display_name: '{level_unlocked}'
+    lore:
+    - '{rewards}'
+    - '{ability}{mana_ability}'
+    - '{unlocked}'
+  in_progress:
+    material: yellow_stained_glass_pane
+    display_name: '{level_in_progress}'
+    lore:
+    - '{rewards}'
+    - '{ability}{mana_ability}'
+    - '{progress}'
+    - ' '
+    - '{in_progress}'
+  locked:
+    material: red_stained_glass_pane
+    display_name: '{level_locked}'
+    lore:
+    - '{rewards}'
+    - '{ability}{mana_ability}'
+    - '{locked}'
+options:
+  use_level_as_amount: false
+  over_max_stack_amount: 1
+  items_per_page: 24

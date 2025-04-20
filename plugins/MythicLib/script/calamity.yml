@@ -1,0 +1,58 @@
+calamitous_ray:
+    public: true
+    mechanics:
+        calamitous_ray_charge:
+            type: dispatch_command
+            from_console: true
+            format: 'mmotempstat <caster.name> MOVEMENT_SPEED -100% 40'
+            target: 
+                type: caster
+        calamitous_ray_delay_charge:
+            type: delay
+            amount: 40
+        calamitous_ray_1:
+            type: raytrace
+            tick: calamitousray_tick
+            hit_entity: calamitousray_hit
+            range: 20
+            size: 0.2
+            step: 0.4
+            ignore_passable: false
+        calamitous_ray_sound_1:
+            type: sound
+            sound: ENTITY_EVOKER_CAST_SPELL
+            pitch: 1
+            volume: 1
+            target:
+                type: caster
+calamitousray_hit:
+    conditions:
+        calamitousc:
+            type: can_target
+            interaction_type: OFFENSE_SKILL
+    mechanics:
+        calamitous_ray1:
+            type: damage
+            amount: '1000 * (1 + %mmoitems_stat_CRITICAL_STRIKE_POWER%/100)'
+            element: FIRE
+        calamitous_ray2:
+            type: particle
+            particle: LAVA
+            amount: 32
+
+calamitousray_tick:
+    mechanics:
+        calamitous_ray3:
+            type: particle
+            particle: SPELL_WITCH
+            amount: 4
+            x: .2
+            y: .2
+            z: .2
+        calamitous_ray4:
+            type: particle
+            particle: SMOKE_NORMAL
+            amount: 6
+            x: .1
+            y: .1
+            z: .1

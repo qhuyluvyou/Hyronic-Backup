@@ -1,0 +1,7 @@
+TRUE_DAMAGE:
+  name: True Damage
+  icon: TRIDENT
+  lore-icon: ''
+  color: '&f'
+  regular-attack:
+    mythiclib-skill-id: empty_skill

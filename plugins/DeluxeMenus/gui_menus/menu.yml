@@ -1,0 +1,196 @@
+open_command: 
+  - menu
+  - main menu
+size: 36
+menu_title: '&fSoon'
+items:
+  'info':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slots: [1]
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#FFB6C1Info :3"
+    lore:
+      - ""
+      - "&fRank: %luckperms_highest_inherited_group_by_weight%"
+      - '&fPurse: &6%vault_eco_balance_commas%&f௣'
+      - '         &#ADD8E6%playerpoints_points_shorthand%&fௗ'
+      - '&fSkill Power: &3%javascript_power%✯'
+      - '&fMob Kills: &9%statistic_mob_kills%🗡'
+      - '&fPlayer Kills: &4%statistic_player_kills%✞'
+      - '&fDeaths: &c%statistic_deaths%☠'
+      - '&fTime Played: &a%statistic_time_played:days%d %statistic_time_played:hours%h'
+      - '&8Since &7%player_first_join_date%'
+      - ""
+      - "&8→ Click to see stats!"
+    left_click_commands:
+      - "[openguimenu] stats"
+      - "[sound] BLOCK_LEVER_CLICK"
+
+  'adventuerr':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slots: [4,13]
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#c5b358Adventurer Levels"
+    lore:
+      - ""
+      - "&#eae0c8&oAdventurer Levels are the"
+      - "&#eae0c8&oculmination of your adventure"
+      - "&#eae0c8&olevelling up as you progress"
+      - "&#eae0c8&omore into the game."
+      - ""
+      - "&#eedc82&l     ᴀᴅᴠᴇɴᴛᴜʀᴇʀ ɪɴꜰᴏ"
+      - "&7Adventurer LVL: &8N/A"
+      - "&7Status: &8N/A"
+      - "&7Level Progress: &8N/A"
+      - "&8..."
+      - ""
+      - "&8Not released yet."
+
+  'room':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slots: [6,15]
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#4682B4Equipments Room"
+    lore:
+      - ""
+      - "&#A7C7E7Here you can equip:"
+      - "&f Armors"
+      - "&f Offhand Items"
+      - "&f Artifacts"
+      - "&f Emblems"
+      - ""
+      - "&8! &#CCCCFFSome slots are locked. You"
+      - "&#CCCCFFcan unlock them in Jeweler's"
+      - "&#CCCCFFHouse"
+      - ""
+      - " %changeoutput_equals_input:{luckperms_check_permission_slot.accessory1}_matcher:yes_ifmatch:&a✔_else:&c✘% Artifact I"
+      - " %changeoutput_equals_input:{luckperms_check_permission_slot.accessory2}_matcher:yes_ifmatch:&a✔_else:&c✘% Artifact II"
+      - " %changeoutput_equals_input:{luckperms_check_permission_slot.accessory3}_matcher:yes_ifmatch:&a✔_else:&c✘% Artifact III"
+      - " %changeoutput_equals_input:{luckperms_check_permission_slot.emblem}_matcher:yes_ifmatch:&a✔_else:&c✘% Emblem"
+      - ""
+      - "&8→ Click to open!"
+    left_click_commands:
+      - "[player] mmoinventory"
+      - "[sound] BLOCK_IRON_DOOR_OPEN"
+
+  'online':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slot: 7
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&fYou are &aonline&f!"
+    lore: []
+  'money':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slot: 16
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&fPurse: &6%vault_eco_balance_formatted%&f௣&8/&#ADD8E6%playerpoints_points_shorthand%&fௗ"
+    lore: []
+  'rank':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slot: 25
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&fRank: &6%luckperms_highest_inherited_group_by_weight%"
+    lore:
+      - ""
+      - "&8To see your perks,"
+      - "&8type in /rank!"
+  'settings':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slot: 19
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&6Profile Settings"
+    lore:
+      - ""
+      - "&7Change profile and"
+      - "&7gameplay settings"
+      - "&7to suit you!"
+      - ""
+      - "&8→ Click to open!"
+    left_click_commands:
+      - "[openguimenu] settings"
+      - "[sound] BLOCK_LEVER_CLICK"
+
+  'b1':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slot: 28
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#ffcccbContact Landlord"
+    lore:
+      - "&7&m                                  "
+      - "&7Contact your landlord to"
+      - "&7open &#ffcccbLands Panel&7, allowing"
+      - "&7easy control over many"
+      - "&7aspects of owned lands!"
+      - ""
+      - "&8→ Click to open!"
+    left_click_commands:
+      - "[openguimenu] lands"
+      - "[sound] BLOCK_LEVER_CLICK"
+
+  'b2':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slot: 30
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#6495EDThe Codex"
+    lore:
+      - "&7&m                               "
+      - "&7Keep up with your game"
+      - "&7progress with the codex!"
+      - ""
+      - "&8→ Click to open!"
+    left_click_commands:
+      - "[player] codex"
+      - "[sound] BLOCK_LEVER_CLICK"
+
+  'b3':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slot: 32
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#ADD8E6Fast Travel"
+    lore:
+      - "&7&m                                   "
+      - "&7Travel to many important"
+      - "&7locations in Hyronia!"
+      - ""
+      - "&8→ Click to open!"
+    left_click_commands:
+      - "[openguimenu] warp"
+      - "[sound] BLOCK_LEVER_CLICK"
+
+  'b4':
+    material: ENCHANTED_BOOK
+    model_data: 110
+    slot: 34
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#990000Adventurer's Skills"
+    lore:
+      - "&7&m                              "
+      - "&7Levelling up skills helps"
+      - "&7you complete different"
+      - "&7tasks better!"
+      - ""
+      - "&8→ Click to find out!"
+    left_click_commands:
+      - "[player] skill"
+      - "[sound] BLOCK_LEVER_CLICK"

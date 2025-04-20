@@ -1,0 +1,59 @@
+
+config-Version: 8
+
+Language: 'English'
+
+General:
+  CheckforUpdates: true
+  Metrics-Logging: true
+  Log-Commands: true
+  ignoreDepend: NONE
+  Debugging: false
+
+Database:
+  MySQL: false
+  database: 'database_name'
+  prefix: 'ij_'
+  host: 127.0.0.1
+  port: 3306
+  user: 'root'
+  pass: 'password'
+
+Settings:
+  HeldItem-Slot: -1
+  HeldItem-Triggers: JOIN, WORLD-SWITCH
+  HeldItem-Animations: true
+  Default-Triggers: JOIN
+  DataTags: true
+
+Permissions:
+  Obtain-Items: false
+  Obtain-Items-OP: false
+  Commands-Get: false
+  Commands-OP: false
+  Movement-Bypass: false
+
+Clear-Items:
+  Type: ITEMJOIN
+  Delay-Tick: 2
+  Join: false
+  Quit: false
+  World-Switch: false
+  Region-Enter: false
+  Options: PROTECT, PROTECT_OP, PROTECT_CREATIVE
+  Blacklist: '{id:BEDROCK}, {slot:9}, {name:Blazefury}'
+
+Active-Commands:
+  commands:
+    - 'itemjoin get <item> <player>'
+    - 'first-join: say This is a command only executed once per world, per player.'
+  commands-sequence: SEQUENTIAL
+  triggers: JOIN
+  enabled-worlds: DISABLED
+
+Prevent:
+  Pickups: false
+  itemMovement: false
+  Self-Drops: false
+  Death-Drops: false
+  Bypass: CREATIVE, OP

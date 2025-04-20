@@ -1,0 +1,6 @@
+# LuckPerms UUID lookup cache
+a60e966b-91d2-42c8-9821-3be423870868:oPqnda
+7b0b0988-b799-4dae-b696-52e823b3079f:DustinDinh
+defcadaa-bb7a-4079-902b-3844d583f981:prisq
+bdd75a33-f2d7-442e-80e3-f0d1eb6a2d1f:DoanhDepZaiVL
+45fec7a6-9076-3473-96e5-fec8bc96e679:qhuyluvyou

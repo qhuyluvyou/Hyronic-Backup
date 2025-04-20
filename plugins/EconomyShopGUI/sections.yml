@@ -1,0 +1,111 @@
+
+ShopSections:
+
+  Blocks:
+    enable: true
+    material: GRASS_BLOCK
+    displayname: '&aBlocks'
+    slot: 21
+
+  Decoration:
+    enable: true
+    material: TUBE_CORAL
+    displayname: '&dDecoration'
+    slot: 32
+
+  Dyes:
+    enable: false
+    material: CYAN_DYE
+    displayname: '&2&lDyes'
+    slot: 23
+
+  Enchanting:
+    enable: false
+    material: ENCHANTED_BOOK
+    displayname: '&d&lEnchanting'
+    lore:
+    - '&5&lGear up with enchantments!'
+    slot: 22
+
+  Farming:
+    enable: true
+    material: WHEAT
+    displayname: '&eFarming'
+    slot: 22
+
+  Food:
+    enable: false
+    material: COOKED_BEEF
+    displayname: '&6&lFood'
+    slot: 25
+
+  Mobs:
+    enable: true
+    material: GUNPOWDER
+    displayname: '&cMobs'
+    slot: 23
+
+  Music:
+    enable: false
+    material: MUSIC_DISC_STRAD
+    displayname: '&6&lMusic'
+    slot: 14
+
+  Ores:
+    enable: true
+    material: IRON_INGOT
+    displayname: '&fOres'
+    slot: 13
+
+  Others:
+    enable: true
+    material: SADDLE
+    displayname: '&9Others'
+    slot: 30
+
+  Potions:
+    enable: false
+    material: POTION
+    displayname: '&d&lPotions + Tipped Arrows'
+    potion-glow: true
+    slot: 40
+
+  Redstone:
+    enable: false
+    material: REDSTONE
+    displayname: '&c&lRedstone'
+    lore:
+    - '&4&lFor all redstone geeks!'
+    slot: 32
+
+  Spawners:
+    enable: false
+    material: SPAWNER
+    displayname: '&8&lSpawners'
+    slot: 31
+
+  Workstations:
+    enable: false
+    material: GRINDSTONE
+    displayname: '&7&lWorkstations'
+    lore:
+    - '&8&lGive your villager a job,'
+    - '&8&lor use it for your own.'
+    slot: 12
+
+  SpawnEggs:
+    enable: false
+    material: BAT_SPAWN_EGG
+    displayname: '&8&lSpawnEggs'
+    slot: 4
+
+  Z_EverythingElse:
+    enable: false
+    material: BEDROCK
+    displayname: Z_EverythingElse
+    slot: 41
+
+Fill-item:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  enable: true

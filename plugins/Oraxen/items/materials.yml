@@ -1,0 +1,429 @@
+
+p4:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/herald_of_the_end
+
+p5:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 5
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/ignetto_alloy
+
+p6:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 6
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/warden_heart
+
+p7:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 7
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/divine_geode
+
+p8:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 8
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/withered_rose
+
+p9:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 9
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/witch_blood
+
+p10:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 10
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/hexim_necklace
+
+p11:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 11
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/mortos_belt
+
+p12:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 12
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/caeletus_ring
+
+p13:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 13
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/quinerus_cloak
+
+p19:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 19
+    parent_model: item/generated
+    textures:
+    - custom/items/minerals/titanium_ingot
+
+p20:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 20
+    parent_model: item/generated
+    textures:
+    - custom/items/minerals/mythril_ingot
+
+p21:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 21
+    parent_model: item/generated
+    textures:
+    - custom/items/minerals/orichalcum_ingot
+
+p23:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 23
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/uncanny_obelisk
+
+p24:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 24
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/exo_stone
+
+p25:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 25
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/nightmare_fuel
+
+p26:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 26
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/nightmare_bar
+
+p27:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 27
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/calamity_handle
+
+p28:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 28
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/catastrophe_broken
+
+p29:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 29
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/cataclysm_handle
+
+p31:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 32
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/red_candycane
+
+p32:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 33
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/blue_candycane
+
+p33:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 34
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/shard_of_true_i
+
+p39:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 39
+    parent_model: item/generated
+    textures:
+    - custom/items/minerals/uranium_debris
+
+p40:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 40
+    parent_model: item/generated
+    textures:
+    - custom/items/minerals/uranium
+
+p41:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 41
+    parent_model: item/generated
+    textures:
+    - custom/items/minerals/iridium_shard
+
+p42:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 42
+    parent_model: item/generated
+    textures:
+    - custom/items/minerals/iridium_crystal
+
+p43:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 43
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/dragon_scale
+
+p44:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 44
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/endercore
+
+p45:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 45
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/endergem
+
+p46:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 46
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/null_cell
+
+p47:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 47
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/bloom_doom
+
+p48:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 48
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/void_stone
+
+p49:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 49
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/black_powder
+
+p50:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 50
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/detached_eye
+
+p51:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 51
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/prismatic_fruit
+
+p52:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 52
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/silver_leaf
+
+p53:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 53
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/slimy_mucus
+
+p54:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 54
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/teal_mushroom

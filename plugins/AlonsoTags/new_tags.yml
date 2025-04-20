@@ -1,0 +1,1003 @@
+#Hello! This is the new file created in 1.6.2-BETA-PRO
+#This file contains new tags added in default config.
+#In order to not modify the current tags you created this file has been added.
+#This file will always overwrite the file you have in your server.
+#Don't modify this file, it will always reset. If you like any of these new tags just copy the whole section of the tag
+#in your tags.yml file and run "/alonsotags reload", new tags will be activated :D
+#If you think your tag idea should be added in default config, let us know in our discord server!
+#Join now on https://alonsoaliaga.com/discord
+#Once again, thanks for purchasing my resource <3
+#Looking for an easy way to create gradients online? Check our tool on: https://alonsoaliaga.com/hex
+Tags: #Don't copy this line.
+  sus-red-tag: #Added in 1.6.2-BETA-PRO
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM0ZDQ0YTBmZmUwMjM0OWU5OWRhMDYyOTIxMzA2MzExM2U2YmIzYWZjMjU5ZjQ2NjE4YzkwZWRjZTgzMDc4NiJ9fX0="
+    Dyeable: true
+    Default-color: '&c'
+    Hide-flags: true
+    Tag: "{COLOR}[SUS]"
+    Recognition-title: "&f{COLOR}◆ Master of Suspicion ◆"
+    Displayname: "&c&l{COLOR}Suspicious tag"
+    Permission: "alonsotags.tag.suspicious-red"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7You look suspicious!"
+    Lore:
+      Locked:
+      - "&7You look suspicious!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&cPrice: &a${PRICE}"
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7You look suspicious!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7You look suspicious!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  crewmate-red-tag: #Added in 1.6.2-BETA-PRO
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzAxNjAxNDcxNmY1ZDllMjk0OTE3OGVjMzgyNzkyZjk4OTk2NzFkZTg5NGMxZDM4MTg0ODhlNWRiNTZkOWZhZSJ9fX0="
+    Dyeable: true
+    Default-color: '&9'
+    Hide-flags: true
+    Tag: "{COLOR}[CREWMATE]"
+    Recognition-title: "&f{COLOR}◆ Reliable Crewmate ◆"
+    Displayname: "&9&l{COLOR}Crewmate tag"
+    Permission: "alonsotags.tag.crewmate-red"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Are you a good guy?"
+    Lore:
+      Locked:
+      - "&7Are you a good guy?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Are you a good guy?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Are you a good guy?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  impostor-black-tag: #Added in 1.6.2-BETA-PRO
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg1NTI3ZmUyNjk0N2Y0M2E3MmRkY2IwMDZjNmRkYzQxZGE3YjIxMGRiMmRlNzEyNDdlNTNiZjA2MWZkODJiZSJ9fX0="
+    Dyeable: true
+    Default-color: '&8'
+    Hide-flags: true
+    Tag: "{COLOR}[IMPOSTOR]"
+    Recognition-title: "&f{COLOR}◆ Mysterious Saboteur ◆"
+    Displayname: "&8&l{COLOR}Impostor tag"
+    Permission: "alonsotags.tag.impostor-black"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7I saw you vent!"
+    Lore:
+      Locked:
+      - "&7I saw you vent!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7I saw you vent!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7I saw you vent!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  lgbt-tag: #Added in 1.6.2-BETA-PRO
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRiMDM3OTRiOWIzZTNiNWQwN2UzYmU2OGI5NmFmODdkZjIxNWMzNzUyZTU0NzM2YzgwZjdkNTBiZDM0MzdhNCJ9fX0="
+    Dyeable: false
+    Default-color: '&f'
+    Hide-flags: true
+    Tag: "&d[&cL&6G&eB&2T&b+&9]"
+    Recognition-title: "&f&d◆ &cP&6r&ei&2d&be &9S&du&cp&6p&eo&2r&bt&9e&dr &c◆"
+    Displayname: "&cL&6G&eB&2T&b+&9 &6tag"
+    Permission: "alonsotags.tag.lgbt-tag"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&cL&6G&eB&2T community member?"
+    Lore:
+      Locked:
+      - "&cL&6G&eB&2T community member?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&cL&6G&eB&2T community member?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&cL&6G&eB&2T community member?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  christmas-tag: #Added in 1.6.2-BETA-PRO
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzNiYTlhOTQ4ZWYxMjVhYWZkYjZiYzkxYmU2YzgwNGQ3MWFlZTE2NGJhMjE5N2IwYjIyNWE4NDdmZmYwNDhjMCJ9fX0="
+    Dyeable: true
+    Default-color: '&2'
+    Hide-flags: true
+    Tag: "{COLOR}[XMAS]"
+    Recognition-title: "&f{COLOR}◆ Holiday Cheer Spreader ◆"
+    Displayname: "&2&l{COLOR}Christmas tag"
+    Permission: "alonsotags.tag.christmas"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Is that time of the year?"
+    Lore:
+      Locked:
+      - "&7Is that time of the year?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Is that time of the year?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Is that time of the year?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  nerd-tag: #Added in 1.6.2-BETA-PRO
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFiNzc0NmE0MzA1MWQwN2Q0ZjNlMTMyODA4MDBmYjQwMTBkODcxYWVmOGZmZTE2ODJhMmJkNzUzYmZkZTRlMiJ9fX0="
+    Dyeable: true
+    Default-color: '&b'
+    Hide-flags: true
+    Tag: "{COLOR}[NERD]"
+    Recognition-title: "&f{COLOR}◆ Intellectual Nerd ◆"
+    Displayname: "&b&l{COLOR}Nerd tag"
+    Permission: "alonsotags.tag.nerd"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Well.. Yeah.. I know!"
+    Lore:
+      Locked:
+      - "&7Well.. Yeah.. I know!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Well.. Yeah.. I know!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Well.. Yeah.. I know!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  halloween-tag: #Added in 1.6.2-BETA-PRO
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUwZjcxMmU4NzdkZmQ5MTBjOTdmMzgxOWEyMDBhMDVkNDllZTZiODNiNTkyNjg2ZTA5OWI5ZWNkNDQzZjIyOCJ9fX0="
+    Dyeable: true
+    Default-color: '&6'
+    Hide-flags: true
+    Tag: "{COLOR}[HALLOWEEN]"
+    Recognition-title: "&f{COLOR}◆ Trick-or-Treat Expert ◆"
+    Displayname: "&6&l{COLOR}Halloween tag"
+    Permission: "alonsotags.tag.halloween"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Trick or treat!"
+    Lore:
+      Locked:
+      - "&7Trick or treat!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Trick or treat!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Trick or treat!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  hacker-tag: #Added in 1.6.2-BETA-PRO
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUwMTA4YjE1ZTU3M2RlNTk1YjViYmNkYjgyZjgzNjQ3MmQyZWYzMTZlOGFhOTFiMjQ2OGYzYWQ2ODAzN2FmYiJ9fX0="
+    Dyeable: true
+    Default-color: '&e'
+    Hide-flags: true
+    Tag: "{COLOR}[HACKER]"
+    Recognition-title: "&f{COLOR}◆ Tech Wizard ◆"
+    Displayname: "&e&l{COLOR}Hacker tag"
+    Permission: "alonsotags.tag.hacker"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Cheater! Cheater! Cheater!"
+    Lore:
+      Locked:
+      - "&7Cheater! Cheater! Cheater!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Cheater! Cheater! Cheater!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Cheater! Cheater! Cheater!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  candy-tag: #Added in 1.6.2-BETA-PRO
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTRiZDUzZDEwMDhlMzVjOTgwMzFkYTI1MDk0MTQ3Yzg1ZDc4M2NhM2E1NjY5YWZhMGRmMzkzMjhkMDJiYzMwNyJ9fX0="
+    Dyeable: true
+    Default-color: '&d'
+    Hide-flags: true
+    Tag: "{COLOR}[CANDY]"
+    Recognition-title: "&f{COLOR}◆ Candy Collector ◆"
+    Displayname: "&d&l{COLOR}Candy tag"
+    Permission: "alonsotags.tag.candy"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7You love candies?"
+    Lore:
+      Locked:
+      - "&7You love candies?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7You love candies?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7You love candies?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  king-hex-tag: #Added in 1.8-BETA-PRO DELETE IF YOUR SERVER DOESN'T SUPPORT HEX COLORS.
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzliNjczMTdjNmE1MWQxZDJjOGNmNjc4Y2I4YTA4NjVkNzMxNzE5MDFhNDg0NGIyMzg3NTlhMDcyOTVhNGVlYyJ9fX0="
+    Dyeable: false
+    Default-color: '&e'
+    Hide-flags: true
+    Tag: "#fcaa03&l[#fcb403&lK#fcbe03&lI#fcc703&lN#fcd103&lG#fcdb03&l]"
+    Recognition-title: "&#fcaa03◆ &#fcac03M&#fcaf03o&#fcb103n&#fcb303a&#fcb603r&#fcb803c&#fcba03h &#fcbd03o&#fcc003f &#fcc303M&#fcc703a&#fcca03s&#fccd03t&#fcd103e&#fcd403r&#fcd803y &#fcdb03◆"
+    Displayname: "&e&l{COLOR}King tag"
+    Permission: "alonsotags.tag.king-hex"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Are you a king?"
+    Lore:
+      Locked:
+      - "&7Are you a king?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Are you a king?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Are you a king?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  love-hex-tag: #Added in 1.8-BETA-PRO DELETE IF YOUR SERVER DOESN'T SUPPORT HEX COLORS.
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRlYWY4OTQyOGEzNjQ5YzI2ZWRjMWY3MWNjMTlmMjYzZTlmNGViMzFlZDE4Yzk3Njg2YWFjODJmNzY0MjQyIn19fQ=="
+    Dyeable: false
+    Default-color: '&d'
+    Hide-flags: true
+    Tag: "#fc0398&l[#fc0383&lL#fc036f&lO#fc035a&lV#fc0345&lE#fc0331&l]"
+    Recognition-title: "&#fc0398♥ &#fc0393L&#fc038do&#fc0388v&#fc0382e&#fc037d'&#fc0377s &#fc0372M&#fc036ba&#fc0363g&#fc035ai&#fc0352c&#fc034ai&#fc0342a&#fc0339n &#fc0331♥"
+    Displayname: "&d&l{COLOR}Love tag"
+    Permission: "alonsotags.tag.love-hex"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7In love?"
+    Lore:
+      Locked:
+      - "&7In love?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7In love?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7In love?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  supreme-hex-tag: #Added in 1.8-BETA-PRO DELETE IF YOUR SERVER DOESN'T SUPPORT HEX COLORS.
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRkMmNjZTA0Njc0YzJjM2Q1YTNhOTRmZjIxOTc4N2EyYjQ1OWRlNzkwYTBjMDFmZjI5Yjk2NzI5MDcyY2QifX19"
+    Dyeable: false
+    Default-color: '&b'
+    Hide-flags: true
+    Tag: "#0338fc&l[#0348fc&lS#0358fc&lU#0368fc&lP#0379fc&lR#0389fc&lE#0399fc&lM#03a9fc&lE#03bafc&l]"
+    Recognition-title: "&#0338fc◆ &#033ffcM&#0346fca&#034efcs&#0355fct&#035cfce&#0363fcr &#036bfco&#0372fcf &#0379fcS&#0380fcu&#0387fcp&#038ffcr&#0396fce&#039dfcm&#03a4fca&#03acfcc&#03b3fcy &#03bafc◆"
+    Displayname: "&b&l{COLOR}Supreme tag"
+    Permission: "alonsotags.tag.supreme-hex"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Supremeeee!"
+    Lore:
+      Locked:
+      - "&7Supremeeee!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Supremeeee!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Supremeeee!"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  halloween-hex-tag: #Added in 1.8-BETA-PRO DELETE IF YOUR SERVER DOESN'T SUPPORT HEX COLORS.
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVhOWNjZTMyMjNiZTFiYjkyN2JkMjYzNWUxOGI2NDQ2MDFkNTIxYjY0Y2EwNjhjNTQxZDNiYzk2MDkwOGMzYSJ9fX0="
+    Dyeable: false
+    Default-color: '&b'
+    Hide-flags: true
+    Tag: "#fc7803&l[#fb7e02&lH#fc8303&lA#fc8903&lL#fc8f03&lL#fc9403&lO#fc9a03&lW#fca003&lE#fca503&lE#fcab03&lN#fcb103&l]"
+    Recognition-title: "&#fc7803◆ &#fc7a03M&#fc7d03y&#fc7f03s&#fc8103t&#fc8403i&#fc8603c&#fc8803a&#fc8b03l &#fc8d03H&#fc8f03a&#fc9203l&#fc9403l&#fc9603o&#fc9903w&#fc9b03e&#fc9e03e&#fca003n &#fca303S&#fca503p&#fca703i&#fcaa03r&#fcac03i&#fcaf03t &#fcb103◆"
+    Displayname: "&6&l{COLOR}Halloween tag"
+    Permission: "alonsotags.tag.halloween-hex"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7You love halloween?"
+    Lore:
+      Locked:
+      - "&7You love halloween?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7You love halloween?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7You love halloween?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  amethyst-hex-tag:
+    Material: CUSTOM_HEAD
+    Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y0ODc2YjZhNWQ2ZGQ3ODVlMDkxZmQxMzRhMjFjOTFkMGE5Y2FjNWE2MjJlNDQ4YjVmZmNiNjVlZjQ1Mjc4In19fQ==
+    Dyeable: false
+    Custom-model-data: 50
+    Default-color: '&5'
+    Hide-flags: true
+    Tag: '#6e12c9&l[#6f20c3&lA#712dbe&lM#723bb8&lE#7d33b2&lT#882bac&lH#9323a6&lY#a81cae&lS#bc14b5&lT#d10dbd&l]'
+    Displayname: '&5&lAmethyst tag'
+    Permission: none
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Description:
+    - '&7Love purple?'
+    Lore:
+      Locked:
+      - '&7Love purple?'
+      - '&7Preview: &f{TAG}'
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - ' '
+      - '&cPrice: &a${PRICE}'
+      - ' '
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - '&cRequires &6[RANK]&c rank!'
+      - '&eClick to purchase.'
+      Unlocked:
+      - '&7Love purple?'
+      - '&7Preview: &f{TAG}'
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - ' '
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - '&eClick to select.'
+      Selected:
+      - '&7Love purple?'
+      - '&7Preview: &f{TAG}'
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - ' '
+      - '&aSelected.'
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Unbreakable: false
+    Recognition-title: '&#6e12c9⛏ &#7118c5A&#731dc1m&#7623bee&#7828bat&#7b2eb6h&#7d33b2y&#8b2db4s&#9926b6t &#a720b8c&#b51ab9o&#c313bbl&#d10dbdl&#d10dbde&#d10dbdc&#d10dbdt&#d10dbdo&#d10dbdr &#d10dbd⛏'
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  toxic-hex-tag: #Added in 1.8-BETA-PRO DELETE IF YOUR SERVER DOESN'T SUPPORT HEX COLORS.
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdmODk5YjE0MzViNjdmYTNjOGI2OGNjZTQyODAyM2JmNmJlMjg5YzhjYzZlYWVkMjRmMjZlM2IyMjRmMDJkZSJ9fX0="
+    Dyeable: false
+    Default-color: '&b'
+    Hide-flags: true
+    Tag: "#63cd0a&l[#54d10c&lT#45d50e&lO#36d911&lX#27dd13&lI#18e115&lC#09e617&l]"
+    Recognition-title: "&#63cd0a◆ &#5ece0bM&#58d00ca&#53d10cs&#4ed30dt&#49d40ee&#43d50fr &#3ed710o&#39d811f &#33da11T&#2edb12o&#29dd13x&#23de13i&#1ee014c&#19e115i&#14e316t&#0ee416y &#09e617◆"
+    Displayname: "&a&l{COLOR}Toxic tag"
+    Permission: "alonsotags.tag.toxic-hex"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Toxic player?"
+    Lore:
+      Locked:
+      - "&7Toxic player?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Toxic player?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Toxic player?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  love-instagram-hex-tag: #Added in 2.1-BETA-PRO DELETE IF YOUR SERVER DOESN'T SUPPORT HEX COLORS.
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM4OGQ2MTYzZmFiZTdjNWU2MjQ1MGViMzdhMDc0ZTJlMmM4ODYxMWM5OTg1MzZkYmQ4NDI5ZmFhMDgxOTQ1MyJ9fX0="
+    Dyeable: false
+    Default-color: '&6'
+    Hide-flags: true
+    Tag: "#833ab4&lI#9b3496❤#b42e78&lI#cc2959&lN#e5233b&lS#fd1d1d&lT#fd3a25&lA#fd582d&lG#fc7535&lR#fc933d&lA#fcb045&lM"
+    Recognition-title: "&#833ab4◆ &#8f37a5I&#9b3496n&#a83187s&#b42e78t&#c02c69a&#cc2959g&#d8264ar&#e5233ba&#f1202cm &#fd1d1dE&#fd2c21n&#fd3a25t&#fd4929h&#fd582du&#fd6731s&#fc7535i&#fc8439a&#fc933ds&#fca141t &#fcb045◆"
+    Displayname: "&6&l{COLOR}I❤Instagram tag"
+    Permission: "alonsotags.tag.love-instagram-hex"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Love instagram?"
+    Lore:
+      Locked:
+      - "&7Love instagram?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Love instagram?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Love instagram?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  love-facebook-hex-tag: #Added in 2.1-BETA-PRO DELETE IF YOUR SERVER DOESN'T SUPPORT HEX COLORS.
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGViNDYxMjY5MDQ0NjNmMDdlY2ZjOTcyYWFhMzczNzNhMjIzNTliNWJhMjcxODIxYjY4OWNkNTM2N2Y3NTc2MiJ9fX0="
+    Dyeable: false
+    Default-color: '&9'
+    Hide-flags: true
+    Tag: "#00c6ff&lI#00bdff❤#00b3ff&lF#00aaff&lA#00a1ff&lC#0097ff&lE#008eff&lB#0085ff&lO#007bff&lO#0072ff&lK"
+    Recognition-title: "&#00c6ff◆ &#00c2ffF&#00bdffa&#00b9ffc&#00b4ffe&#00b0ffb&#00abffo&#00a7ffo&#00a3ffk &#009effE&#009affn&#0095fft&#0091ffh&#008dffu&#0088ffs&#0084ffi&#007fffa&#007bffs&#0076fft &#0072ff◆"
+    Displayname: "&9&l{COLOR}I❤Facebook tag"
+    Permission: "alonsotags.tag.love-facebook-hex"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Love facebook?"
+    Lore:
+      Locked:
+      - "&7Love facebook?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Love facebook?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Love facebook?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  love-netflix-hex-tag: #Added in 2.1-BETA-PRO DELETE IF YOUR SERVER DOESN'T SUPPORT HEX COLORS.
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYzYWQ4Y2JmNjhhODQyYzM0MWM5Y2NjMzQzM2I0NDNmMDNmNzdiMGRlMjY0OGJjYzkzYzRjNDdhODA2ZCJ9fX0="
+    Dyeable: false
+    Default-color: '&4'
+    Hide-flags: true
+    Tag: "#8e0e00&lI#8b0e00❤#880e00&lN#840d00&lE#810d00&lT#691106&lF#50150c&lL#381812&lI#1f1c18&lX"
+    Recognition-title: "&#8e0e00◆ &#880f01N&#821003e&#7c1004t&#751105f&#6f1207l&#691308i&#631309x &#5d140bE&#57150cn&#50160dt&#4a170fh&#441710u&#3e1811s&#381913i&#321a14a&#2b1a15s&#251b17t &#1f1c18◆"
+    Displayname: "&4&l{COLOR}I❤Netflix tag"
+    Permission: "alonsotags.tag.love-netflix-hex"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Love Netflix?"
+    Lore:
+      Locked:
+      - "&7Love Netflix?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Love Netflix?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Love Netflix?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  love-tiktok-hex-tag: #Added in 2.1-BETA-PRO DELETE IF YOUR SERVER DOESN'T SUPPORT HEX COLORS.
+    Material: CUSTOM_HEAD
+    Custom-model-data: 0
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThlNDE1YjVjMWViNDU2NjNkYTZmZGFlNTc5OGRkMTk5YjIxNGQ0NzY3NmIzOTJjYTMwNmY3OTI5M2M5N2Y4NCJ9fX0="
+    Dyeable: false
+    Default-color: '&b'
+    Hide-flags: true
+    Tag: "#ff0050&lI#ff0050❤#b20038&lT#400a1e&lI#0b3a3c&lK#00a7a2&lT#00f2ea&lO#00f2ea&lK"
+    Recognition-title: "&#ff0050◆ &#ea0049T&#d50043i&#bf003ck&#aa0036T&#95002fo&#800028k &#6b0022E&#56001bn&#470e24t&#3e2b3dh&#354756u&#2c646es&#238087i&#1a9da0a&#12b9b9s&#09d6d1t &#00f2ea◆"
+    Displayname: "&b&l{COLOR}I❤Netflix tag"
+    Permission: "alonsotags.tag.love-tiktok-hex"
+    Price: 0
+    Cost:
+      Type: "VAULT"
+      Material: "DIAMOND"
+    Unbreakable: false
+    Description:
+    - "&7Love Tiktok?"
+    Lore:
+      Locked:
+      - "&7Love Tiktok?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&cRequires &6[RANK]&c rank!"
+      - "&eClick to purchase."
+      Unlocked:
+      - "&7Love Tiktok?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - '{RIGHT-CLICK-TO-PREVIEW-MESSAGE}'
+      - "&eClick to select."
+      Selected:
+      - "&7Love Tiktok?"
+      - "&7Preview: &f{TAG}"
+      - "&7Recognition title:"
+      - "&f{RECOGNITION-TITLE}"
+      - '{DYEABLE}'
+      - " "
+      - "&aSelected."
+    No-permission-message: "&cYou require &b[RANK]&c to select this tag!"
+    Not-enough-money-message: "&cYou don't have enough money to purchase this tag!"
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []

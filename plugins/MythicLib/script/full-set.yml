@@ -1,0 +1,41 @@
+hellfire:
+    public: true
+    conditions:
+        hellfirec_1:
+            type: can_target
+            interaction_type: OFFENSE_SKILL
+    mechanics:
+        hellfire_1:
+            type: set_on_fire
+            ticks: 100
+            stack: false
+            target:
+                type: nearby_entities
+                radius: 3
+                height: 1
+                source: true
+
+hellfire_attack:
+    public: true
+    conditions:
+        hellfirec_2:
+            type: on_fire
+            caster: false
+    mechanics:
+        hellfire_2:
+            type: multiply_damage
+            amount: '1 + 20 / 100'
+            additive: false
+
+
+hellfire_attack_upgraded:
+    public: true
+    conditions:
+        hellfirec_2:
+            type: on_fire
+            caster: false
+    mechanics:
+        hellfire_2:
+            type: multiply_damage
+            amount: '1 + 50 / 100'
+            additive: false

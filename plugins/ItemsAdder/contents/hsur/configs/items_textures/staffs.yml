@@ -1,0 +1,40 @@
+info:
+  namespace: hsur
+
+items:
+
+  staff1:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 1
+      material: STICK
+      textures:
+        - custom/items/staff/cataclysm
+
+  staff2:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 2
+      material: STICK
+      textures:
+        - custom/items/staff/frigid
+
+  staff3:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 3
+      material: STICK
+      textures:
+        - custom/items/staff/scorpio
+
+  staff4:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 4
+      material: STICK
+      textures:
+        - custom/items/staff/starcaller

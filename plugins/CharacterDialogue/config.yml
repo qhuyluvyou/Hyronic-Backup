@@ -1,0 +1,50 @@
+placeholders:
+  npc: '&f%npc_name%'
+  user: '&7[YOU] &#ffd1f3%player_name%&8:&#ffd1dc'
+npc:
+  '0': pris
+  '24': beng
+  '35': lucy
+  '25': darius
+  '44': katherine
+  '27': demetrix
+  '26': 48minh
+  '28': victoria
+  '33': dustindinh
+  '40': blacksmith
+  '43': elijah
+choice:
+  text-model: '&6{I}&8>&e {S} &6&l[CLICK]'
+  choices:
+    katherine:
+      kat1:
+        type: start_dialogue
+        message: Who are "them"?
+        argument: katherine1
+      kat2:
+        type: start_dialogue
+        message: What are runes?
+        argument: katherine2
+      kat3:
+        type: continue
+        message: Nevermind.
+    blacksmith:
+      black1:
+        type: start_dialogue
+        message: I want to forge items.
+        argument: blacksmith1
+      black2:
+        type: continue
+        message: Nevermind.
+    elijah:
+      eli1:
+        type: start_dialogue
+        message: I want to forge accessories.
+        argument: elijah1
+      eli2:
+        type: start_dialogue
+        message: I want to expand equipment room.
+        argument: elijah2
+      eli3:
+        type: continue
+        message: Nevermind

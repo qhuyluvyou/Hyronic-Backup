@@ -1,0 +1,76 @@
+info:
+  namespace: hsur
+
+items:
+  
+  pot1:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 1
+      material: GLASS_BOTTLE
+      textures:
+      - custom/items/potion/small_health_potion
+
+  pot2:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 2
+      material: GLASS_BOTTLE
+      textures:
+      - custom/items/potion/health_potion
+
+  pot3:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 3
+      material: GLASS_BOTTLE
+      textures:
+      - custom/items/potion/large_health_potion
+
+  pot4:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 4
+      material: GLASS_BOTTLE
+      textures:
+      - custom/items/potion/supreme_health_potion
+
+  pot5:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 5
+      material: GLASS_BOTTLE
+      textures:
+      - custom/items/potion/small_mana_potion
+
+  pot6:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 6
+      material: GLASS_BOTTLE
+      textures:
+      - custom/items/potion/mana_potion
+
+  pot7:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 7
+      material: GLASS_BOTTLE
+      textures:
+      - custom/items/potion/large_mana_potion
+
+  pot8:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 8
+      material: GLASS_BOTTLE
+      textures:
+      - custom/items/potion/supreme_mana_potion

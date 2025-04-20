@@ -1,0 +1,7 @@
+
+value:
+  ==: CustomOreGenerator#WorldConfig
+  name: world_the_end
+  ore-config:
+  - uranium_ore
+  - iridium_ore

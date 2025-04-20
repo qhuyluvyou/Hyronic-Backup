@@ -1,0 +1,131 @@
+SERAPHI_INANIS:
+  Type: SKELETON
+  Display: 'Seraphi Inanis'
+  Health: 250000
+  Damage: 35
+  Armor: 0
+  Faction: Boss
+  BossBar:
+    Enabled: true
+    Title: '&f௝ <GRADIENT:#702963:#880808>ꜱᴇʀᴀᴘʜɪ ɪɴᴀɴɪꜱ &8- <GRADIENT:#702963:#880808><caster.hp>❤'
+    Range: 40
+    Color: WHITE
+    Style: SOLID
+    CreateFog: true
+  Options:
+    NoGravity: true
+    Collidable: false
+    DigOutOfGround: true
+    MaxCombatDistance: 40
+    MovementSpeed: 0.4
+    Despawn: true
+    FollowRange: 30
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: true
+    PreventRandomEquipment: true
+    ReviveHealth: 1
+  Modules:
+    ThreatTable: true
+    ImmunityTable: true
+  Equipment:
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZkYTdmZGUxNjUyNzkzOTUzNjIzYzYzZGEzNjk2MTZhNTNiZDliMGQ1ZDg0ZDIyMzhhODRhOGM4MDYyMCJ9fX0=} HEAD
+  - mmoitems{type=ARMOR;id=HEXIM_CHESTPLATE} CHEST
+  - mmoitems{type=ARMOR;id=CAELETUS_LEGGINGS} LEGS
+  - mmoitems{type=ARMOR;id=QUINERUS_BOOTS} FEET
+  DamageModifiers:
+  - LIGHTNING 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - DROWNING 0
+  - BLOCK_EXPLOSION 0
+  - ENTITY_EXPLOSION 0
+  - LIGHTNING 0
+  - POISON 0
+  - MAGIC 0
+  - DRAGON_BREATH 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - LAVA 0
+  - FALL 0
+  - HOT_FLOOR 0
+  - SUFFOCATION 0
+  - CONTACT 0
+  AIGoalSelectors:
+  - 0 Clear
+  - 1 Lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attackers
+  Skills:
+  - effect:particles{p=smoke_large;amount=4;hS=0.4;vS=1;speed=0.05} @self ~onTimer:5
+  - skill{s=R_Entrance} @self ~onSpawn 
+  - skill{s=R_Stasis;sync=true} ~onDamaged
+  - skill{s=R_TransformP2} @self =70%
+  - skill{s=R_TransformP3-1st} @self =35%
+  - skill{s=R_Death;sync=true} ~onDeath
+
+Eve_Death:
+  Type: Vindicator
+  Display: ''
+  Health: 10000000
+  Damage: 0
+  Armor: 0
+  Disguise: ravenna
+  Faction: Boss
+  Options:
+    NoAI: true
+    Despawn: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: true
+    PreventRandomEquipment: true
+  Skills:
+  - skill{s=R_DeathAnimation} ~onSpawn
+
+Raven:
+  Type: Bat
+  Display: '&8Bad Omen'
+  Health: 75
+  Damage: 0
+  Armor: 5
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.35
+    Despawn: true
+    FollowRange: 30
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Silent: true
+    PreventRandomEquipment: true
+  Skills:
+  - skill{s=R_Sacrifice} ~onSignal:explode
+
+CovenFighter:
+  Type: ENDERMAN
+  Display: '&cNightcrawler &f- &c<caster.hp><&heart>'
+  Health: 100
+  Damage: 15
+  Options:
+    MovementSpeed: 0.3
+    AlwaysShowName: true
+  AIGoalSelectors:
+  - 0 Clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attackers
+  Skills:
+    - setname{name=<caster.name>;delay=2} @self ~onDamaged

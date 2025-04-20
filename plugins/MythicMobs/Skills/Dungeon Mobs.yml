@@ -1,0 +1,139 @@
+Wraith_TeleportAttack:
+  Cooldown: 6
+  Conditions:
+  - stance wraithwarrior true
+  - targetnotwithin{d=3}
+  - targetwithin{d=40}
+  Skills:
+  - effect:particles{particle=villager_angry;amount=1;hS=0;vS=0;speed=-0.5;y=1} @self
+  - effect:particles{particle=smoke_normal;amount=8;hS=0.5;vS=0.5;speed=0;y=1;repeatInterval=15;repeat=2} @self
+  - sound{s=entity.vex.charge;p=0.3;v=2.0} @self
+  - potion{type=SLOW;duration=50;level=9} @self
+  - delay 35
+  - sound{s=entity.enderman.teleport} @self
+  - effect:particles{p=redstone;color=#00ff00;amount=20;hS=0.7;vS=1.2;speed=0;y=1} @self
+  - effect:particles{p=smoke_large;amount=30;hS=0.4;vS=1.2;speed=0} @self
+  - delay 5
+  - teleport{spreadh=1;spreadv=0} @target
+  - delay 2
+  - effect:particles{p=redstone;color=#00ff00;amount=20;hS=0.7;vS=1.2;speed=0;y=1} @self
+  - effect:particles{p=smoke_large;amount=30;hS=0.4;vS=1.2;speed=0} @self
+  - delay 5
+  - skill{s=Wraith_TeleportAttack_Hit;repeat=2;repeatInterval=10}
+Wraith_TeleportAttack_Hit:
+  Conditions:
+  - health{a=>0} true
+  - targetwithin{d=4}
+  Skills:
+  - effect:particles{particle=sweep_attack;amount=2;hS=0.5;vS=0.2;speed=0;y=1.2} @self
+  - sound{s=entity.player.attack.weak;p=0.8;v=2} @self
+  - mmodamage{amount=30} @target
+  - sound{s=entity.player.attack.crit;p=1;v=1} @target
+
+
+
+Wraith_TeleportDamaged:
+  Conditions:
+  - health{a=>0} true
+  - targetwithin{d=6}
+  Skills:
+  - sound{s=entity.enderman.teleport}
+  - teleport{spreadh=11;spreadv=0} @target
+  - effect:particles{p=redstone;color=#00ff00;amount=20;hS=0.7;vS=1.2;speed=0;y=1}
+  - effect:particles{p=smoke_large;amount=30;hS=0.4;vS=1.2;speed=0}
+  - delay 5
+  - effect:particles{p=redstone;color=#00ff00;amount=20;hS=0.7;vS=1.2;speed=0;y=1}
+  - effect:particles{p=smoke_large;amount=30;hS=0.4;vS=1.2;speed=0}
+
+
+
+Wraith_SprintAttack:
+  Cooldown: 8
+  Conditions:
+  - score{objective=sprintattack;v=0} true
+  - targetwithin{d=20}
+  Skills:
+  - modifymobscore{objective=sprintattack;action=set;value=1}
+  - potion{type=SPEED;duration=100;level=1} @self
+  - effect:particles{p=villager_angry;amount=1;hS=0;vS=0;speed=-0.5;y=1} @self
+  - effect:particles{p=smoke_normal;amount=8;hS=0.5;vS=0.5;speed=0;y=1;repeatInterval=15;repeat=2} @self
+  - sound{s=entity.vex.charge;p=0.7;v=2.0} @self
+  - delay 2
+  - sound{s=entity.vex.charge;p=0.9;v=2.0} @target
+  - delay 2
+  - sound{s=entity.vex.charge;p=1.1;v=2.0} @target
+  - delay 2
+  - sound{s=entity.vex.hurt;p=1.3;v=2.0} @target
+  - delay 2
+  - sound{s=entity.vex.ambient;p=1.5;v=2.0} @target
+  - delay 2
+  - sound{s=entity.vex.charge;p=1.7;v=2.0} @target
+  - delay 5
+  - sound{s=entity.vex.death;p=0.1;v=2.0} @target
+  - delay 2
+  - sound{s=entity.vex.charge;p=0.3;v=2.0} @target
+  - delay 83
+  - modifymobscore{objective=sprintattack;action=set;value=0}
+Wraith_SprintAttack_Hit:
+  Cooldown: 1
+  Conditions:
+  - score{objective=sprintattack;v=1} true
+  - targetwithin{d=3}
+  Skills:
+  - mmodamage{a=50} @target
+  - potion{type=WITHER;duration=100;level=0} @target
+  - modifymobscore{objective=sprintattack;action=set;value=0}
+  - effect:particles{p=sweep_attack;amount=1;hS=0.5;vS=0.2;speed=0;y=1.2;repeatInterval=2;repeat=4} @self
+  - sound{s=entity.player.attack.weak;p=0.6;v=2;repeatInterval=2;repeat=4} @self
+  - effect:particles{p=crit;amount=30;hS=1;vS=1.2;speed=0.01;y=1;repeatInterval=2;repeat=4} @target
+  - sound{s=entity.player.attack.crit;p=1;v=1;repeatInterval=2;repeat=4} @target
+
+
+
+Wraith_Interceptor:
+  Cooldown: 13
+  Conditions:
+  - health{a=>0} true
+  - targetwithin{d=20}
+  Skills:
+  - sound{s=entity.enderman.teleport} @self
+  - teleport{spreadh=1;spreadv=0} @target
+  - effect:particles{p=redstone;color=#DC143C;amount=20;hS=0.7;vS=1.2;speed=0;y=1} @self
+  - effect:particles{p=smoke_large;amount=30;hS=0.4;vS=1.2;speed=0} @self
+  - delay 5
+  - potion{type=DAMAGE_RESISTANCE;duration=30;level=9;repeat=5;repeatInterval=20} @self
+  - effect:particles{p=villager_angry;amount=1;hS=0;vS=0;speed=-0.5;y=1} @self
+  - effect:particles{p=redstone;color=#DC143C;amount=20;hS=0.7;vS=1.2;speed=0;y=1} @self
+  - effect:particles{p=smoke_large;amount=30;hS=0.4;vS=1.2;speed=0} @self
+  - sound{s=entity.vex.charge;p=0.2;v=2.0} @self
+  - delay 10
+  - skill{s=Wraith_Interceptor_Hit;repeat=11;repeatInterval=10}
+  - potion{type=WITHER;duration=200;level=0;repeat=5;repeatInterval=20} @PIR{r=4}
+  - delay 110
+  - sound{s=entity.vex.death;p=0.1;v=2.0} @self
+  - delay 5
+  - sound{s=entity.enderman.teleport} @self
+  - teleport{spreadh=1;spreadv=0} @target
+  - effect:particles{p=redstone;color=#DC143C;amount=20;hS=0.7;vS=1.2;speed=0;y=1} @self
+  - effect:particles{p=smoke_large;amount=30;hS=0.4;vS=1.2;speed=0} @self
+  - delay 5
+  - effect:particles{p=redstone;color=#DC143C;amount=20;hS=0.7;vS=1.2;speed=0;y=1} @self
+  - effect:particles{p=smoke_large;amount=30;hS=0.4;vS=1.2;speed=0} @self
+Wraith_Interceptor_Hit:
+  Conditions:
+  - health{a=>0} true
+  Skills:
+  - potion{type=LEVITATION;duration=40;level=2} @target
+  - effect:particles{p=spell_mob;color=#000000;amount=256;hS=4;vS=0.2;speed=0} @self
+  - effect:particleline{p=redstone;color=#DC143C;amount=1;repeat=1;repeatInterval=5;y=0.5} @target
+  - pull{velocity=3;repeat=4;repeatInterval=2} @target
+  - mmodamage{a=10} @target
+
+HexArrows:
+  Skills:
+  - CancelEvent
+  - shoot{type=ARROW;velocity=5;damage=35;onhitskill=HexArrows_Hit} @target
+
+HexArrows_Hit:
+  Skills:
+  - skill{s=R_HexFlame} @target

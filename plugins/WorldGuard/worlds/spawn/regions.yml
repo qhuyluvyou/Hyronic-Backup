@@ -1,0 +1,247 @@
+regions:
+    shop:
+        min: {x: -137, y: 176, z: -118}
+        max: {x: -126, y: 186, z: -98}
+        members: {}
+        flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, use: deny,
+            aureliumskills-xp-gain: allow, snow-fall: deny, leaf-decay: deny, firework-damage: deny,
+            coral-fade: deny, mmo-abilities: deny, mob-damage: deny, ravager-grief: deny,
+            respawn-anchors: deny, mushroom-growth: deny, use-anvil: allow, lightning: deny,
+            wither-damage: deny, ice-form: deny, enderman-grief: deny, pvp: deny,
+            mob-spawning: deny, natural-hunger-drain: deny, crop-growth: deny, creeper-explosion: deny,
+            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, frosted-ice-form: deny, mycelium-spread: deny,
+            ice-melt: deny, block-trampling: deny, vehicle-destroy: deny, interact: deny,
+            chest-access: deny, weather-lock: clear, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
+            rock-growth: deny, betterprofiles-can-view-profile: allow, entity-painting-destroy: deny,
+            lighter: allow, use-dripleaf: deny, pistons: deny, goop-mortal-immortality: allow,
+            item-drop: allow, ability-pvp: deny, soil-dry: deny, exp-drops: allow,
+            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: allow,
+            frosted-ice-melt: deny, lava-flow: deny, grass-growth: deny}
+        owners: {}
+        type: cuboid
+        priority: 10
+    ah:
+        min: {x: -186, y: 176, z: -129}
+        max: {x: -146, y: 185, z: -111}
+        members: {}
+        flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, use: deny,
+            aureliumskills-xp-gain: allow, snow-fall: deny, leaf-decay: deny, firework-damage: deny,
+            coral-fade: deny, mmo-abilities: deny, mob-damage: deny, ravager-grief: deny,
+            respawn-anchors: deny, mushroom-growth: deny, use-anvil: allow, lightning: deny,
+            wither-damage: deny, ice-form: deny, enderman-grief: deny, pvp: deny,
+            mob-spawning: deny, natural-hunger-drain: deny, crop-growth: deny, creeper-explosion: deny,
+            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, frosted-ice-form: deny, mycelium-spread: deny,
+            ice-melt: deny, block-trampling: deny, vehicle-destroy: deny, interact: deny,
+            chest-access: deny, weather-lock: clear, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
+            rock-growth: deny, betterprofiles-can-view-profile: allow, entity-painting-destroy: deny,
+            lighter: allow, use-dripleaf: deny, pistons: deny, goop-mortal-immortality: allow,
+            item-drop: allow, ability-pvp: deny, soil-dry: deny, exp-drops: allow,
+            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: allow,
+            frosted-ice-melt: deny, lava-flow: deny, grass-growth: deny}
+        owners: {}
+        type: cuboid
+        priority: 10
+    blacksmith:
+        min: {x: -22, y: 172, z: -198}
+        max: {x: 0, y: 194, z: -178}
+        members: {}
+        flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, use: deny,
+            aureliumskills-xp-gain: allow, snow-fall: deny, leaf-decay: deny, firework-damage: deny,
+            coral-fade: deny, mmo-abilities: deny, mob-damage: deny, ravager-grief: deny,
+            respawn-anchors: deny, mushroom-growth: deny, use-anvil: allow, lightning: deny,
+            wither-damage: deny, ice-form: deny, enderman-grief: deny, pvp: deny,
+            mob-spawning: deny, natural-hunger-drain: deny, crop-growth: deny, creeper-explosion: deny,
+            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, frosted-ice-form: deny, mycelium-spread: deny,
+            ice-melt: deny, block-trampling: deny, vehicle-destroy: deny, interact: deny,
+            chest-access: deny, weather-lock: clear, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
+            rock-growth: deny, betterprofiles-can-view-profile: allow, entity-painting-destroy: deny,
+            lighter: allow, use-dripleaf: deny, pistons: deny, goop-mortal-immortality: allow,
+            item-drop: allow, ability-pvp: deny, soil-dry: deny, exp-drops: allow,
+            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: allow,
+            frosted-ice-melt: deny, lava-flow: deny, grass-growth: deny}
+        owners: {}
+        type: cuboid
+        priority: 10
+    spawn:
+        min: {x: -215, y: 60, z: -255}
+        max: {x: 68, y: 269, z: 61}
+        members: {}
+        flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, use: deny,
+            aureliumskills-xp-gain: allow, snow-fall: deny, leaf-decay: deny, firework-damage: deny,
+            coral-fade: deny, mmo-abilities: deny, mob-damage: deny, ravager-grief: deny,
+            respawn-anchors: deny, mushroom-growth: deny, use-anvil: allow, lightning: deny,
+            wither-damage: deny, ice-form: deny, enderman-grief: deny, pvp: deny,
+            mob-spawning: deny, natural-hunger-drain: deny, crop-growth: deny, creeper-explosion: deny,
+            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, frosted-ice-form: deny, mycelium-spread: deny,
+            ice-melt: deny, block-trampling: deny, vehicle-destroy: deny, interact: deny,
+            chest-access: deny, weather-lock: clear, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
+            rock-growth: deny, betterprofiles-can-view-profile: allow, entity-painting-destroy: deny,
+            lighter: allow, use-dripleaf: deny, pistons: deny, goop-mortal-immortality: allow,
+            item-drop: allow, ability-pvp: deny, soil-dry: deny, exp-drops: allow,
+            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: allow,
+            frosted-ice-melt: deny, lava-flow: deny, grass-growth: deny}
+        owners: {}
+        type: cuboid
+        priority: 5
+    library:
+        min: {x: -87, y: 178, z: -200}
+        max: {x: -68, y: 188, z: -182}
+        members: {}
+        flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, use: deny,
+            aureliumskills-xp-gain: allow, snow-fall: deny, leaf-decay: deny, firework-damage: deny,
+            coral-fade: deny, mmo-abilities: deny, mob-damage: deny, ravager-grief: deny,
+            respawn-anchors: deny, mushroom-growth: deny, use-anvil: allow, lightning: deny,
+            wither-damage: deny, ice-form: deny, enderman-grief: deny, pvp: deny,
+            mob-spawning: deny, natural-hunger-drain: deny, crop-growth: deny, creeper-explosion: deny,
+            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, frosted-ice-form: deny, mycelium-spread: deny,
+            ice-melt: deny, block-trampling: deny, vehicle-destroy: deny, interact: deny,
+            chest-access: deny, weather-lock: clear, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
+            rock-growth: deny, betterprofiles-can-view-profile: allow, entity-painting-destroy: deny,
+            lighter: allow, use-dripleaf: deny, pistons: deny, goop-mortal-immortality: allow,
+            item-drop: allow, ability-pvp: deny, soil-dry: deny, exp-drops: allow,
+            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: allow,
+            frosted-ice-melt: deny, lava-flow: deny, grass-growth: deny}
+        owners: {}
+        type: cuboid
+        priority: 10
+    dungeon_portal:
+        min: {x: -14, y: 174, z: -238}
+        max: {x: 8, y: 181, z: -231}
+        members: {}
+        flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, use: deny,
+            aureliumskills-xp-gain: allow, snow-fall: deny, leaf-decay: deny, firework-damage: deny,
+            coral-fade: deny, mmo-abilities: deny, mob-damage: deny, ravager-grief: deny,
+            respawn-anchors: deny, mushroom-growth: deny, use-anvil: allow, lightning: deny,
+            wither-damage: deny, ice-form: deny, enderman-grief: deny, pvp: deny,
+            mob-spawning: deny, natural-hunger-drain: deny, crop-growth: deny, creeper-explosion: deny,
+            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, frosted-ice-form: deny, mycelium-spread: deny,
+            ice-melt: deny, block-trampling: deny, vehicle-destroy: deny, interact: deny,
+            chest-access: deny, weather-lock: clear, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
+            rock-growth: deny, betterprofiles-can-view-profile: allow, entity-painting-destroy: deny,
+            lighter: allow, use-dripleaf: deny, pistons: deny, goop-mortal-immortality: allow,
+            item-drop: allow, ability-pvp: deny, soil-dry: deny, exp-drops: allow,
+            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: allow,
+            frosted-ice-melt: deny, lava-flow: deny, grass-growth: deny}
+        owners: {}
+        type: cuboid
+        priority: 10
+    npc_mainground:
+        min: {x: -113, y: 174, z: -125}
+        max: {x: -71, y: 192, z: -78}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    prize_corner:
+        min: {x: -147, y: 177, z: -153}
+        max: {x: -134, y: 184, z: -137}
+        members: {}
+        flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, use: deny,
+            aureliumskills-xp-gain: allow, snow-fall: deny, leaf-decay: deny, firework-damage: deny,
+            coral-fade: deny, mmo-abilities: deny, mob-damage: deny, ravager-grief: deny,
+            respawn-anchors: deny, mushroom-growth: deny, use-anvil: allow, lightning: deny,
+            wither-damage: deny, ice-form: deny, enderman-grief: deny, pvp: deny,
+            mob-spawning: deny, natural-hunger-drain: deny, crop-growth: deny, creeper-explosion: deny,
+            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, frosted-ice-form: deny, mycelium-spread: deny,
+            ice-melt: deny, block-trampling: deny, vehicle-destroy: deny, interact: deny,
+            chest-access: deny, weather-lock: clear, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
+            rock-growth: deny, betterprofiles-can-view-profile: allow, entity-painting-destroy: deny,
+            lighter: allow, use-dripleaf: deny, pistons: deny, goop-mortal-immortality: allow,
+            item-drop: allow, ability-pvp: deny, soil-dry: deny, exp-drops: allow,
+            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: allow,
+            frosted-ice-melt: deny, lava-flow: deny, grass-growth: deny}
+        owners: {}
+        type: cuboid
+        priority: 10
+    npc_festivecorner:
+        min: {x: -110, y: 177, z: -179}
+        max: {x: -69, y: 188, z: -143}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    jeweler:
+        min: {x: -58, y: 174, z: -118}
+        max: {x: -36, y: 189, z: -106}
+        members: {}
+        flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, use: deny,
+            aureliumskills-xp-gain: allow, snow-fall: deny, leaf-decay: deny, firework-damage: deny,
+            coral-fade: deny, mmo-abilities: deny, mob-damage: deny, ravager-grief: deny,
+            respawn-anchors: deny, mushroom-growth: deny, use-anvil: allow, lightning: deny,
+            wither-damage: deny, ice-form: deny, enderman-grief: deny, pvp: deny,
+            mob-spawning: deny, natural-hunger-drain: deny, crop-growth: deny, creeper-explosion: deny,
+            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, frosted-ice-form: deny, mycelium-spread: deny,
+            ice-melt: deny, block-trampling: deny, vehicle-destroy: deny, interact: deny,
+            chest-access: deny, weather-lock: clear, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
+            rock-growth: deny, betterprofiles-can-view-profile: allow, entity-painting-destroy: deny,
+            lighter: allow, use-dripleaf: deny, pistons: deny, goop-mortal-immortality: allow,
+            item-drop: allow, ability-pvp: deny, soil-dry: deny, exp-drops: allow,
+            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: allow,
+            frosted-ice-melt: deny, lava-flow: deny, grass-growth: deny}
+        owners: {}
+        type: cuboid
+        priority: 10
+    hall_of_fame:
+        min: {x: -142, y: 180, z: -237}
+        max: {x: -103, y: 189, z: -211}
+        members: {}
+        flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, use: deny,
+            aureliumskills-xp-gain: allow, snow-fall: deny, leaf-decay: deny, firework-damage: deny,
+            coral-fade: deny, mmo-abilities: deny, mob-damage: deny, ravager-grief: deny,
+            respawn-anchors: deny, mushroom-growth: deny, use-anvil: allow, lightning: deny,
+            wither-damage: deny, ice-form: deny, enderman-grief: deny, pvp: deny,
+            mob-spawning: deny, natural-hunger-drain: deny, crop-growth: deny, creeper-explosion: deny,
+            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, frosted-ice-form: deny, mycelium-spread: deny,
+            ice-melt: deny, block-trampling: deny, vehicle-destroy: deny, interact: deny,
+            chest-access: deny, weather-lock: clear, ride: deny, fire-spread: deny,
+            enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, snowman-trails: deny,
+            rock-growth: deny, betterprofiles-can-view-profile: allow, entity-painting-destroy: deny,
+            lighter: allow, use-dripleaf: deny, pistons: deny, goop-mortal-immortality: allow,
+            item-drop: allow, ability-pvp: deny, soil-dry: deny, exp-drops: allow,
+            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: allow,
+            frosted-ice-melt: deny, lava-flow: deny, grass-growth: deny}
+        owners: {}
+        type: cuboid
+        priority: 10
+    alchemy_room:
+        min: {x: -55, y: 175, z: -85}
+        max: {x: -48, y: 183, z: -65}
+        members: {}
+        flags: {other-explosion: deny, lava-fire: deny, water-flow: deny, use: deny,
+            snow-fall: deny, aureliumskills-xp-gain: allow, leaf-decay: deny, firework-damage: deny,
+            coral-fade: deny, mmo-abilities: deny, mob-damage: deny, ravager-grief: deny,
+            use-anvil: allow, mushroom-growth: deny, respawn-anchors: deny, lightning: deny,
+            wither-damage: deny, ice-form: deny, enderman-grief: deny, pvp: deny,
+            mob-spawning: deny, natural-hunger-drain: deny, crop-growth: deny, creeper-explosion: deny,
+            vine-growth: deny, damage-animals: deny, snow-melt: deny, tnt: deny, entity-item-frame-destroy: deny,
+            ghast-fireball: deny, frosted-ice-form: deny, mycelium-spread: deny, ice-melt: deny,
+            block-trampling: deny, vehicle-destroy: deny, interact: deny, chest-access: deny,
+            weather-lock: clear, ride: deny, fire-spread: deny, enderdragon-block-damage: deny,
+            sleep: deny, vehicle-place: deny, snowman-trails: deny, rock-growth: deny,
+            betterprofiles-can-view-profile: allow, entity-painting-destroy: deny,
+            lighter: allow, use-dripleaf: deny, pistons: deny, goop-mortal-immortality: allow,
+            item-drop: allow, ability-pvp: deny, soil-dry: deny, exp-drops: allow,
+            fall-damage: deny, item-pickup: allow, item-frame-rotation: deny, potion-splash: allow,
+            frosted-ice-melt: deny, lava-flow: deny, grass-growth: deny}
+        owners: {}
+        type: cuboid
+        priority: 10

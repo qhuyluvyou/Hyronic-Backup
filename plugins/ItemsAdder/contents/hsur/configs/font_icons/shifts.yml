@@ -1,0 +1,114 @@
+info:
+  namespace: hsur
+font_images:
+  
+  sh_1:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -1
+    symbol: 
+  sh_2:
+    path: required/null
+    y_position: -32768
+    scale_ratio: 0
+    symbol: 
+  sh_4:
+    path: required/null
+    y_position: -32768
+    scale_ratio: 2
+    symbol: 
+  sh_8:
+    path: required/null
+    y_position: -32768
+    scale_ratio: 6
+    symbol: 
+  sh_16:
+    path: required/null
+    y_position: -32768
+    scale_ratio: 14
+    symbol: 
+  sh_32:
+    path: required/null
+    y_position: -32768
+    scale_ratio: 30
+    symbol: 
+  sh_64:
+    path: required/null
+    y_position: -32768
+    scale_ratio: 62
+    symbol: 
+  sh_128:
+    path: required/null
+    y_position: -32768
+    scale_ratio: 126
+    symbol: 
+  sh_256:
+    path: required/null
+    y_position: -32768
+    scale_ratio: 254
+    symbol: 
+  sh_512:
+    path: required/null
+    y_position: -32768
+    scale_ratio: 510
+    symbol: 
+  sh_1024:
+    path: required/null
+    y_position: -32768
+    scale_ratio: 1022
+    symbol: 
+  neg_sh_1:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -3
+    symbol: 
+  neg_sh_2:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -4
+    symbol: 
+  neg_sh_4:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -6
+    symbol: 
+  neg_sh_8:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -10
+    symbol: 
+  neg_sh_16:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -18
+    symbol: 
+  neg_sh_32:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -34
+    symbol: 
+  neg_sh_64:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -66
+    symbol: 
+  neg_sh_128:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -130
+    symbol: 
+  neg_sh_256:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -258
+    symbol: 
+  neg_sh_512:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -514
+    symbol: 
+  neg_sh_1024:
+    path: required/null
+    y_position: -32768
+    scale_ratio: -1026
+    symbol: 

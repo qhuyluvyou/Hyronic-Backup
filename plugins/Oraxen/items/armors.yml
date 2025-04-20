@@ -1,0 +1,51 @@
+uranium_helmet:
+  excludeFromInventory: true
+  displayname: <gradient:#FA7CBB:#F14658>Ruby Helmet
+  material: LEATHER_HELMET
+  color: 252, 3, 12
+  Pack:
+    custom_model_data: 10000
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/armor/uranium_helmet
+    - custom/items/armor/uranium_helmet
+
+uranium_chestplate:
+  excludeFromInventory: true
+  displayname: <gradient:#FA7CBB:#F14658>Ruby Chestplate
+  material: LEATHER_CHESTPLATE
+  color: 252, 3, 12
+  Pack:
+    custom_model_data: 10000
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/armor/uranium_chestplate
+    - custom/items/armor/uranium_chestplate
+
+uranium_leggings:
+  excludeFromInventory: true
+  displayname: <gradient:#FA7CBB:#F14658>Ruby Leggings
+  material: LEATHER_LEGGINGS
+  color: 252, 3, 12
+  Pack:
+    custom_model_data: 10000
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/armor/uranium_leggings
+    - custom/items/armor/uranium_leggings
+
+uranium_boots:
+  excludeFromInventory: true
+  displayname: <gradient:#FA7CBB:#F14658>Ruby Leggings
+  material: LEATHER_BOOTS
+  color: 252, 3, 12
+  Pack:
+    custom_model_data: 10000
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/armor/uranium_boots
+    - custom/items/armor/uranium_boots

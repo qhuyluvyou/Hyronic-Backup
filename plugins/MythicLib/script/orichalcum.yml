@@ -1,0 +1,34 @@
+orichalcum:
+    public: true
+    conditions:
+        orichalcumc_1:
+            type: has_damage_type
+            types: 'SKILL'
+    mechanics:
+        orichalcum_1:
+            type: damage
+            amount: '30 + (%aureliumskills_wisdom% / 100 * 10)'
+            knockback: false
+            ignore_immunity: false
+            target:
+                type: target
+        orichalcum_2:
+            type: sound
+            sound: ENTITY_EVOKER_CAST_SPELL
+            pitch: 1
+            volume: 1
+            target:
+                type: caster
+        orichalcum_3:
+            type: particle
+            particle: LAVA
+            amount: 10
+            x: 0
+            y: 0
+            z: 0
+            target:
+                type: target
+
+empty_skill:
+    public: true
+    mechanics: []

@@ -1,0 +1,9 @@
+THE_VEIL_KEY:
+  base:
+    material: PAPER
+    custom-model-data: 14.0
+    lore:
+    - '&7Can be used to access &dThe'
+    - '&dVeil&7 dungeon once!'
+    tier: A
+    name: 'Rusty Key: &dThe Veil'

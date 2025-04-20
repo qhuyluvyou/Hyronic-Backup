@@ -1,0 +1,11 @@
+
+signs:
+- spawn,-126.0,181.0,-223.0,0.0,0.0,;vault_eco_balance;1;ALLTIME
+- spawn,-125.0,181.0,-223.0,0.0,0.0,;vault_eco_balance;2;ALLTIME
+- spawn,-127.0,181.0,-223.0,0.0,0.0,;vault_eco_balance;3;ALLTIME
+- spawn,-116.0,181.0,-223.0,0.0,0.0,;statistic_mob_kills;1;ALLTIME
+- spawn,-115.0,181.0,-223.0,0.0,0.0,;statistic_mob_kills;2;ALLTIME
+- spawn,-117.0,181.0,-223.0,0.0,0.0,;statistic_mob_kills;3;ALLTIME
+- spawn,-126.0,181.0,-232.0,0.0,0.0,;javascript_power;1;ALLTIME
+- spawn,-125.0,181.0,-232.0,0.0,0.0,;javascript_power;2;ALLTIME
+- spawn,-127.0,181.0,-232.0,0.0,0.0,;javascript_power;3;ALLTIME

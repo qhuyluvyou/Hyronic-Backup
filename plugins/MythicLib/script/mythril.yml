@@ -1,0 +1,49 @@
+adaptive_first:
+    public: true
+    conditions:
+        adaptive1c_1:
+            type: in_between
+            first: '<caster.attribute.max_health> / 100 * 75'
+            second: '<caster.health>'
+            third: '<caster.attribute.max_health>'
+    mechanics:
+        adaptive1_1:
+            type: multiply_damage
+            amount: '1 + (15 / 100)'
+            additive: false
+
+adaptive_second:
+    public: true
+    conditions:
+        adaptive1c_2:
+            type: in_between
+            first: '<caster.attribute.max_health> / 100 * 30'
+            second: '<caster.health>'
+            third: '<caster.attribute.max_health> / 100 * 74'
+    mechanics:
+        adaptive1_2:
+            type: multiply_damage
+            amount: '1 + (10 / 100)'
+            additive: false
+        adaptive1_3:
+            type: heal
+            amount: '<caster.attribute.max_health> * 0.01'
+            reason: CUSTOM
+            target:
+                type: caster
+
+adaptive_third:
+    public: true
+    conditions:
+        adaptive1c_3:
+            type: in_between
+            first: '<caster.attribute.max_health> / 100 * 0'
+            second: '<caster.health>'
+            third: '<caster.attribute.max_health> / 100 * 29'
+    mechanics:
+        adaptive1_5:
+            type: heal
+            amount: '<caster.attribute.max_health> * 0.02'
+            reason: CUSTOM
+            target:
+                type: caster

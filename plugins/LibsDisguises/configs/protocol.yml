@@ -1,0 +1,29 @@
+
+PlayerHideArmor: true
+
+RandomDisguiseOptions: true
+
+RemoveArmor: true
+RemoveHeldItem: false
+RemoveCreativeEquipment: false
+
+AddEntityAnimations: true
+
+MaxHealthDeterminedByEntity: true
+
+MiscDisguisesForLiving: true
+
+SendVelocity: true
+
+PacketsEnabled:
+  Animation: true
+  Collect: true
+  EntityStatus: true
+  Equipment: true
+  Metadata: true
+  Movement: true
+  Riding: true
+  WitherSkull: true
+  LoginPayload: true
+
+UUIDVersion: 4

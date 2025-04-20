@@ -1,0 +1,347 @@
+
+info:
+  namespace: hsur
+
+items:
+
+  customitem4:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 5
+      material: PAPER
+      textures:
+      - custom/items/materials/ignetto_alloy
+
+  customitem5:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 6
+      material: PAPER
+      textures:
+      - custom/items/materials/warden_heart
+
+  customitem6:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 7
+      material: PAPER
+      textures:
+      - custom/items/materials/divine_geode
+
+  customitem7:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 8
+      material: PAPER
+      textures:
+      - custom/items/materials/withered_rose
+
+  customitem8:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 9
+      material: PAPER
+      textures:
+      - custom/items/materials/witch_blood
+
+  customitem9:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 10
+      material: PAPER
+      textures:
+      - custom/items/materials/hexim_necklace
+
+  customitem10:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 11
+      material: PAPER
+      textures:
+      - custom/items/materials/mortos_belt
+
+  customitem11:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 12
+      material: PAPER
+      textures:
+      - custom/items/materials/caeletus_ring
+
+  customitem12:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 13
+      material: PAPER
+      textures:
+      - custom/items/materials/quinerus_cloak
+
+  customitem18:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 19
+      material: PAPER
+      textures:
+      - custom/items/minerals/titanium_ingot
+
+  customitem19:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 20
+      material: PAPER
+      textures:
+      - custom/items/minerals/mythril_ingot
+
+  customitem20:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 21
+      material: PAPER
+      textures:
+      - custom/items/minerals/orichalcum_ingot
+
+  customitem21:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 23
+      material: PAPER
+      textures:
+      - custom/items/materials/uncanny_obelisk
+
+  customitem22:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 24
+      material: PAPER
+      textures:
+      - custom/items/materials/exo_stone
+
+  customitem23:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 25
+      material: PAPER
+      textures:
+      - custom/items/materials/nightmare_fuel
+
+  customitem24:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 26
+      material: PAPER
+      textures:
+      - custom/items/materials/nightmare_bar
+
+  customitem25:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 27
+      material: PAPER
+      textures:
+      - custom/items/materials/calamity_handle
+
+  customitem26:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 28
+      material: PAPER
+      textures:
+      - custom/items/materials/catastrophe_broken
+
+  customitem27:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 29
+      material: PAPER
+      textures:
+      - custom/items/materials/cataclysm_handle
+
+  customitem28:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 32
+      material: PAPER
+      textures:
+      - custom/items/materials/red_candycane
+
+  customitem29:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 33
+      material: PAPER
+      textures:
+      - custom/items/materials/blue_candycane
+
+  customitem30:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 34
+      material: PAPER
+      textures:
+      - custom/items/materials/shard_of_true_ice
+
+  customitem34:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 39
+      material: PAPER
+      textures:
+      - custom/items/minerals/uranium_debris
+
+  customitem35:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 40
+      material: PAPER
+      textures:
+      - custom/items/minerals/uranium
+
+  customitem36:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 41
+      material: PAPER
+      textures:
+      - custom/items/minerals/iridium_shard
+
+  customitem37:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 42
+      material: PAPER
+      textures:
+      - custom/items/minerals/iridium_crystal
+
+  customitem38:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 43
+      material: PAPER
+      textures:
+      - custom/items/materials/dragon_scale
+
+  customitem39:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 44
+      material: PAPER
+      textures:
+      - custom/items/materials/endercore
+
+  customitem40:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 45
+      material: PAPER
+      textures:
+      - custom/items/materials/endergem
+
+  customitem41:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 46
+      material: PAPER
+      textures:
+      - custom/items/materials/null_cell
+
+  customitem42:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 47
+      material: PAPER
+      textures:
+      - custom/items/materials/bloom_doom
+
+  customitem43:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 48
+      material: PAPER
+      textures:
+      - custom/items/materials/void_stone
+
+  customitem44:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 49
+      material: PAPER
+      textures:
+      - custom/items/materials/black_powder
+
+  customitem45:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 50
+      material: PAPER
+      textures:
+      - custom/items/materials/detached_eye
+
+  customitem46:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 51
+      material: PAPER
+      textures:
+      - custom/items/materials/prismatic_fruit
+
+  customitem47:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 52
+      material: PAPER
+      textures:
+      - custom/items/materials/silver_leaf
+
+  customitem48:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 53
+      material: PAPER
+      textures:
+      - custom/items/materials/slimy_mucus
+
+  customitem49:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 54
+      material: PAPER
+      textures:
+      - custom/items/materials/teal_mushroom

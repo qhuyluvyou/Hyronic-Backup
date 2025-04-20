@@ -1,0 +1,143 @@
+open_command: 
+  - setting
+  - settings
+size: 54
+menu_title: '               ꜱᴇᴛᴛɪɴɢꜱ'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_WOODEN_DOOR_CLOSE"
+  'back':
+    material: BOOK
+    model_data: 38
+    slot: 48
+    display_name: "&aBack"
+    lore:
+      - "&7Click this to go"
+      - "&7back!"
+    left_click_commands:
+      - "[openguimenu] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'outerfill':
+    material: CLAY_BALL
+    model_data: 1
+    hide_attributes: true
+    display_name: "&f"
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,50,51,52,17,26,35,44,52,53,10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34,37,38,39,40,41,42,43]
+  'tag':
+    material: BOOK
+    model_data: 84
+    slot: 10
+    display_name: "&6Player Tags"
+    lore:
+      - ""
+      - "&7Show off your favourite quote,"
+      - "&7champion or meme through the"
+      - "&7tags feature!"
+      - ""
+      - "&6&lHEY!&7 These tags are some of"
+      - "&7the ones you can find in our"
+      - "&7other product: &e&lSupreme Icon"
+      - "&e&lPack&7. If you enjoy these, you"
+      - "&7can consider buying the pack,"
+      - "&7it means a lot! &8Shift+Right-Click"
+      - "&7to get link!"
+      - ""
+      - "&8→ Click to access!"
+    left_click_commands:
+      - "[player] tag"
+      - "[sound] BLOCK_LEVER_CLICK"
+    shift_right_click_commands:
+      - "[message] &a"
+      - "[message] &eThank you for supporting us! &c❤"
+      - "[message] &6&nhttps://www.mc-market.org/resources/22909/"
+      - "[message] &a"
+      - "[close] a"
+      - "[sound] ENTITY_CHICKEN_EGG"
+  'teleport':
+    material: BOOK
+    model_data: 85
+    slot: 12
+    display_name: "&fToggle&a Teleport Requests"
+    lore:
+      - ""
+      - "&7Toggle the ability for others"
+      - "&7to send you a teleportation"
+      - "&7reuqest!"
+      - ""
+      - "&7Currently %changeoutput_equals_input:{essentials_is_teleport_enabled}_matcher:yes_ifmatch:&a&lENABLED_else:&c&lDISABLED%"
+      - "&8→ Click to toggle!"
+    left_click_commands:
+      - "[refresh]"
+      - "[player] tptoggle"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+  'trade':
+    material: BOOK
+    model_data: 86
+    slot: 14
+    display_name: "&fToggle&a Trade Requests"
+    lore:
+      - ""
+      - "&7Toggle the ability for others"
+      - "&7to send you a trade request!"
+      - ""
+      - "&7Currently %changeoutput_equals_input:{tradesystem_status}_matcher:Online_ifmatch:&a&lENABLED_else:&c&lDISABLED%"
+      - "&8→ Click to toggle!"
+    left_click_commands:
+      - "[refresh]"
+      - "[player] trade toggle"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+  'scoreboard':
+    material: BOOK
+    model_data: 87
+    slot: 16
+    display_name: "&fToggle&a Info Bar"
+    lore:
+      - ""
+      - "&7Toggle the information"
+      - "&7bar on the screen."
+      - ""
+      - "&7Currently %changeoutput_equals_input:{tab_bossbar_visible}_matcher:Enabled_ifmatch:&a&lENABLED_else:&c&lDISABLED%"
+      - "&8→ Click to toggle!"
+    left_click_commands:
+      - "[refresh]"
+      - "[player] tab bossbar toggle"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+  'profile1':
+    material: BOOK
+    model_data: 88
+    slot: 28
+    display_name: "&fToggle&a Seeing Profile"
+    lore:
+      - ""
+      - "&7Toggle the ability for &8you&7"
+      - "&7to &8shift-click&7 players to"
+      - '&7see their profiles'
+      - ""
+      - "&8→ Click to toggle!"
+    left_click_commands:
+      - "[close] a"
+      - "[player] betterprofile toggle viewer"
+  'profile2':
+    material: BOOK
+    model_data: 97
+    slot: 30
+    display_name: "&fToggle&a Your Profile"
+    lore:
+      - ""
+      - "&7Toggle the ability for &8others&7"
+      - "&7to &8shift-click&7 you to see your"
+      - '&7profile'
+      - ""
+      - "&8→ Click to toggle!"
+    left_click_commands:
+      - "[close] a"
+      - "[player] betterprofile toggle profile"

@@ -1,0 +1,405 @@
+R_Entrance:
+  Skills:
+  - sound{s=entity.wither.spawn;v=1;p=0} @World
+  - setstance{stance=stasis} @self
+  - delay 40
+  - sound{s=entity.evocation_illager.prepare_summon;v=1;p=0} @self
+  - setgravity{g=false} @self
+  - potion{type=SLOW;duration=20;level=7} @self
+  - potion{type=LEVITATION;duration=20;level=1} @self
+  - setAI{ai=false;delay=20} @self
+  - effect:particleorbital{p=reddust;color=#000000;a=10;points=30;an=1;y=1.75;in=2;ry=1;r=2;yOffset=0.7;delay=20;ticks=140} @self
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f ΗΗηαθΓΙΔθ.";delay=20} @World
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f Εδ,ηΖΙγαγ";delay=100} @World
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f αΘζιΔΓΔθβ!";delay=200} @World
+  - effect:particleorbital{p=reddust;color=#DC143C;a=10;points=30;an=1;y=1.75;in=2;rx=1;r=2;yOffset=0.5;delay=20;ticks=140} @self
+  - effect:particleorbital{p=reddust;color=#000000;a=10;points=30;an=1;y=1.75;in=2;rz=1;r=2;yOffset=0.5;delay=20;ticks=140} @self
+  - effect:particleorbital{p=reddust;color=#DC143C;a=10;points=30;an=1;y=1.75;in=2;ry=1;r=2;yOffset=0.5;delay=20;ticks=140;reverse=true} @self
+  - effect:particleorbital{p=reddust;color=#000000;a=10;points=30;an=1;y=1.75;in=2;rx=1;r=2;yOffset=0.5;delay=20;ticks=140;reverse=true} @self
+  - effect:particleorbital{p=reddust;color=#DC143C;a=10;points=30;an=1;y=1.75;in=2;rz=1;r=2;yOffset=0.5;delay=20;ticks=140;reverse=true} @self
+  - effect:particlesphere{p=spell_witch;color=#000000;amount=200;radius=5;delay=100;yOffset=0.5} @self
+  - sound{s=entity.elder_guardian.curse;v=1;p=1;delay=100} @self
+  - effect:particlesphere{p=spell_witch;color=#000000;amount=200;radius=4;delay=120;yOffset=0.5} @self
+  - sound{s=entity.elder_guardian.curse;v=1;p=0.75;delay=120} @self
+  - effect:particlesphere{p=spell_witch;color=#000000;amount=200;radius=3;delay=140;yOffset=0.5} @self
+  - sound{s=entity.elder_guardian.curse;v=1;p=0.5;delay=140} @self
+  - effect:particlesphere{p=spell_witch;color=#000000;amount=200;radius=2;delay=160;yOffset=0.5} @self
+  - sound{s=entity.elder_guardian.curse;v=1;p=0.25;delay=160} @self
+  - effect:particlesphere{p=flame;amount=200;radius=2;delay=180;repeat=6;repeatinterval=5;yOffset=0.5} @self
+  - sound{s=entity.blaze.shoot;v=1;p=0;delay=180;repeat=6;repeatinterval=5} @self
+  - setAI{ai=true;delay=218} @self 
+  - delay 220
+  - setstance{stance=phase1} @self
+  - effect:particles{particle=spell_witch;amount=500;hS=1;vS=1;speed=4} @self
+  - equip{item=stick{model=1}:0} @self
+  - sound{s=entity.wither.death;v=1;p=0} @self
+  - delay 40
+  - effect:particles{p=flame;amount=500;hS=1;vS=1;speed=4} @self
+  - skill{s=R_HexBlast}
+
+R_HexFlame:
+  Skills:
+  - Aura{auraName=HexFlame;onTick=R_HexFlameTick;d=100;i=20;rd=true;bt=false;mc=true;ma=true}
+R_HexFlameTick:
+  Skills:
+  - mmodamage{a=15;pk=true}
+  - effect:particles{p=lava;amount=10;hS=0.5;vS=1;speed=0}
+  - effect:particles{particle=flame;amount=20;hS=0.5;vS=1;speed=0}
+R_BrittleBone:
+  Skills:
+  - onDamaged{auraName=BrittleBone;duration=100;multiplier=1.5;rd=true;bt=false;mc=true;ma=true}
+R_Disarmed:
+  Skills:
+  - onAttack{auraName=Disarmed;duration=100;multiplier=0;rd=true;bt=false;mc=true;ma=true} 
+R_Stasis:
+  Conditions:
+  - stance stasis
+  Skills:
+  - cancelevent
+  - sound{s=entity.bat.hurt;cooldown=2} @self
+  - message{m="<#702963>Seraphi Inanis&7 is currently &f✘ invulnerable&7.";cooldown=2} @trigger
+R_Sacrifice:
+  Skills:
+  - effect:particles{p=hugeexplosion;amount=1;speed=0;hS=0.2;vS=0.2} @self 
+  - sound{s=entity.generic.explode} @self 
+  - mmodamage{a=50} @pir{r=5}
+  - remove @self
+
+R_HexBlast:
+  Conditions:
+  - stance phase1
+  Skills:
+  - teleport{spreadh=5;spreadv=5} @NearestPlayer{r=100}
+  - delay 30
+  - projectile{onTick=R_HexBlast-Tick;onHit=R_HexBlast-Hit;v=12;i=1;hR=1;vR=1;repeat=2;repeatinterval=20} @PlayersInRadius{r=100}
+  - sound{s=entity.evoker.cast_spell;v=1;p=0;repeat=2;repeatinterval=20} @self
+  - delay 80
+  - teleport{spreadh=2;spreadv=0} @NearestPlayer{r=100}
+  - skill{s=R_DarkSyphon}
+R_HexBlast-Tick:
+  Conditions:
+  - stance phase1
+  Skills:
+  - effect:particles{p=reddust;color=#DC143C;amount=10;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particles{p=reddust;color=#000000;amount=10;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particles{p=flame;amount=2;speed=0;hS=0.2;vS=0.2} @origin 
+R_HexBlast-Hit:
+  Conditions:
+  - stance phase1
+  Skills:
+  - mmodamage{a=50} 
+  - sound{s=entity.generic.extinguish_fire;v=1;p=1} @self
+  - potion{type=WEAKNESS;duration=100;lvl=1}
+
+R_DarkSyphon:
+  Conditions:
+  - stance phase1
+  Skills:
+  - cast{
+        skillName="&5Dark Syphon";
+        duration=50;
+        onCast=R_DarkSyphon-Success;
+        onTick=R_DarkSyphon-Tick;
+        showCastBar=false
+      } @self 
+  - sound{s=block.note_block.pling;p=0;audience=target;repeat=9;repeatinterval=5} @pir{r=5}
+  - delay 80
+  - skill{s=R_DeathFromAbove}
+R_DarkSyphon-Success:
+  Conditions:
+  - stance phase1
+  Skills:
+  - consume{d=50;h=100;pk=true} @pir{r=6}
+  - message{m="<#702963>Seraphi Inanis&7 sapped your life force! (&c-35<&heart>&7)"} @pir{r=6}
+  - sound{s=entity.generic.extinguish_fire;v=1;p=0} @pir{r=6}
+  - effect:particleline{particle=spell_witch;amount=4;fromOrigin=true} @pir{r=6}
+R_DarkSyphon-Tick:
+  Conditions:
+  - stance phase1
+  Skills:
+  - effect:particlering{particle=falling_dust;color=#DC143C;radius=5;points=10;amount=1;hS=1;vS=0;y=0.5} 
+  - potion{p=SLOW;duration=1;l=3;force=true;p=false;i=false} @PIR{r=6}
+
+R_DeathFromAbove:
+  Conditions:
+  - stance phase1
+  Skills:
+  - teleport{spreadh=5;spreadv=0} @NearestPlayer{r=100}
+  - delay 10
+  - cast{
+        skillName="&5Death From Above";
+        duration=130;
+        onTick=R_DeathFromAbove-Activate;
+        i=40;
+        showCastBar=false
+      } @self 
+  - delay 160
+  - skill{s=R_BadPets} @self
+R_DeathFromAbove-Activate:
+  Conditions:
+  - stance phase1
+  Skills:
+  - projectile{onTick=R_DeathFromAbove-Tick;onEnd=R_DeathFromAbove-Hit;v=10;i=1;hR=1;vR=1;type=meteor;hfs=12;g=0.4} @PlayersInRadius{r=100}
+R_DeathFromAbove-Tick:
+  Conditions:
+  - stance phase1
+  Skills:
+  - effect:particles{p=largesmoke;amount=5;speed=0;hS=0.2;vS=0.2} @origin
+R_DeathFromAbove-Hit:
+  Conditions:
+  - stance phase1
+  Skills:
+  - effect:particles{p=hugeexplosion;amount=1;speed=0;hS=0.2;vS=0.2} @origin
+  - sound{s=entity.generic.explode} @origin
+  - mmodamage{a=65} @PlayersNearOrigin{r=3}
+  - delay 1
+
+R_BadPets:
+  Conditions:
+  - stance phase1
+  Skills:
+  - setstance{stance="phase1 stasis"} @self
+  - equip{item=air:0} @self
+  - sound{s=entity.illusioner.prepare_mirror;v=2} @self
+  - effect:particles{p=fireworksSpark;amount=40;speed=3;hS=0.2;vS=0.2} @self
+  - hide{d=60} @Server
+  - summon{type=Raven;amount=5;radius=3;itt=true;sip=true} @self
+  - signal{s=explode;delay=40} @LivingInWorld
+  - effect:particles{p=fireworksSpark;amount=40;speed=3;hS=0.2;vS=0.2;delay=40} @self
+  - setstance{stance=phase1;delay=40} @self
+  - equip{item=book:0;delay=40} @self
+  - delay 80
+  - skill{s=R_HexBlast}
+
+R_TransformP2:
+  Skills:
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f ΨβγΨΕιηαΖΦωφ?";delay=20} @PlayersInRadius{r=30}
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f ΙΙΧΧω.Θ..ΙΙΓ.";delay=60} @PlayersInRadius{r=30}
+  - setstance{stance=phase2} @self
+  - delay 40
+  - effect:particles{p=cloud;amount=500;hS=1;vS=1;speed=4} @self
+  - equip{item=bow{model=1}:0} @self
+  - sound{s=entity.enderdragon.growl} @self
+  - delay 40
+  - teleport{spreadh=8;spreadv=2} @NearestPlayer{r=100}
+  - skill{s=R_FlamingVolley}
+R_FlamingVolley:
+  Conditions:
+  - stance phase2
+  Skills:
+  - cast{
+        skillName="&6Flaming Volley";
+        duration=40;
+        onCast=R_FlamingVolley-Shoot;
+        showCastBar=false
+      } @self 
+  - delay 140
+  - teleport{spreadh=8;spreadv=2} @NearestPlayer{r=100}
+  - skill{s=R_FrostyBarrage}
+R_FlamingVolley-Shoot:
+  Skills:
+  - projectile{onTick=R_FlamingVolley-Tick;onHit=R_FlamingVolley-Hit;v=10;i=2;hR=1;vR=1;repeat=2;repeatinterval=20;syo=2;sfo=0;tyo=0} @PlayersInRadius{r=30}
+  - projectile{onTick=R_FlamingVolley-Tick;onHit=R_FlamingVolley-Hit;v=10;i=2;hR=1;vR=1;repeat=2;repeatinterval=20;syo=2;sfo=0;ho=20;tyo=0} @PlayersInRadius{r=30}
+  - projectile{onTick=R_FlamingVolley-Tick;onHit=R_FlamingVolley-Hit;v=10;i=2;hR=1;vR=1;repeat=2;repeatinterval=20;syo=2;sfo=0;ho=-20;tyo=0} @PlayersInRadius{r=30}
+  - sound{s=block.piston.extend;p=0.5;repeat=2;repeatinterval=20;v=2} @self
+  - sound{s=block.piston.contract;p=0.5;repeat=2;repeatinterval=20;delay=10;v=2} @self
+R_FlamingVolley-Tick:
+  Skills:
+  - effect:particles{p=lava;amount=3;speed=0;hS=0;vS=0} @origin
+R_FlamingVolley-Hit:
+  Skills:
+  - mmodamage{a=50}
+  - sound{s=entity.blaze.burn}
+  - potion{type=WEAKNESS;duration=100;lvl=1}
+
+R_FrostyBarrage:
+  Conditions:
+  - stance phase2
+  Skills:
+  - cast{
+        skillName="&bFrosty Barrage";
+        duration=40;
+        onCast=R_FrostyBarrage-Shoot;
+        showCastBar=false
+      } @self 
+  - delay 140
+  - randomskill{skills=R_OverloadedSphere}
+R_FrostyBarrage-Shoot:
+  Skills:
+  - projectile{onTick=R_FrostyBarrage-Tick;onHit=R_FrostyBarrage-Hit;v=10;i=2;hR=1;vR=1;repeat=2;repeatinterval=20;syo=3;sfo=0;tyo=0} @PlayersInRadius{r=30}
+  - projectile{onTick=R_FrostyBarrage-Tick;onHit=R_FrostyBarrage-Hit;v=10;i=2;hR=1;vR=1;repeat=2;repeatinterval=20;syo=2;sfo=0;ho=0;tyo=0} @PlayersInRadius{r=30}
+  - projectile{onTick=R_FrostyBarrage-Tick;onHit=R_FrostyBarrage-Hit;v=10;i=2;hR=1;vR=1;repeat=2;repeatinterval=20;syo=1;sfo=0;ho=0;tyo=0} @PlayersInRadius{r=30}
+  - projectile{onTick=R_FrostyBarrage-Tick;onHit=R_FrostyBarrage-Hit;v=10;i=2;hR=1;vR=1;repeat=2;repeatinterval=20;syo=2;sfo=0;ho=10;tyo=0} @PlayersInRadius{r=30}
+  - projectile{onTick=R_FrostyBarrage-Tick;onHit=R_FrostyBarrage-Hit;v=10;i=2;hR=1;vR=1;repeat=2;repeatinterval=20;syo=1;sfo=0;ho=-10;tyo=0} @PlayersInRadius{r=30}
+  - sound{s=entity.ender_dragon.shoot;p=1;repeat=2;repeatinterval=20} @self
+R_FrostyBarrage-Tick:
+  Skills:
+  - effect:particles{p=cloud;amount=3;speed=0;hS=0;vS=0} @origin
+R_FrostyBarrage-Hit:
+  Skills:
+  - mmodamage{a=15}
+  - sound{s=entity.generic.extinguish_fire;p=1}
+  - potion{type=SLOW;duration=100;lvl=2}
+  - skill{s=R_BrittleBone} @target
+  - delay 1
+
+R_OverloadedSphere:
+  Conditions:
+  - stance phase2
+  Skills:
+  - teleportto{location=8.552,9,6.455;yaw=358;pitch=-0.15} @self
+  - delay 20
+  - cast{
+        skillName="&dOverloaded Sphere";
+        duration=40;
+        onCast=R_OverloadedSphere-Start;
+        showCastBar=false
+      } @self 
+  - delay 300
+  - teleport{spreadh=8;spreadv=2} @NearestPlayer{r=100}
+  - skill{s=R_FlamingVolley}
+R_OverloadedSphere-Start:
+  Skills:
+  - effect:particlesphere{p=reddust;color=#0d324d;amount=200;radius=2;yOffset=3;repeat=39;repeatinterval=5} @self
+  - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=1.5;yOffset=3;repeat=39;repeatinterval=5} @self
+  - effect:particlesphere{p=reddust;color=#7f5a83;amount=200;radius=1;yOffset=3;repeat=39;repeatinterval=5} @self
+  - projectile{onTick=R_OverloadedSphere-Tick;onHit=R_OverloadedSphere-Hit;v=10;i=1.5;hR=1.5;vR=1.5;repeat=17;repeatinterval=10;syo=6;sfo=0;tyo=0;delay=19} @PlayersInRadius{r=30}
+
+R_OverloadedSphere-Tick:
+  Skills:
+  - effect:particles{p=sculk_soul;amount=1;speed=0;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=soul_fire_flame;amount=1;speed=0;hS=0.1;vS=0.1} @origin
+R_OverloadedSphere-Hit:
+  Skills:
+  - mmodamage{a=30;pk=true}
+  - sound{s=entity.blaze.burn}
+  - potion{p=SLOW;duration=10;l=0;force=true;p=false;i=false}
+  - potion{p=WEAKNESS;duration=100;l=5;force=true}
+  - skill{s=R_Disarmed} @target
+  - delay 1
+
+R_TransformP3-1st:
+  Skills:
+  - setstance{stance=stasis} @self
+  - delay 20
+  - teleportto{location=8.552,9,6.455;yaw=358;pitch=-0.15} @self
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f χΦφ.ζΨφδΓΙαψ.";delay=20} @PlayersInRadius{r=30}
+  - sound{s=entity.evoker.cast_spell;v=1;p=0;delay=20} @self
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f αφωγΙγ.ΧΘΦΙΙ?";delay=60} @PlayersInRadius{r=30}
+  - sound{s=entity.evoker.cast_spell;v=1;p=0;delay=60} @self
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f ψΙ.ψφΧΖΗιΘθΕ!";delay=100} @PlayersInRadius{r=30}
+  - sound{s=entity.evoker.cast_spell;v=1;p=0;delay=100} @self
+  - skill{s=R_TransformP3-2nd;delay=120}
+R_TransformP3-2nd:
+  Skills:
+  - effect:particles{p=largesmoke;amount=500;hS=1;vS=1;speed=4} @self
+  - equip{item=iron_sword{model=6}:0} @self
+  - setstance{stance=phase3} @self
+  - sound{s=entity.enderdragon.growl} @self
+  - setgravity{g=true} @self
+  - runaigoalselector{goal=clear}
+  - runaigoalselector{goal=meleeattack}
+  - delay 20
+  - skill{s=R_QueenWrath}
+
+R_QueenWrath:
+  Conditions:
+  - stance phase3
+  Skills:
+  - teleport{} @target
+  - potion{p=SLOW;duration=60;l=6;force=true;p=false;i=false} @target
+  - sound{s=block.note_block.pling;p=0;audience=target} @target
+  - sound{s=block.note_block.pling;p=0;audience=target;delay=10} @target
+  - sound{s=block.note_block.pling;p=1;audience=target;delay=20} @target
+  - sound{s=block.note_block.pling;p=1;audience=target;delay=30} @target
+  - sound{s=block.note_block.pling;p=2;audience=target;delay=40} @target
+  - sound{s=block.note_block.pling;p=2;audience=target;delay=50} @target
+  - delay 60
+  - throw{velocity=5;velocityY=5} @PIR{r=10}
+  - mmodamage{a=30;i=false} @PIR{r=10}
+  - effect:particles{p=hugeexplode;a=5;vs=0.5;hs=0.5;s=0;y=1} @Self
+  - effect:sound{s=entity.generic.explode;v=2;p=0.5} @Self
+  - delay 200 
+  - skill{s=R_Blizzard}
+
+R_Blizzard:
+  Conditions:
+  - stance phase3
+  Skills:
+  - cast{
+        skillName="&bBlizzard";
+        duration=100;
+        onStart=R_Blizzard-Tick;
+        onTick=R_Blizzard-Tick;
+        onCast=R_Blizzard-Stun;
+        i=10;
+        showCastBar=false
+      } @self 
+  - effect:particlesphere{p=cloud;amount=200;radius=5;yOffset=0.5;repeat=19;repeatinterval=5} @self
+  - delay 300
+  - skill{s=R_FinalShowdown}
+R_Blizzard-Tick:
+  Skills:
+  - potion{p=SLOW;duration=10;l=1;force=true;p=false;i=false} @PIR{r=4}
+  - sound{s=entity.firework_rocket.twinkle;v=1;p=0} @PIR{r=4}
+R_Blizzard-Stun:
+  Skills:
+  - effect:particles{p=cloud;amount=500;hS=1;vS=1;speed=4} @self
+  - potion{p=SLOW;duration=60;l=6;force=true;p=false;i=false} @PIR{r=8}
+  - skill{s=R_BrittleBone} @pir{r=8}
+  - sound{s=block.lava.extinguish;v=1;p=0} @PIR{r=8}
+
+R_FinalShowdown:
+  Conditions:
+  - stance phase3
+  Skills:
+  - potion{p=SLOW;duration=100;l=0;force=true;p=false;i=false} @self
+  - cast{
+        skillName="&4Final Showdown";
+        duration=100;
+        onTick=R_FinalShowdown-Tick;
+        onCast=R_FinalShowdown-Strike;
+        i=20;
+        showCastBar=false
+      } @self 
+  - effect:particlesphere{p=reddust;color=#F86161;amount=200;radius=2;yOffset=0.5;repeat=17;repeatinterval=5} @self
+  - sound{s=block.note_block.pling;p=0;audience=target;repeat=19;repeatinterval=5} @pir{r=5}
+  - delay 200
+  - skill{s=R_QueenWrath} 
+R_FinalShowdown-Tick:
+  Skills:
+  - potion{p=SLOW;duration=20;l=3;force=true;p=false;i=false} @PIR{r=5}
+R_FinalShowdown-Strike:
+  Skills:
+  - effect:lightning{l=true} @PIR{r=5}
+  - mmodamage{a=125;ia=true;pk=true;pi=true} @PIR{R=5}
+  - effect:particlesphere{p=reddust;color=#F86161;amount=500;radius=5;yOffset=0.5} @self
+
+R_Death:
+  Cooldown: 9999
+  Skills:
+  - cancelevent
+  - effect:particleline{particle=reddust;color=#DC143C;amount=5} @self
+  - skill{s=R_DeathAnimation}
+
+R_DeathAnimation:
+  Skills:
+  - setstance{stance=stasis} @self
+  - setAI{ai=false} @self
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f D E A T H";delay=20} @World
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f D 0 N 0 T";delay=100} @World
+  - sound{s=entity.firework_rocket.twinkle;v=1;p=0;delay=100;repeat=14;repeatinterval=10} @self
+  - effect:particles{p=lava;amount=10;repeat=15;repeatinterval=10;delay=100} @SelfLocation{y=0.7}
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f P 0 R T @ L";delay=200} @World
+  - sound{s=entity.evoker.cast_spell;v=1;p=0;repeat=10;repeatinterval=10;delay=160} @self
+  - effect:particles{p=reddust;color=#DC143C;amount=200;hSpread=0.5;vSpread=1;repeat=10;repeatinterval=10;delay=160} @Self
+  - effect:particles{p=reddust;color=#000000;amount=200;hSpread=0.5;vSpread=1;repeat=6;repeatinterval=10;delay=200} @Self
+  - message{m="<GRADIENT:#702963:#880808>[ʙᴏꜱꜱ] Seraphi Inanis<&co>&f D E A T H...";delay=260} @World
+  - effect:particles{p=reddust;color=#000000;amount=1000;speed=0;hS=0.6;vS=1.3;delay=260} @self
+  - effect:particles{p=reddust;color=#6a0dad;amount=1000;speed=0;hS=0.6;vS=1.3;delay=260} @self
+  - effect:particles{p=reddust;color=#DC143C;amount=1000;speed=0;hS=0.6;vS=1.3;delay=260} @self
+  - sound{s=entity.vex.death;v=1;p=0;delay=100;delay=260} @self
+  - effect:lightning{delay=260} @self
+  - effect:particles{p=hugeexplosion;amount=1;speed=0;hS=0.2;vS=0.2;delay=260} @self
+  - setstance{stance=none;delay=260} @self
+  - suicide{delay=260}

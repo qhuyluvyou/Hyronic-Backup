@@ -1,0 +1,142 @@
+URANIUM_CANISTER:
+  base:
+    set: Uranium
+    material: BONE
+    custom-model-data: 1.0
+    name: <GRADIENT:#7D8F69:#E6E5A3>Uranium Canister
+    lore:
+    - '&fヸ Matching Attires &8(Passive)'
+    - '&7For each <#7D8F69>Uranium Equipments&7'
+    - '&7you equip, gain &c+5% Damage&7,'
+    - '&f+10🛡 Defense&7 & &b+10 &b✎Wisdom'
+    - '&7Also:'
+    - '&f'
+    - '&8 4 pieces: &7Unlocks &fヹ'
+    - '&8 6 pieces: &7Deals &c+25%&7 to the'
+    - '&7 end mobs.'
+    - '&8 8 pieces: &7Deals &c+10%&7 to the'
+    - '&7 end bosses.'
+    cooldown-reduction: 15.0
+    critical-strike-power: 25
+    tier: B
+
+URANIUM_GLOVE:
+  base:
+    set: Uranium
+    material: BONE
+    custom-model-data: 2.0
+    name: <GRADIENT:#7D8F69:#E6E5A3>Uranium Gloves
+    lore:
+    - '&fヸ Matching Attires &8(Passive)'
+    - '&7For each <#7D8F69>Uranium Equipments&7'
+    - '&7you equip, gain &c+5% Damage&7,'
+    - '&f+10🛡 Defense&7 & &b+10 &b✎Wisdom'
+    - '&7Also:'
+    - '&f'
+    - '&8 4 pieces: &7Unlocks &fヹ'
+    - '&8 6 pieces: &7Deals &c+25%&7 to the'
+    - '&7 end mobs.'
+    - '&8 8 pieces: &7Deals &c+10%&7 to the'
+    - '&7 end bosses.'
+    weapon-damage: 10.0
+    critical-strike-power: 5
+    tier: B
+
+URANIUM_RING:
+  base:
+    set: Uranium
+    material: BONE
+    custom-model-data: 3.0
+    name: <GRADIENT:#7D8F69:#E6E5A3>Uranium Rings
+    lore:
+    - '&fヸ Matching Attires &8(Passive)'
+    - '&7For each <#7D8F69>Uranium Equipments&7'
+    - '&7you equip, gain &c+5% Damage&7,'
+    - '&f+10🛡 Defense&7 & &b+10 &b✎Wisdom'
+    - '&7Also:'
+    - '&f'
+    - '&8 4 pieces: &7Unlocks &fヹ'
+    - '&8 6 pieces: &7Deals &c+25%&7 to the'
+    - '&7 end mobs.'
+    - '&8 8 pieces: &7Deals &c+10%&7 to the'
+    - '&7 end bosses.'
+    max-health: 30.0
+    knockback-resistance: 0.1
+    tier: B
+
+IRIDIUM_HOOK:
+  base:
+    material: BONE
+    custom-model-data: 4.0
+    name: <GRADIENT:#F8C8DC:#FDFD96>Iridium Hook
+    lore:
+    - '&f఼ Grasp &8(Shift + Left-Click)'
+    - '&7Throws a magical hand forward, pulling'
+    - '&7first enemy hit towards you and <#F8C8DC>stun'
+    - '&7it for <#FDFD96>2s&7.'
+    - '&8Cooldown: &320s'
+    max-health: 20.0
+    defense: 15
+    tier: A
+    ability:
+      ability1:
+        type: INITIATE_INTIMACY
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 20.0
+
+IRIDIUM_HEART:
+  base:
+    material: BONE
+    custom-model-data: 5.0
+    name: <GRADIENT:#F8C8DC:#FDFD96>Iridium Heart
+    max-health: 125.0
+    defense: 30.0
+    weapon-damage: -25
+    skill-damage: -25
+    tier: A
+
+IRIDIUM_GLOVES:
+  base:
+    material: BONE
+    custom-model-data: 6.0
+    name: <GRADIENT:#F8C8DC:#FDFD96>Iridium Gloves
+    critical-strike-power: 35.0
+    max-health: -20
+    tier: A
+
+RUNICATOR:
+  base:
+    material: BONE
+    name: <GRADIENT:#9F2B68:#770737>Runicator
+    tier: S+
+    gem-sockets:
+    - Universal
+    - '&cVitality'
+    - '&9Precision'
+    - '&dSorcery'
+    lore:
+    - '&7&oHas no power on its own,'
+    - '&7&obut can hold many runes'
+    - '&7&oto amplify its potential.'
+    custom-model-data: 8.0
+
+IRIDIUM_EMBLEM:
+  base:
+    material: BONE
+    custom-model-data: 7.0
+    name: <GRADIENT:#F8C8DC:#FDFD96>Iridium Emblem
+    lore:
+    - '&fష Chance Dictator &8(Passive)'
+    - '&7Upon entering combat, convert all'
+    - '&7of your &9☣ Crit Chance&7 into &9☠ Crit'
+    - '&9Damage&7. Then set your &9☣&7 to &910%&7.'
+    - '&7Ratio: &91%☣ &8= &93%☠'
+    critical-strike-power: 60.0
+    critical-strike-chance: -10
+    weapon-damage: 15
+    tier: A
+    ability:
+      ability1:
+        type: CHANCE_DICTATOR
+        mode: ATTACK
+        cooldown: 5.0

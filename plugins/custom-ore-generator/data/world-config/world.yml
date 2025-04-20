@@ -1,0 +1,8 @@
+
+value:
+  ==: CustomOreGenerator#WorldConfig
+  name: world
+  ore-config:
+  - mythril
+  - orichalcum
+  - titanium

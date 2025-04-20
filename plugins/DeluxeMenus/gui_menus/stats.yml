@@ -1,0 +1,213 @@
+open_command: 
+  - stat
+  - stats
+size: 54
+menu_title: 'ʏᴏᴜʀ ꜱᴛᴀᴛꜱ (all upcoming soon)'
+items:
+  'close':
+    material: ENCHANTED_BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_WOODEN_DOOR_CLOSE"
+  'back':
+    material: ENCHANTED_BOOK
+    model_data: 38
+    slot: 48
+    display_name: "&aBack"
+    lore:
+      - "&7Click this to go"
+      - "&7back!"
+    left_click_commands:
+      - "[openguimenu] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'outerfill':
+    material: CLAY_BALL
+    model_data: 1
+    hide_attributes: true
+    display_name: "&f"
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,50,51,52,17,26,35,44,53,28,33,34,37,38,39,40,41,42,43,32]
+  'stat1':
+    material: ENCHANTED_BOOK
+    model_data: 12
+    slot: 10
+    display_name: "&c🗡 Attack Damage&f "
+    lore:
+      - "&7&m                                   "
+      - "&7Determines the base amount"
+      - "&7of damage you deal through"
+      - "&7normal attacks."
+  'stat2':
+    material: ENCHANTED_BOOK
+    model_data: 13
+    slot: 11
+    display_name: "&#CD5C5C🔱 Attack Speed&f"
+    lore:
+      - "&7&m                                   "
+      - "&7Increases the rate at which"
+      - "&7you swing your weapon."
+      - ""
+      - "&7Attack rate: &#CD5C5C"
+      - "&8Base attack rate is 4 hit/s"
+      - ""
+      - "&7You attack &#CD5C5C"
+  'stat3':
+    material: ENCHANTED_BOOK
+    model_data: 14
+    slot: 12
+    display_name: "&9☣ Crit Chance&f"
+    lore:
+      - "&d☣ Skill Crit Chance&f"
+      - "&7&m                                   "
+      - "&7Determines your chance of"
+      - "&7dealing a crit."
+  'stat4':
+    material: ENCHANTED_BOOK
+    model_data: 15
+    slot: 13
+    display_name: "&9☠ Crit Damage&f"
+    lore:
+      - "&d☠ Skill Crit Damage&f"
+      - "&7&m                                    "
+      - "&7Determines how much damage"
+      - "&7will a crit deal."
+  'stat5':
+    material: ENCHANTED_BOOK
+    model_data: 16
+    slot: 14
+    display_name: "&f🛡 Defense"
+    lore:
+      - "&7&m                                "
+      - "&7Defense reduces damage"
+      - "&7from all sources."
+      - ""
+      - ""
+      - ""
+      - "&f☮ True Damage &8bypasses"
+      - "&8your defense."
+  'stat7':
+    material: ENCHANTED_BOOK
+    model_data: 17
+    slot: 15
+    display_name: "&c❤ Health"
+    lore:
+      - "&7&m                                   "
+      - "&7Determines the damage you"
+      - "&7can take before you die."
+      - ""
+      - "&7Effective Health:"
+  'stat8':
+    material: ENCHANTED_BOOK
+    model_data: 18
+    slot: 16
+    display_name: "&#ADD8E6☁ Movement Speed"
+    lore:
+      - "&7&m                                    "
+      - "&7Determines the rate at which"
+      - "&7you move."
+  'stat9':
+    material: ENCHANTED_BOOK
+    model_data: 19
+    slot: 19
+    display_name: "&3☄ Tenacity"
+    lore:
+      - "&7&m                              "
+      - "&7Tenacity decreases the"
+      - "&7potency of knockbacks."
+  'stat10':
+    material: ENCHANTED_BOOK
+    model_data: 20
+    slot: 20
+    display_name: "&3⌛ Ability Haste"
+    lore:
+      - "&7&m                             "
+      - "&7Ability haste decreases"
+      - "&7all abilities' cooldowns."
+  'stat11':
+    material: ENCHANTED_BOOK
+    model_data: 21
+    slot: 21
+    display_name: "&#9966cc۞ Ability Damage"
+    lore:
+      - "&7&m                            "
+      - "&7Increases all abilities"
+      - "&7damage."
+  'stat12':
+    material: ENCHANTED_BOOK
+    model_data: 22
+    slot: 22
+    display_name: "&6🏹 Projectile Damage "
+    lore:
+      - "&7&m                                "
+      - "&7Increases the damage of"
+      - "&7all projectiles."
+  'stat13':
+    material: ENCHANTED_BOOK
+    model_data: 23
+    slot: 23
+    display_name: "&4🗡 Weapon Damage"
+    lore:
+      - "&7&m                                "
+      - "&7Increases the damage of"
+      - "&7physical weapons."
+  'stat14':
+    material: ENCHANTED_BOOK
+    model_data: 24
+    slot: 24
+    display_name: "&#ffffe0⌀ Damage Reduction"
+    lore:
+      - "&7&m                                   "
+      - "&7Decreases damage from all"
+      - "&7sources by a percentage."
+      - ""
+      - "&7Stacks &#ffffe0multiplicatively&7 with"
+      - "&f🛡 Defense &7and other forms"
+      - "&7of damage reduction"
+  'stat15':
+    material: ENCHANTED_BOOK
+    model_data: 25
+    slot: 25
+    display_name: "&c✸ Strength"
+    lore:
+      - "&7&m                                     "
+      - "&7Increases every sources of"
+      - "&7damage dealt."
+      - ""
+      - "&7All attacks deal"
+      - ""
+      - "&8Affects all types of damage,"
+      - "&8both normal and ability one."
+  'stat16':
+    material: ENCHANTED_BOOK
+    model_data: 26
+    slot: 28
+    display_name: "&6✙ Regeneration"
+    lore:
+      - "&7&m                                   "
+      - "&7Increases health and mana"
+      - "&7regeneration."
+  'stat17':
+    material: ENCHANTED_BOOK
+    model_data: 27
+    slot: 31
+    display_name: "&2☘ Luck &f%math_0:_{aureliumskills_luck}%"
+    lore:
+      - "&7&m                                   "
+      - "&7Grants better loot pools and"
+      - "&7extra lucky occurences!"
+  'stat18':
+    material: ENCHANTED_BOOK
+    model_data: 28
+    slot: 34
+    display_name: "&b✎ Wisdom &f%math_0:_{aureliumskills_wisdom}%"
+    lore:
+      - "&7&m                                "
+      - "&7Increases max mana and"
+      - "&7most abilities' damage."
+      - ""
+      - "&7Max mana: &b%aureliumskills_mana_max_int%"

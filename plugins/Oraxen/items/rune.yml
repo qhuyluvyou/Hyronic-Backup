@@ -1,0 +1,176 @@
+
+derunator:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 16
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/derunator
+
+rune1:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 1
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/vitality_1
+
+rune2:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/vitality_2
+
+rune3:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/vitality_3
+
+rune4:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/vitality_4
+
+rune5:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 5
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/vitality_5
+
+rune6:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 6
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/precision_1
+
+rune7:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 7
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/precision_2
+
+rune8:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 8
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/precision_3
+
+rune9:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 9
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/precision_4
+
+rune10:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 10
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/precision_5
+
+rune11:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 11
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/sorcery_1
+
+rune12:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 12
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/sorcery_2
+
+rune13:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 13
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/sorcery_3
+
+rune14:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 14
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/sorcery_4
+
+rune15:
+  displayname: ''
+  material: EMERALD
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 15
+    parent_model: item/generated
+    textures:
+    - custom/items/rune/sorcery_5

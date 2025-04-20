@@ -1,0 +1,142 @@
+#                    _                   _ _          _ __  __       _
+#                   | |    _____   _____| | | ___  __| |  \/  | ___ | |__  ___
+#                   | |   / _ \ \ / / _ \ | |/ _ \/ _` | |\/| |/ _ \| '_ \/ __|
+#                   | |__|  __/\ V /  __/ | |  __/ (_| | |  | | (_) | |_) \__ \
+#                   |_____\___| \_/ \___|_|_|\___|\__,_|_|  |_|\___/|_.__/|___/
+#                             The Ultimate RPG Levelled Mobs Solution
+#
+# --------------------------------------------------------------------------------------------LM3
+# +                                      ++                                                  +LM3
+# +  Main Developers                     ++  Documentation (on our Wiki)                     +LM3
+# +    lokka30                           ++    https://github.com/lokka30/LevelledMobs/wiki  +LM3
+# +      Author and developer            ++                                                  +LM3
+# +      https://ko-fi.com/lokka30       ++  Support/Discussion (on our Discord)             +LM3
+# +                                      ++    Join our Discord for free, quality support.   +LM3
+# +    PenalBuffalo (aka. stumper66)     ++    If you are unable to, PM @lokka30 on SpigotMC +LM3
+# +      LevelledMobs 3 maintainer       ++    https://discord.gg/RQ8M4A5                    +LM3
+# +      https://ko-fi.com/penalbuffalo  ++                                                  +LM3
+# +                                      ++  Welcome to LevelledMobs 3! Please read the      +LM3
+# +    UltimaOath (aka. Oathkeeper)      ++  relevant documentation prior to attempting any  +LM3
+# +      Docs and configs since v2       ++  changes to this file.                           +LM3
+# +      https://ko-fi.com/ultimaoath    ++                                                  +LM3
+# +                                      ++                                                  +LM3
+# --------------------------------------------------------------------------------------------LM3
+#                               _____     _   _   _ 
+#                              |   __|___| |_| |_|_|___ ___ ___
+#                              |__   | -_|  _|  _| |   | . |_ -|
+#                              |_____|___|_| |_| |_|_|_|_  |___|
+#                                                      |___|
+#
+# --------------------------------------------------------------------------------------------LM3
+
+# ||  ADVANCED USERS ONLY | DEBUG
+# ||  Do not touch this unless a LM developer tells you to.
+# ||  These settings print a lot of 'behind the scenes'
+# ||  information about LevelledMobs' operations.
+debug-entity-damage: false
+debug-misc: [ ]
+
+# ||  ADVANCED USERS ONLY
+# ||  Do not touch this unless a LM developer tells you to.
+# ||  This setting controls the repeating asynchronous nametag
+# ||  and levelling update tasks.
+# ||  This controls the timing and distance from players
+# ||  when the check is performed. This can be resource intensive
+# ||  if you perform updates too frequently, or too far away.
+async-task-update-period: 6
+async-task-max-blocks-from-player: 100
+
+# ||  ADVANCED USERS ONLY
+# ||  Do not touch this unless a LM developer tells you to.
+# ||  Customize the summon command limit
+customize-summon-command-limit: 10
+
+# ||  ADVANCED USERS ONLY
+# ||  Do not touch this unless a LM developer tells you to.
+# ||  This setting controls the Custom Commands ratelimiter.
+customcommand-amount-limit: 100
+
+# ||  ADVANCED USERS ONLY
+# ||  Do not touch this unless a LM developer tells you to.
+# ||  Should nametag packets be ignored if the mob has died?
+assert-entity-validity-with-nametag-packets: true
+
+# ||  ADVANCED USERS ONLY
+# ||  Do not touch this unless a LM developer tells you to.
+# ||  This controls the mob processing delay (in in-game ticks)
+# ||  after a mob is marked to be levelled. Note, that there is
+# ||  a 1 tick delay in addition to this setting.
+mob-process-delay: 0
+
+# ||  ADVANCED USERS ONLY
+# ||  Do not touch this unless a LM developer tells you to.
+# ||  Ensure mobs are levelled on chunk load?
+ensure-mobs-are-levelled-on-chunk-load: true
+
+# ||  ADVANCED USERS ONLY
+# ||  Do not touch this unless a LM developer tells you to.
+# ||  Should mob attributes be based upon preset base-values?
+attributes-use-preset-base-values: false
+
+# ||  ADVANCED USERS ONLY
+# ||  What is the max distance the summon command will
+# ||  spawn mobs away from players?
+summon-command-spawn-distance-from-player: 5
+
+# ||  Check for updates?
+# ||  This is a good update checker - it doesn't freeze
+# ||  your server startup since it is asynchronous, it
+# ||  only speaks if it found an update, and it only runs
+# ||  once every server startup. Pointless to disable.
+use-update-checker: true
+
+# ||  What conditions should a mob have in order for the
+# ||  LevelledMobs kill command to 'skip' it (not kill the mob)?
+kill-skip-conditions:
+
+  # ||  These ones are self-explanatory.
+  nametagged: true
+  tamed: true
+  leashed: true
+
+  # ||  If the mob is a zombie villager that is converting, skip.
+  convertingZombieVillager: true
+
+# ||  Should mob heads be multiplied by LevelledMobs'
+# ||  drop multiplier? A considerable amount of servers
+# ||  have heads in their economies, so it is set to false
+# ||  by default as to not harm their economies.
+mobs-multiply-head-drops: false
+
+# || When player kill exceed amount of levelled mobs in
+# || a chunk(within given period). Should we send message
+# || to player to inform him?
+exceed-kill-in-chunk-message: true
+
+# ||  ADVANCED USERS ONLY
+# ||  Do not touch this unless a LM developer tells you to.
+# ||  These settings pertian to Player Levelling, obviously
+# ||  this only affects LM if you are using Player Levelling.
+player-levelling-relevel-min-time: 5s
+
+# ||  This setting determines how far away an entity can be
+# ||  for it to register under `%levelledmobs_mob-target%`.
+nametag-placeholder-maxblocks: 30
+
+# || ADVANCED USERS ONLY
+# || If your server software (e.g. Paper) has
+# || the Adventure library in it, then LevelledMobs
+# || will use it, so long this setting is enabled.
+# || CraftBukkit and Spigot servers do not have
+# || this library, although PaperMC servers and
+# || all PaperMC forks (Airplane, etc) do.
+# || It is recommended that you keep this enabled.
+use-adventure: true
+
+# ||  ADVANCED USERS ONLY
+# ||  Do not touch this unless a LM developer tells you to.
+# ||  This value must not be modified, else your configuration
+# ||  may be corrupted by the migrator, since the migrator uses
+# ||  this value to check what changes the file requires to
+# ||  become updated to the latest file version.
+file-version: 33

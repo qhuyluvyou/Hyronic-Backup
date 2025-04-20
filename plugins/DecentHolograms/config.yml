@@ -1,0 +1,56 @@
+
+defaults:
+  text: Blank Line
+  display-range: 48
+  update-range: 48
+  update-interval: 20
+  lru-cache-size: 500
+  height:
+    text: 0.3
+    icon: 0.6
+    head: 0.75
+    smallhead: 0.6
+  down-origin: false
+
+update-checker: true
+
+click-cooldown: 1
+
+allow-placeholders-inside-animations: false
+
+
+
+
+damage-display:
+  enabled: false
+  players: true
+  mobs: true
+  zero-damage: false
+  duration: 40
+  appearance: '&c{damage}'
+  critical-appearance: '&4&lCrit!&4 {damage}'
+  height: 0
+
+
+
+
+healing-display:
+  enabled: false
+  players: true
+  mobs: true
+  duration: 40
+  appearance: '&a+ {heal}'
+  height: 0
+
+
+
+custom-replacements:
+  '[x]': '█'
+  '[X]': '█'
+  '[/]': '▌'
+  '[,]': '░'
+  '[,,]': '▒'
+  '[,,,]': '▓'
+  '[p]': '•'
+  '[P]': '•'
+  '[|]': '⎹'

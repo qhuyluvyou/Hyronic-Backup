@@ -1,0 +1,34 @@
+
+blocks:
+
+customblocks:
+    3:
+        MYTHRIL_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    MYTHRIL_INGOT: 100,1,0
+    1:
+        ORICHALCUM_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    ORICHALCUM_INGOT: 100,1,0
+    23:
+        TITANIUM_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    TITANIUM_INGOT: 100,1,0
+    2:
+        CRIMSTONE_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    CRIMSTONE: 100,1,0
+
+monsters:

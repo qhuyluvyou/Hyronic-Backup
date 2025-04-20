@@ -1,0 +1,88 @@
+name: "&c&lWorld &7&lRegions"
+discover_title:
+  title: "%name%"
+  subtitle: "&fNew Region Discovered!"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- " "
+- "{centered}&6&lREGION DISCOVERED!"
+- "{centered}&7%name%"
+- " "
+- "{centered}&7Check it now by using &6/codex"
+- " "
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "#89CFF0Draford Kingdom"
+    lore:
+    - "&7One of the largest and most"
+    - "&7powerful kingdom in Hyronia,"
+    - "&7Draford Kingdom is the go-to"
+    - "&7place for adventurers."
+    discovered_on_region: spawn
+  2:
+    name: "&6Abigail's Shop"
+    lore:
+    - "&7Abigail's one of the more"
+    - "&7popular merchant in the"
+    - "&7kingdom. She sells every"
+    - "&7single thing you need."
+    discovered_on_region: shop
+  3:
+    name: "&6Auction House"
+    lore:
+    - "&7Run by Gold, the auction"
+    - "&7house is where you can"
+    - "&7bid, sell and gather all"
+    - "&7kind of item."
+    discovered_on_region: ah
+  4:
+    name: "&6Hall of Fame"
+    lore:
+    - "&7The most famous people are"
+    - "&7forever honored here."
+    discovered_on_region: hall_of_fame
+  5:
+    name: "&6Prize Corner"
+    lore:
+    - "&7Holds crates, containing many"
+    - "&7pretigious prizes!"
+    discovered_on_region: prize_corner
+  6:
+    name: "&dDungeon Portal"
+    lore:
+    - "&7A rift in time and space,"
+    - "&7this portal takes to the"
+    - "&7darkest of places."
+    discovered_on_region: dungeon_portal
+  7:
+    name: "#5885AFLibrary"
+    lore:
+    - "&7House of knowledge, Fleur"
+    - "&7resides in here, providing"
+    - "&7vital information for every"
+    - "&7adventurers."
+    discovered_on_region: library
+  8:
+    name: "#AA4A44Blacksmith"
+    lore:
+    - "&7Clint who resides here forges"
+    - "&7the finest of items."
+    discovered_on_region: blacksmith
+  9:
+    name: "#89CFF0Jeweler's House"
+    lore:
+    - "&7Come and forges the"
+    - "&7finest of accessory!"
+    discovered_on_region: jeweler
+  10:
+    name: "#ffb2aeAlchemy Room"
+    lore:
+    - "&7Brew potions of varying"
+    - "&7effects here."
+    discovered_on_region: alchemy_room

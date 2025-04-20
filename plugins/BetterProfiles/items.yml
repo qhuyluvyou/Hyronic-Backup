@@ -1,0 +1,54 @@
+Items:
+  player:
+    Slot: 22
+    Dynamic-slot: 0
+    Permission: "none" #Example: "betterprofiles.item.profile"
+    Material: "PROFILE_OWNER"
+    Data: -1
+    Custom-model-data: 0
+    Displayname: "&a{OWNER}'s Profile"
+    Lore:
+    - ""
+    - "&c🗡 Attack Damage&f %mmoitems_stat_attack_damage%"
+    - "#CD5C5C🔱 Attack Speed&f +%math_0:_(({mmoitems_stat_attack_speed}-4)/4)*100%%"
+    - "&9☣ Crit Chance&f %mmoitems_stat_critical_strike_chance%%"
+    - "&9☠ Crit Damage&f %math_0:_50+{mmoitems_stat_critical_strike_power}%%"
+    - "&f🛡 Defense %mmoitems_stat_defense%"
+    - "&c❤ Health &f%aureliumskills_hp_max%"
+    - "#ADD8E6☁ Movement Speed &f+%math_0:_({mmoitems_stat_movement_speed}-0.1)*1000%%"
+    - "&3☄ Tenacity &f%math_0:_{mmoitems_stat_knockback_resistance}*100%%"
+    - "&3⌛ Ability Haste &f%mmoitems_stat_cooldown_reduction%%"
+    - "#9966cc۞ Ability Damage &f+%mmoitems_stat_skill_damage%%"
+    - "&6🏹 Projectile Damage &f%mmoitems_stat_projectile_damage%%"
+    - "&4🗡 Weapon Damage &f%mmoitems_stat_Weapon_damage%%"
+    - "#ffffe0⌀ Damage Reduction &f%mmoitems_stat_damage_reduction%%"
+    - "&c✸ Strength &f%math_0:_{aureliumskills_strength}%"
+    - "&6✙ Regeneration &f%math_0:_{aureliumskills_regeneration}%"
+    - "&2☘ Luck &f%math_0:_{aureliumskills_luck}%"
+    - "&b✎ Wisdom &f%math_0:_{aureliumskills_wisdom}%"
+    - ""
+    - "&7Age: &2%statistic_time_played:days%h %statistic_time_played:hours%m"
+    Close-on-click: false
+    Commands: []
+  request-tpa:
+    Slot: 15
+    Permission: "none"
+    Material: "FEATHER"
+    Custom-model-data: 0
+    Displayname: "&aTeleport Request"
+    Lore:
+    - "&eSend a tp request!"
+    Close-on-click: true
+    Commands:
+    - "tpa {TARGET}"
+  trade-request:
+    Slot: 16
+    Permission: "none"
+    Material: "EMERALD"
+    Custom-model-data: 0
+    Displayname: "&aTrade Request"
+    Lore:
+    - "&eSend a trade request!"
+    Close-on-click: true
+    Commands:
+    - "trade {TARGET}"

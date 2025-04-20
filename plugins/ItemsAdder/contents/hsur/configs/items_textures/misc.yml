@@ -1,0 +1,104 @@
+
+info:
+  namespace: hsur
+
+items:
+  
+  customitem1:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 2
+      material: PAPER
+      textures:
+      - custom/items/materials/gem
+
+  customitem2:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 3
+      material: PAPER
+      textures:
+      - custom/misc/menu
+
+  customitem3:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 4
+      material: PAPER
+      textures:
+      - custom/items/materials/herald_of_the_end
+
+  customitem13:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 14
+      material: PAPER
+      textures:
+      - custom/items/dungeon_key_1
+
+  customitem14:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 15
+      material: PAPER
+      textures:
+      - custom/items/materials/crate_key
+
+  customitem15:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 16
+      material: PAPER
+      textures:
+      - custom/items/fish/luminating_tissue
+
+  customitem16:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 17
+      material: PAPER
+      textures:
+      - custom/items/fish/void_pearl
+
+  customitem17:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 18
+      material: PAPER
+      textures:
+      - custom/items/fish/heximus_flesh
+
+  customitem31:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 35
+      material: PAPER
+      textures:
+      - custom/items/accessory/hand_warmer
+
+  customitem32:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 36
+      material: PAPER
+      textures:
+      - custom/items/accessory/chrismas_hat
+
+  customitem33:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 38
+      material: PAPER
+      textures:
+      - custom/items/accessory/blue_ribbon

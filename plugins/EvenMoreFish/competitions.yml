@@ -1,0 +1,108 @@
+competitions:
+
+  mainCompetition:
+    type: LARGEST_FISH
+    duration: 10
+    times:
+      - "00:00"
+      - "06:00"
+      - "12:00"
+      - "18:00"
+    blacklisted-days:
+      - "Sunday"
+    bossbar-colour: GREEN
+    bossbar-prefix: "&a&lFishing Contest: "
+
+  weekendCompetition:
+    type: SPECIFIC_FISH
+    duration: 60
+    allowed-rarities:
+      - "Uncommon"
+      - "Epic"
+      - "Legendary"
+    days:
+      Saturday:
+        - "03:00"
+        - "15:00"
+      Sunday:
+        - "03:00"
+        - "15:00"
+    rewards:
+      1:
+        - "MONEY:5000"
+        - "MESSAGE:&eCongratulations!"
+      2:
+        - "MONEY:2000"
+
+    number-needed: 1
+    bossbar-colour: YELLOW
+    bossbar-prefix: "&6&lFishing Contest: "
+
+    minimum-players: 10
+
+  sundayCompetition1:
+    type: LARGEST_FISH
+    duration: 30
+    days:
+      Sunday:
+        - "13:00"
+
+  sundayCompetition2:
+    type: MOST_FISH
+    duration: 45
+    days:
+      Sunday:
+        - "20:00"
+    alerts:
+      - "30:00"
+      - "15:00"
+      - "5:00"
+    bossbar-colour: BLUE
+    bossbar-prefix: "&b&lFishing Contest: "
+
+
+general:
+
+  minimum-players: 5
+
+  broadcast-only-rods: true
+
+  allowed-rarities:
+    - "Uncommon"
+    - "Epic"
+    - "Legendary"
+
+  bossbar-colour: GREEN
+  bossbar-prefix: "&a&lFishing Contest: "
+
+  number-needed: 1
+
+
+leaderboard:
+
+  position-colours:
+    - "&6"
+    - "&e"
+    - "&7"
+    - "&7"
+    - "&#888888"
+
+rewards:
+  1:
+    - "COMMAND:give {player} diamond 5"
+    - "MESSAGE:&aCongratulations for coming 1st!"
+    - "MONEY:5000"
+    - "EFFECT:SPEED,2,5"
+    - "ITEM:DIAMOND,2"
+  2:
+    - "ITEM:DIAMOND,1"
+    - "MESSAGE:&bCongratulations for coming 2nd!"
+    - "MONEY:2500"
+  3:
+    - "EFFECT:SPEED,1,5"
+    - "MESSAGE:&eCongratulations for coming 3rd!"
+    - "MONEY:1000"
+  participation:
+    - "MESSAGE:&eUnfortunately only the top 3 players receive awards for fishing. Better luck next time. :)"
+
+config-version: 1

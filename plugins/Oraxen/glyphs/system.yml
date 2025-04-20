@@ -1,0 +1,740 @@
+rarity_common:
+  char: ஸ
+  texture: custom/font_icons/rarity_common.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rarity_common
+rarity_uncommon:
+  char: ஹ
+  texture: custom/font_icons/rarity_uncommon.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rarity_uncommon
+rarity_rare:
+  char: ஺
+  texture: custom/font_icons/rarity_rare.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rarity_rare
+rarity_epic:
+  char: ஻
+  texture: custom/font_icons/rarity_epic.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rarity_epic
+rarity_legendary:
+  char: ஼
+  texture: custom/font_icons/rarity_legendary.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rarity_legendary
+rarity_mythic:
+  char: ஽
+  texture: custom/font_icons/rarity_mythic.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rarity_mythic
+rarity_divine:
+  char: ா
+  texture: custom/font_icons/rarity_divine.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rarity_divine
+
+rank_stone:
+  char: ி
+  texture: custom/font_icons/rank_stone.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rank_stone
+rank_iron:
+  char: ீ
+  texture: custom/font_icons/rank_iron.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rank_iron
+rank_gold:
+  char: ு
+  texture: custom/font_icons/rank_gold.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rank_gold
+rank_redstone:
+  char: ூ
+  texture: custom/font_icons/rank_redstone.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rank_redstone
+rank_diamond:
+  char: ௃
+  texture: custom/font_icons/rank_diamond.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rank_diamond
+rank_emerald:
+  char: ௄
+  texture: custom/font_icons/rank_emerald.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rank_emerald
+rank_helper:
+  char: ௅
+  texture: custom/font_icons/rank_helper.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rank_helper
+rank_mod:
+  char: ெ
+  texture: custom/font_icons/rank_mod.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rank_mod
+rank_admin:
+  char: ே
+  texture: custom/font_icons/rank_admin.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rank_admin
+rank_owner:
+  char: ை
+  texture: custom/font_icons/rank_owner.png
+  ascent: 7
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.rank_owner
+
+draford:
+  char: ௉
+  texture: custom/region/draford.png
+  ascent: 11
+  height: 13
+  chat:
+    permission: oraxen.emoji.hs.draford
+overworld:
+  char: ொ
+  texture: custom/region/overworld.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.overworld
+nether:
+  char: ோ
+  texture: custom/region/nether.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.nether
+the_end:
+  char: ௌ
+  texture: custom/region/the_end.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.the_end
+coven:
+  char: ்
+  texture: custom/region/coven.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.coven
+shop:
+  char: ௎
+  texture: custom/region/shop.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.shop
+hall_of_fame:
+  char: ௏
+  texture: custom/region/hall_of_fame.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.hall_of_fame
+ah:
+  char: ௐ
+  texture: custom/region/ah.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.ah
+prize_corner:
+  char: ௑
+  texture: custom/region/prize_corner.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.prize_corner
+library:
+  char: ௒
+  texture: custom/region/library.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.library
+dungeon_portal:
+  char: ௓
+  texture: custom/region/dungeon_portal.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.dungeon_portal
+jeweler_house:
+  char: ఺
+  texture: custom/region/jeweler.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.dungeon_portal
+alchemy_room:
+  char: ౎
+  texture: custom/region/alchemy_room.png
+  ascent: 11
+  height: 14
+  chat:
+    permission: oraxen.emoji.hs.dungeon_portal
+
+tab_charactor:
+  char: ௔
+  texture: custom/font_icons/tab_charactor.png
+  ascent: 9
+  height: 11
+  chat:
+    permission: oraxen.emoji.hs.tab_charactor
+tab_realestate:
+  char: ௕
+  texture: custom/font_icons/tab_realestate.png
+  ascent: 9
+  height: 11
+  chat:
+    permission: oraxen.emoji.hs.tab_realestate
+tab_quests:
+  char: ௖
+  texture: custom/font_icons/tab_quests.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.tab_quests
+hyron:
+  char: ௗ
+  texture: custom/font_icons/hyron.png
+  ascent: 9
+  height: 11
+  chat:
+    permission: oraxen.emoji.hs.hyron
+hyron2:
+  char: ௘
+  texture: custom/font_icons/hyron.png
+  ascent: 11
+  height: 15
+  chat:
+    permission: oraxen.emoji.hs.hyron
+coins:
+  char: ௙
+  texture: custom/font_icons/coins.png
+  ascent: 10
+  height: 15
+  chat:
+    permission: oraxen.emoji.hs.coins
+talk:
+  char: ௚
+  texture: custom/font_icons/talk.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.talk
+quest:
+  char: ௛
+  texture: custom/font_icons/quest.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.quest
+tips:
+  char: ௜
+  texture: custom/font_icons/tips.png
+  ascent: 7
+  height: 8
+  chat:
+    permission: oraxen.emoji.hs.tips
+boss:
+  char: ௝
+  texture: custom/font_icons/boss.png
+  ascent: 8
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.boss
+join:
+  char: ௞
+  texture: custom/font_icons/join.png
+  ascent: 8
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.join
+notify:
+  char: ௟
+  texture: custom/font_icons/notify.png
+  ascent: 8
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.notify
+8:
+  char: 3040
+  texture: custom/gui/interface/8.png
+  ascent: 7
+  height: 8
+  chat:
+    permission: oraxen.emoji.hs.8
+logo1:
+  char: パ
+  texture: custom/logo/logo.png
+  ascent: 17
+  height: 32
+prefix:
+  char: オ
+  texture: custom/gui/blacksmith/prefix.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.prefix
+upgrade:
+  char: ォ
+  texture: custom/gui/blacksmith/upgrade.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.upgrade
+coins2:
+  char: ௣
+  texture: custom/font_icons/coins.png
+  ascent: 7
+  height: 8
+  chat:
+    permission: oraxen.emoji.hs.coins
+chrismas:
+  char: ి
+  texture: custom/font_icons/chrismas_gift.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.coins
+
+profile_gui:
+  char: ఀ
+  texture: custom/gui/custom_guis/profile.png
+  ascent: 19
+  height: 256
+  chat:
+    permission: oraxen.emoji.hs.coins
+blacksmith:
+  char: ఋ
+  texture: custom/gui/custom_guis/blacksmith.png
+  ascent: 19
+  height: 256
+  chat:
+    permission: oraxen.emoji.hs.coins
+jeweler:
+  char: ఌ
+  texture: custom/gui/custom_guis/jeweler.png
+  ascent: 19
+  height: 256
+  chat:
+    permission: oraxen.emoji.hs.coins
+alchemist:
+  char: ఙ
+  texture: custom/gui/custom_guis/alchemist.png
+  ascent: 19
+  height: 256
+  chat:
+    permission: oraxen.emoji.hs.coins
+accessory_room:
+  char: చ
+  texture: custom/gui/custom_guis/accessory_room.png
+  ascent: 19
+  height: 256
+  chat:
+    permission: oraxen.emoji.hs.coins
+crate:
+  char: ఛ
+  texture: custom/gui/custom_guis/crate.png
+  ascent: 19
+  height: 256
+  chat:
+    permission: oraxen.emoji.hs.coins
+
+helmet_icon:
+  char: ఍
+  texture: items/mmoinventory/helmet_icon
+  ascent: 9
+  height: 10
+chestplate_icon:
+  char: ఎ
+  texture: items/mmoinventory/chestplate_icon
+  ascent: 9
+  height: 10
+leggings_icon:
+  char: ఏ
+  texture: items/mmoinventory/leggings_icon
+  ascent: 9
+  height: 10
+boots_icon:
+  char: ఐ
+  texture: items/mmoinventory/boots_icon
+  ascent: 9
+  height: 10
+offhand_icon:
+  char: ఑
+  texture: items/mmoinventory/offhand_icon
+  ascent: 9
+  height: 10
+accessory:
+  char: ఒ
+  texture: custom/font_icons/access
+  ascent: 9
+  height: 10
+emblem_icon:
+  char: ఓ
+  texture: custom/font_icons/emblem_icon
+  ascent: 9
+  height: 10
+
+happy:
+  char: ぢ
+  texture: custom/emojis/happy.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.happy
+triggered:
+  char: む
+  texture: custom/emojis/triggered.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.triggered
+sad:
+  char: つ
+  texture: custom/emojis/sad.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.sad
+neutral:
+  char: づ
+  texture: custom/emojis/neutral.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.neutral
+beard:
+  char: て
+  texture: custom/emojis/beard.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.beard
+shocked:
+  char: と
+  texture: custom/emojis/shocked.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.shocked
+haha:
+  char: と
+  texture: custom/emojis/haha.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.haha
+outrage:
+  char: ど
+  texture: custom/emojis/outrage.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.outrage
+annoyedbyit:
+  char: な
+  texture: custom/emojis/annoyedbyit.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.annoyedbyit
+aw:
+  char: に
+  texture: custom/emojis/aw.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.aw
+butbut:
+  char: ぬ
+  texture: custom/emojis/butbut.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.butbut
+butidontwantit:
+  char: ね
+  texture: custom/emojis/butidontwantit.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.butidontwantit
+dood:
+  char: ろ
+  texture: custom/emojis/dood.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.dood
+handsome:
+  char: は
+  texture: custom/emojis/handsome.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.handsome
+depressedboy:
+  char: ば
+  texture: custom/emojis/depressedboy.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.depressedboy
+chick:
+  char: ぱ
+  texture: custom/emojis/chick.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.chick
+iwillfuckingeatyou:
+  char: ひ
+  texture: custom/emojis/iwillfuckingeatyou.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.iwillfuckingeatyou
+sleepy:
+  char: び
+  texture: custom/emojis/sleepy.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.sleepy
+niceboy:
+  char: ぴ
+  texture: custom/emojis/niceboy.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.niceboy
+grrr:
+  char: ふ
+  texture: custom/emojis/grrr.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.grrr
+mom:
+  char: ぶ
+  texture: custom/emojis/mom.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.mom
+ohreally:
+  char: ぷ
+  texture: custom/emojis/ohreally.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ohreally
+quiet:
+  char: へ
+  texture: custom/emojis/quiet.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.quiet
+soproud:
+  char: べ
+  texture: custom/emojis/soproud.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.soproud
+sadboy:
+  char: ぺ
+  texture: custom/emojis/sadboy.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.sadboy
+saywhatnow:
+  char: ほ
+  texture: custom/emojis/saywhatnow.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.saywhatnow
+sexy:
+  char: ぼ
+  texture: custom/emojis/sexy.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.sexy
+stunned:
+  char: ぽ
+  texture: custom/emojis/stunned.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.stunned
+tiredofit:
+  char: み
+  texture: custom/emojis/tiredofit.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.tiredofit
+triggered:
+  char: む
+  texture: custom/emojis/triggered.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.triggered
+yaranaika:
+  char: る
+  texture: custom/emojis/yaranaika.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.yaranaika
+sunglasses:
+  char: り
+  texture: custom/emojis/sunglasses.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.sunglasses
+
+1:
+  char: ま
+  texture: custom/npc/1.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.1
+2:
+  char: ゐ
+  texture: custom/npc/2.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.2
+3:
+  char: ん
+  texture: custom/npc/3.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.3
+4:
+  char: ゠
+  texture: custom/npc/4.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.4
+5:
+  char: エ
+  texture: custom/npc/5.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.5
+6:
+  char: ウ
+  texture: custom/npc/6.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.6
+7:
+  char: ゥ
+  texture: custom/npc/7.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.7
+8:
+  char: ゥ
+  texture: custom/npc/8.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.8
+9:
+  char: ぐ
+  texture: custom/npc/9.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.9
+10:
+  char: く
+  texture: custom/npc/10.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.10
+11:
+  char: ヾ
+  texture: custom/npc/11.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.11
+12:
+  char: ヺ
+  texture: custom/npc/12.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.12
+13:
+  char: క
+  texture: custom/npc/13.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.12
+14:
+  char: ఝ
+  texture: custom/npc/14.png
+  ascent: 9.5
+  height: 46
+  chat:
+    permission: oraxen.emoji.hs.12

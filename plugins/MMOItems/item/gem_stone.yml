@@ -1,0 +1,336 @@
+RUNE_OF_VITALITY_I:
+  base:
+    material: EMERALD
+    name: <#ff4c4c>Rune of Vitality <#ff9999>I
+    custom-model-data: 1.0
+    lore-format: rune
+    max-health: 5.0
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&cVitality'
+    unstackable: true
+    tier: C
+RUNE_OF_VITALITY_II:
+  base:
+    material: EMERALD
+    name: <#ff4c4c>Rune of Vitality <#ff1919>II
+    custom-model-data: 2.0
+    lore-format: rune
+    max-health: 10.0
+    defense: 2.0
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&cVitality'
+    unstackable: true
+    tier: B
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_VITALITY_I 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_I 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_I 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_I 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_I 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_I 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_I 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_I 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_I 1.0..
+RUNE_OF_VITALITY_III:
+  base:
+    material: EMERALD
+    name: <#ff4c4c>Rune of Vitality <#cc0000>III
+    custom-model-data: 3.0
+    lore-format: rune
+    max-health: 20.0
+    defense: 5.0
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&cVitality'
+    unstackable: true
+    tier: A
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_VITALITY_II 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_II 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_II 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_II 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_II 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_II 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_II 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_II 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_II 1.0..
+RUNE_OF_VITALITY_IV:
+  base:
+    material: EMERALD
+    name: <#ff4c4c>Rune of Vitality <#990000>IV
+    custom-model-data: 4.0
+    lore-format: rune
+    max-health: 30.0
+    defense: 10.0
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&cVitality'
+    unstackable: true
+    tier: S
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_VITALITY_III 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_III 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_III 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_III 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_III 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_III 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_III 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_III 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_III 1.0..
+RUNE_OF_VITALITY_V:
+  base:
+    material: EMERALD
+    name: <#ff4c4c>Rune of Vitality <#4c0000>V
+    custom-model-data: 5.0
+    lore-format: rune
+    max-health: 50.0
+    defense: 20.0
+    damage-reduction: 1.0
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&cVitality'
+    unstackable: true
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_VITALITY_IV 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_IV 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_IV 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_IV 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_IV 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_IV 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_IV 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_IV 1.0..
+          - m GEM_STONE RUNE_OF_VITALITY_IV 1.0..
+    tier: S+
+
+RUNE_OF_PRECISION_I:
+  base:
+    material: EMERALD
+    name: <#6abce2>Rune of Precision <#b8e2f4>I
+    custom-model-data: 6.0
+    lore-format: rune
+    critical-strike-chance: 2.5
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&9Precision'
+    unstackable: true
+    tier: C
+RUNE_OF_PRECISION_II:
+  base:
+    material: EMERALD
+    name: <#6abce2>Rune of Precision <#46a2da>II
+    custom-model-data: 7.0
+    lore-format: rune
+    critical-strike-chance: 2.5
+    critical-strike-power: 5.0
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&9Precision'
+    unstackable: true
+    tier: B
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_PRECISION_I 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_I 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_I 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_I 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_I 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_I 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_I 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_I 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_I 1.0..
+RUNE_OF_PRECISION_III:
+  base:
+    material: EMERALD
+    name: <#6abce2>Rune of Precision <#4194cb>III
+    custom-model-data: 8.0
+    lore-format: rune
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&9Precision'
+    unstackable: true
+    tier: A
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_PRECISION_II 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_II 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_II 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_II 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_II 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_II 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_II 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_II 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_II 1.0..
+RUNE_OF_PRECISION_IV:
+  base:
+    material: EMERALD
+    name: <#6abce2>Rune of Precision <#3271a5>IV
+    custom-model-data: 9.0
+    lore-format: rune
+    critical-strike-chance: 7.5
+    critical-strike-power: 20.0
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&9Precision'
+    unstackable: true
+    tier: S
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_PRECISION_III 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_III 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_III 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_III 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_III 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_III 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_III 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_III 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_III 1.0..
+RUNE_OF_PRECISION_V:
+  base:
+    material: EMERALD
+    name: <#6abce2>Rune of Precision <#325284>V
+    custom-model-data: 10.0
+    lore-format: rune
+    critical-strike-chance: 10.0
+    critical-strike-power: 35.0
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&9Precision'
+    unstackable: true
+    tier: S+
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_PRECISION_IV 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_IV 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_IV 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_IV 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_IV 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_IV 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_IV 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_IV 1.0..
+          - m GEM_STONE RUNE_OF_PRECISION_IV 1.0..
+
+RUNE_OF_SORCERY_I:
+  base:
+    material: EMERALD
+    name: <#d559ff>Rune of Sorcery <#e494ff>I
+    custom-model-data: 11.0
+    lore-format: rune
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&dSorcery'
+    unstackable: true
+    tier: C
+    additional-wisdom: 10.0
+RUNE_OF_SORCERY_II:
+  base:
+    material: EMERALD
+    name: <#d559ff>Rune of Sorcery <#d145ff>II
+    custom-model-data: 12.0
+    lore-format: rune
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&dSorcery'
+    unstackable: true
+    tier: B
+    additional-wisdom: 15.0
+    skill-damage: 5.0
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_SORCERY_I 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_I 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_I 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_I 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_I 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_I 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_I 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_I 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_I 1.0..
+RUNE_OF_SORCERY_III:
+  base:
+    material: EMERALD
+    name: <#d559ff>Rune of Sorcery <#b800f6>III
+    custom-model-data: 13.0
+    lore-format: rune
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&dSorcery'
+    unstackable: true
+    tier: A
+    additional-wisdom: 25.0
+    skill-damage: 10.0
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_SORCERY_II 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_II 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_II 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_II 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_II 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_II 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_II 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_II 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_II 1.0..
+RUNE_OF_SORCERY_IV:
+  base:
+    material: EMERALD
+    name: <#d559ff>Rune of Sorcery <#9b00ce>IV
+    custom-model-data: 14.0
+    lore-format: rune
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&dSorcery'
+    unstackable: true
+    tier: S
+    additional-wisdom: 35.0
+    skill-damage: 15.0
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_SORCERY_III 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_III 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_III 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_III 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_III 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_III 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_III 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_III 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_III 1.0..
+RUNE_OF_SORCERY_V:
+  base:
+    material: EMERALD
+    name: <#d559ff>Rune of Sorcery <#6f0094>V
+    custom-model-data: 15.0
+    lore-format: rune
+    gem-upgrade-scaling: SUBSEQUENT
+    gem-color: '&dSorcery'
+    unstackable: true
+    tier: S+
+    additional-wisdom: 50.0
+    skill-damage: 25.0
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m GEM_STONE RUNE_OF_SORCERY_IV 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_IV 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_IV 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_IV 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_IV 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_IV 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_IV 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_IV 1.0..
+          - m GEM_STONE RUNE_OF_SORCERY_IV 1.0..

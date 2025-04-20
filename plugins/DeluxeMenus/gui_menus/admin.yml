@@ -1,0 +1,68 @@
+open_command: 
+  - admin
+  - help
+  - setup
+  - guide
+size: 54
+menu_title: '            ꜱᴇᴛᴜᴘ ɢᴜɪᴅᴇ'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'outerfill':
+    material: CLAY_BALL
+    model_data: 1
+    hide_attributes: true
+    display_name: "&f"
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,50,51,52,17,26,35,44,52,53,10,11,12,13,14,15,16,19,20,22,24,25,28,29,31,33,34,37,38,39,40,41,42,43,48,21,23,30,32]
+  '2':
+    material: IRON_SWORD
+    model_data: 3
+    hide_attributes: true
+    slot: 20
+    display_name: "&aCustom Items Menu"
+    lore:
+      - "&6Hyronic Survival&7 introduces over"
+      - "&e150+&7 custom items to your server!"
+      - "&7Click here to find out!"
+      - ""
+      - "&8Command: /mi browse"
+      - ""
+      - "&eClick to open!"
+    left_click_commands:
+      - "[player] mi browse"
+      - "[sound] BLOCK_LEVER_CLICK"
+  '3':
+    material: RECOVERY_COMPASS
+    slot: 24
+    display_name: "&#0047ABDependency Check"
+    lore:
+      - "&#6495EDHyronic Survival&7 requires"
+      - "&7some plugins to be installed"
+      - "&7before working properly."
+      - ""
+      - " %changeoutput_equals_input:{plugin_isenabled_MMOItems}_matcher:true_ifmatch:&a✔_else:&c✘% MMOItems"
+      - " %changeoutput_equals_input:{plugin_isenabled_RPGInventory}_matcher:true_ifmatch:&a✔_else:&c✘% MMOInventory"
+      - " %changeoutput_equals_input:{plugin_isenabled_Citizens}_matcher:true_ifmatch:&a✔_else:&c✘% Citizens"
+      - " %changeoutput_equals_input:{plugin_isenabled_MythicMobs}_matcher:true_ifmatch:&a✔_else:&c✘% MythicMobs"
+      - ""
+      - " %changeoutput_equals_input:{plugin_isenabled_Oraxen}_matcher:true_ifmatch:&a✔_else:&c✘% Oraxen &2&lRECOMMENDED!"
+      - " &8 OR"
+      - " %changeoutput_equals_input:{plugin_isenabled_ItemsAdder}_matcher:true_ifmatch:&a✔_else:&c✘% ItemsAdder"
+  '4':
+    material: FLOWER_BANNER_PATTERN
+    hide_effects: true
+    slot: 22
+    display_name: "&6Server Information"
+    lore:
+      - ""
+      - "&7Paper Version: &a%server_version%"
+      - "&7Ram: &a%server_ram_free%MB&8/&2%server_ram_total%MB"

@@ -1,0 +1,2911 @@
+LEATHER_HELEMET:
+  base:
+    material: LEATHER_HELMET
+    name: Lether Helmet
+    tier: D
+    defense: 5.0
+    browser-idx: 1.0
+LEATHER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Leather Chestplate
+    tier: D
+    defense: 15.0
+    browser-idx: 1.0
+LEATHER_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Leather Leggings
+    tier: D
+    defense: 10.0
+    browser-idx: 1.0
+LEATHER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Leather Boots
+    tier: D
+    defense: 5.0
+    browser-idx: 1.0
+
+IRON_HELMET:
+  base:
+    material: IRON_HELMET
+    name: Iron Helmet
+    tier: D
+    defense: 10.0
+    browser-idx: 2.0
+    max-health: 5.0
+IRON_CHESTPLATE:
+  base:
+    material: IRON_CHESTPLATE
+    name: Iron Chestplate
+    tier: D
+    defense: 30.0
+    browser-idx: 2.0
+    max-health: 5.0
+IRON_LEGGINGS:
+  base:
+    material: IRON_LEGGINGS
+    name: Iron Leggings
+    tier: D
+    defense: 25.0
+    browser-idx: 2.0
+    max-health: 5.0
+IRON_BOOTS:
+  base:
+    material: IRON_BOOTS
+    name: Iron Boots
+    tier: D
+    defense: 15.0
+    browser-idx: 2.0
+    movement-speed: 0.01
+    max-health: 5.0
+
+GOLDEN_HELMET:
+  base:
+    material: GOLDEN_HELMET
+    name: Golden Helmet
+    tier: D
+    defense: 10.0
+    browser-idx: 3.0
+GOLDEN_CHESTPLATE:
+  base:
+    material: GOLDEN_CHESTPLATE
+    name: Golden Chestplate
+    tier: D
+    defense: 25.0
+    browser-idx: 3.0
+GOLDEN_LEGGINGS:
+  base:
+    material: GOLDEN_LEGGINGS
+    name: Golden Leggings
+    tier: D
+    defense: 15.0
+    browser-idx: 3.0
+GOLDEN_BOOTS:
+  base:
+    material: GOLDEN_BOOTS
+    name: Golden Boots
+    tier: D
+    defense: 5.0
+    browser-idx: 3.0
+
+DIAMOND_HELMET:
+  base:
+    material: DIAMOND_HELMET
+    name: Diamond Helmet
+    tier: C
+    defense: 15.0
+    browser-idx: 4.0
+    critical-strike-power: 5.0
+    max-health: 5.0
+DIAMOND_CHESTPLATE:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: Diamond Chestplate
+    tier: C
+    defense: 40.0
+    browser-idx: 4.0
+    critical-strike-chance: 2.5
+    critical-strike-power: 5.0
+    max-health: 10.0
+DIAMOND_LEGGINGS:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: Diamond Leggings
+    tier: C
+    defense: 30.0
+    browser-idx: 4.0
+    critical-strike-chance: 2.0
+    critical-strike-power: 2.5
+    max-health: 10.0
+DIAMOND_BOOTS:
+  base:
+    material: DIAMOND_BOOTS
+    name: Diamond Boots
+    tier: C
+    defense: 15.0
+    browser-idx: 4.0
+    critical-strike-power: 2.5
+    max-health: 5.0
+    movement-speed: 0.01
+NETHERITE_HELMET:
+  base:
+    material: NETHERITE_HELMET
+    name: Netherite Helmet
+    tier: B
+    defense: 20.0
+    browser-idx: 5.0
+    critical-strike-chance: 2.5
+    critical-strike-power: 5.0
+    max-health: 15.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_HELMET 1.0..|v NETHERITE_INGOT - 1.0..
+          enchantments: MAXIMUM
+NETHERITE_CHESTPLATE:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: Netherite Chestplate
+    tier: B
+    defense: 50.0
+    browser-idx: 5.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 7.5
+    max-health: 15.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_CHESTPLATE 1.0..|v NETHERITE_INGOT - 1.0..
+NETHERITE_LEGGINGS:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: Netherite Leggings
+    tier: B
+    defense: 35.0
+    browser-idx: 5.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    max-health: 15.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_LEGGINGS 1.0..|v NETHERITE_INGOT - 1.0..
+NETHERITE_BOOTS:
+  base:
+    material: NETHERITE_BOOTS
+    name: Netherite Boots
+    tier: B
+    defense: 20.0
+    browser-idx: 5.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    max-health: 15.0
+    movement-speed: 0.02
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DIAMOND_BOOTS 1.0..|v NETHERITE_INGOT - 1.0..
+
+HELLFIRE_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: Hellfire Helmet
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 7.5
+    critical-strike-power: 15.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0ZjY1ZjliOTk1OGE2MzkyYzhiNjMzMjRkNzZlODBkMmI1MDljMTk4NWEwMDIzMmFlY2NlNDA5NTg1YWUyYSJ9fX0=
+      uuid: 49c9f9e4-55ee-4304-b133-2ffa77612fb3
+    lore:
+    - '&fｫ Firelord &8(Full Set)'
+    - '&8+ &7Immune to &6fire & lava&7.'
+    - '&8+ &7Pulses a flaming aura every'
+    - '&7time you attack, setting enemies'
+    - '&7on&6 fire&7. &8(3s cooldown)'
+    - '&8+ &7Deals &6+20%&7 damage to all'
+    - '&7enemies on fire.'
+    max-durability: 506.0
+    browser-idx: 6.0
+    set: Hellfire
+    sounds:
+      on-craft:
+        sound: BLOCK_SMITHING_TABLE_USE
+        volume: 1.0
+        pitch: 1.0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_helmet 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+    defense: 25.0
+    max-health: 20.0
+HELLFIRE_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Hellfire Chestplate
+    tier: S
+    critical-strike-chance: 12.5
+    critical-strike-power: 35.0
+    lore:
+    - '&fｫ Firelord &8(Full Set)'
+    - '&8+ &7Immune to &6fire & lava&7.'
+    - '&8+ &7Pulses a flaming aura every'
+    - '&7time you attack, setting enemies'
+    - '&7on&6 fire&7. &8(3s cooldown)'
+    - '&8+ &7Deals &6+20%&7 damage to all'
+    - '&7enemies on fire.'
+    max-durability: 816.0
+    browser-idx: 6.0
+    set: Hellfire
+    weapon-damage: 5.0
+    max-health: 20.0
+    defense: 55.0
+    hide-dye: true
+    dye-color: 233 96 0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_chestplate 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+HELLFIRE_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Hellfire Leggings
+    tier: S
+    critical-strike-chance: 7.5
+    critical-strike-power: 20.0
+    lore:
+    - '&fｫ Firelord &8(Full Set)'
+    - '&8+ &7Immune to &6fire & lava&7.'
+    - '&8+ &7Pulses a flaming aura every'
+    - '&7time you attack, setting enemies'
+    - '&7on&6 fire&7. &8(3s cooldown)'
+    - '&8+ &7Deals &6+20%&7 damage to all'
+    - '&7enemies on fire.'
+    max-durability: 731.0
+    browser-idx: 6.0
+    set: Hellfire
+    defense: 40.0
+    max-health: 20.0
+    hide-dye: true
+    dye-color: 255 170 1
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_leggings 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+HELLFIRE_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Hellfire Boots
+    tier: S
+    critical-strike-chance: 5.0
+    critical-strike-power: 12.5
+    lore:
+    - '&fｫ Firelord &8(Full Set)'
+    - '&8+ &7Immune to &6fire & lava&7.'
+    - '&8+ &7Pulses a flaming aura every'
+    - '&7time you attack, setting enemies'
+    - '&7on&6 fire&7. &8(3s cooldown)'
+    - '&8+ &7Deals &6+20%&7 damage to all'
+    - '&7enemies on fire.'
+    max-durability: 540.0
+    browser-idx: 6.0
+    set: Hellfire
+    movement-speed: 0.03
+    defense: 25.0
+    max-health: 20.0
+    hide-dye: true
+    dye-color: 255 159 0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_boots 1.0..|m material IGNETTO_ALLOY 1.0..
+          amount: 1
+
+WARDEN_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: Warden Helmet
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 7.5
+    critical-strike-power: 10.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNhZmU4NDhmZDc1NWQ5OThhMDZhNTgzMjE5MTIyNDRjZjc2ZWVmMWNlNzhhNTEyMjhmZGQxMDIwYWI3M2E2OCJ9fX0=
+      uuid: 52270001-ed05-4261-9682-1129a4fbae8d
+    lore:
+    - '&fｪ Warden''s Blessing &8(Full Set)'
+    - '&7Each <#1a748c>20s&7, you pulse an aura'
+    - '&7which heals you and nearby'
+    - '&7allies for &c10❤&7.'
+    max-durability: 612.0
+    browser-idx: 8.0
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_helmet 1.0..|m material warden_heart 1.0..
+          amount: 1
+    defense: 40.0
+    max-health: 30.0
+    damage-reduction: 1.0
+    unstackable: true
+    knockback-resistance: 0.15
+    set: Warden
+WARDEN_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Warden Chestplate
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 22.5
+    lore:
+    - '&fｪ Warden''s Blessing &8(Full Set)'
+    - '&7Each <#1a748c>20s&7, you pulse an aura'
+    - '&7which heals you and nearby'
+    - '&7allies for &c10❤&7.'
+    max-durability: 1000.0
+    defense: 70.0
+    max-health: 40.0
+    damage-reduction: 2.0
+    unstackable: true
+    knockback-resistance: 0.15
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 24 42 65
+    set: Warden
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_chestplate 1.0..|m material warden_heart 1.0..
+          amount: 1
+WARDEN_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Warden Leggings
+    tier: S
+    critical-strike-chance: 7.5
+    critical-strike-power: 12.5
+    lore:
+    - '&fｪ Warden''s Blessing &8(Full Set)'
+    - '&7Each <#1a748c>20s&7, you pulse an aura'
+    - '&7which heals you and nearby'
+    - '&7allies for &c10❤&7.'
+    max-durability: 768.0
+    defense: 55.0
+    max-health: 35.0
+    damage-reduction: 1.0
+    unstackable: true
+    knockback-resistance: 0.15
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 13 72 92
+    set: Warden
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_leggings 1.0..|m material warden_heart 1.0..
+          amount: 1
+WARDEN_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Warden Boots
+    tier: S
+    critical-strike-chance: 5.0
+    critical-strike-power: 7.5
+    lore:
+    - '&fｪ Warden''s Blessing &8(Full Set)'
+    - '&7Each <#1a748c>20s&7, you pulse an aura'
+    - '&7which heals you and nearby'
+    - '&7allies for &c10❤&7.'
+    max-durability: 624.0
+    defense: 40.0
+    max-health: 30.0
+    damage-reduction: 1.0
+    unstackable: true
+    durability-bar: true
+    knockback-resistance: 0.15
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 49 119 114
+    movement-speed: 0.03
+    set: Warden
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_boots 1.0..|m material warden_heart 1.0..
+          amount: 1
+
+APOLLO_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: Apollo Helmet
+    tier: S
+    disable-interaction: true
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRhYzVjNTA5MjM3Mzc3NTNlYThiNjMwYTQyZjg5ZjVkOThjMTcyNDQ4MmJjM2ZmYzE0ZjllZDFmYmZlZWEifX19
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&fｭ Banish &8(Full Set)'
+    - '&7Getting attacked unleashes'
+    - '&7a holy explosion, knocking'
+    - '&7nearby enemies back.'
+    - '&8Cooldown: &310s'
+    max-durability: 506.0
+    browser-idx: 7.0
+    set: Apollo
+    defense: 15.0
+    max-health: 15.0
+    projectile-damage: 7.5
+    crafting:
+      smithing:
+        '1':
+          input: m armor NETHERITE_HELMET 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+APOLLO_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Apollo Chestplate
+    tier: S
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    lore:
+    - '&fｭ Banish &8(Full Set)'
+    - '&7Getting attacked unleashes'
+    - '&7a holy explosion, knocking'
+    - '&7nearby enemies back.'
+    - '&8Cooldown: &310s'
+    max-durability: 800.0
+    defense: 45.0
+    max-health: 25.0
+    projectile-damage: 10
+    unstackable: true
+    durability-bar: true
+    browser-idx: 7.0
+    hide-dye: true
+    dye-color: 252 252 252
+    set: Apollo
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_CHESTPLATE 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+APOLLO_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Apollo Leggings
+    tier: S
+    critical-strike-chance: 7.5
+    critical-strike-power: 10.0
+    lore:
+    - '&fｭ Banish &8(Full Set)'
+    - '&7Getting attacked unleashes'
+    - '&7a holy explosion, knocking'
+    - '&7nearby enemies back.'
+    - '&8Cooldown: &310s'
+    max-durability: 715.0
+    defense: 35.0
+    max-health: 20.0
+    projectile-damage: 10
+    unstackable: true
+    durability-bar: true
+    browser-idx: 7.0
+    hide-dye: true
+    dye-color: 126 209 195
+    set: Apollo
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_leggings 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+APOLLO_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Apollo Boots
+    tier: S
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    lore:
+    - '&fｭ Banish &8(Full Set)'
+    - '&7Getting attacked unleashes'
+    - '&7a holy explosion, knocking'
+    - '&7nearby enemies back.'
+    - '&8Cooldown: &310s'
+    max-durability: 715.0
+    defense: 15.0
+    max-health: 10.0
+    projectile-damage: 7.5
+    unstackable: true
+    durability-bar: true
+    browser-idx: 7.0
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 245 171 5
+    set: Apollo
+    crafting:
+      smithing:
+        '1':
+          input: m armor netherite_boots 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+
+APOCALYPSE_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: Apocalypse Helmet
+    tier: S+
+    disable-interaction: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVjMmVmYTQyMTgzMDAwODA2MjkwNjI4NGYwMzNmOTA1ZGVkNGVhMmM3ZWQ5YjZlMDk3YWMxZGUyNDI3ZTcwOCJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - ''
+    - '&8Can be upgraded into another'
+    - '&8specialized set.'
+    max-durability: 506.0
+    browser-idx: 10.0
+    set: Apocalypse
+    defense: 45.0
+    max-health: 40.0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    crafting:
+      shaped: {}
+APOCALYPSE_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Apocalypse Chestplate
+    tier: S+
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&8Can be upgraded into another'
+    - '&8specialized set.'
+    max-durability: 2250.0
+    defense: 95.0
+    max-health: 70.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 10.0
+    hide-dye: true
+    dye-color: 0 0 0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Apocalypse
+APOCALYPSE_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Apocalypse Leggings
+    tier: S+
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - ''
+    - '&8Can be upgraded into another'
+    - '&8specialized set.'
+    max-durability: 2000.0
+    defense: 70.0
+    max-health: 55.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 10.0
+    hide-dye: true
+    dye-color: 10 10 9
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Apocalypse
+APOCALYPSE_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Apocalypse Boots
+    tier: S+
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&8Can be upgraded into another'
+    - '&8specialized set.'
+    max-durability: 1300.0
+    defense: 55.0
+    max-health: 50.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 10.0
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 0 0 0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Apocalypse
+
+QUINERUS_BATTLEHELM:
+  base:
+    material: PLAYER_HEAD
+    name: Quinerus Battlehelm
+    tier: S+
+    disable-interaction: true
+    critical-strike-chance: 12.5
+    critical-strike-power: 25.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVmMzE3ZmFhOGRjZjEzYTJmYzE4ZWEwYmYwYTA3MzZhNGZmOTVjMjg1MDFiYjFjZmE0MzAyNTQyMjc4ZjhhIn19fQ==
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - ''
+    - '&fｧ Trade-Off &8(Full Set)'
+    - '&7Engaging in combat buffs all'
+    - '&7of your offensive stats by &c'
+    - '&c10%&7, but you also lose every'
+    - '&7defensive stats by &c10%&7.'
+    - '&8Boost lasts for 5s.'
+    max-durability: 506.0
+    browser-idx: 8.0
+    set: Quinerus
+    defense: 35.0
+    max-health: 30.0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_SALLET 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_JUDENHAT 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_ARMET 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+QUINERUS_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Quinerus Chestplate
+    tier: S+
+    critical-strike-chance: 20.0
+    critical-strike-power: 45.0
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&fｧ Trade-Off &8(Full Set)'
+    - '&7Engaging in combat buffs all'
+    - '&7of your offensive stats by &c'
+    - '&c10%&7, but you also lose every'
+    - '&7defensive stats by &c10%&7.'
+    - '&8Boost lasts for 5s.'
+    max-durability: 2250.0
+    defense: 70.0
+    max-health: 35.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 52 25 25
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Quinerus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_CHESTPLATE 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&9Precision'
+QUINERUS_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Quinerus Leggings
+    tier: S+
+    critical-strike-chance: 12.5
+    critical-strike-power: 32.5
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&fｧ Trade-Off &8(Full Set)'
+    - '&7Engaging in combat buffs all'
+    - '&7of your offensive stats by &c'
+    - '&c10%&7, but you also lose every'
+    - '&7defensive stats by &c10%&7.'
+    - '&8Boost lasts for 5s.'
+    max-durability: 2000.0
+    defense: 55.0
+    max-health: 35.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 10 10 9
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Quinerus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_LEGGINGS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&9Precision'
+QUINERUS_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Quinerus Boots
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&fｧ Trade-Off &8(Full Set)'
+    - '&7Engaging in combat buffs all'
+    - '&7of your offensive stats by &c'
+    - '&c10%&7, but you also lose every'
+    - '&7defensive stats by &c10%&7.'
+    - '&8Boost lasts for 5s.'
+    max-durability: 1300.0
+    defense: 45.0
+    max-health: 40.0
+    unstackable: true
+    browser-idx: 8.0
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 10 10 9
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Quinerus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR CAELETUS_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_BOOTS 1.0..|m MATERIAL QUINERUS_CLOAK 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+
+CAELETUS_SALLET:
+  base:
+    material: PLAYER_HEAD
+    name: Caeletus Sallet
+    tier: S+
+    disable-interaction: true
+    critical-strike-power: 10.0
+    projectile-damage: 10
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDBiOTM5ZThlOTcyNmNkMjc3NDBkNDQ4ZDExOGNjYTFmZGM1MDlmNTFjNTg4NzZjODU0ODBiMzAyMTQzZSJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - ''
+    - '&fｨ Reposition &8(Piece Bonus)'
+    - '&7While sneaking, arrow which'
+    - '&7lands on the ground instantly'
+    - '&cteleports&7 you to that location.'
+    - '&8Cooldown: &310s'
+    max-durability: 506.0
+    browser-idx: 11.0
+    defense: 30.0
+    max-health: 30.0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BATTLEHELM 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_JUDENHAT 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_ARMET 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+CAELETUS_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Caeletus Chestplate
+    tier: S+
+    critical-strike-chance: 15.0
+    critical-strike-power: 35.0
+    projectile-damage: 15
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&fｨ Reposition &8(Piece Bonus)'
+    - '&7While sneaking, arrow which'
+    - '&7lands on the ground instantly'
+    - '&cteleports&7 you to that location.'
+    - '&8Cooldown: &310s'
+    max-durability: 2250.0
+    defense: 55.0
+    max-health: 35.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 11.0
+    hide-dye: true
+    dye-color: 253 216 144
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_CHESTPLATE 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&9Precision'
+CAELETUS_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Caeletus Leggings
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 15.0
+    projectile-damage: 15
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&fｨ Reposition &8(Piece Bonus)'
+    - '&7While sneaking, arrow which'
+    - '&7lands on the ground instantly'
+    - '&cteleports&7 you to that location.'
+    - '&8Cooldown: &310s'
+    max-durability: 2000.0
+    defense: 45.0
+    max-health: 30.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 11.0
+    hide-dye: true
+    dye-color: 253 216 144
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_LEGGINGS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&dSorcery'
+CAELETUS_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Caeletus Boots
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 10.0
+    projectile-damage: 10
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&fｨ Reposition &8(Piece Bonus)'
+    - '&7While sneaking, arrow which'
+    - '&7lands on the ground instantly'
+    - '&cteleports&7 you to that location.'
+    - '&8Cooldown: &310s'
+    max-durability: 1300.0
+    defense: 30.0
+    max-health: 20.0
+    unstackable: true
+    browser-idx: 11.0
+    hide-dye: true
+    movement-speed: 0.06
+    dye-color: 110 85 125
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Caeletus
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR MORTOS_BOOTS 1.0..|m MATERIAL CAELETUS_RING 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+
+MORTOS_ARMET:
+  base:
+    material: PLAYER_HEAD
+    name: Mortos Armet
+    tier: S+
+    disable-interaction: true
+    critical-strike-chance: 10.0
+    critical-strike-power: 25.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThhYzhkMTExYzI2OWJiN2VmYzZiNTY2MGI2ZDM3OWQ4MGQxZThhZDNmOTNjNGEwZWJhNWNjZWRjMWU3M2NiZSJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - ''
+    - '&fｩ Frail Hex &8(Piece Bonus)'
+    - '&7Shift+Right Click places a hex'
+    - '&7on an enemy, increasing all'
+    - '&7damage dealt on them by &c25%'
+    - '&7for &c5s'
+    - '&8Cooldown: &320s'
+    max-durability: 506.0
+    browser-idx: 12.0
+    set: Mortos
+    defense: 55.0
+    max-health: 35.0
+    damage-reduction: 2.5
+    knockback-resistance: 0.25
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BATTLEHELM 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_JUDENHAT 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_SALLET 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+MORTOS_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Mortos Chestplate
+    tier: S+
+    critical-strike-chance: 15.0
+    critical-strike-power: 30.0
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&fｩ Frail Hex &8(Piece Bonus)'
+    - '&7Shift+Right Click places a hex'
+    - '&7on an enemy, increasing all'
+    - '&7damage dealt on them by &c25%'
+    - '&7for &c5s'
+    - '&8Cooldown: &320s'
+    max-durability: 2250.0
+    defense: 90.0
+    max-health: 55.0
+    knockback-resistance: 0.25
+    unstackable: true
+    durability-bar: true
+    browser-idx: 12.0
+    hide-dye: true
+    dye-color: 102 246 255
+    damage-reduction: 2.5
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Mortos
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_CHESTPLATE 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&cVitality'
+MORTOS_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Mortos Leggings
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 17.5
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&fｩ Frail Hex &8(Piece Bonus)'
+    - '&7Shift+Right Click places a hex'
+    - '&7on an enemy, increasing all'
+    - '&7damage dealt on them by &c25%'
+    - '&7for &c5s'
+    - '&8Cooldown: &320s'
+    max-durability: 2000.0
+    defense: 70.0
+    max-health: 50.0
+    unstackable: true
+    durability-bar: true
+    browser-idx: 12.0
+    hide-dye: true
+    knockback-resistance: 0.25
+    dye-color: 102 246 255
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    damage-reduction: 2.5
+    set: Mortos
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_LEGGINGS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&cVitality'
+MORTOS_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Mortos Boots
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 12.5
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - '&7'
+    - '&fｩ Frail Hex &8(Piece Bonus)'
+    - '&7Shift+Right Click places a hex'
+    - '&7on an enemy, increasing all'
+    - '&7damage dealt on them by &c25%'
+    - '&7for &c5s'
+    - '&8Cooldown: &320s'
+    max-durability: 2000.0
+    defense: 55.0
+    max-health: 45.0
+    unstackable: true
+    durability-bar: true
+    damage-reduction: 2.5
+    browser-idx: 12.0
+    movement-speed: 0.04
+    knockback-resistance: 0.25
+    hide-dye: true
+    dye-color: 21 75 76
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    set: Mortos
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR HEXIM_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_BOOTS 1.0..|m MATERIAL MORTOS_BELT 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+
+HEXIM_JUDENHAT:
+  base:
+    material: PLAYER_HEAD
+    name: Hexim Judenhat
+    tier: S+
+    disable-interaction: true
+    skill-damage: 25
+    cooldown-reduction: 5
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkyZTNmZTdkYWZlMDJjMGJlMDFjMTdjYmU2NGRjMGQ5YTI1MDVjMWNmMjM4MzdjNDllMmFlNzk0YWMxMjE4NCJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - ''
+    - '&fｱ Necromancy &8(Piece Bonus)'
+    - '&7Killing an enemy raises it as'
+    - '&7a &dHex Renevant&7, which bites'
+    - '&7nearby enemies. They cannot'
+    - '&7be damaged and exists only'
+    - '&7for &c10s&7 before being pulled'
+    - '&7back to hell. Revenants deal'
+    - '&c35&7 damage&7 and target enemy'
+    - '&7you attack.'
+    - '&8Cooldown: &35s'
+    max-durability: 506.0
+    browser-idx: 9.0
+    set: Hexim
+    defense: 35.0
+    max-health: 35.0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    additional-wisdom: 35.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_HELMET 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BATTLEHELM 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_ARMET 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_SALLET 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+HEXIM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Hexim Chestpalte
+    tier: S+
+    skill-damage: 35
+    cooldown-reduction: 5
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - ''
+    - '&fｱ Necromancy &8(Piece Bonus)'
+    - '&7Killing an enemy raises it as'
+    - '&7a &dHex Renevant&7, which bites'
+    - '&7nearby enemies. They cannot'
+    - '&7be damaged and exists only'
+    - '&7for &c10s&7 before being pulled'
+    - '&7back to hell. Revenants deal'
+    - '&c35&7 damage&7 and target enemy'
+    - '&7you attack.'
+    - '&8Cooldown: &35s'
+    max-durability: 2250.0
+    browser-idx: 9.0
+    set: Hexim
+    defense: 60.0
+    max-health: 35.0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    dye-color: 206 141 238
+    hide-dye: true
+    additional-wisdom: 50.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_CHESTPLATE 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&dSorcery'
+HEXIM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Hexim Leggings
+    tier: S+
+    skill-damage: 30
+    cooldown-reduction: 5
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - ''
+    - '&fｱ Necromancy &8(Piece Bonus)'
+    - '&7Killing an enemy raises it as'
+    - '&7a &dHex Renevant&7, which bites'
+    - '&7nearby enemies. They cannot'
+    - '&7be damaged and exists only'
+    - '&7for &c10s&7 before being pulled'
+    - '&7back to hell. Revenants deal'
+    - '&c35&7 damage&7 and target enemy'
+    - '&7you attack.'
+    - '&8Cooldown: &35s'
+    max-durability: 2000.0
+    browser-idx: 9.0
+    set: Hexim
+    defense: 55.0
+    max-health: 40.0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    dye-color: 206 141 238
+    hide-dye: true
+    additional-wisdom: 40.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_LEGGINGS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+    - '&dSorcery'
+HEXIM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Hexim Boots
+    tier: S+
+    skill-damage: 25
+    cooldown-reduction: 5
+    lore:
+    - '&7Deals &c+2.5%&7 damage to boss!'
+    - ''
+    - '&fｦ Doomslayer &8(Full Set)'
+    - '&7Killing enemy rips out its soul'
+    - '&7that lingers for &c3s&7 before it'
+    - '&7explodes, dealing &c30&7 damage'
+    - '&7to all nearby enemies, while'
+    - '&7also applying &b❆ Slow I&7 to all'
+    - '&7hit targets.'
+    - '&8Cooldown:&3 3s'
+    - ''
+    - '&fｱ Necromancy &8(Piece Bonus)'
+    - '&7Killing an enemy raises it as'
+    - '&7a &dHex Renevant&7, which bites'
+    - '&7nearby enemies. They cannot'
+    - '&7be damaged and exists only'
+    - '&7for &c10s&7 before being pulled'
+    - '&7back to hell. Revenants deal'
+    - '&c35&7 damage&7 and target enemy'
+    - '&7you attack.'
+    - '&8Cooldown: &35s'
+    max-durability: 1300.0
+    browser-idx: 9.0
+    set: Hexim
+    defense: 40.0
+    max-health: 30.0
+    faction-damage-boss: 2.5
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    dye-color: 0 4 51
+    hide-dye: true
+    movement-speed: 0.05
+    additional-wisdom: 35.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOCALYPSE_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '2':
+          input: m ARMOR QUINERUS_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '3':
+          input: m ARMOR MORTOS_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+        '4':
+          input: m ARMOR CAELETUS_BOOTS 1.0..|m MATERIAL HEXIM_NECKLACE 1.0..
+          drop-gems: true
+    gem-sockets:
+    - Universal
+
+MYTHRIL_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWIzNzZmNzQ4OTlhNjRhMzFkZjEwNmRlOWMzY2FjMTA5Y2VhYThhMmQxZWIzZmFjN2MwMDgzNDM1NDg2MDRmNiJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: Mythril Helmet
+    disable-interaction: true
+    critical-strike-chance: 7.0
+    critical-strike-power: 12.5
+    defense: 25.0
+    max-health: 15.0
+    unstackable: true
+    set: Mythril
+    lore:
+    - '&fヱ Adaptive &8(Passive)'
+    - '&7Your attacks have different'
+    - '&7effects depending on your'
+    - '&7current &c❤ Health&7:'
+    - '&8+ &c100% &8→ &c75%❤&7 Bonus &6+15%'
+    - '&7damage.'
+    - '&8+ &c75% &8→ &c30%❤&7 &6+10% &7damage'
+    - '&7and heals for &e1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Heals for &62%❤&7'
+    tier: A
+    element:
+      magical: {}
+    ability:
+      ability1:
+        type: ADAPTIVE_FIRST
+        mode: ATTACK
+      ability2:
+        type: ADAPTIVE_SECOND
+        mode: ATTACK
+      ability3:
+        type: ADAPTIVE_THIRD
+        mode: ATTACK
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+MYTHRIL_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Mythril Chestplate
+    critical-strike-chance: 12.5
+    critical-strike-power: 22.5
+    defense: 50.0
+    max-health: 25.0
+    damage-reduction: 2
+    set: Mythril
+    lore:
+    - '&fヱ Adaptive &8(Passive)'
+    - '&7Your attacks have different'
+    - '&7effects depending on your'
+    - '&7current &c❤ Health&7:'
+    - '&8+ &c100% &8→ &c75%❤&7 Bonus &6+15%'
+    - '&7damage.'
+    - '&8+ &c75% &8→ &c30%❤&7 &6+10% &7damage'
+    - '&7and heals for &e1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Heals for &62%❤&7'
+    tier: A
+    dye-color: 197 170 195
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+MYTHRIL_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Mythril Leggings
+    critical-strike-chance: 7.0
+    critical-strike-power: 15.0
+    defense: 35.0
+    max-health: 17.0
+    set: Mythril
+    lore:
+    - '&fヱ Adaptive &8(Passive)'
+    - '&7Your attacks have different'
+    - '&7effects depending on your'
+    - '&7current &c❤ Health&7:'
+    - '&8+ &c100% &8→ &c75%❤&7 Bonus &6+15%'
+    - '&7damage.'
+    - '&8+ &c75% &8→ &c30%❤&7 &6+10% &7damage'
+    - '&7and heals for &e1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Heals for &62%❤&7'
+    tier: A
+    dye-color: 197 170 195
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL MYTHRIL_INGOT 1.0..|m MATERIAL
+            MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+MYTHRIL_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Mythril Boots
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    defense: 25.0
+    max-health: 20.0
+    movement-speed: 0.01
+    set: Mythril
+    lore:
+    - '&fヱ Adaptive &8(Passive)'
+    - '&7Your attacks have different'
+    - '&7effects depending on your'
+    - '&7current &c❤ Health&7:'
+    - '&8+ &c100% &8→ &c75%❤&7 Bonus &6+15%'
+    - '&7damage.'
+    - '&8+ &c75% &8→ &c30%❤&7 &6+10% &7damage'
+    - '&7and heals for &e1%❤'
+    - '&8+ &c30% &8→ &c1%❤&7 Heals for &62%❤&7'
+    tier: A
+    dye-color: 6 213 230
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+          - m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..
+
+ORICHALCUM_MASK:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMyOWFmM2E1MmEyM2FiOTRkYjJlY2NhNzU1OTMxMzEyNzY3ZDNiNTE0ZDQ3MDU2ZmM4NDQ0MGM3ZTI4NDljZCJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: Orichalcum Mask
+    disable-interaction: true
+    defense: 30.0
+    max-health: 20.0
+    unstackable: true
+    tier: A
+    skill-damage: 15.0
+    set: Orichalcum
+    lore:
+    - '&fロ Mystic Burst &8(Passive)'
+    - '&7Dealing ability damage triggers an'
+    - '&7energy burst, dealing&c 30 + &b10%✎&7'
+    - '&7extra damage &8(10s cooldown)'
+    additional-wisdom: 35.0
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+ORICHALCUM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Orichalcum Chestplate
+    skill-damage: 30.0
+    defense: 55.0
+    max-health: 30.0
+    cooldown-reduction: 10
+    additional-wisdom: 100
+    set: Orichalcum
+    lore:
+    - '&fロ Mystic Burst &8(Passive)'
+    - '&7Dealing ability damage triggers an'
+    - '&7energy burst, dealing&c 30 + &b10%✎&7'
+    - '&7extra damage &8(10s cooldown)'
+    tier: A
+    dye-color: 255 77 255
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+ORICHALCUM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Orichalcum Leggings
+    skill-damage: 15.0
+    defense: 40.0
+    max-health: 20.0
+    cooldown-reduction: 5
+    additional-wisdom: 75
+    set: Orichalcum
+    lore:
+    - '&fロ Mystic Burst &8(Passive)'
+    - '&7Dealing ability damage triggers an'
+    - '&7energy burst, dealing&c 30 + &b10%✎&7'
+    - '&7extra damage &8(10s cooldown)'
+    tier: A
+    dye-color: 255 137 255
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|m MATERIAL ORICHALCUM_INGOT 1.0..|m
+            MATERIAL ORICHALCUM_INGOT 1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+ORICHALCUM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Orichalcum Boots
+    skill-damage: 10.0
+    defense: 30.0
+    max-health: 25.0
+    additional-wisdom: 25
+    movement-speed: 0.02
+    set: Orichalcum
+    lore:
+    - '&fロ Mystic Burst &8(Passive)'
+    - '&7Dealing ability damage triggers an'
+    - '&7energy burst, dealing&c 30 + &b10%✎&7'
+    - '&7extra damage &8(10s cooldown)'
+    tier: A
+    dye-color: 255 177 255
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+          - m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT
+            1.0..
+
+TITANIUM_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjczOThlYjg0NDdlN2JjZjEzYzE2MTEyMmFhODNmNDhhN2Q1NDEyMWQ0Nzc5ZTk5M2FlMTMwNGJkMThhYzEifX19
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: Titanium Helmet
+    disable-interaction: true
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    defense: 60.0
+    max-health: 20.0
+    unstackable: true
+    tier: S
+    set: Titanium
+    lore:
+    - '&fレ Retribution &8(Passive)'
+    - '&7Getting hit increases your &f🛡'
+    - '&7by&c 20%&7 and inflicts damage'
+    - '&7equals to &f5% 🛡&7 to all nearby'
+    - '&7targets. &8(2s cooldown)'
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+TITANIUM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Titanium Chestplate
+    critical-strike-chance: 10.0
+    critical-strike-power: 22.5
+    defense: 50.0
+    max-health: 35.0
+    tier: S
+    set: Titanium
+    lore:
+    - '&fレ Retribution &8(Passive)'
+    - '&7Getting hit increases your &f🛡'
+    - '&7by&c 20%&7 and inflicts damage'
+    - '&7equals to &f5% 🛡&7 to all nearby'
+    - '&7targets. &8(2s cooldown)'
+    dye-color: 154 154 154
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+TITANIUM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Titanium Leggings
+    critical-strike-chance: 6.0
+    critical-strike-power: 17.5
+    defense: 40.0
+    max-health: 30.0
+    tier: S
+    set: Titanium
+    lore:
+    - '&fレ Retribution &8(Passive)'
+    - '&7Getting hit increases your &f🛡'
+    - '&7by&c 20%&7 and inflicts damage'
+    - '&7equals to &f5% 🛡&7 to all nearby'
+    - '&7targets. &8(2s cooldown)'
+    dye-color: 192 192 192
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL TITANIUM_INGOT 1.0..|m MATERIAL
+            TITANIUM_INGOT 1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+TITANIUM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Titanium Boots
+    critical-strike-chance: 5.0
+    critical-strike-power: 12.5
+    defense: 35.0
+    max-health: 25.0
+    movement-speed: 0.03
+    tier: S
+    set: Titanium
+    lore:
+    - '&fレ Retribution &8(Passive)'
+    - '&7Getting hit increases your &f🛡'
+    - '&7by&c 20%&7 and inflicts damage'
+    - '&7equals to &f5% 🛡&7 to all nearby'
+    - '&7targets. &8(2s cooldown)'
+    dye-color: 230 230 230
+    hide-dye: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+          - m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..|m MATERIAL TITANIUM_INGOT
+            1.0..
+
+PERMAFROST_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc5MzdlNDQzZWU5MjE1NDI4ZDE2MjYzODc0N2NjYzU2OTYzZTMwYzEzYjk0Yzk5MmM3ZjA5YzEyN2Y4NDJlZSJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: <GRADIENT:#93fafb:#d3fafb>Permafrost Helmet
+    disable-interaction: true
+    critical-strike-chance: 5.0
+    critical-strike-power: 5.0
+    skill-damage: 25
+    additional-wisdom: 80
+    defense: 45.0
+    max-health: 15.0
+    unstackable: true
+    tier: S
+    set: Permafrost
+    lore:
+    - '&fఽ Ice Reaper &8(Passive)'
+    - '&7Slaying a mob raises them'
+    - '&7as <#d3fafb>Ice Revenant&7, which will'
+    - '&7walk slowly towards nearby'
+    - '&7monsters, &bslowing&7 them and'
+    - '&7dealing &c20&7 damage per sec.'
+    - '&7After 5 seconds it shatters,'
+    - <#d3fafb>freezing&7 all nearby enemies.
+    - ''
+    - '&fి &82022 Chrismas exclusive!'
+    ability: {}
+PERMAFROST_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <GRADIENT:#93fafb:#d3fafb>Permafrost Chestplate
+    critical-strike-chance: 7.5
+    critical-strike-power: 17.5
+    knockback-resistance: 0.2
+    defense: 65.0
+    max-health: 30.0
+    tier: S
+    set: Permafrost
+    lore:
+    - '&fఽ Ice Reaper &8(Passive)'
+    - '&7Slaying a mob raises them'
+    - '&7as <#d3fafb>Ice Revenant&7, which will'
+    - '&7walk slowly towards nearby'
+    - '&7monsters, &bslowing&7 them and'
+    - '&7dealing &c20&7 damage per sec.'
+    - '&7After 5 seconds it shatters,'
+    - <#d3fafb>freezing&7 all nearby enemies.
+    - ''
+    - '&fి &82022 Chrismas exclusive!'
+    dye-color: 211 250 251
+    hide-dye: true
+PERMAFROST_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: <GRADIENT:#93fafb:#d3fafb>Permafrost Leggings
+    critical-strike-chance: 10.0
+    critical-strike-power: 25.0
+    weapon-damage: 10
+    defense: 30.0
+    max-health: 30.0
+    tier: S
+    set: Permafrost
+    lore:
+    - '&fఽ Ice Reaper &8(Passive)'
+    - '&7Slaying a mob raises them'
+    - '&7as <#d3fafb>Ice Revenant&7, which will'
+    - '&7walk slowly towards nearby'
+    - '&7monsters, &bslowing&7 them and'
+    - '&7dealing &c20&7 damage per sec.'
+    - '&7After 5 seconds it shatters,'
+    - <#d3fafb>freezing&7 all nearby enemies.
+    - ''
+    - '&fి &82022 Chrismas exclusive!'
+    dye-color: 211 250 251
+    hide-dye: true
+PERMAFROST_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: <GRADIENT:#93fafb:#d3fafb>Permafrost Boots
+    critical-strike-chance: 10.0
+    critical-strike-power: 22.5
+    defense: 50.0
+    max-health: 35.0
+    tier: S
+    set: Permafrost
+    lore:
+    - '&fఽ Ice Reaper &8(Passive)'
+    - '&7Slaying a mob raises them'
+    - '&7as <#d3fafb>Ice Revenant&7, which will'
+    - '&7walk slowly towards nearby'
+    - '&7monsters, &bslowing&7 them and'
+    - '&7dealing &c20&7 damage per sec.'
+    - '&7After 5 seconds it shatters,'
+    - <#d3fafb>freezing&7 all nearby enemies.
+    - ''
+    - '&fి &82022 Chrismas exclusive!'
+    dye-color: 211 250 251
+    hide-dye: true
+    fall-damage-reduction: 35.0
+    movement-speed: 0.03
+
+URANIUM_HELMET:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 10000.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 35.0
+    defense: 60.0
+    max-health: 45.0
+    set: Uranium
+    hide-dye: true
+    dye-color: 252 3 12
+    name: <GRADIENT:#7D8F69:#E6E5A3>Uranium Helmet
+    lore:
+    - '&fヸ Matching Attires &8(Passive)'
+    - '&7For each <#7D8F69>Uranium Equipments&7'
+    - '&7you equip, gain &c+5% Damage&7,'
+    - '&f+10🛡 Defense&7 & &b+10 &b✎Wisdom'
+    - ''
+    - '&fヹ Radiation &8(Passive)'
+    - '&7Attacking enemies inflicts them'
+    - '&7with &fヹ&7, stacking up to &c15 times'
+    - '&7upon which a <#7D8F69>radiation burst'
+    - '&7occurs, dealing &c1000&7 damage to'
+    - '&7nearby enemies.'
+    tier: S++
+URANIUM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10000.0
+    critical-strike-chance: 20.0
+    critical-strike-power: 50.0
+    defense: 75.0
+    max-health: 70.0
+    set: Uranium
+    hide-dye: true
+    dye-color: 252 3 12
+    name: <GRADIENT:#7D8F69:#E6E5A3>Uranium Chestplate
+    lore:
+    - '&fヸ Matching Attires &8(Passive)'
+    - '&7For each <#7D8F69>Uranium Equipments&7'
+    - '&7you equip, gain &c+5% Damage&7,'
+    - '&f+10🛡 Defense&7 & &b+10 &b✎Wisdom'
+    - ''
+    - '&fヹ Radiation &8(Passive)'
+    - '&7Attacking enemies inflicts them'
+    - '&7with &fヹ&7, stacking up to &c15 times'
+    - '&7upon which a <#7D8F69>radiation burst'
+    - '&7occurs, dealing &c1000&7 damage to'
+    - '&7nearby enemies.'
+    tier: S++
+URANIUM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10000.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 40.0
+    defense: 55.0
+    max-health: 55.0
+    set: Uranium
+    hide-dye: true
+    dye-color: 252 3 12
+    name: <GRADIENT:#7D8F69:#E6E5A3>Uranium Leggings
+    lore:
+    - '&fヸ Matching Attires &8(Passive)'
+    - '&7For each <#7D8F69>Uranium Equipments&7'
+    - '&7you equip, gain &c+5% Damage&7,'
+    - '&f+10🛡 Defense&7 & &b+10 &b✎Wisdom'
+    - ''
+    - '&fヹ Radiation &8(Passive)'
+    - '&7Attacking enemies inflicts them'
+    - '&7with &fヹ&7, stacking up to &c15 times'
+    - '&7upon which a <#7D8F69>radiation burst'
+    - '&7occurs, dealing &c1000&7 damage to'
+    - '&7nearby enemies.'
+    tier: S++
+URANIUM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 10000.0
+    critical-strike-chance: 12.5
+    critical-strike-power: 25.0
+    defense: 45.0
+    max-health: 50.0
+    movement-speed: 0.05
+    set: Uranium
+    hide-dye: true
+    dye-color: 252 3 12
+    name: <GRADIENT:#7D8F69:#E6E5A3>Uranium Boots
+    lore:
+    - '&fヸ Matching Attires &8(Passive)'
+    - '&7For each <#7D8F69>Uranium Equipments&7'
+    - '&7you equip, gain &c+5% Damage&7,'
+    - '&f+10🛡 Defense&7 & &b+10 &b✎Wisdom'
+    - ''
+    - '&fヹ Radiation &8(Passive)'
+    - '&7Attacking enemies inflicts them'
+    - '&7with &fヹ&7, stacking up to &c15 times'
+    - '&7upon which a <#7D8F69>radiation burst'
+    - '&7occurs, dealing &c1000&7 damage to'
+    - '&7nearby enemies.'
+    tier: S++
+
+STARBORN_HELMET:
+  base:
+    material: PLAYER_HEAD
+    critical-strike-power: 35.0
+    defense: 35.0
+    max-health: 35.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYzMTY5NDM1ZWU2NDgwZDE0Y2MwZDFhNWZkNTUxNGYzODcyMTBjYmZlNjE2ZjAzNmY4N2NjMDkzYTkyNWE5NiJ9fX0=
+      uuid: e5c42b03-acbc-4e38-9a98-836cc59b7bda
+    name: <GRADIENT:#F8C8DC:#FDFD96>Starborn Helmet
+    lore:
+    - '&f఻ Starborne Conversion &8(Passive)'
+    - '&7Each <#F8C8DC>15s&7, attacking grants 1 stack'
+    - '&7of <#FDFD96>Starpower&7, up to a maximum of 5'
+    - '&8Shift + Attacking&7 will consume <#FDFD96>one'
+    - <#FDFD96>Starpower&7 to convert one monster
+    - '&7into a <#F8C8DC>Starborn &8(ineffective against'
+    - '&8bosses and mini-bosses).'
+    set: Starborn
+    tier: S+
+    dye-color: 253 253 150
+    hide-dye: true
+STARBORN_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    critical-strike-power: 60.0
+    defense: 60.0
+    max-health: 35.0
+    name: <GRADIENT:#F8C8DC:#FDFD96>Starborn Helmet
+    lore:
+    - '&f఻ Starborne Conversion &8(Passive)'
+    - '&7Each <#F8C8DC>15s&7, attacking grants 1 stack'
+    - '&7of <#FDFD96>Starpower&7, up to a maximum of 5'
+    - '&8Shift + Attacking&7 will consume <#FDFD96>one'
+    - <#FDFD96>Starpower&7 to convert one monster
+    - '&7into a <#F8C8DC>Starborn &8(ineffective against'
+    - '&8bosses and mini-bosses).'
+    set: Starborn
+    tier: S+
+    dye-color: 248 200 220
+    hide-dye: true
+STARBORN_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    critical-strike-power: 50.0
+    defense: 55.0
+    max-health: 40.0
+    name: <GRADIENT:#F8C8DC:#FDFD96>Starborn Helmet
+    lore:
+    - '&f఻ Starborne Conversion &8(Passive)'
+    - '&7Each <#F8C8DC>15s&7, attacking grants 1 stack'
+    - '&7of <#FDFD96>Starpower&7, up to a maximum of 5'
+    - '&8Shift + Attacking&7 will consume <#FDFD96>one'
+    - <#FDFD96>Starpower&7 to convert one monster
+    - '&7into a <#F8C8DC>Starborn &8(ineffective against'
+    - '&8bosses and mini-bosses).'
+    set: Starborn
+    tier: S+
+    dye-color: 253 253 150
+    hide-dye: true
+STARBORN_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    critical-strike-power: 40.0
+    defense: 40.0
+    max-health: 35.0
+    movement-speed: 0.03
+    name: <GRADIENT:#F8C8DC:#FDFD96>Starborn Helmet
+    lore:
+    - '&f఻ Starborne Conversion &8(Passive)'
+    - '&7Each <#F8C8DC>15s&7, attacking grants 1 stack'
+    - '&7of <#FDFD96>Starpower&7, up to a maximum of 5'
+    - '&8Shift + Attacking&7 will consume <#FDFD96>one'
+    - <#FDFD96>Starpower&7 to convert one monster
+    - '&7into a <#F8C8DC>Starborn &8(ineffective against'
+    - '&8bosses and mini-bosses).'
+    set: Starborn
+    tier: S+
+    dye-color: 248 200 220
+    hide-dye: true
+
+CRIMSON_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJiYzIxN2FmYzNhMTBjYjI2OGZlYzA0MjZjY2RlZTJiODM5MDZhODE2MmQ2OWY4YzZkMDY1YjVhZWJjMTE5YyJ9fX0=
+      uuid: 49c9f9e4-55ee-4304-b133-2ffa77612fb3
+    weapon-damage: 35.0
+    skill-damage: 50.0
+    additional-wisdom: 100.0
+    defense: 30.0
+    max-health: 30.0
+    set: Crimson
+    name: <GRADIENT:#dc143c:#880808>Crimson Helmet
+    lore:
+    - '&fవ Bloodthirst &8(Passive)'
+    - '&7Each <#880808>15s&7, attacking grants 1 stack'
+    - '&7of <#dc143c>Bloodthirst&7, up to a maximum of 5'
+    - '&7Attacking consumes one stack of'
+    - <#dc143c>Bloodthirst&7 to heal you for <#880808>5% max ❤&7.
+    tier: S+
+CRIMSON_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    weapon-damage: 75.0
+    skill-damage: 100.0
+    additional-wisdom: 200.0
+    defense: 50.0
+    max-health: 35.0
+    set: Crimson
+    name: <GRADIENT:#dc143c:#880808>Crimson Helmet
+    lore:
+    - '&fవ Bloodthirst &8(Passive)'
+    - '&7Each <#880808>15s&7, attacking grants 1 stack'
+    - '&7of <#dc143c>Bloodthirst&7, up to a maximum of 5'
+    - '&7Attacking consumes one stack of'
+    - <#dc143c>Bloodthirst&7 to heal you for <#880808>5% max ❤&7.
+    tier: S+
+    dye-color: 137 34 53
+    hide-dye: true
+CRIMSON_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    weapon-damage: 50.0
+    skill-damage: 70.0
+    defense: 45.0
+    max-health: 30.0
+    set: Crimson
+    name: <GRADIENT:#dc143c:#880808>Crimson Helmet
+    lore:
+    - '&fవ Bloodthirst &8(Passive)'
+    - '&7Each <#880808>15s&7, attacking grants 1 stack'
+    - '&7of <#dc143c>Bloodthirst&7, up to a maximum of 5'
+    - '&7Attacking consumes one stack of'
+    - <#dc143c>Bloodthirst&7 to heal you for <#880808>5% max ❤&7.
+    tier: S+
+    dye-color: 137 34 53
+    hide-dye: true
+CRIMSON_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    weapon-damage: 40.0
+    skill-damage: 50.0
+    additional-wisdom: 50.0
+    movement-speed: 0.05
+    damage-reduction: 5
+    defense: 40.0
+    max-health: 25.0
+    set: Crimson
+    name: <GRADIENT:#dc143c:#880808>Crimson Helmet
+    lore:
+    - '&fవ Bloodthirst &8(Passive)'
+    - '&7Each <#880808>15s&7, attacking grants 1 stack'
+    - '&7of <#dc143c>Bloodthirst&7, up to a maximum of 5'
+    - '&7Attacking consumes one stack of'
+    - <#dc143c>Bloodthirst&7 to heal you for <#880808>5% max ❤&7.
+    tier: S+
+    dye-color: 137 34 53
+    hide-dye: true
+
+DEATH_HELMET:
+  base:
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1MGE4MmM1ODgwNjZjN2IyZTVjNDUyNGIzYzQwZmNlNWZjYTViYjg1Zjk0ZGE2NDY2MDNhNmFiN2FkMzlhMyJ9fX0=
+      uuid: 49c9f9e4-55ee-4304-b133-2ffa77612fb3
+    material: PLAYER_HEAD
+    skill-damage: 15.0
+    cooldown-reduction: 2.5
+    additional-wisdom: 20
+    defense: 25.0
+    max-health: 30.0
+    set: Death
+    name: Death Helmet
+    lore:
+    - '&fహ Essence Theft &8(Passive)'
+    - '&7Slaying an enemy steals their'
+    - '&7essence, healing &c5% max ❤'
+    - '&7and &b10% mana. &8(2s cooldown)'
+    tier: A
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_HELMET 1.0..|m MATERIAL WITHERED_ROSE 1.0..
+DEATH_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    skill-damage: 20.0
+    cooldown-reduction: 5.0
+    additional-wisdom: 35
+    defense: 30.0
+    max-health: 35.0
+    hide-dye: true
+    dye-color: 128 128 128
+    set: Death
+    name: Death Chestplate
+    lore:
+    - '&fహ Essence Theft &8(Passive)'
+    - '&7Slaying an enemy steals their'
+    - '&7essence, healing &c5% max ❤'
+    - '&7and &b10% mana. &8(2s cooldown)'
+    tier: A
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_CHESTPLATE 1.0..|m MATERIAL WITHERED_ROSE 1.0..
+DEATH_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    skill-damage: 15.0
+    cooldown-reduction: 5.0
+    additional-wisdom: 30
+    defense: 30.0
+    max-health: 30.0
+    hide-dye: true
+    dye-color: 128 128 128
+    set: Death
+    name: Death Leggings
+    lore:
+    - '&fహ Essence Theft &8(Passive)'
+    - '&7Slaying an enemy steals their'
+    - '&7essence, healing &c5% max ❤'
+    - '&7and &b10% mana. &8(2s cooldown)'
+    tier: A
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_LEGGINGS 1.0..|m MATERIAL WITHERED_ROSE 1.0..
+DEATH_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    skill-damage: 15.0
+    cooldown-reduction: 2.5
+    additional-wisdom: 25
+    defense: 25.0
+    max-health: 20.0
+    hide-dye: true
+    dye-color: 54 69 79
+    movement-speed: 0.02
+    set: Death
+    name: Death Boots
+    lore:
+    - '&fహ Essence Theft &8(Passive)'
+    - '&7Slaying an enemy steals their'
+    - '&7essence, healing &c5% max ❤'
+    - '&7and &b10% mana. &8(2s cooldown)'
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR NETHERITE_BOOTS 1.0..|m MATERIAL WITHERED_ROSE 1.0..
+
+REAPER_HELMET:
+  base:
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU5MWM4OGY1OTc4ZmZiY2NkMjcyMDM5NmM3NTM0ZTBkNGVkMWI0NzViNmRmOGRhYjdjN2VjODFjZmE3NDA0ZSJ9fX0=
+      uuid: 49c9f9e4-55ee-4304-b133-2ffa77612fb3
+    material: PLAYER_HEAD
+    skill-damage: 20.0
+    cooldown-reduction: 3.0
+    additional-wisdom: 25
+    defense: 30.0
+    max-health: 35.0
+    name: Reaper Helmet
+    set: Reaper
+    lore:
+    - '&fహ Essence Theft <#9F2B68>&l⟰ &8(Passive)'
+    - '&7Slaying an enemy steals their'
+    - '&7their essence, healing &c10% max'
+    - '&c❤ &7and &b20% mana&7.'
+    - '&8(2s cooldown)'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Essence'
+    - '&7also grants <#9966cc>+10% ۞Ability'
+    - <#9966cc>Damage &7and <#ADD8E6>+5 ☁Speed
+    tier: S
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DEATH_HELMET 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+REAPER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    skill-damage: 25.0
+    cooldown-reduction: 5.0
+    additional-wisdom: 50
+    defense: 35.0
+    max-health: 40.0
+    hide-dye: true
+    dye-color: 119 136 153
+    set: Reaper
+    name: Reaper Chestplate
+    lore:
+    - '&fహ Essence Theft <#9F2B68>&l⟰ &8(Passive)'
+    - '&7Slaying an enemy steals their'
+    - '&7their essence, healing &c10% max'
+    - '&c❤ &7and &b20% mana&7.'
+    - '&8(2s cooldown)'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Essence'
+    - '&7also grants <#9966cc>+10% ۞Ability'
+    - <#9966cc>Damage &7and <#ADD8E6>+5 ☁Speed
+    tier: S
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DEATH_CHESTPLATE 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+REAPER_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    skill-damage: 20.0
+    cooldown-reduction: 5.0
+    additional-wisdom: 35
+    defense: 35.0
+    max-health: 35.0
+    hide-dye: true
+    dye-color: 119 136 153
+    set: Reaper
+    name: Reaper Leggings
+    lore:
+    - '&fహ Essence Theft <#9F2B68>&l⟰ &8(Passive)'
+    - '&7Slaying an enemy steals their'
+    - '&7their essence, healing &c10% max'
+    - '&c❤ &7and &b20% mana&7.'
+    - '&8(2s cooldown)'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Essence'
+    - '&7also grants <#9966cc>+10% ۞Ability'
+    - <#9966cc>Damage &7and <#ADD8E6>+5 ☁Speed
+    tier: S
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DEATH_LEGGINGS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+REAPER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    skill-damage: 20.0
+    cooldown-reduction: 2.5
+    additional-wisdom: 30
+    defense: 30.0
+    max-health: 25.0
+    hide-dye: true
+    dye-color: 119 136 153
+    set: Reaper
+    movement-speed: 0.02
+    name: Reaper Boots
+    lore:
+    - '&fహ Essence Theft <#9F2B68>&l⟰ &8(Passive)'
+    - '&7Slaying an enemy steals their'
+    - '&7their essence, healing &c10% max'
+    - '&c❤ &7and &b20% mana&7.'
+    - '&8(2s cooldown)'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Essence'
+    - '&7also grants <#9966cc>+10% ۞Ability'
+    - <#9966cc>Damage &7and <#ADD8E6>+5 ☁Speed
+    tier: S
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR DEATH_BOOTS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+
+INFERNO_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: Inferno Helmet
+    tier: S+
+    disable-interaction: true
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    defense: 30.0
+    max-health: 25.0
+    set: Inferno
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYyZjU4ZDU1NWQ4NGUwMjEyZjhjZDE0YTQ2MTNmYjI2N2FlNzQ0MWQzZmNjYzcwZTk4YmU3NTE5ZTIzMTMxNiJ9fX0=
+      uuid: 49c9f9e4-55ee-4304-b133-2ffa77612fb3
+    lore:
+    - '&fｫ Firelord <#9F2B68>&l⟰ &8(Full Set)'
+    - '&8+ &7Immune to &6fire & lava&7.'
+    - '&8+ &7Pulses a flaming aura every'
+    - '&7time you attack, setting enemies'
+    - '&7on&6 fire&7. &8(3s cooldown)'
+    - '&8+ &7Deals &6+50%&7 damage to all'
+    - '&7enemies on fire.'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &8Right-Click &7to'
+    - '&7combust all nearby targets who'
+    - '&7are &6burning&7, dealing &c200❤&7 and'
+    - <#9F2B68>stun&7 them for <#9F2B68>3s
+    max-durability: 2500.0
+    browser-idx: 6.0
+    sounds:
+      on-craft:
+        sound: BLOCK_SMITHING_TABLE_USE
+        volume: 1.0
+        pitch: 1.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR INFERNO_HELMET 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+INFERNO_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Inferno Chestplate
+    tier: S+
+    critical-strike-chance: 15.0
+    critical-strike-power: 45.0
+    set: Inferno
+    lore:
+    - '&fｫ Firelord <#9F2B68>&l⟰ &8(Full Set)'
+    - '&8+ &7Immune to &6fire & lava&7.'
+    - '&8+ &7Pulses a flaming aura every'
+    - '&7time you attack, setting enemies'
+    - '&7on&6 fire&7. &8(3s cooldown)'
+    - '&8+ &7Deals &6+50%&7 damage to all'
+    - '&7enemies on fire.'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &8Right-Click &7to'
+    - '&7combust all nearby targets who'
+    - '&7are &6burning&7, dealing &c200❤&7 and'
+    - <#9F2B68>stun&7 them for <#9F2B68>3s
+    max-durability: 3600.0
+    browser-idx: 6.0
+    weapon-damage: 7.5
+    max-health: 25.0
+    defense: 70.0
+    hide-dye: true
+    dye-color: 183 65 14
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR INFERNO_CHESTPLATE 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+INFERNO_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Inferno Leggings
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 25.0
+    set: Inferno
+    lore:
+    - '&fｫ Firelord <#9F2B68>&l⟰ &8(Full Set)'
+    - '&8+ &7Immune to &6fire & lava&7.'
+    - '&8+ &7Pulses a flaming aura every'
+    - '&7time you attack, setting enemies'
+    - '&7on&6 fire&7. &8(3s cooldown)'
+    - '&8+ &7Deals &6+50%&7 damage to all'
+    - '&7enemies on fire.'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &8Right-Click &7to'
+    - '&7combust all nearby targets who'
+    - '&7are &6burning&7, dealing &c200❤&7 and'
+    - <#9F2B68>stun&7 them for <#9F2B68>3s
+    max-durability: 3000.0
+    browser-idx: 6.0
+    defense: 50.0
+    max-health: 25.0
+    hide-dye: true
+    dye-color: 183 65 14
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR INFERNO_LEGGINGS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+INFERNO_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Inferno Boots
+    tier: S+
+    critical-strike-chance: 6.5
+    critical-strike-power: 15.0
+    set: Inferno
+    lore:
+    - '&fｫ Firelord <#9F2B68>&l⟰ &8(Full Set)'
+    - '&8+ &7Immune to &6fire & lava&7.'
+    - '&8+ &7Pulses a flaming aura every'
+    - '&7time you attack, setting enemies'
+    - '&7on&6 fire&7. &8(3s cooldown)'
+    - '&8+ &7Deals &6+50%&7 damage to all'
+    - '&7enemies on fire.'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &8Right-Click &7to'
+    - '&7combust all nearby targets who'
+    - '&7are &6burning&7, dealing &c200❤&7 and'
+    - <#9F2B68>stun&7 them for <#9F2B68>3s
+    max-durability: 2600.0
+    browser-idx: 6.0
+    movement-speed: 0.03
+    defense: 30.0
+    max-health: 25.0
+    hide-dye: true
+    dye-color: 183 65 14
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR INFERNO_BOOTS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+
+NIRVANA_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: Nirvana Helmet
+    tier: S+
+    disable-interaction: true
+    critical-strike-chance: 7.5
+    critical-strike-power: 12.5
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNhYWY2OTUzZTc5Y2UxYTE5MGQ5YjUzZDFlYWQ4OGExMTBmMjQxMTY5YmI1OThhMTdhMzhjNmQ5NzJlZmEyOSJ9fX0=
+      uuid: f14f97c3-926a-4b98-ac1c-946507593452
+    lore:
+    - '&fｭ Banish <#9F2B68>&l⟰ &8(Full Set)'
+    - '&7Getting attacked unleashes a'
+    - '&7holy explosion, knocking nearby'
+    - '&7enemies back.'
+    - '&8Cooldown: &310s'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Also <#9F2B68>stuns'
+    - '&7knocked-back enemies for <#9F2B68>2s'
+    - '&7and grants <#ADD8E6>+150 ☁Speed'
+    max-durability: 2600.0
+    browser-idx: 7.0
+    set: Nirvana
+    defense: 20.0
+    max-health: 20.0
+    projectile-damage: 10.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOLLO_HELMET 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+NIRVANA_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Nirvana Chestplate
+    tier: S+
+    critical-strike-chance: 12.5
+    critical-strike-power: 25.0
+    lore:
+    - '&fｭ Banish <#9F2B68>&l⟰ &8(Full Set)'
+    - '&7Getting attacked unleashes a'
+    - '&7holy explosion, knocking nearby'
+    - '&7enemies back.'
+    - '&8Cooldown: &310s'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Also <#9F2B68>stuns'
+    - '&7knocked-back enemies for <#9F2B68>2s'
+    - '&7and grants <#ADD8E6>+150 ☁Speed'
+    max-durability: 3600.0
+    defense: 60.0
+    max-health: 30.0
+    projectile-damage: 12.5
+    unstackable: true
+    durability-bar: true
+    browser-idx: 7.0
+    hide-dye: true
+    dye-color: 72 50 72
+    set: Nirvana
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOLLO_CHESTPLATE 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+NIRVANA_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Nirvana Leggings
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 12.5
+    lore:
+    - '&fｭ Banish <#9F2B68>&l⟰ &8(Full Set)'
+    - '&7Getting attacked unleashes a'
+    - '&7holy explosion, knocking nearby'
+    - '&7enemies back.'
+    - '&8Cooldown: &310s'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Also <#9F2B68>stuns'
+    - '&7knocked-back enemies for <#9F2B68>2s'
+    - '&7and grants <#ADD8E6>+150 ☁Speed'
+    max-durability: 3000.0
+    defense: 45.0
+    max-health: 25.0
+    projectile-damage: 10
+    unstackable: true
+    durability-bar: true
+    browser-idx: 7.0
+    hide-dye: true
+    dye-color: 231 210 124
+    set: Nirvana
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOLLO_LEGGINGS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+NIRVANA_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Nirvana Boots
+    tier: S+
+    critical-strike-chance: 7.5
+    critical-strike-power: 7.5
+    lore:
+    - '&fｭ Banish <#9F2B68>&l⟰ &8(Full Set)'
+    - '&7Getting attacked unleashes a'
+    - '&7holy explosion, knocking nearby'
+    - '&7enemies back.'
+    - '&8Cooldown: &310s'
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Also <#9F2B68>stuns'
+    - '&7knocked-back enemies for <#9F2B68>2s'
+    - '&7and grants <#ADD8E6>+150 ☁Speed'
+    max-durability: 715.0
+    defense: 20.0
+    max-health: 15.0
+    projectile-damage: 7.5
+    unstackable: true
+    durability-bar: true
+    browser-idx: 7.0
+    hide-dye: true
+    movement-speed: 0.04
+    dye-color: 72 50 72
+    set: Nirvana
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR APOLLO_BOOTS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+
+
+OVERSEER_HELMET:
+  base:
+    material: PLAYER_HEAD
+    name: Overseer Helmet
+    tier: S+
+    disable-interaction: true
+    critical-strike-chance: 10.0
+    critical-strike-power: 10.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjEzN2VkMjVmYmVhOGY5YTA0MTc2YTEyNzBkM2ZhMWZhMDE5MWJlNzIyOTdhYjZjNDk5NWMwNjMxYjU3N2YxMyJ9fX0=
+      uuid: 52270001-ed05-4261-9682-1129a4fbae8d
+    lore:
+    - '&fｪ Warden''s Blessing <#9F2B68>&l⟰ &8(Full Set) '
+    - '&7Each <#1a748c>20s&7, you pulse an aura'
+    - '&7which heals you and nearby'
+    - allies for &c30❤&7.
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Attacking now'
+    - '&dcleanses &7all &cdebuffs&7. &8(each 10s)'
+    max-durability: 2600.0
+    browser-idx: 8.0
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR WARDEN_HELMET 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+    defense: 55.0
+    max-health: 35.0
+    damage-reduction: 2.0
+    unstackable: true
+    knockback-resistance: 0.15
+    set: Overseer
+OVERSEER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Overseer Chestplate
+    tier: S+
+    critical-strike-chance: 12.5
+    critical-strike-power: 25.0
+    lore:
+    - '&fｪ Warden''s Blessing <#9F2B68>&l⟰ &8(Full Set)'
+    - '&7Each <#1a748c>20s&7, you pulse an aura'
+    - '&7which heals you and nearby'
+    - allies for &c30❤&7.
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Attacking now'
+    - '&dcleanses &7all &cdebuffs&7. &8(each 10s)'
+    max-durability: 1000.0
+    defense: 85.0
+    max-health: 50.0
+    damage-reduction: 2.5
+    unstackable: true
+    knockback-resistance: 0.2
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 0 128 128
+    set: Overseer
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR WARDEN_CHESTPLATE 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+OVERSEER_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Overseer Leggings
+    tier: S+
+    critical-strike-chance: 10.0
+    critical-strike-power: 15.0
+    lore:
+    - '&fｪ Warden''s Blessing <#9F2B68>&l⟰ &8(Full Set)'
+    - '&7Each <#1a748c>20s&7, you pulse an aura'
+    - '&7which heals you and nearby'
+    - allies for &c30❤&7.
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Attacking now'
+    - '&dcleanses &7all &cdebuffs&7. &8(each 10s)'
+    max-durability: 3000.0
+    defense: 70.0
+    max-health: 50.0
+    damage-reduction: 1.5
+    unstackable: true
+    knockback-resistance: 0.15
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 0 128 128
+    set: Overseer
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR WARDEN_LEGGINGS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1
+OVERSEER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Overseer Boots
+    tier: S+
+    critical-strike-chance: 7.5
+    critical-strike-power: 10.0
+    lore:
+    - '&fｪ Warden''s Blessing <#9F2B68>&l⟰ &8(Full Set)'
+    - '&7Each <#1a748c>20s&7, you pulse an aura'
+    - '&7which heals you and nearby'
+    - allies for &c30❤&7.
+    - ''
+    - '<#9F2B68>ᴇɴᴅᴇʀᴄᴏʀᴇ ʙᴏɴᴜꜱ: &7Attacking now'
+    - '&dcleanses &7all &cdebuffs&7. &8(each 10s)'
+    max-durability: 2600.0
+    defense: 55.0
+    max-health: 35.0
+    damage-reduction: 1.5
+    unstackable: true
+    durability-bar: true
+    knockback-resistance: 0.15
+    browser-idx: 8.0
+    hide-dye: true
+    dye-color: 0 128 128
+    movement-speed: 0.03
+    set: Overseer
+    crafting:
+      smithing:
+        '1':
+          input: m ARMOR WARDEN_BOOTS 1.0..|m MATERIAL ENDERCORE 1.0..
+          amount: 1

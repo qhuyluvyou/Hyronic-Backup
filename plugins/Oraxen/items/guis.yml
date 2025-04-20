@@ -1,0 +1,1185 @@
+i1:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 1
+    parent_model: item/generated
+    textures:
+    - custom/gui/main_menu/1.png
+
+i2:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/generated
+    textures:
+    - custom/gui/main_menu/2
+
+i3:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/generated
+    textures:
+    - custom/gui/main_menu/3
+
+i4:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/generated
+    textures:
+    - custom/gui/main_menu/4
+
+i5:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 5
+    parent_model: item/generated
+    textures:
+    - custom/gui/main_menu/5
+
+i6:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 6
+    parent_model: item/generated
+    textures:
+    - custom/gui/main_menu/6
+
+i7:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 7
+    parent_model: item/generated
+    textures:
+    - custom/gui/main_menu/7
+
+i8:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 8
+    parent_model: item/generated
+    textures:
+    - custom/gui/main_menu/8
+
+i9:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 9
+    parent_model: item/generated
+    textures:
+    - custom/gui/main_menu/9
+
+i10:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 10
+    parent_model: item/generated
+    textures:
+    - custom/gui/main_menu/10
+
+i12:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 12
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/damage
+
+i13:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 13
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/attackspeed
+
+i14:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 14
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/critchance
+
+i15:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 15
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/critdamage
+
+i16:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 16
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/defense
+
+i17:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 17
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/health
+
+i18:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 18
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/speed
+
+i19:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 19
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/tenacity
+
+i20:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 20
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/abilityhaste
+
+i21:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 21
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/abilitydamage
+
+i22:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 22
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/projectile_damage
+
+i23:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 23
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/weapon_damage
+
+i24:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 24
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/damagereduction
+
+i25:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 25
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/strength
+
+i26:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 26
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/regen
+
+i27:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 27
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/luck
+
+i28:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 28
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/wisdom
+
+i29:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 29
+    parent_model: item/generated
+    textures:
+    - custom/gui/stats/stats
+
+i30:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 30
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/farming
+
+i31:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 31
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/mining
+
+i32:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 32
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/archery
+
+i33:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 33
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/combat
+
+i34:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 34
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/defense
+
+i35:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 35
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/foraging
+
+i36:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 36
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/fishing
+
+i37:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 37
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/alchemy
+
+i38:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 38
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/back
+
+i39:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 39
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/ability
+
+i40:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 40
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/previous
+
+i41:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 41
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/next
+
+i42:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 42
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/sources
+
+i43:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 43
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/unlocked
+
+i44:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 44
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/locked
+
+i45:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 45
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/lands
+
+i46:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 46
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/lands_1
+
+i47:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 47
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/lands_2
+
+i48:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 48
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/lands_3
+
+i49:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 49
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/lands_4
+
+i50:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 50
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/members
+
+i51:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 51
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/members_1
+
+i52:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 52
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/members_2
+
+i53:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 53
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/members_3
+
+i54:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 54
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/members_4
+
+i55:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 55
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/settings
+
+i59:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 59
+    parent_model: item/generated
+    textures:
+    - custom/gui/lands/shop
+
+i60:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 60
+    parent_model: item/generated
+    textures:
+    - custom/gui/warp/draford
+
+i61:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 61
+    parent_model: item/generated
+    textures:
+    - custom/gui/warp/ah
+
+i62:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 62
+    parent_model: item/generated
+    textures:
+    - custom/gui/warp/stadium
+
+i63:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 63
+    parent_model: item/generated
+    textures:
+    - custom/misc/yes
+
+i64:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 64
+    parent_model: item/generated
+    textures:
+    - custom/misc/no
+
+i65:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 65
+    parent_model: item/generated
+    textures:
+    - custom/misc/wait
+
+i66:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 66
+    parent_model: item/generated
+    textures:
+    - custom/misc/money
+
+i67:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 67
+    parent_model: item/generated
+    textures:
+    - custom/gui/codex/region
+
+i68:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 68
+    parent_model: item/generated
+    textures:
+    - custom/gui/codex/boss
+
+i69:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 69
+    parent_model: item/generated
+    textures:
+    - custom/gui/codex/enemy
+
+i70:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 70
+    parent_model: item/generated
+    textures:
+    - custom/gui/codex/mage
+
+i71:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 71
+    parent_model: item/generated
+    textures:
+    - custom/misc/coming_soon
+
+i72:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 72
+    parent_model: item/generated
+    textures:
+    - custom/gui/skills/enchant
+
+i73:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 73
+    parent_model: item/generated
+    textures:
+    - custom/gui/dungeon/dungeon
+
+i74:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 74
+    parent_model: item/generated
+    textures:
+    - custom/gui/dungeon/stats
+
+i75:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 75
+    parent_model: item/generated
+    textures:
+    - custom/gui/dungeon/coven
+
+i76:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 76
+    parent_model: item/generated
+    textures:
+    - custom/misc/power
+
+i77:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 77
+    parent_model: item/generated
+    textures:
+    - custom/region/draford
+
+i78:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 78
+    parent_model: item/generated
+    textures:
+    - custom/region/shop
+
+i79:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 79
+    parent_model: item/generated
+    textures:
+    - custom/region/ah
+
+i80:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 80
+    parent_model: item/generated
+    textures:
+    - custom/region/hall_of_fame
+
+i81:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 81
+    parent_model: item/generated
+    textures:
+    - custom/region/prize_corner
+
+i82:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 82
+    parent_model: item/generated
+    textures:
+    - custom/region/dungeon_portal
+
+i83:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 83
+    parent_model: item/generated
+    textures:
+    - custom/gui/codex/ravenna
+
+i84:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 84
+    parent_model: item/generated
+    textures:
+    - custom/gui/settings/tags
+
+i85:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 85
+    parent_model: item/generated
+    textures:
+    - custom/gui/settings/teleport
+
+i86:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 86
+    parent_model: item/generated
+    textures:
+    - custom/gui/settings/trade
+
+i87:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 87
+    parent_model: item/generated
+    textures:
+    - custom/gui/settings/info
+
+i88:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 88
+    parent_model: item/generated
+    textures:
+    - custom/gui/settings/profile_1
+
+i89:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 89
+    parent_model: item/generated
+    textures:
+    - custom/gui/store/catalogue
+
+i90:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 90
+    parent_model: item/generated
+    textures:
+    - custom/gui/store/rank
+
+i91:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 91
+    parent_model: item/generated
+    textures:
+    - custom/gui/guild/guild
+
+i92:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 92
+    parent_model: item/generated
+    textures:
+    - custom/gui/guild/locked
+
+i93:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 93
+    parent_model: item/generated
+    textures:
+    - custom/gui/guild/claim
+
+i94:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 94
+    parent_model: item/generated
+    textures:
+    - custom/gui/guild/unlocked
+
+i95:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 95
+    parent_model: item/generated
+    textures:
+    - custom/misc/update
+
+i96:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 96
+    parent_model: item/generated
+    textures:
+    - custom/region/library
+
+i97:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 97
+    parent_model: item/generated
+    textures:
+    - custom/gui/settings/profile_2
+
+i98:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 98
+    parent_model: item/generated
+    textures:
+    - custom/gui/blacksmith/upgrade
+
+i99:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 99
+    parent_model: item/generated
+    textures:
+    - custom/region/the_other_side
+
+i100:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 100
+    parent_model: item/generated
+    textures:
+    - custom/misc/enchant
+
+i102:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 102
+    parent_model: item/generated
+    textures:
+    - custom/region/library
+
+i103:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 103
+    parent_model: item/generated
+    textures:
+    - custom/gui/dungeon/dungeon
+
+i104:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 104
+    parent_model: item/generated
+    textures:
+    - custom/region/blacksmith
+
+i105:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 105
+    parent_model: item/generated
+    textures:
+    - custom/equipment_room/artifact_locked
+
+i106:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 106
+    parent_model: item/generated
+    textures:
+    - custom/equipment_room/artifact_unlocked
+
+i107:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 107
+    parent_model: item/generated
+    textures:
+    - custom/equipment_room/emblem_locked
+
+i108:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 108
+    parent_model: item/generated
+    textures:
+    - custom/equipment_room/emblem_unlocked
+
+i109:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 109
+    parent_model: item/generated
+    textures:
+    - custom/gui/codex/unknown_anomaly
+
+i111:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 111
+    parent_model: item/generated
+    textures:
+    - custom/region/jeweler
+
+i112:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 112
+    parent_model: item/generated
+    textures:
+    - custom/region/alchemy_room
+
+
+nothingslot:
+  displayname: ''
+  material: BOOK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 110
+    parent_model: item/generated
+    textures:
+    - custom/misc/air
+fillslot:
+  displayname: ''
+  material: CLAY_BALL
+  excludeFromInventory: true
+  Pack:
+    generate_model: false
+    custom_model_data: 1
+    model: custom/nothing.json

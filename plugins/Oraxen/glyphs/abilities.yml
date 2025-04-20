@@ -1,0 +1,232 @@
+doomslayer:
+  char: ｦ
+  texture: custom/abilities/doomslayer.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.doomslayer
+tradeoff:
+  char: ｧ
+  texture: custom/abilities/tradeoff.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.tradeoff
+reposition:
+  char: ｨ
+  texture: custom/abilities/reposition.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.reposition
+frail_hex:
+  char: ｩ
+  texture: custom/abilities/frail_hex.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.frail_hex
+warden_blessing:
+  char: ｪ
+  texture: custom/abilities/warden_blessing.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.warden_blessing
+firelord:
+  char: ｫ
+  texture: custom/abilities/firelord.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.firelord
+mystic_burst:
+  char: ロ
+  texture: custom/abilities/mystic_burst.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.mystic_burst
+banish:
+  char: ｭ
+  texture: custom/abilities/banish.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.banish
+living_flames:
+  char: ｮ
+  texture: custom/abilities/living_flames.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.living_flames
+evade:
+  char: ｯ
+  texture: custom/abilities/evade.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.evade
+focus:
+  char: ｰ
+  texture: custom/abilities/focus.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.focus
+necromancy:
+  char: ｱ
+  texture: custom/abilities/necromancy.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.necromancy
+deep_wound:
+  char: ヅ
+  texture: custom/abilities/deep_wound.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.deep_wound
+cosmic_ally:
+  char: テ
+  texture: custom/abilities/cosmic_ally.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.cosmic_ally
+ice_spikes:
+  char: ぁ
+  texture: custom/abilities/ice_spikes.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ice_spikes
+frosty_trusty:
+  char: だ
+  texture: custom/abilities/frosty_trusty.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.frosty_trusty
+doppelganger:
+  char: デ
+  texture: custom/abilities/doppelganger.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.doppelganger
+adaptive:
+  char: ヱ
+  texture: custom/abilities/adaptive.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.adaptive
+calamitous_ray:
+  char: ヰ
+  texture: custom/abilities/calamitous_ray.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.calamitous_ray
+retribution:
+  char: レ
+  texture: custom/abilities/retribution.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.retribution
+voidborne:
+  char: ポ
+  texture: custom/abilities/voidborne.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.voidborne
+ritual_of_the_end:
+  char: ヷ
+  texture: custom/abilities/ritual_of_the_end.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+matching_attires:
+  char: ヸ
+  texture: custom/abilities/matching_attires.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+radiation:
+  char: ヹ
+  texture: custom/abilities/radiation.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+toxic_fumes:
+  char: ఖ
+  texture: custom/abilities/toxic_fumes.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+bloodthirst:
+  char: వ
+  texture: custom/abilities/bloodthirst.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+celestial_aid:
+  char: శ
+  texture: custom/abilities/celestial_aid.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+chance_dictator:
+  char: ష
+  texture: custom/abilities/chance_dictator.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+cobra_curse:
+  char: స
+  texture: custom/abilities/cobra_curse.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+essence_theft:
+  char: హ
+  texture: custom/abilities/essence_theft.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+starborne_conversion:
+  char: ఻
+  texture: custom/abilities/starborne_conversion.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+ice_reaper:
+  char: ఽ
+  texture: custom/abilities/ice_reaper.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+frosty_fury:
+  char: ా
+  texture: custom/abilities/frosty_fury.png
+  ascent: 9
+  height: 10
+  chat:
+    permission: oraxen.emoji.hs.ritual_of_the_end
+

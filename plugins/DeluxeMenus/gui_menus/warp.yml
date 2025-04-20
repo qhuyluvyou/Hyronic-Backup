@@ -1,0 +1,240 @@
+open_command: 
+  - fasttravel
+  - travel 
+  - warp
+size: 54
+menu_title: '            ꜰᴀꜱᴛ ᴛʀᴀᴠᴇʟ'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_WOODEN_DOOR_CLOSE"
+  'back':
+    material: BOOK
+    model_data: 38
+    slot: 48
+    display_name: "&aBack"
+    lore:
+      - "&7Click this to go"
+      - "&7back!"
+    left_click_commands:
+      - "[openguimenu] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'fill':
+    material: CLAY_BALL
+    model_data: 1
+    hide_attributes: true
+    display_name: "&f"
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,50,51,52,17,26,35,44,52,53,10,11,12,19,21,28,29,30,37,38,39,40,41,42,43,20]
+  'draford':
+    material: BOOK
+    model_data: 60
+    slot: 19
+    display_name: "&8✈ &#89CFF0Draford Kingdom"
+    lore:
+      - ""
+      - "&7&oOne of the largest and most"
+      - "&7&opowerful kingdom in Hyronia,"
+      - "&7&oDraford Kingdom is the go-to"
+      - "&7place for adventurers."
+      - ""
+      - "&8→ Click to travel!"
+    left_click_commands:
+      - "[player] spawn"
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+  'wild':
+    material: BOOK
+    model_data: 67
+    slot: 13
+    display_name: "&8✈ &2Wilderness"
+    lore:
+      - ""
+      - "&7&oWilderness is a dangerous"
+      - "&7&ovast land that surrounds"
+      - "&7&oHyronia. Adventurers who"
+      - "&7&owander around must take"
+      - "&7&oextreme caution, for not"
+      - "&7&oonly flora exists there..."
+      - ""
+      - "&8→ Click to travel!"
+    left_click_commands:
+      - "[player] tpr world"
+      - "[message] &8Please wait..."
+  'shop':
+    material: BOOK
+    model_data: 59
+    slot: 14
+    priority: 0
+    display_name: "&8✈ &6Abigail's Shop"
+    lore:
+      - ""
+      - "&7&oAbigail's one of the more"
+      - "&7&opopular merchant in the"
+      - "&7&okingdom. She sells every"
+      - "&7single thing you need."
+      - ""
+      - "&8→ Click to travel!"
+    left_click_commands:
+      - "[player] warp shop"
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+    view_requirement:
+      requirements:
+        check:
+          type: string equals
+          input: "%codex_has_discovery_regions_2%"
+          output: "true"
+  'ah':
+    material: BOOK
+    model_data: 61
+    slot: 15
+    priority: 0
+    display_name: "&8✈ &6Auction House"
+    lore:
+      - ""
+      - "&7&oRun by Gold, the auction"
+      - "&7&ohouse is where you can"
+      - "&7&obid, sell and gather all"
+      - "&7kind of item."
+      - ""
+      - "&8→ Click to travel!"
+    left_click_commands:
+      - "[player] warp ah"
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+    view_requirement:
+      requirements:
+        check:
+          type: string equals
+          input: "%codex_has_discovery_regions_3%"
+          output: "true"
+  'lib':
+    material: BOOK
+    model_data: 102
+    slot: 16
+    priority: 0
+    display_name: "&8✈ &#5885AFLibrary"
+    lore:
+      - ""
+      - "&7&oHouse of knowledge, Fleur"
+      - "&7&oresides here, giving vital"
+      - "&7&oinformation for adventurers"
+      - ""
+      - "&8→ Click to travel!"
+    left_click_commands:
+      - "[player] warp library"
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+    view_requirement:
+      requirements:
+        check:
+          type: string equals
+          input: "%codex_has_discovery_regions_7%"
+          output: "true"
+  'por':
+    material: BOOK
+    model_data: 82
+    slot: 22
+    priority: 0
+    display_name: "&8✈ &dDungeon Portal"
+    lore:
+      - ""
+      - "&7&oA rift of time and space,"
+      - "&7&otakes to the the darkest"
+      - "&7&oof places."
+      - ""
+      - "&8→ Click to travel!"
+    left_click_commands:
+      - "[player] warp dungeon"
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+    view_requirement:
+      requirements:
+        check:
+          type: string equals
+          input: "%codex_has_discovery_regions_6%"
+          output: "true"
+  'blacksmith':
+    material: BOOK
+    model_data: 104
+    slot: 23
+    priority: 0
+    display_name: "&8✈ &#AA4A44Blacksmith"
+    lore:
+      - ""
+      - "&7&oThe blacksmith here forges"
+      - "&7&othe strongest gears."
+      - ""
+      - "&8→ Click to travel!"
+    left_click_commands:
+      - "[player] warp blacksmith"
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+    view_requirement:
+      requirements:
+        check:
+          type: string equals
+          input: "%codex_has_discovery_regions_8%"
+          output: "true"
+  'jeweler':
+    material: BOOK
+    model_data: 111
+    slot: 24
+    priority: 0
+    display_name: "&8✈ &#89CFF0Jeweler's House"
+    lore:
+      - ""
+      - "&7Come and forges the"
+      - "&7finest of accessory!"
+      - ""
+      - "&8→ Click to travel!"
+    left_click_commands:
+      - "[player] warp jeweler"
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+    view_requirement:
+      requirements:
+        check:
+          type: string equals
+          input: "%codex_has_discovery_regions_9%"
+          output: "true"
+  'alchemy':
+    material: BOOK
+    model_data: 112
+    slot: 25
+    priority: 0
+    display_name: "&8✈ &#ffb2aeAlchemy Room"
+    lore:
+      - ""
+      - "&7Brew potions of varying"
+      - "&7effects here."
+      - ""
+      - "&8→ Click to travel!"
+    left_click_commands:
+      - "[player] warp alchemy"
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+    view_requirement:
+      requirements:
+        check:
+          type: string equals
+          input: "%codex_has_discovery_regions_10%"
+          output: "true"
+          
+  'locked':
+    material: BOOK
+    model_data: 44
+    priority: 1
+    slots: [14,15,16,22,23,24,25]
+    display_name: "&cLocked!"
+    lore:
+      - "&7Explore Hyronia to unlock"
+      - "&7this fast travel spot!"
+  'comingsoon':
+    material: BOOK
+    model_data: 71
+    slots: [31,32,33,34]
+    display_name: "&6Coming Soon!"
+    lore:
+      - "&7This spot might become"
+      - "&7available in the future!"

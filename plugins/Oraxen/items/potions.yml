@@ -1,0 +1,88 @@
+
+pot1:
+  displayname: ''
+  material: GLASS_BOTTLE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 1
+    parent_model: item/generated
+    textures:
+    - custom/items/potion/small_health_potion
+
+pot2:
+  displayname: ''
+  material: GLASS_BOTTLE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/generated
+    textures:
+    - custom/items/potion/health_potion
+
+pot3:
+  displayname: ''
+  material: GLASS_BOTTLE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/generated
+    textures:
+    - custom/items/potion/large_health_potion
+
+pot4:
+  displayname: ''
+  material: GLASS_BOTTLE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/generated
+    textures:
+    - custom/items/potion/supreme_health_potion
+
+pot5:
+  displayname: ''
+  material: GLASS_BOTTLE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 5
+    parent_model: item/generated
+    textures:
+    - custom/items/potion/small_mana_potion
+
+pot6:
+  displayname: ''
+  material: GLASS_BOTTLE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 6
+    parent_model: item/generated
+    textures:
+    - custom/items/potion/mana_potion
+
+pot7:
+  displayname: ''
+  material: GLASS_BOTTLE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 7
+    parent_model: item/generated
+    textures:
+    - custom/items/potion/large_mana_potion
+
+pot8:
+  displayname: ''
+  material: GLASS_BOTTLE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 8
+    parent_model: item/generated
+    textures:
+    - custom/items/potion/supreme_mana_potion

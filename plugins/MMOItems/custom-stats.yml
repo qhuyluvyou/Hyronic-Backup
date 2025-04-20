@@ -1,0 +1,10 @@
+custom-stats:
+
+  1:
+    name: "MyLuck"
+
+    type: "double"
+
+    lore:
+      - "This is a test line #1"
+      - "This is a test line #2"

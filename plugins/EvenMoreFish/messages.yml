@@ -1,0 +1,174 @@
+
+fish-caught: "&6🎣 &7You have fished a {rarity_colour}{length}cm &l{rarity} {rarity_colour}{fish}&7!"
+lengthless-fish-caught: "&l{player} &rhas fished a {rarity_colour}&l{rarity} {rarity_colour}{fish}!"
+no-permission: "&cYou don't have permission to run that command."
+
+contest-start: "&rA fishing contest for {type} has started."
+contest-end: "&rThe fishing contest has ended."
+contest-join: "&rA fishing contest for {type} is occurring."
+
+new-first: "&r{player} is now #1"
+action-bar-message: true
+action-bar-types:
+  - MOST_FISH
+
+competition-types:
+  most: "the most fish"
+  largest: "the largest fish"
+  largest-total: "the largest total fish length"
+  specific: "{amount} {rarity_colour}&l{rarity} {rarity_colour}{fish}&r"
+  specific-rarity: "{amount} {rarity_colour}&l{rarity}&r fish"
+bossbar:
+  hour: "h"
+  minute: "m"
+  second: "s"
+  remaining: " left"
+
+prefix: "[EvenMoreFish] "
+prefix-regular: "&a"
+prefix-admin: "&c"
+prefix-error: "&c"
+
+fish-lore:
+  - "&fCaught by {player}"
+  - "&fMeasures {length}cm" # <------ THIS ONE
+  - ""
+  - "{fish_lore}"
+  - "{rarity_colour}&l{rarity}"
+
+help: "/{command} - {description}"
+
+leaderboard-largest-fish: "&r#{position} | {pos_colour}{player} &r({rarity_colour}&l{rarity} {rarity_colour}{fish}&r, {length}cm&r)"
+leaderboard-largest-total: "&r#{position} | {pos_colour}{player} &r({pos_colour}{amount}cm&r)"
+leaderboard-most-fish: "&r#{position} | {pos_colour}{player} &r({pos_colour}{amount} &rfish)"
+single-winner: "&r{player} has won the competition for {type}. Congratulations!"
+total-players: "&rThere are a total of {amount} player(s) in the leaderboard."
+leaderboard-count: 5
+always-show-pos: true
+no-winners: "&rThere were no fishing records."
+no-record: "&rYou didn't catch any fish."
+invalid-type: "&rThat isn't a type of competition type, available types: MOST_FISH, LARGEST_FISH, SPECIFIC_FISH"
+not-enough-players: "&rThere's not enough players online to start the scheduled fishing competition."
+time-alert: "&rThere is {time_formatted} left on the competition for {type}"
+
+worth-gui-name: "What do you want to sell?"
+sell-gui-name: "&6&lSELL"
+sell-all-name: "&6&lSELL ALL"
+confirm-gui-name: "&6&lCONFIRM"
+confirm-sell-all-gui-name: "&6&lCONFIRM"
+error-gui-name: "&c&lCan't Sell"
+error-sell-all-gui-name: "&c&lCan't Sell"
+sell-gui-lore:
+  - "&8Fish Shop"
+  - ""
+  - "&7Total Value » &e${sell-price}"
+  - ""
+  - "&7Sell your fish here to make"
+  - "&7some extra money."
+  - ""
+  - "&e» (Left-click) sell the fish."
+  - "&7» (Right-click) cancel."
+
+sell-all-lore:
+  - "&8Inventory"
+  - ""
+  - "&7Total Value » &e${sell-price}"
+  - ""
+  - "&7Click this button to sell"
+  - "&7the fish in your inventory to"
+  - "&7make some extra money."
+  - ""
+  - "&e» (Left-click) sell the fish."
+error-gui-lore:
+  - "&8Fish Shop"
+  - ""
+  - "&7Total Value » &c$0"
+  - ""
+  - "&7Sell your fish here to make"
+  - "&7some extra money."
+  - ""
+  - "&c» (Left-click) sell the fish."
+  - "&7» (Right-click) cancel."
+
+error-sell-all-gui-lore:
+  - "&8Inventory"
+  - ""
+  - "&7Total Value » &c$0"
+  - ""
+  - "&7Click this button to sell"
+  - "&7the fish in your inventory to"
+  - "&7make some extra money."
+  - ""
+  - "&c» (Left-click) sell the fish."
+fish-sale: "&rYou've sold &a{amount} &ffish for &a${sell-price}&f."
+
+help-general:
+  - "&f&m &#f1ffed&m &#e2ffdb&m &#d3ffc9&m &#c3ffb7&m &#b2ffa5&m &#9fff92&m &#8bff7f&m &#73ff6b&m &a&m &f &a&lEvenMoreFish &a&m &#73ff6b&m&m &#8bff7f&m &#9fff92&m &#b2ffa5&m &#c3ffb7&m &#d3ffc9&m &#e2ffdb&m &#f1ffed&m &f&m &f"
+  - "&f/emf top - Shows an ongoing competition's leaderboard."
+  - "&f/emf help - Shows you this page."
+  - "&f/emf shop - Opens a shop to sell your fish."
+  - "&f/emf toggle - Toggles whether or not you receive custom fish."
+  - "&f/emf admin - Admin command help page."
+
+help-competition:
+  - "&f&m &#ffedeb&m &#ffdcd7&m &#ffcac3&m &#ffb8b0&m &#ffa69d&m &#ff948a&m &#ff8078&m &#ff6c66&m &c&m &f &c&lEvenMoreFish &c&m &#ff6c66&m&m &#ff8078&m &#ff948a&m &#ffa69d&m &#ffb8b0&m &#ffcac3&m &#ffdcd7&m &#ffedeb&m &f&m &f"
+  - "&f/emf admin competition start <duration> <type> - Starts a competition of a specified duration"
+  - "&f/emf admin competition end - Ends the current competition (if there is one)"
+
+help-admin:
+  - "&f&m &#ffedeb&m &#ffdcd7&m &#ffcac3&m &#ffb8b0&m &#ffa69d&m &#ff948a&m &#ff8078&m &#ff6c66&m &c&m &f &c&lEvenMoreFish &c&m &#ff6c66&m&m &#ff8078&m &#ff948a&m &#ffa69d&m &#ffb8b0&m &#ffcac3&m &#ffdcd7&m &#ffedeb&m &f&m &f"
+  - "&f/emf admin competition <start/end> <duration> <type> - Starts or stops a competition"
+  - "&f/emf admin clearbait - Removes all applied baits from a fishing rod."
+  - "&f/emf admin reload - Reloads the plugin's config files"
+  - "&f/emf admin version - Displays plugin information."
+
+no-player-in-place: "Start fishing to take this place"
+no-competition-running: "No competition running right now."
+
+emf-competition-fish-format: "{rarity_colour}{length}cm &l{rarity} {fish}"
+emf-lengthless-fish-format: "{rarity_colour}&l{rarity} {fish}"
+emf-most-fish-format: "{amount} fish"
+emf-size-during-most-fish: "N/A"
+emf-time-remaining: "Time left until next competition: {days}d, {hours}h, {minutes}m."
+emf-time-remaining-during-comp: "There is a competition running right now."
+
+max-baits-reached: "&rYou have reached the maximum number of types of baits for this fishing rod."
+max-bait-reached: "&rYou have reached the maximum number of {bait_theme}{bait} &rbait that can be applied to one rod."
+bait-catch: "&r&l{player} &rhas caught a {bait_theme}&l{bait} &rbait!"
+bait-use: "&rYou have used one of your rod's {bait_theme}&l{bait} &rbait."
+bait-survival-limited: "&rYou must be in &nsurvival&r to apply baits to fishing rods."
+
+toggle-off: "&rYou will no longer catch custom fish."
+toggle-on: "&rYou will now catch custom fish."
+
+place-fish-blocked: "&rYou cannot place this fish."
+
+admin:
+  open-fish-shop: "&rOpened a shop inventory for {player}."
+  given-player-fish: "&rYou have given {player} a {fish}."
+  given-player-bait: "&rYou have given {player} a {bait}."
+  no-bait-specified: "&rYou must specify a bait name."
+  must-be-holding-rod: "&rYou need to be holding a fishing rod to run that command."
+  all-baits-cleared: "&rYou have removed all {amount} baits from your fishing rod."
+  no-baits-on-rod: "&rThe fishing rod does not have any baits applied."
+
+  economy-disabled: "&rEvenMoreFish's economy features are disabled."
+
+  player-not-found: "&r{player} could not be found."
+  number-format-error: "&r{amount} is not a valid number."
+  number-range-error: "&r{amount} is not a number between 1-64."
+  cannot-run-on-console: "&rCommand cannot be run from console."
+
+  competition-already-running: "&rThere's already a competition running."
+  competition-type-invalid: "&rThat isn't a type of competition type, available types: MOST_FISH, LARGEST_FISH, SPECIFIC_FISH"
+
+  update-available: "&rThere is an update available: https://www.spigotmc.org/resources/evenmorefish.91310/updates"
+  reload: "&rSuccessfully reloaded the plugin."
+
+config-version: 15
+
+
+admin:
+  nbt-rod-given: "&rYou have given {player} a NBT rod, make sure \"require-nbt-rod\" is set to &atrue &rfor this to be different from any other fishing rod."
+  nbt-not-required: "&rChange \"require-nbt-rod\" to true in order to use this feature."
+sell-price-format: "#,##0.0"

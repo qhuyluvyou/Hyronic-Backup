@@ -1,0 +1,6 @@
+
+value:
+  ==: CustomOreGenerator#WorldConfig
+  name: test
+  ore-config:
+  - mythril

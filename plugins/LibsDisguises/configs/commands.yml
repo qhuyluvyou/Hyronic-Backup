@@ -1,0 +1,21 @@
+
+DisableInvisibility: false
+
+SaveUserPreferences: true
+
+Permissions:
+
+
+  ExplicitDisguises: false
+
+  SeeCommands: true
+
+DisguiseRadiusMax: 50
+
+UndisguiseRadiusMax: 50
+
+DisguiseEntityExpire: 10
+
+DisguiseCloneExpire: 10
+
+DisguiseCloneSize: 3

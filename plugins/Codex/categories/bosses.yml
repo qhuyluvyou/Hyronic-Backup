@@ -1,0 +1,73 @@
+name: "&c&lWorld &7&lRegions"
+discover_title:
+  title: "&c&lBOSS DEFEATED!"
+  subtitle: "%name%"
+  fade_in: 0
+  stay: 0
+  fade_out: 0
+discover_message:
+- "&6&lCODEX UPDATED! &f%name% &7has been added to your codex!"
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "#702963Seraphi Inanis"
+    lore:
+    - "&8Seraph of Doom"
+    - ""
+    - "&7Difficulty: &c★★★★☆"
+    - ""
+    - "#AEC6CF&oOnce holy, this angel answered to"
+    - "#AEC6CF&othe dark call within. She now reigns"
+    - "#AEC6CF&oas the Void Seraph, hell-bent on"
+    - "#AEC6CF&oreturning the world to its pristine"
+    - "#AEC6CF&ostate of nothingness."
+    - ""
+    - "&7Health: &c250,000❤"
+    - "&7Damage: &cHigh &8(Ability)"
+    - "&7Tenacity: &3100%"
+    - "&7"
+    - "&e♦ ᴅʀᴏᴘꜱ:"
+    - "&8- &fNightmare Fuel &aCOMMON"
+    - "&8- &f16x Gold Ingots &aCOMMON"
+    - "&8- &f8x Diamonds &aCOMMON"
+    - "&8- &f8x Emeralds &aCOMMON"
+    - "&8- &f1x Netherite Ingot&a COMMON"
+    - "&8- &fHexim Necklace &9VERY RARE"
+    - "&8- &fMortos Belt &9VERY RARE"
+    - "&8- &fCaeletus Ring &9VERY RARE"
+    - "&8- &fQuinerus Cloak &9VERY RARE"
+    - "&8- &fBroken Handle &dEXTREMELY RARE"
+    - "&8- &fBroken Staff &dEXTREMELY RARE"
+    - "&8- &fBroken Bow &dEXTREMELY RARE"
+    discovered_on_mob_kill: 
+      mythic_mobs_id: Eve
+
+  2:
+    name: "#9400D3The Null"
+    lore:
+    - "&8Envoy of The Void"
+    - ""
+    - "&7Difficulty: &5★★★★★"
+    - ""
+    - "#AEC6CF&oAn anomaly birthed from the Void,"
+    - "#AEC6CF&othis monstrocity wanders the End"
+    - "#AEC6CF&oand obliterate all life, courtesy"
+    - "#AEC6CF&oof the Gods."
+    - ""
+    - "&7Health: &c500,000❤"
+    - "&7Damage: &c100 &8(Melee)"
+    - "&c          100&8 (AOE each 3s)"
+    - "&f          150&8 (Black Hole attack)"
+    - "&7Tenacity: &3100%"
+    - "&7"
+    - "&e♦ ᴅʀᴏᴘꜱ:"
+    - "&8- &fNull Cells &2GUARANTEED!"
+    - "&8- &fNullifying Necklace &9VERY RARE"
+    - "&8- &fEndercore &9VERY RARE"
+    - "&8- &fRunicator &dEXTREMELY RARE"
+    - "&8- &fVoid Gem &4RNG INCARNATE!"
+    discovered_on_mob_kill: 
+      mythic_mobs_id: Unknown_Anomaly

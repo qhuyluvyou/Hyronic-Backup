@@ -1,0 +1,59 @@
+title: '           {abilities_title}'
+size: 4
+fill:
+  enabled: true
+  material: clay_ball
+  nbt:
+    CustomModelData: 1
+items:
+  back:
+    material: book
+    nbt: 
+      CustomModelData: 40
+    pos: 3,4
+    display_name: '{back}'
+    lore:
+      - '{back_click}'
+templates:
+  locked_ability:
+    material: book
+    nbt: 
+      CustomModelData: 44
+    display_name: '&8&m{name}'
+    lore:
+      - '{locked_desc}'
+      - ' '
+      - '{unlocked_at}'
+      - ' '
+      - '{locked}'
+  locked_mana_ability:
+    pos: 2,4
+    material: gray_dye
+    display_name: '&d{name}'
+    lore:
+      - '{locked_desc}'
+      - ' '
+      - '{unlocked_at}'
+      - ' '
+      - '{locked}'
+  unlocked_ability:
+    material: book
+    nbt: 
+      CustomModelData: 43
+    display_name: '&a{name}'
+    lore:
+      - '{your_ability_level}'
+      - ' '
+      - '{unlocked_desc}'
+      - ' '
+      - '{unlocked}'
+  unlocked_mana_ability:
+    pos: 2,4
+    material: magenta_dye
+    display_name: '&d{name}'
+    lore:
+      - '{your_ability_level}'
+      - ' '
+      - '{unlocked_desc}'
+      - ' '
+      - '{unlocked}'

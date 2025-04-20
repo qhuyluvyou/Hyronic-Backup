@@ -1,0 +1,296 @@
+
+
+fish:
+  Common:
+    Cod: ""
+    Eel:
+      item:
+        custom-model-data: 1
+        material: SALMON
+    Carp:
+      item:
+        custom-model-data: 2
+        material: SALMON
+    Crab:
+      item:
+        custom-model-data: 3
+        material: SALMON
+    Jellyfish:
+      item:
+        custom-model-data: 4
+        material: SALMON
+    Lobster:
+      item:
+        custom-model-data: 5
+        material: SALMON
+    Mackerel:
+      item:
+        custom-model-data: 6
+        material: SALMON
+    Salmon:
+      item:
+        material: SALMON
+    Pufferfish:
+      item:
+        material: PUFFERFISH
+      effect: "POISON:1:2"
+    Shrimp:
+      item:
+        custom-model-data: 7
+        material: SALMON
+    Squid:
+      item:
+        custom-model-data: 36
+        material: SALMON
+    Starfish:
+      item:
+        custom-model-data: 8
+        material: SALMON
+
+  Junk:
+    Rusty Bucket:
+      item:
+        raw-material: BUCKET
+    Rusty Spoon:
+      item:
+        material: IRON_SHOVEL
+    Fishing Rod:
+      item:
+        material: FISHING_ROD
+    Explorer's Boat:
+      item:
+        materials:
+          - OAK_BOAT
+          - SPRUCE_BOAT
+          - BIRCH_BOAT
+          - ACACIA_BOAT
+          - JUNGLE_BOAT
+          - DARK_OAK_BOAT
+          - MANGROVE_BOAT
+    Old Fisher's Hat:
+      item:
+        material: LEATHER_HELMET
+      dye-colour: "#888877"
+
+  Rare:
+    Saphire Jellyfish:
+      lore:
+      - "&7&oA mysterious substance coats this"
+      - "&7&ofish, pulsating a saphire-like glow."
+      item:
+        custom-model-data: 13
+        material: SALMON
+    Saphire Lobster:
+      lore:
+      - "&7&oA mysterious substance coats this"
+      - "&7&ofish, pulsating a saphire-like glow."
+      item:
+        custom-model-data: 14
+        material: SALMON
+    Saphire Pufferfish:
+      lore:
+      - "&7&oA mysterious substance coats this"
+      - "&7&ofish, pulsating a saphire-like glow."
+      item:
+        custom-model-data: 15
+        material: SALMON
+    Saphire Rockfish:
+      lore:
+      - "&7&oA mysterious substance coats this"
+      - "&7&ofish, pulsating a saphire-like glow."
+      item:
+        custom-model-data: 16
+        material: SALMON
+    Saphire Salmon:
+      lore:
+      - "&7&oA mysterious substance coats this"
+      - "&7&ofish, pulsating a saphire-like glow."
+      item:
+        custom-model-data: 17
+        material: SALMON
+    Moss Carp:
+      lore:
+      - "&7&oThe moss clinging on this fish"
+      - "&7&ois apparently mutated."
+      item:
+        custom-model-data: 9
+        material: SALMON
+    Moss Eel:
+      lore:
+      - "&7&oThe moss clinging on this fish"
+      - "&7&ois apparently mutated."
+      item:
+        custom-model-data: 10
+        material: SALMON
+    Moss Mackerel:
+      lore:
+      - "&7&oThe moss clinging on this fish"
+      - "&7&ois apparently mutated."
+      item:
+        custom-model-data: 11
+        material: SALMON
+    Moss Salmon:
+      lore:
+      - "&7&oThe moss clinging on this fish"
+      - "&7&ois apparently mutated."
+      item:
+        custom-model-data: 12
+        material: SALMON
+
+  Legendary:
+    Golden Carp:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 23
+        material: SALMON
+    Golden Crab:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 24
+        material: SALMON
+    Golden Eel:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 25
+        material: SALMON
+    Golden Frog:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 26
+        material: SALMON
+    Golden Jellyfish:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 27
+        material: SALMON
+    Golden Lobster:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 28
+        material: SALMON
+    Golden Mackerel:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 29
+        material: SALMON
+    Golden Pufferfish:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 30
+        material: SALMON
+    Golden Rockfish:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 31
+        material: SALMON
+    Golden Shrimp:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 32
+        material: SALMON
+    Golden Squid:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 33
+        material: SALMON
+    Golden Starfish:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 34
+        material: SALMON
+    Golden Voidfish:
+      lore:
+      - "&7&oExposure to a mysterious force"
+      - "&7&otransformed this aquatic lifeform"
+      - "&7&ointo a glowing golden shell&7&o."
+      item:
+        custom-model-data: 35
+        material: SALMON
+
+  Apocryphal:
+    Hexified Crab:
+      lore:
+      - "&7&oAn alleged encounter with Hex Magic"
+      - "&7&owarped the cells of this lifeform on"
+      - "&7&oan atomic level, transforming them"
+      - "&7&ointo a rotting abomination of its"
+      - "&7&oformer self."
+      item:
+        custom-model-data: 18
+        material: SALMON
+    Hexified Lobster:
+      lore:
+      - "&7&oAn alleged encounter with Hex Magic"
+      - "&7&owarped the cells of this lifeform on"
+      - "&7&oan atomic level, transforming them"
+      - "&7&ointo a rotting abomination of its"
+      - "&7&oformer self."
+      item:
+        custom-model-data: 19
+        material: SALMON
+    Hexified Squid:
+      lore:
+      - "&7&oAn alleged encounter with Hex Magic"
+      - "&7&owarped the cells of this lifeform on"
+      - "&7&oan atomic level, transforming them"
+      - "&7&ointo a rotting abomination of its"
+      - "&7&oformer self."
+      item:
+        custom-model-data: 20
+        material: SALMON
+    Hexified Starfish:
+      lore:
+      - "&7&oAn alleged encounter with Hex Magic"
+      - "&7&owarped the cells of this lifeform on"
+      - "&7&oan atomic level, transforming them"
+      - "&7&ointo a rotting abomination of its"
+      - "&7&oformer self."
+      item:
+        custom-model-data: 21
+        material: SALMON
+    Hexified Voidfish:
+      lore:
+      - "&7&oAn alleged encounter with Hex Magic"
+      - "&7&owarped the cells of this lifeform on"
+      - "&7&oan atomic level, transforming them"
+      - "&7&ointo a rotting abomination of its"
+      - "&7&oformer self."
+      item:
+        custom-model-data: 22
+        material: SALMON

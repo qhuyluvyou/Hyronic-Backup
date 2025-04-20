@@ -1,0 +1,57 @@
+
+locale: en_US
+
+vault: false
+
+vault-priority: Low
+
+treasury: false
+
+treasury-priority: LOW
+
+leaderboard-per-page: 10
+
+cache-duration: 30
+
+bungeecord-send-updates: true
+
+leaderboard-placeholder-entries: 10
+
+leaderboard-placeholder-refresh-interval: 15
+
+starting-balance: 0
+
+vote:
+
+  enabled: false
+
+  amount: 100
+
+  online: false
+
+base-command-redirect: ''
+
+legacy-database-mode:
+
+  enabled: false
+
+  table-name: playerpoints
+
+mysql-settings:
+
+  enabled: false
+
+  hostname: ''
+
+  port: 3306
+
+  database-name: ''
+
+  user-name: ''
+
+  user-password: ''
+
+  use-ssl: false
+
+  connection-pool-size: 3
+

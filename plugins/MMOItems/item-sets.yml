@@ -1,0 +1,278 @@
+Hellfire:
+    name: 'Hellfire'
+    bonuses:
+        '4':
+            ability-1:
+                type: HELLFIRE
+                cooldown: 3
+                mode: ATTACK
+            ability-2:
+                type: HELLFIRE_ATTACK
+                mode: ATTACK
+            fire-damage-reduction: 100
+    lore-tag: []
+Inferno:
+    name: 'Inferno'
+    bonuses:
+        '4':
+            ability-1:
+                type: HELLFIRE
+                cooldown: 3
+                mode: ATTACK
+            ability-2:
+                type: HELLFIRE_ATTACK_UPGRADED
+                mode: ATTACK
+            fire-damage-reduction: 100
+            ability-3:
+                type: FIRELORD_U
+                mode: RIGHT_CLICK 
+                cooldown: 30.0
+    lore-tag: []
+
+Warden:
+    name: 'Warden'
+    bonuses:
+        '4':
+            ability-1:
+                type: GRAND_HEAL
+                mode: TIMER
+                timer: 15.0
+                heal: 30.0
+                radius: 3.0
+    lore-tag: []
+Overseer:
+    name: 'Warden'
+    bonuses:
+        '4':
+            ability-1:
+                type: GRAND_HEAL
+                mode: TIMER
+                timer: 15.0
+                heal: 50.0
+                radius: 4.0
+            ability-2:
+                type: WARDEN_BLESSING_UPGRADED
+                mode: ATTACK 
+                cooldown: 10.0
+    lore-tag: []
+
+Apollo:
+    name: 'Apollo'
+    bonuses:
+        '4':
+            ability-1:
+                type: BANISH
+                mode: DAMAGED_BY_ENTITY
+                cooldown: 10
+    lore-tag: []
+Nirvana:
+    name: 'Nirvana'
+    bonuses:
+        '4':
+            ability-1:
+                type: BANISH_U
+                mode: DAMAGED_BY_ENTITY
+                cooldown: 10
+    lore-tag: []
+
+Apocalypse:
+    name: 'Apocalypse'
+    bonuses:
+        '4':
+            ability-1:
+                type: DOOMSLAYER
+                mode: KILL_ENTITY
+                cooldown: 2.0
+    lore-tag: []
+Quinerus:
+    name: 'Quinerus'
+    bonuses:
+        '4':
+            ability-1:
+                type: DOOMSLAYER
+                mode: KILL_ENTITY
+                cooldown: 2.0
+            ability-2:
+                type: TRADEOFF
+                mode: ATTACK
+                cooldown: 5.0
+    lore-tag: []
+Caeletus:
+    name: 'Caeletus'
+    bonuses:
+        '4':
+            ability-1:
+                type: DOOMSLAYER
+                mode: KILL_ENTITY
+                cooldown: 2.0
+            ability-2:
+                type: REPOSITION
+                mode: ARROW_LAND
+                cooldown: 10.0
+    lore-tag: []
+Mortos:
+    name: 'Mortos'
+    bonuses:
+        '4':
+            ability-1:
+                type: DOOMSLAYER
+                mode: KILL_ENTITY
+                cooldown: 2.0
+            ability-2:
+                type: WEAKEN
+                mode: SHIFT_RIGHT_CLICK
+                duration: 5.0
+                ratio: 25.0
+                cooldown: 5.0
+    lore-tag: []
+Hexim:
+    name: 'Hexim'
+    bonuses:
+        '4':
+            ability-1:
+                type: DOOMSLAYER
+                mode: KILL_ENTITY
+                cooldown: 2.0
+            ability-2:
+                type: NECROMANCY
+                mode: KILL_ENTITY
+                cooldown: 5.0
+    lore-tag: []
+Mythril:
+    name: 'Mythril'
+    bonuses:
+        '4':
+            ability-1:
+                type: ADAPTIVE_FIRST
+                mode: ATTACK
+            ability-2:
+                type: ADAPTIVE_SECOND
+                mode: ATTACK
+            ability-3:
+                type: ADAPTIVE_THIRD
+                mode: ATTACK
+    lore-tag: []
+    
+Orichalcum:
+    name: 'Orichalcum'
+    bonuses:
+        '4':
+            ability-1:
+                type: ORICHALCUM
+                mode: ATTACK
+                cooldown: 10.0
+    lore-tag: []
+Titanium:
+    name: 'Titanium'
+    bonuses:
+        '4':
+            ability-1:
+                type: TITANIUM
+                mode: DAMAGED_BY_ENTITY
+                cooldown: 2.0
+    lore-tag: []
+Permafrost:
+    name: 'Permafrost'
+    bonuses:
+        '4':
+            ability-1:
+                type: ICE_REAPER
+                mode: KILL_ENTITY
+                cooldown: 4.0
+    lore-tag: []
+Starborn:
+    name: 'Starborn'
+    bonuses:
+        '4':
+            ability-1:
+                type: STARBORN_INITIATE
+                mode: ATTACK
+            ability-2:
+                type: STARBORN
+                mode: ATTACK
+                cooldown: 15.0
+            ability-3:
+                type: STARBORN_CONVERT
+                mode: ATTACK
+                cooldown: 3.0
+    lore-tag: []
+
+Crimson:
+    name: 'Crimson'
+    bonuses:
+        '4':
+            ability-1:
+                type: BLOODTHIRST_INITIATE
+                mode: ATTACK
+            ability-2:
+                type: BLOODTHIRST
+                mode: ATTACK
+                cooldown: 15.0
+            ability-3:
+                type: BLOODTHIRST_ACTIVATE
+                mode: ATTACK
+                cooldown: 3.0
+    lore-tag: []
+
+Death:
+    name: 'Death'
+    bonuses:
+        '4':
+            ability-1:
+                type: ESSENCE_THEFT
+                mode: KILL_ENTITY
+                cooldown: 2.0
+    lore-tag: []
+
+Reaper:
+    name: 'Reaper'
+    bonuses:
+        '4':
+            ability-1:
+                type: ESSENCE_THEFT_UPGRADED
+                mode: KILL_ENTITY
+                cooldown: 2.0
+    lore-tag: []
+
+Uranium:
+    name: 'Uranium'
+    bonuses:
+        '1':
+            defense: 10.0
+            additional-wisdom: 10.0
+            weapon_damage: 5.0
+            skill_damage: 5.0
+        '2':
+            defense: 10.0
+            additional-wisdom: 10.0
+            weapon_damage: 5.0
+            skill_damage: 5.0
+        '3':
+            defense: 10.0
+            additional-wisdom: 10.0
+            weapon_damage: 5.0
+            skill_damage: 5.0
+        '4':
+            ability-1:
+                type: Radiation
+                mode: ATTACK
+            defense: 10.0
+            additional-wisdom: 10.0
+            weapon_damage: 5.0
+            skill_damage: 5.0
+        '5':
+            defense: 10.0
+            additional-wisdom: 10.0
+            weapon_damage: 5.0
+            skill_damage: 5.0
+        '6':
+            defense: 10.0
+            additional-wisdom: 10.0
+            weapon_damage: 5.0
+            skill_damage: 5.0
+        '7':
+            defense: 10.0
+            additional-wisdom: 10.0
+            weapon_damage: 5.0
+            skill_damage: 5.0
+    lore-tag: []

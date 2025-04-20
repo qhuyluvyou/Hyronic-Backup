@@ -1,0 +1,93 @@
+# Dont touch this
+config-version: 19
+
+# What should we display for the name when there is no data available?
+#  Default: ---
+no-data-name: "---"
+
+# What should we display for the score when there is no data available?
+#  Default: ---
+no-data-score: "---"
+
+# What character should we use for the comma in long numbers.
+# You can also set this to be blank if you dont want a comma
+comma: ","
+
+# What character should we use for the decimal
+decimal: "."
+
+# What should values be called?
+# In the default value, the ajtr_stats_wins_nocache board will have a name of "wins" to be displayed on signs
+value-names:
+- "ajtr_stats_wins_nocache%wins"
+
+# How often should we refresh the stats of online players?
+# this is in ticks, so 20 ticks = 1 second
+#  Default: 1200 (60 seconds)
+stat-refresh: 1200
+
+# Should this server update player stats?
+#  If disabled, stats will not be recorded to the database, and ajleaderboards will basically only read from it.
+#  This can be useful if you have a lobby where you want to display leaderboards, but want to make sure anything in the lobby
+#   doesnt override the stats from other servers
+update-stats: true
+
+# Debug option to print stuff that could be usefull to the developer.
+# You should probably keep this disabled unless you know what you are doing or are told to turn it on.
+#  Default: false
+debug: false
+
+# Should we send additional debug about updates?
+# Requires debug to be true
+#  Default: false
+update-de-bug: false
+
+# Should we use particles as debug to show where heads and armorstands are being looked for?
+#  Default: false
+particles: false
+
+# Should we block the server when loading placeholders?
+# If this is true, it can cause some lag when the placeholders first get loaded, but that only happens once
+#  (until the server restarts again)
+# Usually this isnt an issue, but if you see lag from ajLeaderboards and you dont have head blocks, maybe disable this
+blocking-fetch: true
+
+# Should we print some more stuff about the internals of fetching?
+# You really only need to use this if the dev asks for it.
+fetching-de-bug: false
+
+# Should ajLeaderboards update the stat as soon as the player joins?
+# You should only disable this if you have issues with the player's stat resetting when they join
+#  Default: true
+update-on-join: true
+
+# Only automatically update these boards.
+# If this is an empty list (the default), then all boards will be updated
+# update-stats, if disabled, will override this.
+# Note this is case-sensitive
+#  Default: []
+only-update: []
+
+# Boards listed here will be sorted in reverse order
+reverse-sort: []
+
+# How often (in ticks) should we update leaderboard signs?
+#  Default: 20
+sign-update: 20
+
+# If a player's score is 0 (and it wasnt 0 before) then ajLeaderboards will skip updating the player at first
+# This is to fix plugins that return 0 while theyre still loading stats
+#  Default: true
+require-zero-validation: true
+
+# These are "extra" placeholders that can be parsed to be displayed alongside the leaderboard
+# For example, you can have a KDR leaderboard, then next to each player on the leaderboard,
+#  you can show their actual kills and deaths
+extras:
+- "statistic_player_kills"
+
+# Should we use luckperms contexts?
+# Disable this if you are having issues with high db usage
+# See how to use it here: https://wiki.ajg0702.us/ajleaderboards/setup/luckperms-contexts
+#  Default: true
+register-lp-contexts: true

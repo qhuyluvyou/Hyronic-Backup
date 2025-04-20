@@ -1,0 +1,30 @@
+titanium:
+    public: true
+    conditions: 
+        titaniumc_1:
+            type: can_target
+            interaction_type: OFFENSE_SKILL
+    mechanics:
+        titanium_1:
+            type: damage
+            amount: '%mmoitems_stat_DEFENSE% / 100 * 5'
+            knockback: false
+            ignore_immunity: false
+            target:
+                type: nearby_entities
+                radius: 3
+                height: 1
+                source: true
+        titanium_2:
+            type: sound
+            sound: ITEM_SHIELD_BLOCK
+            pitch: 1
+            volume: 1
+            target:
+                type: caster
+        titanium_3:
+            type: dispatch_command
+            from_console: true
+            format: 'mmotempstat <caster.name> DEFENSE 20% 40'
+            target: 
+                type: caster

@@ -1,0 +1,9 @@
+GroupName:
+  Idle:
+    - minecraft:some.idle.sound
+  Hurt:
+    - minecraft:some.hurt.sound
+  Death:
+    - minecraft:some.death.scream.sound
+  Step:
+    - minecraft:some.step.sound

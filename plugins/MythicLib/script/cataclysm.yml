@@ -1,0 +1,60 @@
+ritual_of_the_end:
+    public: true
+    mechanics:
+        rotf_1: 
+            type: dispatch_command
+            from_console: true
+            format: 'mmotempstat <caster.name> MOVEMENT_SPEED -100% 60'
+            target: 
+                type: caster
+        rotf_3:
+            type: sound
+            sound: ENTITY_ILLUSIONER_PREPARE_BLINDNESS
+            target:
+                type: caster
+        rotf_5:
+            type: delay
+            amount: 60 
+        rotf_6:
+            type: sound
+            sound: ENTITY_ELDER_GUARDIAN_CURSE
+            target:
+                type: caster
+        rotf_7:
+            type: sound
+            sound: ENTITY_FIREWORK_ROCKET_TWINKLE
+            target:
+                type: caster
+        rotf_8:
+            type: script
+            name: rotf_hit
+            target: 
+                type: nearby_entities
+                radius: 5
+                height: 5
+                source: false
+
+
+rotf_hit:
+    conditions:
+        rotcasd123:
+            type: can_target
+            interaction_type: OFFENSE_SKILL
+    mechanics:
+        rotfh_1:
+            type: damage
+            amount: '650 + %mmoitems_stat_WISDOM%'
+            knockback: false
+            ignore_immunity: false
+
+rotf_tick:
+    mechanics:
+        rotft_1: 
+            type: particle
+            particle: SPELL_WITCH
+
+rotf_tick2:
+    mechanics:
+        rotft2_1: 
+            type: particle
+            particle: SOUL_FIRE_FLAME

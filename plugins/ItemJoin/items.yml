@@ -1,0 +1,23 @@
+
+items-Version: 8
+
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+
+items:
+  profile-item:
+    id: PAPER
+    slot: 8
+    name: '&bAdventurer''s Menu &7(Click)'
+    lore:
+    - '&7Access the adventurer menu'
+    - '&7for skills, lands management'
+    - '&7and more!'
+    itemflags: inventory-modify, item-store, death-keep, death-drops, self-drops, overwrite, cancel-events
+    triggers: join, respawn, world-switch
+    interact:
+      - 'player: menu'
+    commands-sound: BLOCK_CHEST_OPEN
+    model-data: 3

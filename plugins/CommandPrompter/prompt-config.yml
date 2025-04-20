@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+PlayerUI:
+  Skull-Name-Format: '&6%s'
+  Size: 54
+  Previous:
+    Item: Feather
+    Column: 3
+    Text: '&7◀◀ Previous'
+  Next:
+    Item: Feather
+    Column: 7
+    Text: Next ▶▶
+  Cancel:
+    Item: Barrier
+    Column: 5
+    Text: '&7Cancel ✘'
+  Sorted: false
+  Per-World: false
+  Cache-Size: 256
+  Cache-Delay: 1
+  Empty-Message: '&cNo players found!'
+
+
+
+
+
+AnvilGUI:
+  Enable-Title: true
+  Custom-Title: ''
+  Item: Paper
+  Enchanted: false
+
+
+
+
+
+TextPrompt:
+  Clickable-Cancel: false
+  Cancel-Message: '&7[&c&l✘&7]'
+  Cancel-Hover-Message: '&7Click here to cancel command completion'
+  Response-Listener-Priority: DEFAULT
+
+
+
+
+SignUI:
+  Input-Field-Location: bottom

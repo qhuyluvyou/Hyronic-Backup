@@ -1,0 +1,22 @@
+global:
+  auto updater:
+    notify: true
+    download: false
+    
+    delay: 43200 # 12 hours
+ 
+  metrics: true
+  
+  background compiler: true
+  
+  ignore version check: 
+  
+  injection method: 
+  
+  debug: false
+  
+  detailed error: false
+  
+  script engine: JavaScript
+  
+  suppressed reports:

@@ -1,0 +1,304 @@
+defaults:
+  chance: 0.2
+  use-chunk-kill-max: true
+  amount: 1
+  minLevel: -1
+  maxLevel: -1
+  custommodeldata: -1
+  nomultiplier: false
+  nospawner: false
+  equipped: 1.0
+  equip-offhand: true
+  override: false
+  maxdropgroup: 1
+  priority: 0
+  player-caused: true
+  item-flags: ''
+  groupid: ''
+  overall_chance: 0.0
+  nbt-data: ''
+  only-drop-if-equipped: false
+  run-on-spawn: false
+  run-on-death: true
+
+
+all_mobs:
+  - usedroptable: alchemy
+  
+all_levellable_mobs:
+  -
+
+all_hostile_mobs:
+  -
+
+all_passive_mobs:
+  -
+
+all_overworld_mobs:
+  -
+
+all_nether_mobs:
+  -
+
+all_flying_mobs:
+  -
+
+all_ground_mobs:
+  -
+
+all_aquatic_mobs:
+  -
+
+
+
+BAT:
+  -
+
+BEE:
+  -
+
+BLAZE:
+  -
+
+CAT:
+  -
+
+CAVE_SPIDER:
+  -
+
+CHICKEN:
+  -
+
+COD:
+  -
+
+COW:
+  -
+
+CREEPER:
+  -
+
+DOLPHIN:
+  -
+
+DONKEY:
+  -
+
+DROWNED:
+  -
+
+ELDER_GUARDIAN:
+  -
+
+ENDER_DRAGON:
+  -
+
+ENDERMAN:
+  -
+
+ENDERMITE:
+  -
+
+EVOKER:
+  -
+
+FOX:
+  -
+
+GHAST:
+  -
+
+
+
+GUARDIAN:
+  -
+
+HOGLIN:
+  -
+
+HORSE:
+  -
+
+HUSK:
+  -
+
+ILLUSIONER:
+  -
+
+IRON_GOLEM:
+  -
+
+LLAMA:
+  -
+
+MAGMA_CUBE:
+  -
+
+MULE:
+  -
+
+MUSHROOM_COW:
+  -
+
+OCELOT:
+  -
+
+PANDA:
+  -
+
+PARROT:
+  -
+
+PHANTOM:
+  -
+
+PIG:
+  -
+
+PIGLIN:
+  -
+
+PIGLIN_BRUTE:
+  -
+
+PILLAGER:
+  -
+
+POLAR_BEAR:
+  -
+
+PUFFERFISH:
+  -
+
+RABBIT:
+  -
+
+RAVAGER:
+  -
+
+SALMON:
+  -
+
+SHEEP:
+  -
+
+SHULKER:
+  -
+
+SILVERFISH:
+  -
+
+SKELETON:
+  -
+
+SKELETON_HORSE:
+  -
+
+SLIME:
+  -
+
+SNOWMAN:
+  -
+
+SPIDER:
+  -
+
+SQUID:
+  -
+
+STRAY:
+  -
+
+STRIDER:
+  -
+
+TRADER_LLAMA:
+  -
+
+TROPICAL_FISH:
+  -
+
+TURTLE:
+  -
+
+VEX:
+  -
+
+VILLAGER:
+  -
+
+VINDICATOR:
+  -
+
+WANDERING_TRADER:
+  -
+
+WITCH:
+  -
+
+WITHER:
+  -
+
+WITHER_SKELETON:
+  -
+
+WOLF:
+  -
+
+ZOGLIN:
+  -
+
+ZOMBIE:
+  -
+
+ZOMBIE_HORSE:
+  -
+
+ZOMBIE_VILLAGER:
+  -
+
+ZOMBIFIED_PIGLIN:
+  -
+
+drop-table:
+  alchemy:
+    - MMOItems:BLACK_POWDER:
+        groupid: common_ingredients
+        overall_chance: 0.2
+        chance: 0.2
+        type: MATERIAL
+        amount: 1.0
+        equipped: 0
+    - MMOItems:DETACHED_EYE:
+        groupid: common_ingredients
+        chance: 0.2
+        type: MATERIAL
+        amount: 1.0
+        equipped: 0
+    - MMOItems:SILVER_LEAF:
+        groupid: common_ingredients
+        chance: 0.2
+        type: MATERIAL
+        amount: 1.0
+        equipped: 0
+    - MMOItems:SLIMY_MUCUS:
+        groupid: common_ingredients
+        chance: 0.2
+        type: MATERIAL
+        amount: 1.0
+        equipped: 0
+    - MMOItems:TEAL_MUSHROOM:
+        groupid: common_ingredients
+        chance: 0.2
+        maxdropgroup: 1
+        type: MATERIAL
+        amount: 1.0
+        equipped: 0
+    - MMOItems:PRISMATIC_FRUIT:
+        chance: 0.001
+        minLevel: 50
+        type: MATERIAL
+        amount: 1.0
+        equipped: 0
+
+file-version: 10

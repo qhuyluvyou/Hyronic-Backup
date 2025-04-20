@@ -1,0 +1,8 @@
+{
+  "connect.joining": "",
+  "menu.disconnect": "§7                Hey, don't go!§f<shift:-143><glyph:esc_banner>",
+  "menu.game": "<glyph:logo1>",
+  "item.dyed": "",
+  "container.inventory": " Inventory",
+  "resourcePack.server.name": "Vanilla Mod"
+} 

@@ -1,0 +1,137 @@
+open_command: 
+  - lands
+  - land
+size: 54
+menu_title: '             ʟᴀɴᴅꜱ ᴘᴀɴᴇʟ'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_WOODEN_DOOR_CLOSE"
+  'back':
+    material: BOOK
+    model_data: 38
+    slot: 48
+    display_name: "&aBack"
+    lore:
+      - "&7Click this to go"
+      - "&7back!"
+    left_click_commands:
+      - "[openguimenu] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'outerfill':
+    material: CLAY_BALL
+    model_data: 1
+    hide_attributes: true
+    display_name: "&f"
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,50,51,52,17,26,35,44,52,53,10,11,12,13,14,15,16,19,20,22,24,25,28,29,31,33,34,37,38,39,40,41,42,43]
+  'info':
+    material: BOOK
+    model_data: 6
+    slot: 4
+    display_name: "&#6F4E37&l        ᴄʟᴀɪᴍ ꜱʏꜱᴛᴇᴍ"
+    lore:
+      - ""
+      - "&#B1907FClaim system allows you to &8claim"
+      - "&#B1907Funowned area of lands. Claimed"
+      - "&#B1907Flands can't be modified by other"
+      - "&#B1907Fplayers."
+      - ""
+      - "&#7C6559To claim, you use an &fIron Shovel"
+      - "&#7C6559and right click onto two blocks"
+      - "&#7C6559to define your area."
+      - ""
+      - "&#998880For each hour you actively play,"
+      - "&#998880you gain &#E8DED9100 claimable blocks&#998880, up"
+      - "&#998880to a maximum of &#E8DED910.000 &#998880blocks!"
+      - "&8(Accumulated &7+%griefprevention_accruedclaims_formatted% &8blocks)"
+      - ""
+      - "&#998880You have &#E8DED9%griefprevention_claims% &#998880claims."
+      - "&#998880You can claim &#E8DED9%griefprevention_remainingclaims% &#998880more blocks."
+  'unclaim':
+    material: BOOK
+    model_data: 48
+    slot: 21
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: "&cAbandon This Claim"
+    lore:
+      - ""
+      - "&cAbandon&7 the claim you are"
+      - "&7standing on! &8(if you own it)"
+      - ""
+      - "&cWARNING!&7 Once abandoned,"
+      - "&7all items and blocks could"
+      - "&7be destroyed by others!"
+      - ""
+      - "&8→ Click to abandon!"
+    left_click_commands:
+      - "[player] abandonClaim"
+      - "[close] lands"
+  'unclaim2':
+    material: BOOK
+    model_data: 49
+    slot: 30
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: "&cAbandon All Claims"
+    lore:
+      - ""
+      - "&cAbandon&7 all claims you"
+      - "&7own. &4IRREVERSIBLE!"
+      - ""
+      - "&cWARNING!&7 Once abandoned,"
+      - "&7all items and blocks could"
+      - "&7be destroyed by others!"
+      - ""
+      - "&8→ Click to abandon!"
+    left_click_commands:
+      - "[player] AbandonAllClaims"
+      - "[player] AbandonAllClaims confirm <delay=5>"
+      - "[close] lands"
+
+  'friend1':
+    material: BOOK
+    model_data: 51
+    slot: 23
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: "&dTrust a Player"
+    lore:
+      - ""
+      - "&7Add the selected player as"
+      - "&dtrusted"
+      - ""
+      - "&7Trusted players are allowed to"
+      - "&7modify the claims."
+      - ""
+      - "&8→ Click to initiate!"
+    left_click_commands:
+      - "[player] trust {&7Please specify the name of the player you want to trust!}"
+      - "[close] lands"
+  'unfriend':
+    material: BOOK
+    model_data: 53
+    slot: 32
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: "&cUntrust a Player"
+    lore:
+      - ""
+      - "&7Remove the selected player as"
+      - "&7trusted"
+      - ""
+      - "&7Trusted players are allowed to"
+      - "&7modify the claims."
+      - ""
+      - "&8→ Click to initiate!"
+    left_click_commands:
+      - "[player] untrust {&7Please specify the name of the player you want to untrust!}"
+      - "[close] lands"

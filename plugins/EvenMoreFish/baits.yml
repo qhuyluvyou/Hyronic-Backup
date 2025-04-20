@@ -1,0 +1,89 @@
+baits:
+  Luminating Tissue:
+    lore:
+    - "&6ψ &fAttracts &6Golden Fishes" 
+    - ""
+    - "&7&oA piece of flesh ripped from the golden"
+    - "&7&ofishes themselves. They appear to have"
+    - "&7&odeveloped a form of cannibalism."
+    item:
+      material: PAPER
+      custom-model-data: 16
+      displayname: "&6Luminating Tissue"
+    bait-theme: "&6"
+    rarities:
+      - "Legendary"
+    catch-weight: 100
+    application-weight: 1
+    max-baits: 20
+
+  Void Pearl:
+    lore:
+    - "&#A020F0ψ &fAttracts &#A020F0Void Eel" 
+    - ""
+    - "&7&oIt seems to absorb the light around,"
+    - "&7&oa property many void materials share"
+    item:
+      material: PAPER
+      custom-model-data: 17
+      displayname: "&#A020F0Void Pearl"
+    bait-theme: "&#A020F0"
+    fishes:
+      - "Void Eel"
+    catch-weight: 100
+    application-weight: 3
+    max-baits: 20
+
+  Heximus Flesh:
+    lore:
+    - "&cψ &fAttracts &cHexified Fishes" 
+    - ""
+    - "&7&oThis piece of meat was exposed to"
+    - "&7&oHex Magic, which modified its cells"
+    - "&7&oand gave it new properties."
+    item:
+      material: PAPER
+      custom-model-data: 18
+      displayname: "&cHeximus Flesh"
+    bait-theme: "&c"
+    fishes:
+      - "Void Eel"
+    catch-weight: 100
+    application-weight: 2
+    max-baits: 20
+
+general:
+  boost: 1.5
+
+  competition-disable: true
+
+  add-to-lore: true
+
+  catch-percentage: 2.5
+
+  baits-per-rod: 5
+
+  show-unused-slots: true
+
+format:
+  rod-lore:
+    - "&f"
+    - "&6ψ Baits: &7{current_baits}&8/&7{max_baits}"
+    - "{baits}"
+    - "&f"
+
+  bait-lore:
+    - "&f"
+    - "{lore}"
+    - "&f"
+    - "&7Δ &8Drop onto a fishing rod to apply 1"
+    - "&7Δ &8Hold SHIFT to apply all."
+  baits: "&8+ &f{amount} {bait}"
+
+  boosts-rarity: "{bait_theme}► &f1 {bait_theme}Rarity"
+  boosts-rarities: "{bait_theme}► &f{amount} {bait_theme}Rarities"
+  boosts-fish: "{bait_theme}► &f{amount} {bait_theme}Fish"
+
+  unused-slot: "&8+ &7Empty"
+
+config-version: 1

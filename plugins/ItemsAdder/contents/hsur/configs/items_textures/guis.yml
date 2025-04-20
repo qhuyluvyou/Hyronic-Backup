@@ -1,0 +1,975 @@
+info:
+  namespace: hsur
+
+items:
+  guis1:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  1
+      material: BOOK
+      textures:
+      - custom/gui/main_menu/1.png
+
+  guis2:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  2
+      material: BOOK
+      textures:
+      - custom/gui/main_menu/2
+
+  guis3:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  3
+      material: BOOK
+      textures:
+      - custom/gui/main_menu/3
+
+  guis4:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  4
+      material: BOOK
+      textures:
+      - custom/gui/main_menu/4
+
+  guis5:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  5
+      material: BOOK
+      textures:
+      - custom/gui/main_menu/5
+
+  guis6:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  6
+      material: BOOK
+      textures:
+      - custom/gui/main_menu/6
+
+  guis7:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  7
+      material: BOOK
+      textures:
+      - custom/gui/main_menu/7
+
+  guis8:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  8
+      material: BOOK
+      textures:
+      - custom/gui/main_menu/8
+
+  guis9:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  9
+      material: BOOK
+      textures:
+      - custom/gui/main_menu/9
+
+  guis10:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  10
+      material: BOOK
+      textures:
+      - custom/gui/main_menu/10
+
+  guis11:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  12
+      material: BOOK
+      textures:
+      - custom/gui/stats/damage
+
+  guis12:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  13
+      material: BOOK
+      textures:
+      - custom/gui/stats/attackspeed
+
+  guis13:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  14
+      material: BOOK
+      textures:
+      - custom/gui/stats/critchance
+
+  guis14:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  15
+      material: BOOK
+      textures:
+      - custom/gui/stats/critdamage
+
+  guis15:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  16
+      material: BOOK
+      textures:
+      - custom/gui/stats/defense
+
+  guis16:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  17
+      material: BOOK
+      textures:
+      - custom/gui/stats/health
+
+  guis17:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  18
+      material: BOOK
+      textures:
+      - custom/gui/stats/speed
+
+  guis18:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  19
+      material: BOOK
+      textures:
+      - custom/gui/stats/tenacity
+
+  guis19:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  20
+      material: BOOK
+      textures:
+      - custom/gui/stats/abilityhaste
+
+  guis20:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  21
+      material: BOOK
+      textures:
+      - custom/gui/stats/abilitydamage
+
+  guis21:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  22
+      material: BOOK
+      textures:
+      - custom/gui/stats/projectile_damage
+
+  guis22:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  23
+      material: BOOK
+      textures:
+      - custom/gui/stats/weapon_damage
+
+  guis23:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  24
+      material: BOOK
+      textures:
+      - custom/gui/stats/damagereduction
+
+  guis24:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  25
+      material: BOOK
+      textures:
+      - custom/gui/stats/strength
+
+  guis25:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  26
+      material: BOOK
+      textures:
+      - custom/gui/stats/regen
+
+  guis26:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  27
+      material: BOOK
+      textures:
+      - custom/gui/stats/luck
+
+  guis27:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  28
+      material: BOOK
+      textures:
+      - custom/gui/stats/wisdom
+
+  guis28:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  29
+      material: BOOK
+      textures:
+      - custom/gui/stats/stats
+
+  guis29:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  30
+      material: BOOK
+      textures:
+      - custom/gui/skills/farming
+
+  guis30:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  31
+      material: BOOK
+      textures:
+      - custom/gui/skills/mining
+
+  guis31:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  32
+      material: BOOK
+      textures:
+      - custom/gui/skills/archery
+
+  guis32:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  33
+      material: BOOK
+      textures:
+      - custom/gui/skills/combat
+
+  guis33:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  34
+      material: BOOK
+      textures:
+      - custom/gui/skills/defense
+
+  guis34:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  35
+      material: BOOK
+      textures:
+      - custom/gui/skills/foraging
+
+  guis35:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  36
+      material: BOOK
+      textures:
+      - custom/gui/skills/fishing
+
+  guis36:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  37
+      material: BOOK
+      textures:
+      - custom/gui/skills/alchemy
+
+  guis37:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  38
+      material: BOOK
+      textures:
+      - custom/gui/skills/back
+
+  guis38:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  39
+      material: BOOK
+      textures:
+      - custom/gui/skills/ability
+
+  guis39:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  40
+      material: BOOK
+      textures:
+      - custom/gui/skills/previous
+
+  guis40:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  41
+      material: BOOK
+      textures:
+      - custom/gui/skills/next
+
+  guis41:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  42
+      material: BOOK
+      textures:
+      - custom/gui/skills/sources
+
+  guis42:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  43
+      material: BOOK
+      textures:
+      - custom/gui/skills/unlocked
+
+  guis43:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  44
+      material: BOOK
+      textures:
+      - custom/gui/skills/locked
+
+  guis44:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  45
+      material: BOOK
+      textures:
+      - custom/gui/lands/lands
+
+  guis45:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  46
+      material: BOOK
+      textures:
+      - custom/gui/lands/lands_1
+
+  guis46:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  47
+      material: BOOK
+      textures:
+      - custom/gui/lands/lands_2
+
+  guis47:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  48
+      material: BOOK
+      textures:
+      - custom/gui/lands/lands_3
+
+  guis48:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  49
+      material: BOOK
+      textures:
+      - custom/gui/lands/lands_4
+
+  guis49:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  50
+      material: BOOK
+      textures:
+      - custom/gui/lands/members
+
+  guis50:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  51
+      material: BOOK
+      textures:
+      - custom/gui/lands/members_1
+
+  guis51:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  52
+      material: BOOK
+      textures:
+      - custom/gui/lands/members_2
+
+  guis52:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  53
+      material: BOOK
+      textures:
+      - custom/gui/lands/members_3
+
+  guis53:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  54
+      material: BOOK
+      textures:
+      - custom/gui/lands/members_4
+
+  guis54:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  55
+      material: BOOK
+      textures:
+      - custom/gui/lands/settings
+
+  guis55:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  59
+      material: BOOK
+      textures:
+      - custom/gui/lands/shop
+
+  guis56:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  60
+      material: BOOK
+      textures:
+      - custom/gui/warp/draford
+
+  guis57:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  61
+      material: BOOK
+      textures:
+      - custom/gui/warp/ah
+
+  guis58:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  62
+      material: BOOK
+      textures:
+      - custom/gui/warp/stadium
+
+  guis59:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  63
+      material: BOOK
+      textures:
+      - custom/misc/yes
+
+  guis60:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  64
+      material: BOOK
+      textures:
+      - custom/misc/no
+
+  guis61:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  65
+      material: BOOK
+      textures:
+      - custom/misc/wait
+
+  guis62:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  66
+      material: BOOK
+      textures:
+      - custom/misc/money
+
+  guis63:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  67
+      material: BOOK
+      textures:
+      - custom/gui/codex/region
+
+  guis64:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  68
+      material: BOOK
+      textures:
+      - custom/gui/codex/boss
+
+  guis65:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  69
+      material: BOOK
+      textures:
+      - custom/gui/codex/enemy
+
+  guis66:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  70
+      material: BOOK
+      textures:
+      - custom/gui/codex/mage
+
+  guis67:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  71
+      material: BOOK
+      textures:
+      - custom/misc/coming_soon
+
+  guis68:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  72
+      material: BOOK
+      textures:
+      - custom/gui/skills/enchant
+
+  guis69:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  73
+      material: BOOK
+      textures:
+      - custom/gui/dungeon/dungeon
+
+  guis70:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  74
+      material: BOOK
+      textures:
+      - custom/gui/dungeon/stats
+
+  guis71:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  75
+      material: BOOK
+      textures:
+      - custom/gui/dungeon/coven
+
+  guis72:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  76
+      material: BOOK
+      textures:
+      - custom/misc/power
+
+  guis73:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  77
+      material: BOOK
+      textures:
+      - custom/region/draford
+
+  guis74:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  78
+      material: BOOK
+      textures:
+      - custom/region/shop
+
+  guis75:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  79
+      material: BOOK
+      textures:
+      - custom/region/ah
+
+  guis76:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  80
+      material: BOOK
+      textures:
+      - custom/region/hall_of_fame
+
+  guis77:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  81
+      material: BOOK
+      textures:
+      - custom/region/prize_corner
+
+  guis78:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  82
+      material: BOOK
+      textures:
+      - custom/region/dungeon_portal
+
+  guis79:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  83
+      material: BOOK
+      textures:
+      - custom/gui/codex/ravenna
+
+  guis80:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  84
+      material: BOOK
+      textures:
+      - custom/gui/settings/tags
+
+  guis81:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  85
+      material: BOOK
+      textures:
+      - custom/gui/settings/teleport
+
+  guis82:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  86
+      material: BOOK
+      textures:
+      - custom/gui/settings/trade
+
+  guis83:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  87
+      material: BOOK
+      textures:
+      - custom/gui/settings/info
+
+  guis84:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  88
+      material: BOOK
+      textures:
+      - custom/gui/settings/profile_1
+
+  guis85:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  89
+      material: BOOK
+      textures:
+      - custom/gui/store/catalogue
+
+  guis86:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  90
+      material: BOOK
+      textures:
+      - custom/gui/store/rank
+
+  guis87:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  91
+      material: BOOK
+      textures:
+      - custom/gui/guild/guild
+
+  guis88:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  92
+      material: BOOK
+      textures:
+      - custom/gui/guild/locked
+
+  guis89:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  93
+      material: BOOK
+      textures:
+      - custom/gui/guild/claim
+
+  guis90:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  94
+      material: BOOK
+      textures:
+      - custom/gui/guild/unlocked
+
+  guis91:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  95
+      material: BOOK
+      textures:
+      - custom/misc/update
+
+  guis92:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  96
+      material: BOOK
+      textures:
+      - custom/region/library
+
+  guis93:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  97
+      material: BOOK
+      textures:
+      - custom/gui/settings/profile_2
+
+  guis94:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  98
+      material: BOOK
+      textures:
+      - custom/gui/blacksmith/upgrade
+
+  guis95:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  99
+      material: BOOK
+      textures:
+      - custom/region/the_other_side
+
+  guis96:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  100
+      material: BOOK
+      textures:
+      - custom/misc/enchant
+
+  guis97:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  102
+      material: BOOK
+      textures:
+      - custom/region/library
+
+  guis98:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  103
+      material: BOOK
+      textures:
+      - custom/gui/dungeon/dungeon
+
+  guis99:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  104
+      material: BOOK
+      textures:
+      - custom/region/blacksmith
+
+  guis100:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  105
+      material: BOOK
+      textures:
+      - custom/equipment_room/artifact_locked
+
+  guis101:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  106
+      material: BOOK
+      textures:
+      - custom/equipment_room/artifact_unlocked
+
+  guis102:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  107
+      material: BOOK
+      textures:
+      - custom/equipment_room/emblem_locked
+
+  guis103:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  108
+      material: BOOK
+      textures:
+      - custom/equipment_room/emblem_unlocked
+
+  guis104:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  109
+      material: BOOK
+      textures:
+      - custom/gui/codex/unknown_anomaly
+
+  guis105:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  111
+      material: BOOK
+      textures:
+      - custom/region/jeweler
+
+  guis106:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  112
+      material: BOOK
+      textures:
+      - custom/region/alchemy_room
+
+
+  nothingslot:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  110
+      material: BOOK
+      textures:
+      - custom/misc/air
+
+  fillslot:
+    enabled: true
+    resource:
+      generate: false
+      model_id:  1
+      material: CLAY_BALL
+      model_path: custom/nothing.json

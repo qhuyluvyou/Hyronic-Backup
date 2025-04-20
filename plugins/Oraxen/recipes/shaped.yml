@@ -1,0 +1,105 @@
+
+
+
+
+
+
+
+uranium:
+  result:
+    oraxen_item: uranium
+  ingredients:
+    A:
+      oraxen_item: uranium_debris
+  shape:
+  - AA_
+  - AA_
+  - ___
+uranium_helmet:
+  result:
+    oraxen_item: uranium_helmet
+  ingredients:
+    A:
+      oraxen_item: uranium
+  shape:
+  - AAA
+  - A_A
+  - ___
+uranium_boots:
+  result:
+    oraxen_item: uranium_boots
+  ingredients:
+    A:
+      oraxen_item: uranium
+  shape:
+  - ___
+  - A_A
+  - A_A
+uranium_chestplate:
+  result:
+    oraxen_item: uranium_chestplate
+  ingredients:
+    A:
+      oraxen_item: uranium
+  shape:
+  - A_A
+  - AAA
+  - AAA
+uranium_leggings:
+  result:
+    oraxen_item: uranium_leggings
+  ingredients:
+    A:
+      oraxen_item: uranium
+  shape:
+  - AAA
+  - A_A
+  - A_A
+titanium-pickaxe:
+  result:
+    oraxen_item: titanium_pickaxe
+  ingredients:
+    B:
+      minecraft_type: STICK
+    A:
+      oraxen_item: titanium
+  shape:
+  - AAA
+  - _B_
+  - _B_
+mythril-pickaxe:
+  result:
+    oraxen_item: mythril_pickaxe
+  ingredients:
+    A:
+      oraxen_item: mythril
+    B:
+      minecraft_type: STICK
+  shape:
+  - AAA
+  - _B_
+  - _B_
+orichalcum-pickaxe:
+  result:
+    oraxen_item: orichalcum_pickaxe
+  ingredients:
+    A:
+      oraxen_item: orichalcum
+    B:
+      minecraft_type: STICK
+  shape:
+  - AAA
+  - _B_
+  - _B_
+iridium-pickaxe:
+  result:
+    oraxen_item: iridium_pickaxe
+  ingredients:
+    A:
+      oraxen_item: iridium_crystal
+    B:
+      minecraft_type: STICK
+  shape:
+  - AAA
+  - _B_
+  - _B_

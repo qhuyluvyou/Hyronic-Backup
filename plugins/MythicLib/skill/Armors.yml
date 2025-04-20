@@ -1,0 +1,99 @@
+FOCUS:
+  mythicmobs-skill-id: Focus
+  modifiers: []
+
+ACID_SPRAY:
+  mythicmobs-skill-id: Acid_Spray
+  modifiers: []
+
+CELESTIAL_AID:
+  mythicmobs-skill-id: Celestial_Aid
+  modifiers: []
+
+BANISH:
+  mythicmobs-skill-id: Banish
+  modifiers: []
+
+BANISH_U:
+  mythicmobs-skill-id: Banish_U
+  modifiers: []
+
+COBRA_CURSE:
+  mythicmobs-skill-id: Cobra_Curse
+  modifiers: []
+
+COSMIC_ALLY:
+  mythicmobs-skill-id: Cosmic_Ally
+  modifiers: []
+
+DOOMSLAYER:
+  mythicmobs-skill-id: Doomslayer
+  modifiers: []
+
+DOPPELGANGER:
+  mythicmobs-skill-id: Doppelganger
+  modifiers: []
+
+FIRELORD_U:
+  mythicmobs-skill-id: Firelord_U
+  modifiers: []
+
+ICE_REAPER:
+  mythicmobs-skill-id: Ice_Reaper
+  modifiers: []
+
+ICE_FURY:
+  mythicmobs-skill-id: Icy_Fury
+  modifiers: []
+
+NECROMANCY:
+  mythicmobs-skill-id: Necromancy
+  modifiers: []
+
+REPOSITION:
+  mythicmobs-skill-id: Reposition
+  modifiers: []
+
+STARBORN_INITIATE:
+  mythicmobs-skill-id: Starborn_Initiate
+  modifiers: []
+STARBORN:
+  mythicmobs-skill-id: Starborn
+  modifiers: []
+STARBORN_CONVERT:
+  mythicmobs-skill-id: Starborn_Convert
+  modifiers: []
+
+BLOODTHIRST_INITIATE:
+  mythicmobs-skill-id: Bloodthirst_Initiate
+  modifiers: []
+BLOODTHIRST:
+  mythicmobs-skill-id: Bloodthirst
+  modifiers: []
+BLOODTHIRST_ACTIVATE:
+  mythicmobs-skill-id: Bloodthirst_Activate
+  modifiers: []
+
+STELLAR_STRIKE:
+  mythicmobs-skill-id: Stellar_Strike
+  modifiers: []
+
+TRADEOFF:
+  mythicmobs-skill-id: Tradeoff
+  modifiers: []
+
+INITIATE_INTIMACY:
+  mythicmobs-skill-id: Initiate_Intimacy
+  modifiers: []
+
+WARDEN_BLESSING_UPGRADED:
+  mythicmobs-skill-id: Warden_Blessing_Upgraded
+  modifiers: []
+
+RADIATION:
+  mythicmobs-skill-id: Radiation
+  modifiers: []
+
+OWTV:
+  mythicmobs-skill-id: OWTV
+  modifiers: []

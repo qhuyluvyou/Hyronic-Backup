@@ -1,0 +1,157 @@
+HexWarrior:
+  Type: DROWNED
+  Display: 'Reanimated Corpse'
+  Health: 2000
+  Damage: 25
+  Equipment:
+  - AIR HAND
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  - MAGICAL 0
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+  Drops:
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Wraith_TeleportAttack} @target ~onTimer:90 0.65
+  - setstance{stance=wraithwarrior} @self ~onSpawn
+  - sound{s=entity.vex.ambient;p=0.5} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=0.5} @self ~onDamaged
+  - sound{s=entity.vex.death;p=0.5} @self ~onDeath
+
+HexArcher:
+  Type: STRAY
+  Display: 'Hexified Blaster'
+  Health: 1450
+  Damage: 0
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  Faction: Enemy
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+    MovementSpeed: 0.15
+  Drops:
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=HexArrows;sync=true} @target ~onShoot 0.3
+  - sound{s=entity.vex.ambient;p=0.7} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=0.7} @self ~onDamaged
+  - sound{s=entity.vex.death;p=0.7} @self ~onDeath
+
+Hexmancer:
+  Type: WITCH
+  Display: 'Hexmancer'
+  Health: 3500
+  Damage: 0
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  Faction: Enemy
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+  Drops:
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Equipment:
+  - air:0
+  - air:5
+  Skills:
+  - setname{name=<caster.name>;delay=2} @self ~onDamaged
+  - skill{s=Wraith_Interceptor} @target ~onTimer:160 0.7
+  - potion{t=SLOW;d=2147483647;l=9} @self ~onSpawn
+  - effect:particles{p=smoke_large;amount=5;hS=0.4;vS=1;speed=0.05} @self ~onTimer:5
+  - effect:particles{p=spell_mob;color=#DC143C;amount=3;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=spell_mob;color=#000000;amount=3;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.vex.ambient;p=0.4} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=0.4} @self ~onDamaged
+  - sound{s=entity.vex.death;p=0.4} @self ~onDeath
+
+HexSprinter:
+  Type: WITHER_SKELETON
+  Display: 'Hexrathon Runner'
+  Health: 900
+  Damage: 35
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  Faction: Enemy
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+    MovementSpeed: 0.32
+  Drops:
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Wraith_SprintAttack} @target ~onTimer:90 0.6
+  - skill{s=Wraith_SprintAttack_Hit} @target ~onAttack
+  - setname{name=<caster.name>;delay=2} @self ~onDamaged
+  - effect:particles{p=smoke_large;amount=100;hS=0.4;vS=1.2;speed=0.05} @self ~onSpawn
+  - effect:particles{p=smoke_large;amount=100;hS=0.4;vS=1.2;speed=0.05} @self ~onDeath
+  - effect:particles{p=spell_mob;color=#00ff00;amount=6;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=cloud;amount=1;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.vex.ambient;p=1} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=1} @self ~onDamaged
+  - sound{s=entity.vex.death;p=1} @self ~onDeath

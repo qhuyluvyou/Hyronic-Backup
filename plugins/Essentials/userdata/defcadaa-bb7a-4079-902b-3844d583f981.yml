@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1689655116914
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1689655209432
+  login: 1689655034433
+money: '8689.0'
+last-account-name: prisq
+logoutlocation:
+  world: ad9e1f77-bd93-47b5-bfe8-c7694eb914b7
+  world-name: spawn
+  x: -168.28883491341645
+  y: 175.0625
+  z: -89.4424214072188
+  yaw: -97.49972534179688
+  pitch: 23.72725486755371
+lastlocation:
+  world: ad9e1f77-bd93-47b5-bfe8-c7694eb914b7
+  world-name: spawn
+  x: -116.32013971511255
+  y: 180.24437038724776
+  z: -127.3267448403351
+  yaw: 21.016571044921875
+  pitch: 29.081024169921875

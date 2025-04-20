@@ -1,0 +1,465 @@
+info:
+  namespace: hsur
+font_images:
+
+
+  rarity_common:
+    show_in_gui: true
+    path: "custom/font_icons/rarity_common.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "ஸ"
+  rarity_uncommon:
+    show_in_gui: true
+    path: "custom/font_icons/rarity_uncommon.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "ஹ"
+  rarity_rare:
+    show_in_gui: true
+    path: "custom/font_icons/rarity_rare.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "஺"
+  rarity_epic:
+    show_in_gui: true
+    path: "custom/font_icons/rarity_epic.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "஻"
+  rarity_legendary:
+    show_in_gui: true
+    path: "custom/font_icons/rarity_legendary.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "஼"
+  rarity_mythic:
+    show_in_gui: true
+    path: "custom/font_icons/rarity_mythic.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "஽"
+  rarity_divine:
+    show_in_gui: true
+    path: "custom/font_icons/rarity_divine.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "ா"
+
+
+
+  rank_stone:
+    show_in_gui: true
+    path: "custom/font_icons/rank_stone.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "ி"
+  rank_iron:
+    show_in_gui: true
+    path: "custom/font_icons/rank_iron.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "ீ"
+  rank_gold:
+    show_in_gui: true
+    path: "custom/font_icons/rank_gold.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "ு"
+  rank_redstone:
+    show_in_gui: true
+    path: "custom/font_icons/rank_redstone.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "ூ"
+  rank_diamond:
+    show_in_gui: true
+    path: "custom/font_icons/rank_diamond.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "௃"
+  rank_emerald:
+    show_in_gui: true
+    path: "custom/font_icons/rank_emerald.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "௄"
+  rank_helper:
+    show_in_gui: true
+    path: "custom/font_icons/rank_helper.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "௅"
+  rank_mod:
+    show_in_gui: true
+    path: "custom/font_icons/rank_mod.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "ெ"
+  rank_admin:
+    show_in_gui: true
+    path: "custom/font_icons/rank_admin.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "ே"
+  rank_owner:
+    show_in_gui: true
+    path: "custom/font_icons/rank_owner.png"
+    scale_ratio: 14
+    y_position: 7
+    symbol: "ை"
+
+  draford:
+    show_in_gui: true
+    path: "custom/region/draford.png"
+    scale_ratio: 13
+    y_position: 11
+    symbol: "௉"
+  overworld:
+    show_in_gui: true
+    path: "custom/region/overworld.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "ொ"
+  nether:
+    show_in_gui: true
+    path: "custom/region/nether.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "ோ"
+  the_end:
+    show_in_gui: true
+    path: "custom/region/the_end.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "ௌ"
+  coven:
+    show_in_gui: true
+    path: "custom/region/coven.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "்"
+  shop:
+    show_in_gui: true
+    path: "custom/region/shop.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "௎"
+  hall_of_fame:
+    show_in_gui: true
+    path: "custom/region/hall_of_fame.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "௏"
+  ah:
+    show_in_gui: true
+    path: "custom/region/ah.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "ௐ"
+  prize_corner:
+    show_in_gui: true
+    path: "custom/region/prize_corner.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "௑"
+  library:
+    show_in_gui: true
+    path: "custom/region/library.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "௒"
+  dungeon_portal:
+    show_in_gui: true
+    path: "custom/region/dungeon_portal.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "௓"
+  jeweler_house:
+    show_in_gui: true
+    path: "custom/region/jeweler.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "఺"
+  alchemy_room:
+    show_in_gui: true
+    path: "custom/region/alchemy_room.png"
+    scale_ratio: 14
+    y_position: 11
+    symbol: "౎"
+
+  menu_banner:
+    show_in_gui: true
+    path: "required/ui/menu_banner.png"
+    scale_ratio: 256
+    y_position: -14
+    symbol: "田"
+  tab_charactor:
+    show_in_gui: true
+    path: "custom/font_icons/tab_charactor.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "௔"
+  tab_realestate:
+    show_in_gui: true
+    path: "custom/font_icons/tab_realestate.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "௕"
+  tab_quests:
+    show_in_gui: true
+    path: "custom/font_icons/tab_quests.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "௖"
+  hyron:
+    show_in_gui: true
+    path: "custom/font_icons/hyron.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ௗ"
+  hyron2:
+    show_in_gui: true
+    path: "custom/font_icons/hyron.png"
+    scale_ratio: 15
+    y_position: 11
+    symbol: "௘"
+  coins:
+    show_in_gui: true
+    path: "custom/font_icons/coins.png"
+    scale_ratio: 15
+    y_position: 10
+    symbol: "௙"
+  talk:
+    show_in_gui: true
+    path: "custom/font_icons/talk.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "௚"
+  quest:
+    show_in_gui: true
+    path: "custom/font_icons/quest.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "௛"
+  tips:
+    show_in_gui: true
+    path: "custom/font_icons/tips.png"
+    scale_ratio: 8
+    y_position: 7
+    symbol: "௜"
+  boss:
+    show_in_gui: true
+    path: "custom/font_icons/boss.png"
+    scale_ratio: 10
+    y_position: 8
+    symbol: "௝"
+  join:
+    show_in_gui: true
+    path: "custom/font_icons/join.png"
+    scale_ratio: 10
+    y_position: 8
+    symbol: "௞"
+  notify:
+    show_in_gui: true
+    path: "custom/font_icons/notify.png"
+    scale_ratio: 10
+    y_position: 8
+    symbol: "௟"
+  logo1:
+    show_in_gui: true
+    path: "custom/logo/logo.png"
+    scale_ratio: 32
+    y_position: 17
+    symbol: "パ"
+  prefix:
+    show_in_gui: true
+    path: "custom/gui/blacksmith/prefix.png"
+    scale_ratio: 12
+    y_position: 9
+    symbol: "オ"
+  upgrade:
+    show_in_gui: true
+    path: "custom/gui/blacksmith/upgrade.png"
+    scale_ratio: 12
+    y_position: 9
+    symbol: "ォ"
+  coins2:
+    show_in_gui: true
+    path: "custom/font_icons/coins.png"
+    scale_ratio: 8
+    y_position: 7
+    symbol: "௣"
+  chrismas:
+    show_in_gui: true
+    path: "custom/font_icons/chrismas_gift.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ి"
+
+
+  profile_gui:
+    show_in_gui: true
+    path: "custom/gui/custom_guis/profile.png"
+    scale_ratio: 256
+    y_position: 19
+    symbol: "ఀ"
+  blacksmith:
+    show_in_gui: true
+    path: "custom/gui/custom_guis/blacksmith.png"
+    scale_ratio: 256
+    y_position: 19
+    symbol: "ఋ"
+  jeweler:
+    show_in_gui: true
+    path: "custom/gui/custom_guis/jeweler.png"
+    scale_ratio: 256
+    y_position: 19
+    symbol: "ఌ"
+  alchemist:
+    show_in_gui: true
+    path: "custom/gui/custom_guis/alchemist.png"
+    scale_ratio: 256
+    y_position: 19
+    symbol: "ఙ"
+  accessory_room:
+    show_in_gui: true
+    path: "custom/gui/custom_guis/accessory_room.png"
+    scale_ratio: 256
+    y_position: 19
+    symbol: "చ"
+  crate:
+    show_in_gui: true
+    path: "custom/gui/custom_guis/crate.png"
+    scale_ratio: 256
+    y_position: 19
+    symbol: "ఛ"
+
+
+  helmet_icon:
+    show_in_gui: true
+    path: "items/mmoinventory/helmet_icon.png"
+    scale_ratio: 12
+    y_position: 9
+    symbol: "఍"
+  chestplate_icon:
+    show_in_gui: true
+    path: "items/mmoinventory/chestplate_icon.png"
+    scale_ratio: 12
+    y_position: 9
+    symbol: "ఎ"
+  leggings_icon:
+    show_in_gui: true
+    path: "items/mmoinventory/leggings_icon.png"
+    scale_ratio: 12
+    y_position: 9
+    symbol: "ఏ"
+  boots_icon:
+    show_in_gui: true
+    path: "items/mmoinventory/boots_icon.png"
+    scale_ratio: 12
+    y_position: 9
+    symbol: "ఐ"
+  offhand_icon:
+    show_in_gui: true
+    path: "items/mmoinventory/offhand_icon.png"
+    scale_ratio: 12
+    y_position: 9
+    symbol: "఑"
+  accessory:
+    show_in_gui: true
+    path: "custom/font_icons/access.png"
+    scale_ratio: 12
+    y_position: 9
+    symbol: "ఒ"
+  emblem_icon:
+    show_in_gui: true
+    path: "custom/font_icons/emblem_icon.png"
+    scale_ratio: 12
+    y_position: 9
+    symbol: "ఓ"
+
+  1:
+    show_in_gui: true
+    path: "custom/npc/1.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "ま"
+  2:
+    show_in_gui: true
+    path: "custom/npc/2.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "ゐ"
+  3:
+    show_in_gui: true
+    path: "custom/npc/3.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "ん"
+  4:
+    show_in_gui: true
+    path: "custom/npc/4.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "゠"
+  5:
+    show_in_gui: true
+    path: "custom/npc/5.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "エ"
+  6:
+    show_in_gui: true
+    path: "custom/npc/6.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "ウ"
+  7x:
+    show_in_gui: true
+    path: "custom/npc/7.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "ェ"
+  7:
+    show_in_gui: true
+    path: "custom/npc/8.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "ゥ"
+  9:
+    show_in_gui: true
+    path: "custom/npc/9.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "ぐ"
+  10:
+    show_in_gui: true
+    path: "custom/npc/10.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "く"
+  11:
+    show_in_gui: true
+    path: "custom/npc/11.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "ヾ"
+  12:
+    show_in_gui: true
+    path: "custom/npc/12.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "ヺ"
+  13:
+    show_in_gui: true
+    path: "custom/npc/13.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "క"
+  14:
+    show_in_gui: true
+    path: "custom/npc/14.png"
+    scale_ratio: 46
+    y_position: 9.5
+    symbol: "ఝ"

@@ -1,0 +1,183 @@
+info:
+  namespace: hsur
+items:
+
+  mythril_ingot:
+    mmoitem:
+      type: MATERIAL
+      id: MYTHRIL_INGOT
+      use_mmoitem_displayname: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - custom/items/minerals/mythril_ingot.png
+
+  orichalcum_ingot:
+    mmoitem:
+      type: MATERIAL
+      id: ORICHALCUM_INGOT
+      use_mmoitem_displayname: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - custom/items/minerals/orichalcum_ingot.png
+
+  titanium_ingot:
+    mmoitem:
+      type: MATERIAL
+      id: titanium_ingot
+      use_mmoitem_displayname: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - custom/items/minerals/titanium_ingot.png
+
+  iridium_shard:
+    mmoitem:
+      type: MATERIAL
+      id: IRIDIUM_SHARD
+      use_mmoitem_displayname: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - custom/items/minerals/iridium_shard.png
+
+  iridium_crystal:
+    mmoitem:
+      type: MATERIAL
+      id: IRIDIUM_CRYSTAL
+      use_mmoitem_displayname: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - custom/items/minerals/iridium_crystal.png
+
+  uranium_debris:
+    mmoitem:
+      type: MATERIAL
+      id: URANIUM_DEBRIS
+      use_mmoitem_displayname: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - custom/items/minerals/uranium_debris.png
+
+  uranium:
+    mmoitem:
+      type: MATERIAL
+      id: URANIUM
+      use_mmoitem_displayname: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - custom/items/minerals/uranium.png
+
+
+
+  mythril_pickaxe:
+    display_name: "&fMythril Pickaxe"
+    lore:
+    - ""
+    - "&#D3D3D3Strong enough to break:"
+    - "&#FFC0CB Orichalcum Ore"
+    resource:
+      material: NETHERITE_PICKAXE
+      model_id: 1
+      generate: true
+      textures:
+      - custom/items/pickaxe/mythril_pickaxe.png
+
+  orichalcum_pickaxe:
+    display_name: "&fOrichalcum Pickaxe"
+    lore:
+    - ""
+    - "&#D3D3D3Strong enough to break:"
+    - "&#FFC0CB Orichalcum Ore"
+    - "&#C0C0C0 Titanium Ore"
+    resource:
+      material: NETHERITE_PICKAXE
+      model_id: 2
+      generate: true
+      textures:
+      - custom/items/pickaxe/orichalcum_pickaxe.png
+
+  titanium_pickaxe:
+    display_name: "&fTitanium Pickaxe"
+    lore:
+    - ""
+    - "&#D3D3D3Strong enough to break:"
+    - "&#FFC0CB Orichalcum Ore"
+    - "&#C0C0C0 Titanium Ore"
+    - "&#953553 Iridium Ore"
+    resource:
+      material: NETHERITE_PICKAXE
+      model_id: 3
+      generate: true
+      textures:
+      - custom/items/pickaxe/titanium_pickaxe.png
+
+  iridium_pickaxe:
+    display_name: "&fIridium Pickaxe"
+    lore:
+    - ""
+    - "&#D3D3D3Strong enough to break:"
+    - "&#FFC0CB Orichalcum Ore"
+    - "&#C0C0C0 Titanium Ore"
+    - "&#953553 Iridium Ore"
+    - "&#3cff49 Uranium Ore"
+    resource:
+      material: NETHERITE_PICKAXE
+      model_id: 4
+      generate: true
+      textures:
+      - custom/items/pickaxe/iridium_pickaxe.png
+
+loots:
+  blocks:
+    mythril_ore:
+      type: hsur:mythril_ore
+      items:
+        mythril:
+          item: hsur:mythril_ingot
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    orichalcum_ore:
+      type: hsur:orichalcum_ore
+      items:
+        orichalcum:
+          item: hsur:orichalcum_ingot
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    titanium_ore:
+      type: hsur:titanium_ore
+      items:
+        titanium:
+          item: hsur:titanium_ingot
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    iridium_ore:
+      type: hsur:iridium_ore
+      items:
+        titanium:
+          item: hsur:iridium_crystal
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    uranium_ore:
+      type: hsur:uranium_ore
+      items:
+        titanium:
+          item: hsur:uranium_debris
+          min_amount: 1
+          max_amount: 1
+          chance: 100

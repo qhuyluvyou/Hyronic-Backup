@@ -1,0 +1,28 @@
+location: spawn:-125.451:186.848:-232.471
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&3✯'
+    height: 0.3
+  - content: '&bʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ: &#00b3b3ꜱᴋɪʟʟ ᴘᴏᴡᴇʀ'
+    height: 0.3
+  - content: '&b1. &f%ajlb_lb_javascript_power_1_alltime_name% &8- &f%ajlb_lb_javascript_power_1_alltime_value%&3✯'
+    height: 0.3
+  - content: '&b2. &f%ajlb_lb_javascript_power_2_alltime_name% &8- &f%ajlb_lb_javascript_power_2_alltime_value%&3✯'
+    height: 0.3
+  - content: '&b3. &f%ajlb_lb_javascript_power_3_alltime_name% &8- &f%ajlb_lb_javascript_power_3_alltime_value%&3✯'
+    height: 0.3
+  - content: '&b4. &f%ajlb_lb_javascript_power_4_alltime_name% &8- &f%ajlb_lb_javascript_power_4_alltime_value%&3✯'
+    height: 0.3
+  - content: '&b5. &f%ajlb_lb_javascript_power_5_alltime_name% &8- &f%ajlb_lb_javascript_power_5_alltime_value%&3✯'
+    height: 0.3
+  - content: '&7&m                   '
+    height: 0.3
+  - content: '&b%ajlb_position_javascript_power_alltime%. &f%player_name% &8- &f%ajlb_value_javascript_power_alltime%&4&3✯'
+    height: 0.3
+  actions: {}

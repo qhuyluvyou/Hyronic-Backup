@@ -1,0 +1,85 @@
+info:
+  namespace: hsur
+
+items:
+
+  accessory1:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 1
+      material: BONE
+      textures:
+      - custom/items/accessory/uranium_canister
+
+  accessory2:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 2
+      material: BONE
+      textures:
+      - custom/items/accessory/uranium_gloves
+
+  accessory3:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 3
+      material: BONE
+      textures:
+      - custom/items/accessory/uranium_ring
+
+  accessory4:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 4
+      material: BONE
+      textures:
+      - custom/items/accessory/iridium_claw
+
+  accessory5:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 5
+      material: BONE
+      textures:
+      - custom/items/accessory/iridium_heart
+
+  accessory6:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 6
+      material: BONE
+      textures:
+      - custom/items/accessory/iridium_glove
+
+  accessory7:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 7
+      material: BONE
+      textures:
+      - custom/items/accessory/iridium_emblem
+
+  accessory8:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 8
+      material: BONE
+      textures:
+      - custom/items/accessory/runicator
+
+  accessory9:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 9
+      material: BONE
+      textures:
+      - custom/items/accessory/nullifying_necklace

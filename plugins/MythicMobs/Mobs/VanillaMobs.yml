@@ -1,0 +1,16 @@
+
+ENDER_DRAGON:
+  Health: 50000
+  Damage: 100
+  BossBar:
+    Enabled: true
+    Title: '&f௝ <GRADIENT:#AA336A:#770737>ᴇɴᴅᴇʀ ᴅʀᴀɢᴏɴ &8- &c<caster.hp>❤'
+    Range: 200
+    Color: WHITE
+    Style: SOLID
+    CreateFog: true
+  Drops:
+  - mmoitems{type=MATERIAL;id=VOID_STONE} 15-30 1
+  - mmoitems{type=MATERIAL;id=IRIDIUM_SHARD} 25-64 1
+  - mmoitems{type=MATERIAL;id=DRAGON_SCALE} 3-10 1
+  - mmoitems{type=MATERIAL;id=ENDERCORE} 1 0.0001

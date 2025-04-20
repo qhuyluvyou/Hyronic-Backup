@@ -1,0 +1,119 @@
+title: '         ᴀᴅᴠᴇɴᴛᴜʀᴇʀ ꜱᴋɪʟʟꜱ'
+size: 6
+fill:
+  enabled: true
+  material: clay_ball
+  nbt:
+    CustomModelData: 1
+items:
+  your_skills:
+    pos: 0,4
+    material: book
+    nbt:
+      CustomModelData: 9
+    flags:
+    - hide_attributes
+    display_name: '&6Adventurer''s Skills'
+    lore:
+    - '&7Levelling your skills'
+    - '&7up unlocks a bunch'
+    - '&7of stats boosts, and'
+    - '&7new bonuses.'
+    - ''
+    - '&7You rank &6#%aureliumskills_rank%&7 on the'
+    - '&7leaderboard!'
+  close:
+    pos: 5,4
+    material: book
+    nbt:
+      CustomModelData: 2
+    display_name: '{close}'
+  stats: []
+templates:
+  skill:
+    farming:
+      pos: 3,2
+      material: book
+      nbt:
+        CustomModelData: 30
+      flags:
+      - hide_attributes
+    foraging:
+      pos: 2,6
+      material: book
+      nbt:
+        CustomModelData: 35
+      flags:
+      - hide_attributes
+    mining:
+      pos: 2,2
+      material: book
+      nbt:
+        CustomModelData: 31
+      flags:
+      - hide_attributes
+    fishing:
+      pos: 3,3
+      material: book
+      nbt:
+        CustomModelData: 36
+    excavation:
+      pos: 1,6
+      material: golden_shovel
+      flags:
+      - hide_attributes
+    archery:
+      pos: 2,3
+      material: book
+      nbt:
+        CustomModelData: 32
+    defense:
+      pos: 2,5
+      material: book
+      nbt:
+        CustomModelData: 34
+      flags:
+      - hide_attributes
+    fighting:
+      pos: 2,4
+      material: book
+      nbt:
+        CustomModelData: 33
+      flags:
+      - hide_attributes
+    endurance:
+      pos: 4,5
+      material: golden_apple
+    agility:
+      pos: 4,6
+      material: feather
+    alchemy:
+      pos: 3,5
+      material: book
+      nbt:
+        CustomModelData: 37
+    enchanting:
+      pos: 3,6
+      material: book
+      nbt:
+        CustomModelData: 72
+    sorcery:
+      pos: 3,4
+      material: blaze_rod
+    healing:
+      pos: 3,5
+      material: splash_potion
+      potion_data:
+        type: instant_heal
+      flags:
+      - hide_potion_effects
+    forging:
+      pos: 3,3
+      material: anvil
+    display_name: '&e{skill} &8<&7{level}&8>'
+    lore:
+    - '{skill_desc}'
+    - '{ability_levels}'
+    - '{progress_to_level}{max_level}'
+    - ' '
+    - '{skill_click}'

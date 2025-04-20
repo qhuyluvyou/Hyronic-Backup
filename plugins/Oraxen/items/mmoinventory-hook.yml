@@ -1,0 +1,81 @@
+mmoinventory_artifact_1:
+  material: DIAMOND_HOE
+  excludeFromInventory: true
+  Pack:
+    custom_model_data: 10
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - items/mmoinventory/artifact_1
+mmoinventory_artifact_2:
+  material: DIAMOND_HOE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - items/mmoinventory/artifact_2
+    custom_model_data: 15
+mmoinventory_artifact_3:
+  material: DIAMOND_HOE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - items/mmoinventory/artifact_3
+    custom_model_data: 16
+mmoinventory_helmet:
+  material: DIAMOND_HOE
+  excludeFromInventory: true
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - items/mmoinventory/helmet
+mmoinventory_leggings:
+  material: DIAMOND_HOE
+  excludeFromInventory: true
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - items/mmoinventory/leggings
+mmoinventory_off_hand:
+  material: DIAMOND_HOE
+  excludeFromInventory: true
+  Pack:
+    custom_model_data: 14
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - items/mmoinventory/off_hand
+mmoinventory_chestplate:
+  material: DIAMOND_HOE
+  excludeFromInventory: true
+  Pack:
+    custom_model_data: 2
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - items/mmoinventory/chestplate
+mmoinventory_emblem:
+  material: DIAMOND_HOE
+  excludeFromInventory: true
+  Pack:
+    custom_model_data: 11
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - items/mmoinventory/emblem
+mmoinventory_boots:
+  material: DIAMOND_HOE
+  excludeFromInventory: true
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - items/mmoinventory/boots

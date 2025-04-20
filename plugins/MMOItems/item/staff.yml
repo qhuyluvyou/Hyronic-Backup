@@ -1,0 +1,102 @@
+CATACLYSM:
+  base:
+    material: STICK
+    custom-model-data: 1.0
+    name: <GRADIENT:#3a2b79:#6c35a4>The Cataclysm
+    item-particles: {}
+    disable-crafting: true
+    tier: S+
+    lore:
+    - '&fヷ Ritual of The End &8(Right Click)'
+    - '&bSlows&7 yourself by &b100%&7 for 3s,'
+    - '&7then unleashes a void blast,'
+    - '&7dealing &c650 &8+ &b100% of your ✎'
+    - '&7to nearby enemies.'
+    - '&8Cooldown: &3100s'
+    - '&8Mana Cost: &3100'
+    revision-id: 2
+    ability:
+      ability1:
+        type: RITUAL_OF_THE_END
+        mode: RIGHT_CLICK
+        mana: 350.0
+        cooldown: 100.0
+    unstackable: true
+    disable-interaction: true
+    attack-damage: 24.0
+    additional-wisdom: 300.0
+    range: 15.0
+    upgrade:
+      template: dungeon
+      max: 10
+FRIGID:
+  base:
+    material: STICK
+    custom-model-data: 2.0
+    name: <GRADIENT:#93fafb:#d3fafb>Frigid
+    lore:
+    - '&fా Frosty Fury &8(Right-Click)'
+    - '&7Unleashes a frost wave, <#d3fafb>rooting'
+    - '&7nearby enemies and dealing&c 35'
+    - '&7damage.'
+    - '&8Cooldown: &310s'
+    - '&8Mana: &320'
+    - ''
+    - '&fి &82022 Chrismas exclusive!'
+    attack-damage: 20.0
+    cooldown-reduction: 15.0
+    tier: A
+    fire-damage-reduction: 100.0
+    movement-speed: 0.01
+    ability:
+      ability1:
+        type: ICE_FURY
+        mode: RIGHT_CLICK
+        mana: 20.0
+        cooldown: 10.0
+SCORPIO:
+  base:
+    material: STICK
+    custom-model-data: 3.0
+    movement-speed: 0.03
+    defense: 20
+    name: <GRADIENT:#E0FF66:#a2c42f>Scorpio
+    lore:
+    - '&fఖ Toxic Fumes &8(Right-Click)'
+    - '&7Unleashes a barrage of toxic'
+    - '&7fumes, dealing &c35&7 damage to'
+    - '&7hit targets.'
+    - '&8Mana Cost: &315'
+    - '&8Hold for rapid usage!'
+    tier: S++
+    ability:
+      ability1:
+        type: ACID_SPRAY
+        mode: RIGHT_CLICK
+        mana: 15.0
+    additional-wisdom: 200.0
+STARCALLER:
+  base:
+    material: STICK
+    custom-model-data: 4.0
+    name: <GRADIENT:#F8C8DC:#FDFD96>Starcaller
+    lore:
+    - '&fశ Celestial Aid &8(Right-Click)'
+    - '&7Calls forth a star to strike'
+    - '&7the target location, dealing'
+    - <#FDFD96>350❤&7 to hit enemies. Each
+    - '&7enemies hit heal you &7for <#FDFD96>50❤'
+    - '&8Cooldown: &360s'
+    - '&8Mana: &3300'
+    attack-damage: 22.0
+    cooldown-reduction: 10.0
+    tier: S+
+    movement-speed: 0.02
+    ability:
+      ability1:
+        type: CELESTIAL_AID
+        mode: RIGHT_CLICK
+        mana: 300.0
+        cooldown: 60.0
+    gem-sockets:
+    - '&dSorcery'

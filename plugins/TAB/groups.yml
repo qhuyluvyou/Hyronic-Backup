@@ -1,0 +1,7 @@
+_DEFAULT_:
+  tabprefix: "%luckperms_primary_group_name% &f"
+  tabsuffix: "%alonsotags_tag_chat%"
+  tabprefix: "%luckperms_primary_group_name% &f"
+  tagsuffix: "%alonsotags_tag_chat%"
+  abovename: "%luckperms_suffix%"
+  belowname: "&c%health%❤ &8- &3%javascript_power%✯" 

@@ -1,0 +1,505 @@
+
+f1:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 1
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/eel
+
+f2:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/carp
+
+f3:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/crab
+
+f4:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/jellyfish
+
+f5:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 5
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/lobster
+
+f6:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 6
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/mackerel
+
+f7:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 7
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/shrimp
+
+f8:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 8
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/starfish
+
+f9:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 9
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/moss_carp
+
+f10:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 10
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/moss_eel
+
+f11:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 11
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/moss_mackerel
+
+f12:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 12
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/moss_salmon
+
+f13:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 13
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/saphire_jellyfish
+
+f14:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 14
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/saphire_lobster
+
+f15:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 15
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/saphire_pufferfish
+
+f16:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 16
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/saphire_rockfish
+
+f17:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 17
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/saphire_salmon
+
+f18:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 18
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/hexified_crab
+
+f19:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 19
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/hexified_lobster
+
+f20:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 20
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/hexified_squid
+
+f21:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 21
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/hexified_starfish
+
+f22:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 22
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/hexified_voidfish
+
+f23:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 23
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_carp
+
+f24:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 24
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_crab
+
+f25:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 25
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_eel
+
+f26:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 26
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_frog
+
+f27:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 27
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_jellyfish
+
+f28:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 28
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_lobster
+
+f29:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 29
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_mackerel
+
+f30:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 30
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_pufferfish
+
+f31:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 31
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_rockfish
+
+f32:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 32
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_shrimp
+
+f33:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 33
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_squid
+
+f34:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 34
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_starfish
+
+f35:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 35
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/golden_voidfish
+
+f36:
+  displayname: '&efish'
+  material: SALMON
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 36
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/squid
+
+p2:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/gem
+
+p3:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/generated
+    textures:
+    - custom/misc/menu
+p14:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 14
+    parent_model: item/generated
+    textures:
+    - custom/items/dungeon_key_1
+
+p15:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 15
+    parent_model: item/generated
+    textures:
+    - custom/items/materials/crate_key
+
+p16:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 16
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/luminating_tissue
+
+p17:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 17
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/void_pearl
+
+p18:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 18
+    parent_model: item/generated
+    textures:
+    - custom/items/fish/heximus_flesh
+
+p34:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 35
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/hand_warmer
+
+p35:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 36
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/chrismas_hat
+
+p38:
+  displayname: '&epaper'
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 38
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/blue_ribbon

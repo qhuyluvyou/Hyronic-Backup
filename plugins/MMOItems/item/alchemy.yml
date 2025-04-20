@@ -1,0 +1,48 @@
+BLACK_POWDER:
+  base:
+    material: PAPER
+    name: Black Powder
+    custom-model-data: 49.0
+    lore:
+    - '&7Can be used in alchemy.'
+    tier: C
+DETACHED_EYE:
+  base:
+    material: PAPER
+    name: Detached Eye
+    custom-model-data: 50.0
+    lore:
+    - '&7Can be used in alchemy.'
+    tier: C
+PRISMATIC_FRUIT:
+  base:
+    material: PAPER
+    name: <GRADIENT:#77DD77:#AEC6CF>Prismatic Fruit
+    custom-model-data: 51.0
+    lore:
+    - '&7Can be used in alchemy.'
+    tier: A
+SILVER_LEAF:
+  base:
+    material: PAPER
+    name: Silver Leaf
+    custom-model-data: 52.0
+    lore:
+    - '&7Can be used in alchemy.'
+    tier: C
+SLIMY_MUCUS:
+  base:
+    material: PAPER
+    name: Slimy Mucus
+    custom-model-data: 53.0
+    lore:
+    - '&7Can be used in alchemy.'
+    tier: C
+TEAL_MUSHROOM:
+  base:
+    material: PAPER
+    name: Teal Mushroom
+    custom-model-data: 54.0
+    lore:
+    - '&7Can be used in alchemy.'
+    tier: C

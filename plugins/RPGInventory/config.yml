@@ -1,0 +1,50 @@
+update-notify: true
+
+auto-save:
+  enabled: true
+  interval: 1800 # In seconds (1800 = 30 minutes)
+  log: true
+
+debug: false
+
+mysql:
+  enabled: false
+  host: localhost
+  port: 3306
+  database: minecraft
+  user: mmolover
+  pass: ILoveAria
+  properties:
+    cachePrepStmts: true
+    prepStmtCacheSize: 250
+    prepStmtCacheSqlLimit: 2048
+
+inventory-slots: 54
+
+no-custom-inventory: false
+
+disable-equiping-stacked-items: true
+
+drop-on-death: true
+
+level-module: aureliumskills
+class-module: default
+
+inventory-button:
+  enabled: false
+  slot: 9
+  item:
+    material: CHEST
+    name: '&6Custom Inventory'
+    lore:
+      - ''
+      - '&eClick to open.'
+
+resource-pack:
+  enabled: false
+  url: resource_pack_url
+  delay: 20
+
+  kick:
+    enabled: false
+    message: 'Please accept server resource pack!'

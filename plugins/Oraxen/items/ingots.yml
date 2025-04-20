@@ -1,0 +1,28 @@
+mythril:
+  mmoitem:
+    type: MATERIAL
+    id: MYTHRIL_INGOT
+orichalcum:
+  mmoitem:
+    type: MATERIAL
+    id: ORICHALCUM_INGOT
+titanium:
+  mmoitem:
+    type: MATERIAL
+    id: TITANIUM_INGOT
+iridium_shard:
+  mmoitem:
+    type: MATERIAL
+    id: IRIDIUM_SHARD
+iridium_crystal:
+  mmoitem:
+    type: MATERIAL
+    id: IRIDIUM_CRYSTAL
+uranium_debris:
+  mmoitem:
+    type: MATERIAL
+    id: URANIUM_DEBRIS
+uranium:
+  mmoitem:
+    type: MATERIAL
+    id: URANIUM

@@ -1,0 +1,17 @@
+
+SaveDisguises:
+  Players: false
+  Entities: false
+
+KeepDisguises:
+  PlayerDeath: false
+
+DisguiseSounds: true
+
+UndisguiseOnWorldChange: false
+
+DynamicExpiry: false
+
+NotifyBar: 'ACTION_BAR'
+BossBarColor: 'GREEN'
+BossBarStyle: 'SOLID'

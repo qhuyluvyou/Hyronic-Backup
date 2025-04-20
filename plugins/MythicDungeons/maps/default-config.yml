@@ -1,0 +1,50 @@
+General:
+  Version: 1
+  DisplayName: "&bA Dungeon"
+  ShowTitleOnStart: false
+  Lobby:
+    Enabled: false
+  Gamemode: SURVIVAL
+  PlayerLives: 0
+  DeadPlayersSpectate: true
+  KeepInventoryOnEnter: true
+  KickOfflinePlayers: true
+  KickOfflinePlayersDelay: 300
+  MaxBackups: 3
+  MaxInstances: 5
+
+  LootCooldown:
+    Enabled: false
+    PerReward: true
+    CooldownType: DAILY
+    CooldownTime: 0
+    ResetDay: 1
+
+  AccessCooldown:
+    Enabled: false
+    CooldownType: DAILY
+    CooldownTime: 0
+    ResetDay: 1
+Requirements:
+  Permissions: []
+  MinPartySize: 1
+  MaxPartySize: 3
+  DungeonsComplete: []
+Rules:
+  SpawnMobs: false
+  SpawnAnimals: false
+  SpawnMonsters: false
+  AllowBreakBlocks: false
+  AllowPlaceBlocks: false
+  AllowEnderpearl: false
+  AllowChorusFruit: false
+  AllowBucket: false
+  PreventPlantGrowth: true
+  AllowedCommands:
+    - party
+    - p
+    - dungeon leave
+    - md leave
+    - leave
+  BannedItems: []
+  CustomBannedItems: []

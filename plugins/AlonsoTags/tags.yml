@@ -1,0 +1,590 @@
+Tags:
+  u-smile:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: '&e☻'
+    Displayname: '&7Nickname Icon: {COLOR}&e☻&8 (smile)'
+    Permission: supremeicons.unicode.smile
+    Lore:
+      Locked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '#FD7272 Purchase this tag at our'
+      - '#FD7272 store: #D6A2E8yourserver.com'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 awesome icon!'
+      - ''
+      - '#FD7272✘&f ᴅᴏɴᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ.'
+      Unlocked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜɪs.'
+      Selected:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ʏᴏᴜ''ʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴛᴀɢ.'
+    No-permission-message: '&cYou don''t have permission to use this tag!'
+    Not-enough-money-message: '&cYou don''t have enough money to purchase this tag!'
+    Recognition-title: ''
+    Dyeable: false
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Default-color: ''
+    Hide-flags: true
+    Unbreakable: false
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  
+  u-heart:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: '&c❤'
+    Displayname: '&7Nickname Icon: {COLOR}&c❤ &8(heart)'
+    Permission: supremeicons.unicode.heart
+    Lore:
+      Locked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '#FD7272 Purchase this tag at our'
+      - '#FD7272 store: #D6A2E8yourserver.com'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 awesome icon!'
+      - ''
+      - '#FD7272✘&f ᴅᴏɴᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ.'
+      Unlocked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜɪs.'
+      Selected:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ʏᴏᴜ''ʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴛᴀɢ.'
+    No-permission-message: '&cYou don''t have permission to use this tag!'
+    Not-enough-money-message: '&cYou don''t have enough money to purchase this tag!'
+    Recognition-title: ''
+    Dyeable: false
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Default-color: ''
+    Hide-flags: true
+    Unbreakable: false
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  
+  u-tiny-heart:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: '&d♥'
+    Displayname: '&7Nickname Icon: {COLOR}&d♥ &8(s-heart)'
+    Permission: supremeicons.unicode.tiny-heart
+    Lore:
+      Locked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '#FD7272 Purchase this tag at our'
+      - '#FD7272 store: #D6A2E8yourserver.com'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 awesome icon!'
+      - ''
+      - '#FD7272✘&f ᴅᴏɴᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ.'
+      Unlocked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜɪs.'
+      Selected:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ʏᴏᴜ''ʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴛᴀɢ.'
+    No-permission-message: '&cYou don''t have permission to use this tag!'
+    Not-enough-money-message: '&cYou don''t have enough money to purchase this tag!'
+    Recognition-title: ''
+    Dyeable: false
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Default-color: ''
+    Hide-flags: true
+    Unbreakable: false
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  
+  u-star:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: '&6★'
+    Displayname: '&7Nickname Icon: {COLOR}&6★ &8(star)'
+    Permission: supremeicons.unicode.star
+    Lore:
+      Locked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '#FD7272 Purchase this tag at our'
+      - '#FD7272 store: #D6A2E8yourserver.com'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 awesome icon!'
+      - ''
+      - '#FD7272✘&f ᴅᴏɴᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ.'
+      Unlocked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜɪs.'
+      Selected:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ʏᴏᴜ''ʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴛᴀɢ.'
+    No-permission-message: '&cYou don''t have permission to use this tag!'
+    Not-enough-money-message: '&cYou don''t have enough money to purchase this tag!'
+    Recognition-title: ''
+    Dyeable: false
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Default-color: ''
+    Hide-flags: true
+    Unbreakable: false
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  
+  u-moon:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: '&b☽'
+    Displayname: '&7Nickname Icon: {COLOR}&b☽ &8(moon)'
+    Permission: supremeicons.unicode.moon
+    Lore:
+      Locked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '#FD7272 Purchase this tag at our'
+      - '#FD7272 store: #D6A2E8yourserver.com'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 awesome icon!'
+      - ''
+      - '#FD7272✘&f ᴅᴏɴᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ.'
+      Unlocked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜɪs.'
+      Selected:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ʏᴏᴜ''ʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴛᴀɢ.'
+    No-permission-message: '&cYou don''t have permission to use this tag!'
+    Not-enough-money-message: '&cYou don''t have enough money to purchase this tag!'
+    Recognition-title: ''
+    Dyeable: false
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Default-color: ''
+    Hide-flags: true
+    Unbreakable: false
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  
+  u-sun:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: '&6☀'
+    Displayname: '&7Nickname Icon: {COLOR}&6☀ &8(sun)'
+    Permission: supremeicons.unicode.sun
+    Lore:
+      Locked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '#FD7272 Purchase this tag at our'
+      - '#FD7272 store: #D6A2E8yourserver.com'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 awesome icon!'
+      - ''
+      - '#FD7272✘&f ᴅᴏɴᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ.'
+      Unlocked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜɪs.'
+      Selected:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ʏᴏᴜ''ʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴛᴀɢ.'
+    No-permission-message: '&cYou don''t have permission to use this tag!'
+    Not-enough-money-message: '&cYou don''t have enough money to purchase this tag!'
+    Recognition-title: ''
+    Dyeable: false
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Default-color: ''
+    Hide-flags: true
+    Unbreakable: false
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  
+  u-cloud:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: '&b☁'
+    Displayname: '&7Nickname Icon: {COLOR}&b☁ &8(cloud)'
+    Permission: supremeicons.unicode.cloud
+    Lore:
+      Locked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '#FD7272 Purchase this tag at our'
+      - '#FD7272 store: #D6A2E8yourserver.com'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 awesome icon!'
+      - ''
+      - '#FD7272✘&f ᴅᴏɴᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ.'
+      Unlocked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜɪs.'
+      Selected:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ʏᴏᴜ''ʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴛᴀɢ.'
+    No-permission-message: '&cYou don''t have permission to use this tag!'
+    Not-enough-money-message: '&cYou don''t have enough money to purchase this tag!'
+    Recognition-title: ''
+    Dyeable: false
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Default-color: ''
+    Hide-flags: true
+    Unbreakable: false
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  
+  u-umbrella:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: '&a☂'
+    Displayname: '&7Nickname Icon: {COLOR}&a☂ &8(umbrella)'
+    Permission: supremeicons.unicode.umbrella
+    Lore:
+      Locked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '#FD7272 Purchase this tag at our'
+      - '#FD7272 store: #D6A2E8yourserver.com'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 awesome icon!'
+      - ''
+      - '#FD7272✘&f ᴅᴏɴᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ.'
+      Unlocked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜɪs.'
+      Selected:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ʏᴏᴜ''ʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴛᴀɢ.'
+    No-permission-message: '&cYou don''t have permission to use this tag!'
+    Not-enough-money-message: '&cYou don''t have enough money to purchase this tag!'
+    Recognition-title: ''
+    Dyeable: false
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Default-color: ''
+    Hide-flags: true
+    Unbreakable: false
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  
+  u-snowman:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: '&b☃'
+    Displayname: '&7Nickname Icon: {COLOR}&b☃ &8(snowman)'
+    Permission: supremeicons.unicode.snowman
+    Lore:
+      Locked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '#FD7272 Purchase this tag at our'
+      - '#FD7272 store: #D6A2E8yourserver.com'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 awesome icon!'
+      - ''
+      - '#FD7272✘&f ᴅᴏɴᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ.'
+      Unlocked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜɪs.'
+      Selected:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ʏᴏᴜ''ʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴛᴀɢ.'
+    No-permission-message: '&cYou don''t have permission to use this tag!'
+    Not-enough-money-message: '&cYou don''t have enough money to purchase this tag!'
+    Recognition-title: ''
+    Dyeable: false
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Default-color: ''
+    Hide-flags: true
+    Unbreakable: false
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []
+  
+  u-coin:
+    Material: NAME_TAG
+    Custom-model-data: 0
+    Tag: '&6◎'
+    Displayname: '&7Nickname Icon: {COLOR}&6◎ &8(coin)'
+    Permission: supremeicons.unicode.coin
+    Lore:
+      Locked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '#FD7272 Purchase this tag at our'
+      - '#FD7272 store: #D6A2E8yourserver.com'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 awesome icon!'
+      - ''
+      - '#FD7272✘&f ᴅᴏɴᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ.'
+      Unlocked:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜɪs.'
+      Selected:
+      - ''
+      - '&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:'
+      - '&f This icon will be displayed'
+      - '&f in front of your nickname'
+      - '&f in chats, tabs and tags.'
+      - ''
+      - '&8ɪᴄᴏɴ ᴘʀᴇᴠɪᴇᴡ:'
+      - ' &f{TAG}&fNickname:&7 Awesome icon!'
+      - ''
+      - '#55E6C1✔&f ʏᴏᴜ''ʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴛᴀɢ.'
+    No-permission-message: '&cYou don''t have permission to use this tag!'
+    Not-enough-money-message: '&cYou don''t have enough money to purchase this tag!'
+    Recognition-title: ''
+    Dyeable: false
+    Price: 0
+    Cost:
+      Type: VAULT
+      Material: DIAMOND
+    Default-color: ''
+    Hide-flags: true
+    Unbreakable: false
+    Purchase-commands: []
+    Select-commands:
+      Pre: []
+      Post: []

@@ -1,0 +1,11 @@
+script_engine_names:
+  - js
+  - JS
+  - javascript
+  - JavaScript
+  - ecmascript
+  - ECMAScript
+  - nashorn
+  - Nashorn
+
+ForceNashorn: false

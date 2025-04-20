@@ -1,0 +1,74 @@
+open_command: []
+size: 54
+menu_title: '&f              ௚&0 ꜰʟᴇᴜʀ'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'outerfill':
+    material: CLAY_BALL
+    model_data: 1
+    hide_attributes: true
+    display_name: "&f"
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,50,51,52,17,26,35,44,52,53,10,11,12,13,14,15,16,19,20,22,24,25,28,29,31,33,34,37,38,39,40,41,42,43,48,21,23,30,32]
+  '1':
+    material: BOOK
+    model_data: 69
+    slot: 20
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&c🗡 Mob Changes"
+    lore:
+      - "&8• &7Mobs now have levels indicating"
+      - "&7their strength. Higher level means"
+      - "&7higher base stats, up to &clevel 100&7."
+      - "&7Mobs' levels are determined by"
+      - "&7nearby players' &ccombat level&7!"
+      - ""
+      - "&8• &7Mobs now drop &cnew, unique &7items"
+      - "&7that can be crafted into powerful"
+      - "&7equipments, armor and more!"
+      - "&7Higher level mobs drop more items!"
+  '2':
+    material: NETHERITE_PICKAXE
+    model_data: 3
+    hide_attributes: true
+    slot: 24
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&3Miner's Guide"
+    lore:
+      - "&7The world of Hyronia is different"
+      - "&7from your vanilla world! Access this"
+      - "&7guide to know about new blocks, ores"
+      - "&7and changes relating to mining!"
+      - ""
+      - "&eClick to open!"
+    left_click_commands:
+      - "[openguimenu] miner_guide"
+      - "[sound] BLOCK_LEVER_CLICK"
+  '3':
+    material: BOOK
+    model_data: 100
+    slot: 22
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&dEnchanting for Dummy"
+    lore:
+      - "&6Hyronic Survival&7 introduces over &e55&7"
+      - "&7custom enchantments into the game!"
+      - "&7This guide contains everything you"
+      - "&7need to know about them!"
+      - ""
+      - "&eClick to open!"
+    left_click_commands:
+      - "[player] excellentenchants list"
+      - "[sound] BLOCK_LEVER_CLICK"

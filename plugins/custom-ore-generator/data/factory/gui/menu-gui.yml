@@ -1,0 +1,112 @@
+version: 2
+name: '%%translation:[ore-config.factory.gui.menu.name]%'
+rows: 5
+abort:
+  slot: 3
+  item-stack:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: BARRIER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '%%translation:[ore-config.factory.gui.general.abort]%'
+ore-config:
+  slot: 5
+  ready:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2230
+    type: GREEN_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '%%translation:[ore-config.factory.gui.menu.ready]%'
+  not-ready:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2230
+    type: CYAN_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '%%translation:[ore-config.factory.gui.menu.not-ready]%'
+status:
+  needed:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: RED_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '%%translation:[ore-config.factory.gui.menu.step.%step%]%'
+      lore:
+        - '%%no-split%%%translation:[ore-config.factory.gui.menu.status.needed]%'
+  present:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: GREEN_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '%%translation:[ore-config.factory.gui.menu.step.%step%]%'
+      lore:
+        - '%%no-split%%%translation:[ore-config.factory.gui.menu.status.present]%'
+  not-present-not-needed:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: YELLOW_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '%%translation:[ore-config.factory.gui.menu.step.%step%]%'
+      lore:
+        - '%%no-split%%%translation:[ore-config.factory.gui.menu.status.not-present-not-needed]%'
+  not-set-able:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1976
+    type: GRAY_TERRACOTTA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '%%translation:[ore-config.factory.gui.menu.step.%step%]%'
+      lore:
+        - '%%no-split%%%translation:[ore-config.factory.gui.menu.status.not-set-able]%'
+step:
+  name: 19
+  material: 20
+  replace-materials: 21
+  select-materials: 22
+  ore-generator: 23
+  block-selector: 24
+  biome: 25
+  ore-generator-ore-settings: 28
+  block-selector-ore-settings: 29
+  custom-datas: 30
+  world: 31
+decorations:
+  '0':
+    slot:
+      - 0
+      - 1
+      - 7
+      - 8
+    item-stack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: RED_STAINED_GLASS_PANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: ' '
+  '1':
+    slot:
+      - 2
+      - 4
+      - 6
+    item-stack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BLACK_STAINED_GLASS_PANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: ' '

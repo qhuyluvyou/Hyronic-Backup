@@ -1,0 +1,306 @@
+Inventories:
+  main:
+    slots: 54
+    title: '&0ᴛʜᴇ ᴄᴏᴅᴇx'
+    20;21;22;23;24;29;30;31;32;33;42;41;40;39;38:
+      item: WHITE_STAINED_GLASS_PANE
+      name: '&6↑ Choose a category above ↑'
+    1;2;6;7;18;27;26;35;46;47;51;52;0;8;9;17;36;45;46;44;53;49;48;50;11;12;13;14;15;37;16;25;34;43;10;19;28:
+      item: CLAY_BALL
+      custom_model_data: 1
+      name: '&a'
+    '3':
+      type: regions
+      item: BOOK
+      custom_model_data: 67
+      name: '&a♦ Regions'
+      lore:
+      - ''
+      - '&7Visit different regions to unlock'
+      - '&7their backstories!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: regions
+    '4':
+      type: enemies
+      item: BOOK
+      custom_model_data: 69
+      name: '&c♦ Enemies'
+      lore:
+      - ''
+      - '&7Slay enemies to know their'
+      - '&7drops, abilities, and more!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: enemies
+    '5':
+      type: bosses
+      item: BOOK
+      custom_model_data: 68
+      name: '&4♦ Bosses'
+      lore:
+      - ''
+      - '&7Defeat powerful bosses to'
+      - '&7unlock their abilities, drops'
+      - '&7and even backstories!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: bosses
+  regions:
+    slots: 54
+    title: '&0ʀᴇɢɪᴏɴꜱ'
+    1;2;6;7;18;27;26;35;46;47;51;52;0;8;9;17;36;45;46;44;53;49;48;50;11;12;13;14;15;37;16;25;34;43;10;19;28:
+      item: CLAY_BALL
+      custom_model_data: 1
+      name: '&a'
+    '3':
+      type: regions
+      item: BOOK
+      custom_model_data: 67
+      name: '&a♦ Regions'
+      lore:
+      - ''
+      - '&7Visit different regions to unlock'
+      - '&7their backstories!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: regions
+    '4':
+      type: enemies
+      item: BOOK
+      custom_model_data: 69
+      name: '&c♦ Enemies'
+      lore:
+      - ''
+      - '&7Slay enemies to know their'
+      - '&7drops, abilities, and more!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: enemies
+    '5':
+      type: bosses
+      item: BOOK
+      custom_model_data: 68
+      name: '&4♦ Bosses'
+      lore:
+      - ''
+      - '&7Defeat powerful bosses to'
+      - '&7unlock their abilities, drops'
+      - '&7and even backstories!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: bosses
+    '20':
+      type: regions;1
+      item: BOOK
+      custom_model_data: 77
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '21':
+      type: regions;2
+      item: BOOK
+      custom_model_data: 78
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '22':
+      type: regions;3
+      item: BOOK
+      custom_model_data: 79
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '23':
+      type: regions;4
+      item: BOOK
+      custom_model_data: 80
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '24':
+      type: regions;5
+      item: BOOK
+      custom_model_data: 81
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '29':
+      type: regions;6
+      item: BOOK
+      custom_model_data: 82
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '30':
+      type: regions;7
+      item: BOOK
+      custom_model_data: 96
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '31':
+      type: regions;8
+      item: BOOK
+      custom_model_data: 104
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '32':
+      type: regions;9
+      item: BOOK
+      custom_model_data: 111
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '33':
+      type: regions;10
+      item: BOOK
+      custom_model_data: 112
+      name: '%name%'
+      lore:
+      - '%lore%'
+  bosses:
+    slots: 54
+    title: '&0ʙᴏꜱꜱᴇꜱ'
+    1;2;6;7;18;27;26;35;46;47;51;52;0;8;9;17;36;45;46;44;53;49;48;50;11;12;13;14;15;37;16;25;34;43;10;19;28:
+      item: CLAY_BALL
+      custom_model_data: 1
+      name: '&a'
+    '3':
+      type: regions
+      item: BOOK
+      custom_model_data: 67
+      name: '&a♦ Regions'
+      lore:
+      - ''
+      - '&7Visit different regions to unlock'
+      - '&7their backstories!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: regions
+    '4':
+      type: enemies
+      item: BOOK
+      custom_model_data: 69
+      name: '&c♦ Enemies'
+      lore:
+      - ''
+      - '&7Slay enemies to know their'
+      - '&7drops, abilities, and more!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: enemies
+    '5':
+      type: bosses
+      item: BOOK
+      custom_model_data: 68
+      name: '&4♦ Bosses'
+      lore:
+      - ''
+      - '&7Defeat powerful bosses to'
+      - '&7unlock their abilities, drops'
+      - '&7and even backstories!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: bosses
+    '20':
+      type: bosses;1
+      item: BOOK
+      custom_model_data: 83
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '21':
+      type: bosses;2
+      item: BOOK
+      custom_model_data: 109
+      name: '%name%'
+      lore:
+      - '%lore%'
+  enemies:
+    slots: 54
+    title: '&0ᴇɴᴇᴍɪᴇꜱ'
+    1;2;6;7;18;27;26;35;46;47;51;52;0;8;9;17;36;45;46;44;53;49;48;50;11;12;13;14;15;37;16;25;34;43;10;19;28:
+      item: CLAY_BALL
+      custom_model_data: 1
+      name: '&a'
+    '3':
+      type: regions
+      item: BOOK
+      custom_model_data: 67
+      name: '&a♦ Regions'
+      lore:
+      - ''
+      - '&7Visit different regions to unlock'
+      - '&7their backstories!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: regions
+    '4':
+      type: enemies
+      item: BOOK
+      custom_model_data: 69
+      name: '&c♦ Enemies'
+      lore:
+      - ''
+      - '&7Slay enemies to know their'
+      - '&7drops, abilities, and more!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: enemies
+    '5':
+      type: bosses
+      item: BOOK
+      custom_model_data: 68
+      name: '&4♦ Bosses'
+      lore:
+      - ''
+      - '&7Defeat powerful bosses to'
+      - '&7unlock their abilities, drops'
+      - '&7and even backstories!'
+      - ''
+      - '&7Unlocked: %unlocked% &8(&6%percentage%&8)'
+      open_inventory: bosses
+    '20':
+      type: enemies;1
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg0ZGY3OWM0OTEwNGIxOThjZGFkNmQ5OWZkMGQwYmNmMTUzMWM5MmQ0YWI2MjY5ZTQwYjdkM2NiYmI4ZTk4YyJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '21':
+      type: enemies;2
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhkZGY3NmU1NTVkZDVjNGFhOGEwYTVmYzU4NDUyMGNkNjNkNDg5YzI1M2RlOTY5ZjdmMjJmODVhOWEyZDU2In19fQ==
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '22':
+      type: enemies;3
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk1M2I2YzY4NDQ4ZTdlNmI2YmY4ZmIyNzNkNzIwM2FjZDhlMWJlMTllODE0ODFlYWQ1MWY0NWRlNTlhOCJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '23':
+      type: enemies;4
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNlNjYwNDE1N2ZjNGFiNTU5MWU0YmNmNTA3YTc0OTkxOGVlOWM0MWUzNTdkNDczNzZlMGVlNzM0MjA3NGM5MCJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '24':
+      type: enemies;6
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA5ZjFkZTYxMzVmNGJlYTc4MWM1YThlMGQ2MTA5NWY4MzNlZTI2ODVkODE1NGVjZWE4MTRlZTZkMzI4YTVjNiJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '29':
+      type: enemies;7
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmEyMWJmYjEzYjhlODY4NTIyN2JhMWExN2JlN2QzMGJmZjBiN2UyNDc2ZDVlMWU4YjRlMzg3MTdiYzViZWFlZCJ9fX0
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '30':
+      type: enemies;5
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYzMTY5NDM1ZWU2NDgwZDE0Y2MwZDFhNWZkNTUxNGYzODcyMTBjYmZlNjE2ZjAzNmY4N2NjMDkzYTkyNWE5NiJ9fX0
+      name: '%name%'
+      lore:
+      - '%lore%'

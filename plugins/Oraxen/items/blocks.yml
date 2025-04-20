@@ -1,0 +1,147 @@
+mythril_ore:
+  displayname: '&fMythril Ore'
+  material: GHAST_TEAR
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - custom/blocks/mythril_ore
+    custom_model_data: 1
+  Mechanics:
+    noteblock:
+      custom_variation: 1
+      model: mythril_ore
+      hardness: 5
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: NETHERITE
+        best_tools:
+        - PICKAXE
+        loots:
+        - oraxen_item: mythril
+          probability: 1.0
+      block_sounds:
+        place_sound: block.stone.place
+        break_sound: block.stone.break
+        volume: 0.8
+        pitch: 0.8
+
+orichalcum_ore:
+  displayname: '&fOrichalcum Ore'
+  material: GHAST_TEAR
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - custom/blocks/orichalcum_ore
+    custom_model_data: 2
+  Mechanics:
+    noteblock:
+      custom_variation: 2
+      model: orichalcum_ore
+      hardness: 6
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: MYTHRIL
+        best_tools:
+        - PICKAXE
+        loots:
+        - oraxen_item: orichalcum
+          probability: 1.0
+      block_sounds:
+        place_sound: block.stone.place
+        break_sound: block.stone.break
+        volume: 0.8
+        pitch: 0.8
+
+
+titanium_ore:
+  displayname: '&fTitanium Ore'
+  material: GHAST_TEAR
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - custom/blocks/titanium_ore
+    custom_model_data: 3
+  Mechanics:
+    noteblock:
+      custom_variation: 3
+      model: titanium_ore
+      hardness: 7
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: ORICHALCUM
+        best_tools:
+        - PICKAXE
+        loots:
+        - oraxen_item: titanium
+          probability: 1.0
+      block_sounds:
+        place_sound: block.stone.place
+        break_sound: block.stone.break
+        volume: 0.8
+        pitch: 0.8
+
+
+iridium_ore:
+  displayname: Iridium Ore
+  material: GHAST_TEAR
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - custom/blocks/iridium_ore
+    custom_model_data: 4
+  Mechanics:
+    noteblock:
+      custom_variation: 4
+      model: iridium_ore
+      hardness: 7
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: TITANIUM
+        best_tools:
+        - PICKAXE
+        loots:
+        - oraxen_item: iridium_shard
+          probability: 1.0
+      block_sounds:
+        place_sound: block.stone.place
+        break_sound: block.stone.break
+        volume: 0.8
+        pitch: 0.8
+
+
+uranium_ore:
+  displayname: '&fUranium Ore'
+  material: GHAST_TEAR
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - custom/blocks/uranium_ore
+    custom_model_data: 5
+  Mechanics:
+    noteblock:
+      custom_variation: 5
+      model: uranium_ore
+      hardness: 7
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: IRIDIUM
+        best_tools:
+        - PICKAXE
+        loots:
+        - oraxen_item: uranium_debris
+          probability: 1.0
+      block_sounds:
+        place_sound: block.stone.place
+        break_sound: block.stone.break
+        volume: 0.8
+        pitch: 0.8

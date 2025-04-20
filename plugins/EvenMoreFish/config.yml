@@ -1,0 +1,58 @@
+enabled: true
+
+locale: en
+
+fish-only-in-competition: false
+
+database: true
+disable-db-verbose: true
+mysql:
+  use-mysql: false
+  address: localhost
+  database: evenmorefish
+  username: root
+  password: ''
+
+random-durability: true
+
+enable-economy: true
+
+barstyle: 'SEGMENTED_10'
+
+require-nbt-rod: false
+
+requires-fishing-permission: false
+
+gui:
+  filler: GRAY_STAINED_GLASS_PANE
+  filler-error: RED_STAINED_GLASS_PANE
+  sell-item: GOLD_INGOT
+  sell-slot: 4
+  sell-all-item: COD_BUCKET
+  sell-all-slot: 6
+  sell-item-confirm: GOLD_BLOCK
+  sell-all-item-confirm: TROPICAL_FISH_BUCKET
+  sell-item-error: REDSTONE_BLOCK
+  sell-all-item-error: SALMON_BUCKET
+  size: 3
+  sell-over-drop: false
+
+
+disable-mcmmo-loot: true
+
+disable-aureliumskills-loot: false
+
+config-version: 14
+
+
+block-crafting: true
+experimental-features: false
+nbt-rod-item:
+  item:
+    material: FISHING_ROD
+    displayname: "&eEvenMoreFish Fishing Rod"
+  glowing: true
+  lore:
+    - ""
+    - "&7Catch &ecustom &7fish using this"
+    - "&7fishing rod."

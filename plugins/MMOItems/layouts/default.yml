@@ -1,0 +1,15 @@
+slots: 54
+
+layout:
+
+  recipe-slots: [3,4,5,6,7,12,13,14,15,16,21,22,23,24,25]
+
+  queue-slots: [38, 39, 40, 41, 42]
+
+  recipe-previous-slot: 26
+
+  recipe-next-slot: 17
+
+  queue-previous-slot: 37
+
+  queue-next-slot: 43

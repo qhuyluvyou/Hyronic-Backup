@@ -1,0 +1,46 @@
+Prompt-Prefix: '&8> '
+
+
+Prompt-Timeout: 300
+
+
+Cancel-Keyword: cancel
+
+
+Enable-Permission: false
+
+
+Update-Checker: true
+
+
+Argument-Regex: '{.*?}'
+
+
+Debug-Mode: false
+
+
+Enable-Unsafe: false
+
+
+Modification-Delay: 1
+
+
+Show-Complete-Command: true
+
+
+Fancy-Logger: true
+
+
+Ignored-Commands:
+- sampleCommand
+- give
+- ajlb
+- npc
+- summon
+- ajleaderboards
+
+Permission-Attachment:
+  ticks: 1
+  permissions:
+  - sample.permission
+  - sample.permission2

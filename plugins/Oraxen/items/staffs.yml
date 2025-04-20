@@ -1,0 +1,43 @@
+staff1:
+  displayname: '&epaper'
+  material: STICK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 1
+    parent_model: item/generated
+    textures:
+    - custom/items/staff/cataclysm
+
+staff2:
+  displayname: '&epaper'
+  material: STICK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/generated
+    textures:
+    - custom/items/staff/frigid
+
+staff3:
+  displayname: '&eironsword'
+  material: STICK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/handheld
+    textures:
+    - custom/items/staff/scorpio
+
+staff4:
+  displayname: '&eironsword'
+  material: STICK
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/handheld
+    textures:
+    - custom/items/staff/starcaller

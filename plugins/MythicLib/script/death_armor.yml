@@ -1,0 +1,55 @@
+Essence_Theft:
+    public: true
+    mechanics:
+        essence_theft_1:
+            type: dispatch_command
+            from_console: true
+            format: 'mana add <caster.name> %math_0:_{aureliumskills_mana_max_int}/100*10% true true'
+            target:
+                type: caster
+        essence_theft_2:
+            type: heal
+            amount: '%aureliumskills_hp_max%/100*5'
+            reason: CUSTOM
+            target:
+                type: caster
+        essence_theft_sound_1:
+            type: sound
+            sound: ENTITY_MOOSHROOM_CONVERT
+            pitch: 1
+            volume: 1
+            target:
+                type: caster
+
+Essence_Theft_Upgraded:
+    public: true
+    mechanics:
+        essence_theft_3:
+            type: dispatch_command
+            from_console: true
+            format: 'mana add <caster.name> %math_0:_{aureliumskills_mana_max_int}/100*20% true true'
+            target:
+                type: caster
+        essence_theft_4:
+            type: heal
+            amount: '%aureliumskills_hp_max%/100*10'
+            reason: CUSTOM
+            target:
+                type: caster
+        essence_theft_5:
+            type: dispatch_command
+            format: 'mmotempstat <caster.name> SKILL_DAMAGE 10 100'
+            target: 
+                type: caster
+        essence_theft_6:
+            type: dispatch_command
+            format: 'mmotempstat <caster.name> MOVEMENT_SPEED 5 100'
+            target: 
+                type: caster
+        essence_theft_sound_2:
+            type: sound
+            sound: ENTITY_MOOSHROOM_CONVERT
+            pitch: 1
+            volume: 1
+            target:
+                type: caster

@@ -1,0 +1,88 @@
+CATASTROPHE:
+  base:
+    material: BOW
+    custom-model-data: 2.0
+    attack-damage: 24.0
+    critical-strike-chance: 35.0
+    critical-strike-power: 100.0
+    arrow-velocity: 2.0
+    tier: S+
+    unbreakable: true
+    unstackable: true
+    movement-speed: 0.02
+    lore:
+    - '&fポ One With The Void &8(Passive)'
+    - '&7Hitting enemies with arrows curses'
+    - '&7them, turning them into &fポ <#9469a2>Voidborne'
+    - <#9469a2>Voidborne &7enemies take &c25&7 damage
+    - '&7per second. If enemies die while still'
+    - '&7being a &fポ <#9469a2>Voidborn&7, it turns into'
+    - '&7a <#98687e>Voidling&7, which attacks nearby mobs.'
+    - '&8Debuff duration: &95s'
+    - '&8Voidling lifespan: &910s'
+    name: <GRADIENT:#3a2b79:#6c35a4>The Catastrophe
+    arrow-particles:
+      particle: SOUL
+      speed: 0.2
+      amount: 2
+    ability:
+      ability1:
+        type: OWTV
+        mode: ARROW_HIT
+    upgrade:
+      template: dungeon
+      max: 10
+DIVINETTO:
+  base:
+    material: BOW
+    name: Divenetto
+    max-durability: 852.0
+    attack-damage: 10.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 30.0
+    tier: S
+    lore:
+    - '&fｰ Focus! &8(Left-Click)'
+    - '&7Boosts &6🏹 Projectile Damage'
+    - '&7by &635%&7, but also increases'
+    - '&7all damage dealt to you by'
+    - '&c35%&7!'
+    - '&8Duration: &35s'
+    - '&8Cooldown: &320s'
+    - '&8Mana: &330'
+    arrow-velocity: 1.5
+    ability:
+      ability1:
+        type: FOCUS
+        mode: LEFT_CLICK
+        mana: 30.0
+        cooldown: 20.0
+    custom-model-data: 3.0
+    crafting:
+      smithing:
+        '1':
+          input: v BOW - 1.0..|m MATERIAL DIVINE_GEODE 1.0..
+HOSPITALITY:
+  base:
+    material: BOW
+    custom-model-data: 4.0
+    name: <GRADIENT:#93fafb:#d3fafb>Hospitality
+    lore:
+    - '&f௺ Hospitality &8(Right-Click)'
+    - '&cDoes not&7 shoot arrows, instead'
+    - '&7throws an explosive gift box that'
+    - '&7deals &c50&7 AOE damage to enemies'
+    - '&8Cooldown: &33s'
+    - ''
+    - '&f௻ &82022 Chrismas exclusive!'
+    disable-interaction: true
+    cooldown-reduction: 25.0
+    projectile-damage: 35.0
+    tier: S
+    ability:
+      ability1:
+        type: PRESENT_THROW
+        mode: RIGHT_CLICK
+        damage: 50.0
+        cooldown: 3.0
+    projectile-damage-reduction: 35.0

@@ -1,0 +1,175 @@
+header-footer:
+  enabled: true
+  header:
+  - ''
+  - ''
+  - '<gradient:#ff69b4:#ffffff>Welcome to my server</gradient>'
+  - ''
+  - ''
+  - ''
+  footer:
+  - ''
+  - '&8&oWhen the world is nearing its end day, only the bravest'
+  - '&8&osoul and strongest mind can save it. Be that hero.'
+  disable-condition: '%world%=disabledworld'
+tablist-name-formatting:
+  enabled: true
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  sorting-types:
+  - GROUPS:owner,admin,mod,helper,builder,vip,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  unlimited-nametag-mode:
+    enabled: true
+    disable-on-boats: true
+    space-between-lines: 0.22
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    disable-condition: '%world%=disabledworld'
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+yellow-number-in-tablist:
+  enabled: false
+  value: '%ping%'
+  disable-condition: '%world%=disabledworld'
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: '&cHealth'
+  disable-condition: '%world%=disabledworld'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: true
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: WHITE
+      progress: '100'
+      text: "<gradient:#ac33ff:#e74c3c>'ᴏɴʟɪɴᴇ: %server_online%   Ram: %server_ram_free%MiB    TPS: %server_tps_1%'</gradient>"
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 1
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  scoreboards:
+    default:
+      title: "<gradient:#ff69b4:#ffffff>qhuy's server</gradient>"
+      lines:
+      - ''
+      - '&fɪᴅ: &#d8bfd8%player_name%'
+      - '&fᴘᴜʀꜱᴇ: &#ffb6c1%vault_eco_balance_formatted%'
+      - '&fʟᴀɴᴅ: &#aec6cf%griefprevention_claims%'
+      - '&fꜱ.ᴘᴏᴡᴇʀ: &#add8e6%javascript_power%✯'
+      - ''
+      - '&d⌚&#C0C0C0 %localtime_timezone_Asia/Ho_Chi_Minh%'
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: true
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%afk%':
+    true: ' &o[AFK]&r'
+    false: ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%player%'
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- owner
+- admin
+- mod
+- helper
+- emerald
+- diamond
+- redstone
+- gold
+- iron
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+use-online-uuid-in-tablist: true
+global-playerlist:
+  enabled: false
+layout:
+  enabled: true
+  direction: COLUMNS
+  default-skin: mineskin:1753261242
+  enable-remaining-players-text: true
+  remaining-players-text: '... and %s more'
+  empty-slot-ping-value: 1
+  layouts:
+    default:
+      fixed-slots:
+      - 1|&f&l ᴘʟᴀʏᴇʀꜱ|mineskin:1105851698
+      - 61|&6&l ᴀᴅᴠᴇɴᴛᴜʀᴇʀ ᴘʀᴏꜰɪʟᴇ&7               |mineskin:1074335506
+      - 63|&f௔ &#A7C7E7&lPROFILE
+      - '64|&fRank: %luckperms_highest_inherited_group_by_weight%'
+      - '65|&fPurse: &6%vault_eco_balance_commas%&f௣'
+      - '66|&fSkill Power: &3%javascript_power%✯'
+      - '67|&fDeaths: &c%statistic_deaths%☠'
+      - '68|&fTime Played: &a%statistic_time_played:days%d %statistic_time_played:hours%h'
+      - 70|&f௕ &#C2B280&lREAL ESTATE
+      - '71|&fOwned Lands: &6%griefprevention_claims%'
+      - '72|&fRemaining Blocks: &c%griefprevention_remainingclaims%'
+      groups:
+        players:
+          slots:
+          - 2-60

@@ -1,0 +1,189 @@
+Messages:
+  No-permission: "&cYou don't have permission to do this."
+  View-command-no-permission: "&cYou must right click a player to open profile."
+  View-interact-no-permission: "&cYou cannot view players' profiles."
+  Reloaded: "&aSome messages and options have been reloaded. Other may require a restart!"
+  Invalid-player: "&cPlayer is not online!"
+  Disabled-world: "&cProfiles are disabled in this world :("
+  Please-reconnect: "&cSomething went wrong! Please reconnect to the server."
+  Please-reconnect-other: "&cSomething went wrong! Player needs to reconnect to the server."
+  Profile-disabled-command: "&cCommand disabled! Right click the player to view profile!"
+  Profile:
+    Title: "Stalking {PLAYER}..."
+    Profile-is-locked: "&cYou cannot view this player profile."
+  Toggle-profiles:
+    No-permission: "&cYou don't have permission to do this."
+    Profiles-locked: "&cProfiles disabled! You won't view players' profile now."
+    Profiles-unlocked: "&aProfiles enabled! You'll see players' profiles now."
+  Toggle-profile:
+    No-permission: "&cYou don't have permission to do this."
+    Profile-locked: "&cProfile locked! Players cannot view your profile now."
+    Profile-unlocked: "&aProfile unlocked! Players can view your profile now."
+  Help:
+    Admin:
+    - "&6 /profile &f- &eCheck your profile"
+    - "&6 /profile <player> &f- &eCheck player's profile"
+    - "&6 /betterprofiles &f- &eCheck your profile"
+    - "&6 /betterprofiles view <player> &f- &eOpen player's profile"
+    - "&6 /betterprofiles toggle <viewer/profile>&f- &eToggle viewing/showing profiles"
+    - "&6 /betterprofiles reload &f- &eReload configuration"
+    User: []
+  WorldGuard:
+    Disabled-region: "&cYou cannot view profiles in this region!"
+
+Items:
+  No-main-hand:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "&6Main hand"
+    Permission: "none"
+    Lore:
+    - "&7Empty..."
+    Lore-hidden:
+    - "&cYou can't see this slot."
+  No-off-hand:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "&6Off hand"
+    Permission: "none"
+    Lore:
+    - "&7Empty..."
+    Lore-hidden:
+    - "&cYou can't see this slot."
+  No-helmet:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "&6Helmet"
+    Permission: "none"
+    Lore:
+    - "&7Empty..."
+    Lore-hidden:
+    - "&cYou can't see this slot."
+  No-chestplate:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "&6Chestplate"
+    Permission: "none"
+    Lore:
+    - "&7Empty..."
+    Lore-hidden:
+    - "&cYou can't see this slot."
+  No-leggings:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "&6Leggings"
+    Permission: "none"
+    Lore:
+    - "&7Empty..."
+    Lore-hidden:
+    - "&cYou can't see this slot."
+  No-boots:
+    Custom-model-data: 0
+    Custom-model-data-hidden: 0
+    Displayname: "&6Boots"
+    Permission: "none"
+    Lore:
+    - "&7Empty..."
+    Lore-hidden:
+    - "&cYou can't see this slot."
+  Close:
+    Custom-model-data: 0
+    Displayname: "&cClose"
+    Lore: []
+
+Options:
+  Main:
+    Aliases:
+    - "betterprofile"
+    - "bprofiles"
+    - "bprofile"
+  Profile:
+    Aliases:
+    - "perfil"
+  Debug: false
+  Prevent-shield: true
+  Prevent-interact: true
+  Only-sneak: false
+  Update-equipment: true
+  Fill-empty:
+    Enabled: true
+    Custom-model-data: 0
+    Color-frame: BLACK
+  Empty-slot:
+    Color-frame: GRAY
+  Hidden-slot:
+    Color-frame: GRAY
+  Check-visibility: true
+  Profiles:
+    Rows: 6
+  Slots:
+    Close: 49
+    Helmet: 10
+    Chestplate: 19
+    Leggings: 28
+    Boots: 37
+    Main-hand: 20
+    Off-hand: 29
+  View:
+    Interact: true
+    Command: false
+  Disabled-worlds:
+  - "world_pvp"
+  Sounds:
+    Open: "CHEST_OPEN"
+    Close: "CHEST_CLOSE"
+  Data-delay: 20
+  WorldGuard:
+    Warning:
+    - "Default flag:"
+    - " This is the default behavior if the flag is not specified BUT you are inside in a WorldGuard region."
+    - "  true - Players can view profiles."
+    - "  false - Players cannot view profiles."
+    Default-flag: true
+
+Permissions:
+  Admin: "betterprofiles.admin"
+  View-interact: "none"
+  View-command: "betterprofiles.view.command"
+  Toggle-view-profiles: "none" #Example: "betterprofiles.toggle.others-profiles"
+  Toggle-profile: "betterprofiles.toggle.profile"
+  Bypass: "betterprofiles.view.bypass"
+  Own-profile: "none" #Example: "betterprofiles.view.myprofile"
+
+Database:
+  Type: "SQLite"
+  Table: "betterprofiles"
+  File: "database-betterprofiles"
+  Host: 127.0.0.1
+  Port: 3306
+  Database: "betterprofiles"
+  Username: "root"
+  Password: "12345"
+  Keep-alive-interval: 30
+  Additional-url: ""
+  HikariCP:
+    Warning:
+    - "========================================================================================"
+    - "You don't need to edit this text, it's ONLY displayed in config so you can read it."
+    - "========================================================================================"
+    - "HikariCP is experimental. Remember that only modify the following IF YOU KNOW HOW IT WORKS."
+    - "If you don't want to use HikariCP and want the usually MySQL set Type to \"IWantMySQL\""
+    - "You will not get support for HikariCP configurations as 1) I'm not a HikariCP advanced user"
+    - "and 2) Customization depends on the owner and his knowledge level."
+    - "Related to Source-properties, if you KNOW and want to add custom properties follow the format:"
+    - "Source-properties:"
+    - '  thePropertySelected1: "theValue1"'
+    - '  thePropertySelected2: "theValue2"'
+    - "[!] Remember to modify data only if you know what you are doing."
+    - "Available source properties can be found here: https://alonsoaliaga.com/HikariCP-sp"
+    - "Available source class names can be found here: https://alonsoaliaga.com/HikariCP-cn"
+    Max-pool-size: 15
+    Custom-source-class-name: "default"
+    Source-properties: []
+
+Updates:
+  Auto-update-configuration: true
+  Check-updates: true
+  Notify-updates: true
+  Permission: "betterprofiles.update"
+  Message: "&6[BetterProfiles] &eA new update has been found! You are using version {CURRENT}. Download version {NEW} here &c{LINK}"

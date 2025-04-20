@@ -1,0 +1,202 @@
+mob-groups:
+  commons:
+    - ZOMBIE
+    - SKELETON
+    - CREEPER
+  farm:
+    - CHICKEN
+    - COW
+    - SHEEP
+    - PIG
+
+
+biome-groups:
+  taigas:
+    - TAIGA
+    - TAIGA_MOUNTAINS
+    - SNOWY_TUNDRA
+    - SNOWY_TAIGA
+    - SNOWY_TAIGA_HILLS
+    - GIANT_TREE_TAIGA
+    - GIANT_SPRUCE_TAIGA
+    - GIANT_SPRUCE_TAIGA_HILLS
+    - GIANT_TREE_TAIGA_HILLS
+    - SNOWY_TAIGA_MOUNTAINS
+  flowers:
+    - FLOWER_FOREST
+    - SUNFLOWER_PLAINS
+
+presets:
+  random_Levelling:
+    name: 'LVLling Strategy - Random'
+    strategies:
+      random: true
+      lower-mob-level-bias-factor: 5
+
+  player_Levelling:
+    name: 'LVLling Strategy - Player Based AVERAGE CHALLENGE'
+    strategies:
+      player-levelling:
+        match-level: false
+        use-player-max-level: false
+        decrease-level: true
+        player-level-scale: 1.0
+        level-cap: 100
+        tiers:
+          1-10: 1-10
+          11-20: 10-25
+          21-30: 25-45
+          31-40: 45-70
+          41-49: 70-95
+          60-60: 95-100
+        variable: '%aureliumskills_fighting%'
+    conditions:
+      entities:
+        excluded-groups: [ 'all_passive_mobs' ]
+        excluded-list: [ 'BABY_', 'ENDER_DRAGON', 'WITHER', 'VILLAGER', 'ZOMBIE_VILLAGER', 'WANDERING_TRADER', 'PHANTOM', 'BAT', 'RAVAGER', 'WARDEN' ]
+      mythicmobs-internal-names:
+        excluded-list: [ 'Eve_Death', 'Abnormality' ]
+
+  allowed_worlds:
+    name: 'Excluded Worldlist'
+    conditions:
+      worlds:
+        allowed-list: ['*']
+
+  nametag_using_numbers:
+    name: 'Nametag - Health Numerical'
+    apply-settings:
+      nametag: '%tiered%ʟᴠʟ.%mob-lvl% &f%displayname%&8 &c%entity-health-rounded%&8/&c%entity-max-health-rounded%%heart_symbol%'
+
+  default_settings:
+    name: 'Default Settings'
+    apply-settings:
+      minLevel: 1
+      maxLevel: 100
+      multipliers:
+        max-health: 15.0
+        movement-speed: 0.2
+        attack-damage: 5.0
+        ranged-attack-damage: 4.0
+        creeper-blast-damage: 2.5
+      tiered-coloring:
+        default: '&#FFFFFF' 
+        1-19: '&#22E76B' 
+        20-39: '&#528CFF' 
+        40-59: '&#FFCD56' 
+        60-79: '&#F2003D' 
+        80-99: '&#B447FF' 
+        100-100: '&#990000'
+
+default-rule:
+  use-preset:
+    - boss
+    - player_Levelling_boss
+    - allowed_worlds
+    - nametag_using_numbers
+    - default_settings
+    - random_Levelling
+    - player_Levelling
+
+  conditions:
+    allowed-spawn-reasons:
+      allowed-list: '*'
+
+    level-plugins:
+      DANGEROUS_CAVES: false
+      ECO_BOSSES: false
+      MYTHIC_MOBS: true
+      ELITE_MOBS: false
+      ELITE_MOBS_NPCS: false
+      ELITE_MOBS_SUPER_MOBS: false
+      INFERNAL_MOBS: false
+      CITIZENS: false
+      SHOPKEEPERS: false
+      SIMPLE_PETS: false
+      ELITE_BOSSES: false
+      BLOOD_NIGHT: false
+
+
+    mob-customname-status: EITHER
+    mob-tamed-status: EITHER
+
+  apply-settings:
+    sunlight-intensity: 5
+
+    entity-name-override:
+
+    creature-death-nametag: '%tiered%Lvl %mob-lvl%&8 | &f%displayname%'
+    nametag-placeholder-levelled: ''
+    nametag-placeholder-unlevelled: ''
+    nametag-visible-time: 1s
+    nametag-visibility-method: [ 'TARGETED', 'ATTACKED', 'TRACKING' ]
+
+    baby-mobs-inherit-adult-setting: true
+    level-inheritance: false
+    passenger-match-level: false
+
+    use-custom-item-drops-for-mobs: true
+
+    maximum-death-in-chunk-threshold: 0
+    max-adjacent-chunks: 3
+    chunk-max-cooldown-seconds: 300s
+    disable-vanilla-drops-on-chunk-max: false
+
+    spawner-particles: 'SOUL'
+    spawner-particles-count: 10
+
+custom-rules:
+
+  - enabled: true
+    name: 'NoLevel: Passives + Special Mobs'
+    conditions:
+      entities:
+        allowed-groups: [ 'all_passive_mobs' ]
+        allowed-list: [ 'BABY_', 'ENDER_DRAGON', 'WITHER', 'VILLAGER', 'ZOMBIE_VILLAGER', 'WANDERING_TRADER', 'PHANTOM', 'BAT', 'RAVAGER', 'WARDEN' ]
+      mythicmobs-internal-names:
+        allowed-list: [ 'Eve_Death', 'Abnormality' ]
+    strategies:
+      player-levelling:
+        enabled: false
+    apply-settings:
+      maxLevel: 0
+
+  - enabled: true
+    name: 'Boss: LVL 100 + No Changes'
+    conditions:
+      mythicmobs-internal-names:
+        allowed-list: [ 'Seraphi_Inanis', 'THE_NULL' ]
+    strategies:
+      player-levelling:
+        enabled: false
+    apply-settings:
+      maxLevel: 1
+      minLevel: 1
+      nametag: '&#990000ʟᴠʟ.100 &f%displayname%&8 &c%entity-health-rounded%&8/&c%entity-max-health-rounded%%heart_symbol%'
+      multipliers:
+        max-health: 0.0
+        movement-speed: 0.0
+        attack-damage: 0.0
+        ranged-attack-damage: 0.0
+        creeper-blast-damage: 0.5
+
+  - enabled: true
+    name: 'Dungeon - The Veil'
+    conditions:
+      mythicmobs-internal-names:
+        allowed-list: [ 'HexWarrior', 'HexArcher', 'Hexmancer', 'Hexsprinter' ]
+    strategies:
+      player-levelling:
+        enabled: false                                                                  
+    apply-settings:
+      maxLevel: 20
+      minLevel: 20
+      nametag: '&#528CFFʟᴠʟ.20 &f%displayname%&8 &c%entity-health-rounded%&8/&c%entity-max-health-rounded%%heart_symbol%'
+      multipliers:
+        max-health: 0.0
+        movement-speed: 0.0
+        attack-damage: 0.0
+        ranged-attack-damage: 0.0
+        creeper-blast-damage: 0.5
+
+file-version: 3

@@ -1,0 +1,9 @@
+General:
+  MaxInstances: 10
+  AutoSaveInterval: 300
+  FunctionBuilderItem: FEATHER
+  StuckKillsPlayer: true
+  ReadyCheckTime: 45
+  PartyFinder:
+    AutoBroadcast: false
+    ListingBroadcastPeriod: 5

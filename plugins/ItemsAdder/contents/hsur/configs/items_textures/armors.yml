@@ -1,0 +1,55 @@
+info:
+  namespace: hsur
+
+armors_rendering:
+  uranium:
+    color: "#FC030C"
+    layer_1: custom/items/armor/uranium_armor_layer_1
+    layer_2: custom/items/armor/uranium_armor_layer_2
+    use_color: false
+
+items:
+
+  uranium_helmet:
+    resource:
+      generate: true
+      model_id: 4
+      textures:
+      - custom/items/armor/uranium_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: uranium
+
+  uranium_chestplate:
+    resource:
+      generate: true
+      model_id: 4
+      textures:
+      - custom/items/armor/uranium_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: uranium
+
+  uranium_leggings:
+    resource:
+      generate: true
+      model_id: 4
+      textures:
+      - custom/items/armor/uranium_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: uranium
+
+  uranium_boots:
+    resource:
+      generate: true
+      model_id: 4
+      textures:
+      - custom/items/armor/uranium_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: uranium

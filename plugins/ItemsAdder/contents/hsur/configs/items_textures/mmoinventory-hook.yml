@@ -1,0 +1,61 @@
+info:
+  namespace: hsur
+
+items:
+  
+  mmoinventory_artifact_1:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 10
+      material: DIAMOND_HOE
+      textures:
+      - items/mmoinventory/artifact_1
+  mmoinventory_helmet:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 1
+      material: DIAMOND_HOE
+      textures:
+      - items/mmoinventory/helmet
+  mmoinventory_leggings:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 3
+      material: DIAMOND_HOE
+      textures:
+      - items/mmoinventory/leggings
+  mmoinventory_off_hand:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 14
+      material: DIAMOND_HOE
+      textures:
+      - items/mmoinventory/off_hand
+  mmoinventory_chestplate:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 2
+      material: DIAMOND_HOE
+      textures:
+      - items/mmoinventory/chestplate
+  mmoinventory_emblem:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 11
+      material: DIAMOND_HOE
+      textures:
+      - items/mmoinventory/emblem
+  mmoinventory_boots:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 4
+      material: DIAMOND_HOE
+      textures:
+      - items/mmoinventory/boots

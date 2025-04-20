@@ -1,0 +1,11 @@
+
+inventory-name:
+    self: '&fచ'
+    other: '{name}''s Equipments'
+
+player-command: '&cThis command is only for players.'
+specify-player: '&cPlease specify a player.'
+wrong-player: '&cCould not find the player called {arg}.'
+not-enough-perms: '&cYou don''t have enough permissions.'
+
+reload: '&eMMOInventory {version} successfully reloaded.'

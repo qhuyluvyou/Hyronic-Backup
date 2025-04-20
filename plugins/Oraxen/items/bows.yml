@@ -1,0 +1,40 @@
+bow1:
+  displayname: '&1'
+  material: BOW
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/handheld
+    textures:
+    - custom/items/bow/catastrophe
+    pulling_models:
+    - custom/bows/catastrophe_pulling_0
+    - custom/bows/catastrophe_pulling_1
+    - custom/bows/catastrophe_pulling_2
+
+bow2:
+  displayname: '&1'
+  material: BOW
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/handheld
+    textures:
+    - custom/items/bow/divenetto
+    pulling_models:
+    - custom/bows/divinetto_pulling_0
+    - custom/bows/divinetto_pulling_1
+    - custom/bows/divinetto_pulling_2
+
+bow3:
+  displayname: '&1'
+  material: BOW
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/handheld
+    textures:
+    - custom/items/bow/hospitality

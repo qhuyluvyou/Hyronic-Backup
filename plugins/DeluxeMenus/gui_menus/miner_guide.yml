@@ -1,0 +1,115 @@
+open_command: []
+size: 54
+menu_title: '             ᴍɪɴᴇʀ ɢᴜɪᴅᴇ'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'outerfill':
+    material: CLAY_BALL
+    model_data: 1
+    hide_attributes: true
+    display_name: "&f"
+    slots: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,25,26,27,35,36,44,45,46,47,48,49,50,51,52,53]
+  '1':
+    material: GHAST_TEAR
+    model_data: 1
+    slot: 20
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#006263Mythril Ore"
+    lore:
+      - ""
+      - "&#AEC6CFʙᴀꜱɪᴄ ɪɴꜰᴏ"
+      - "&8• &7Height: &f-32 &8→ &f32"
+      - "&8• &7Dimension: &2Overworld"
+      - "&8• &7Rarity: &aUncommon"
+      - ""
+      - "&#FDFD96ᴅʀᴏᴘ"
+      - "&8• &fMythril Ingot"
+      - ""
+      - "&8Requires &7Netherite Pickaxe"
+      - "&8or better to break."
+  '2':
+    material: GHAST_TEAR
+    model_data: 2
+    slot: 21
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#FFC0CBOrichalcum Ore"
+    lore:
+      - ""
+      - "&#AEC6CFʙᴀꜱɪᴄ ɪɴꜰᴏ"
+      - "&8• &7Height: &f-32 &8→ &f32"
+      - "&8• &7Dimension: &2Overworld"
+      - "&8• &7Rarity: &eRare"
+      - ""
+      - "&#FDFD96ᴅʀᴏᴘ"
+      - "&8• &fOrichalcum Ingot"
+      - ""
+      - "&8Requires &7Mythril Pickaxe"
+      - "&8or better to break."
+  '3':
+    material: GHAST_TEAR
+    model_data: 3
+    slot: 22
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#6699CCTitanium Ore"
+    lore:
+      - ""
+      - "&#AEC6CFʙᴀꜱɪᴄ ɪɴꜰᴏ"
+      - "&8• &7Height: &f-32 &8→ &f32"
+      - "&8• &7Dimension: &2Overworld"
+      - "&8• &7Rarity: &dVery Rare"
+      - ""
+      - "&#FDFD96ᴅʀᴏᴘ"
+      - "&8• &fTitanium Ingot"
+      - ""
+      - "&8Requires &7Orichalcum Pickaxe"
+      - "&8or better to break."
+  '4':
+    material: GHAST_TEAR
+    model_data: 4
+    slot: 23
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#953553Iridium Ore"
+    lore:
+      - ""
+      - "&#AEC6CFʙᴀꜱɪᴄ ɪɴꜰᴏ"
+      - "&8• &7Dimension: &dThe End"
+      - "&8• &7Rarity: &aCommon"
+      - ""
+      - "&#FDFD96ᴅʀᴏᴘ"
+      - "&8• &fIridium Shard"
+      - ""
+      - "&8Requires &7Titanium Pickaxe"
+      - "&8or better to break."
+  '5':
+    material: GHAST_TEAR
+    model_data: 5
+    slot: 24
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&#3cff49Uranium Ore"
+    lore:
+      - ""
+      - "&#AEC6CFʙᴀꜱɪᴄ ɪɴꜰᴏ"
+      - "&8• &7Dimension: &dThe End"
+      - "&8Only in End Islands."
+      - "&8• &7Rarity: &aCommon"
+      - ""
+      - "&#FDFD96ᴅʀᴏᴘ"
+      - "&8• &fUranium Shard"
+      - ""
+      - "&8Requires &7Iridium Pickaxe"
+      - "&8or better to break."

@@ -1,0 +1,132 @@
+SMALL_HEALTH_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 1.0
+    name: <#F8C8DC>Small Health Potion
+    restore-health: 20.0
+    cooldown-reference: health
+    item-cooldown: 60.0
+    max-consume: 3.0
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    tier: B
+HEALTH_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 2.0
+    name: <#ff817b>Health Potion
+    restore-health: 40.0
+    cooldown-reference: health
+    item-cooldown: 60.0
+    max-consume: 3.0
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    tier: B
+LARGE_HEALTH_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 3.0
+    name: <#ff5148>Large Health Potion
+    restore-health: 70.0
+    cooldown-reference: health
+    item-cooldown: 60.0
+    max-consume: 4.0
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    tier: A
+SUPREME_HEALTH_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 4.0
+    name: <#ff2015>Supreme Health Potion
+    restore-health: 120.0
+    cooldown-reference: health
+    item-cooldown: 60.0
+    max-consume: 5.0
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+    tier: S
+SMALL_MANA_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 5.0
+    name: <#00ffff>Small Mana Potion
+    restore-mana: 100.0
+    item-cooldown: 60.0
+    cooldown-reference: mana
+    max-consume: 3.0
+    tier: B
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+MANA_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 6.0
+    name: <#00e6e6>Mana Potion
+    restore-mana: 200.0
+    item-cooldown: 60.0
+    cooldown-reference: mana
+    max-consume: 3.0
+    tier: B
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+LARGE_MANA_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 7.0
+    name: <#00cccc>Mana Potion
+    restore-mana: 350.0
+    item-cooldown: 60.0
+    cooldown-reference: mana
+    max-consume: 4.0
+    tier: A
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+SUPREME_MANA_POTION:
+  base:
+    material: GLASS_BOTTLE
+    custom-model-data: 8.0
+    name: <#00b3b3>Supreme Mana Potion
+    restore-mana: 500.0
+    item-cooldown: 60.0
+    cooldown-reference: mana
+    max-consume: 5.0
+    tier: S
+    sounds:
+      on-consume:
+        sound: ENTITY_GENERIC_DRINK
+        volume: 1.0
+        pitch: 1.0
+DERUNATOR:
+  base:
+    material: EMERALD
+    name: Derunator
+    custom-model-data: 100.0
+    lore:
+    - '&7A mysterious device from'
+    - '&7an unknown realm, which'
+    - '&7can remove every &3runes&7'
+    - '&7from an item.'
+    tier: A
+    random-unsocket: 100.0

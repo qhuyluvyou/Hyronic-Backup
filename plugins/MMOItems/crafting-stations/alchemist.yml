@@ -1,0 +1,198 @@
+
+name: '&fఙ'
+
+max-queue-size: 5
+
+sound: BLOCK_BREWING_STAND_BREW
+
+layout: jeweler
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: AIR
+        name: '&8No Recipe'
+    no-queue-item:
+        material: AIR
+        name: '&8No Item in Queue'
+
+recipes:
+
+    j1:
+        output:
+            type: CONSUMABLE
+            id: SMALL_HEALTH_POTION
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_alchemy%~>~9;display="Alchemy X"}
+
+        ingredients:
+        - mmoitem{type=ALCHEMY,id=DETACHED_EYE,amount=2}
+        - mmoitem{type=ALCHEMY,id=SILVER_LEAF,amount=5}
+
+    j2:
+        output:
+            type: CONSUMABLE
+            id: HEALTH_POTION
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_alchemy%~>~19;display="Alchemy XX"}
+
+        ingredients:
+        - mmoitem{type=ALCHEMY,id=DETACHED_EYE,amount=5}
+        - mmoitem{type=ALCHEMY,id=SILVER_LEAF,amount=10}
+        - mmoitem{type=ALCHEMY,id=SLIMY_MUCUS,amount=8}
+
+
+    j3:
+        output:
+            type: CONSUMABLE
+            id: LARGE_HEALTH_POTION
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_alchemy%~>~29;display="Alchemy XXX"}
+
+        ingredients:
+        - mmoitem{type=ALCHEMY,id=DETACHED_EYE,amount=15}
+        - mmoitem{type=ALCHEMY,id=SILVER_LEAF,amount=20}
+        - mmoitem{type=ALCHEMY,id=SLIMY_MUCUS,amount=15}
+        - mmoitem{type=ALCHEMY,id=BLACK_POWDER,amount=5}
+        - mmoitem{type=ALCHEMY,id=PRISMATIC_FRUIT,amount=1}
+
+    j4:
+        output:
+            type: CONSUMABLE
+            id: SUPREME_HEALTH_POTION
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_alchemy%~>~39;display="Alchemy XXXX"}
+
+        ingredients:
+        - mmoitem{type=ALCHEMY,id=DETACHED_EYE,amount=32}
+        - mmoitem{type=ALCHEMY,id=SILVER_LEAF,amount=25}
+        - mmoitem{type=ALCHEMY,id=SLIMY_MUCUS,amount=15}
+        - mmoitem{type=ALCHEMY,id=BLACK_POWDER,amount=10}
+        - mmoitem{type=ALCHEMY,id=PRISMATIC_FRUIT,amount=1}
+        - mmoitem{type=MATERIAL,id=BLOOM_DOOM,amount=1}
+
+    m1:
+        output:
+            type: CONSUMABLE
+            id: SMALL_MANA_POTION
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_alchemy%~>~9;display="Alchemy X"}
+
+        ingredients:
+        - mmoitem{type=ALCHEMY,id=TEAL_MUSHROOM,amount=2}
+        - mmoitem{type=ALCHEMY,id=SILVER_LEAF,amount=5}
+
+    m2:
+        output:
+            type: CONSUMABLE
+            id: MANA_POTION
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_alchemy%~>~19;display="Alchemy XX"}
+
+        ingredients:
+        - mmoitem{type=ALCHEMY,id=TEAL_MUSHROOM,amount=5}
+        - mmoitem{type=ALCHEMY,id=SILVER_LEAF,amount=10}
+        - mmoitem{type=ALCHEMY,id=SLIMY_MUCUS,amount=8}
+
+
+    m3:
+        output:
+            type: CONSUMABLE
+            id: LARGE_MANA_POTION
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_alchemy%~>~29;display="Alchemy XXX"}
+
+        ingredients:
+        - mmoitem{type=ALCHEMY,id=TEAL_MUSHROOM,amount=15}
+        - mmoitem{type=ALCHEMY,id=SILVER_LEAF,amount=20}
+        - mmoitem{type=ALCHEMY,id=SLIMY_MUCUS,amount=15}
+        - mmoitem{type=ALCHEMY,id=BLACK_POWDER,amount=5}
+        - mmoitem{type=ALCHEMY,id=PRISMATIC_FRUIT,amount=1}
+
+    m4:
+        output:
+            type: CONSUMABLE
+            id: SUPREME_MANA_POTION
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%aureliumskills_alchemy%~>~39;display="Alchemy XXXX"}
+
+        ingredients:
+        - mmoitem{type=ALCHEMY,id=TEAL_MUSHROOM,amount=32}
+        - mmoitem{type=ALCHEMY,id=SILVER_LEAF,amount=25}
+        - mmoitem{type=ALCHEMY,id=SLIMY_MUCUS,amount=15}
+        - mmoitem{type=ALCHEMY,id=BLACK_POWDER,amount=10}
+        - mmoitem{type=ALCHEMY,id=PRISMATIC_FRUIT,amount=1}
+        - mmoitem{type=MATERIAL,id=BLOOM_DOOM,amount=1}

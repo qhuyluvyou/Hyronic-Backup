@@ -1,0 +1,31 @@
+info:
+  namespace: hsur
+
+items:
+
+  bow1:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 1
+      material: BOW
+      textures:
+        - custom/items/bow/catastrophe
+
+  bow2:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 2
+      material: BOW
+      textures:
+        - custom/items/bow/divenetto
+
+  bow3:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 3
+      material: BOW
+      textures:
+        - custom/items/bow/hospitality

@@ -1,0 +1,52 @@
+
+value:
+  ==: CustomOreGenerator#OreConfig
+  name: titanium
+  material: NOTE_BLOCK
+  ore-generator: VANILLA_MINABLE_GENERATOR
+  block-selector: COUNT_RANGE
+  activated: true
+  generated-all: false
+  biomes:
+  - SPARSE_JUNGLE
+  - DESERT
+  - JUNGLE
+  - RIVER
+  - SNOWY_PLAINS
+  - DEEP_FROZEN_OCEAN
+  - WINDSWEPT_HILLS
+  - BIRCH_FOREST
+  - WINDSWEPT_FOREST
+  - FROZEN_PEAKS
+  - SWAMP
+  - SNOWY_BEACH
+  - DARK_FOREST
+  - OLD_GROWTH_PINE_TAIGA
+  - BADLANDS
+  - FROZEN_OCEAN
+  - SAVANNA_PLATEAU
+  - TAIGA
+  - WOODED_BADLANDS
+  - SAVANNA
+  - MEADOW
+  - SNOWY_SLOPES
+  - FROZEN_RIVER
+  - PLAINS
+  - FOREST
+  - MANGROVE_SWAMP
+  - SNOWY_TAIGA
+  - JAGGED_PEAKS
+  replace-materials:
+  - STONE
+  custom-data:
+    ORAXEN: titanium_ore
+  ore-generator-settings:
+    ==: CustomOreGenerator#OreSettingsContainer
+    ore-settings:
+      VEIN_SIZE: 4.0
+  block-selector-settings:
+    ==: CustomOreGenerator#OreSettingsContainer
+    ore-settings:
+      MINIMUM_HEIGHT: -32.0
+      VEINS_PER_CHUNK: 10.0
+      HEIGHT_RANGE: 64.0

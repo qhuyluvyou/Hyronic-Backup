@@ -1,0 +1,198 @@
+
+name: '&fఌ'
+
+max-queue-size: 5
+
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+layout: jeweler
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: AIR
+        name: '&8No Recipe'
+    no-queue-item:
+        material: AIR
+        name: '&8No Item in Queue'
+
+recipes:
+
+    j1:
+        output:
+            type: ACCESSORY
+            id: IRIDIUM_GLOVES
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%playerpoints_points%~>~99;display="100&fௗ"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=10}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=20}
+
+    j2:
+        output:
+            type: ACCESSORY
+            id: IRIDIUM_HEART
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%playerpoints_points%~>~99;display="100&fௗ"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=15}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=1}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=20}
+
+    j3:
+        output:
+            type: ACCESSORY
+            id: IRIDIUM_HOOK
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%playerpoints_points%~>~99;display="200&fௗ"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=15}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=2}
+        - mmoitem{type=MATERIAL,id=BLOOM_DOOM,amount=1}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=20}
+
+    j4:
+        output:
+            type: ACCESSORY
+            id: IRIDIUM_EMBLEM
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%playerpoints_points%~>~99;display="500&fௗ"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=20}
+        - mmoitem{type=MATERIAL,id=DRAGON_SCALE,amount=5}
+        - mmoitem{type=MATERIAL,id=BLOOM_DOOM,amount=1}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=5}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=20}
+
+    j5:
+        output:
+            type: ACCESSORY
+            id: URANIUM_CANISTER
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%playerpoints_points%~>~99;display="200&fௗ"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=URANIUM,amount=25}
+        - mmoitem{type=MATERIAL,id=BLOOM_DOOM,amount=1}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=5}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=30}
+
+
+    j6:
+        output:
+            type: ACCESSORY
+            id: URANIUM_GLOVE
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%playerpoints_points%~>~99;display="200&fௗ"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=URANIUM,amount=25}
+        - mmoitem{type=MATERIAL,id=BLOOM_DOOM,amount=1}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=5}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=30}
+
+    j7:
+        output:
+            type: ACCESSORY
+            id: URANIUM_RING
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%playerpoints_points%~>~99;display="200&fௗ"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=URANIUM,amount=25}
+        - mmoitem{type=MATERIAL,id=BLOOM_DOOM,amount=1}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=5}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=30}
+
+    j8:
+        output:
+            type: ACCESSORY
+            id: RUNICATOR
+            amount: 1
+
+        crafting-time: 0
+        
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+
+        conditions:
+        - placeholder{placeholder=%playerpoints_points%~>~99;display="2000&fௗ"}
+
+        ingredients:
+        - mmoitem{type=MATERIAL,id=VOID_GEM,amount=1}
+        - mmoitem{type=MATERIAL,id=URANIUM,amount=64}
+        - mmoitem{type=MATERIAL,id=IRIDIUM_CRYSTAL,amount=64}
+        - mmoitem{type=MATERIAL,id=BLOOM_DOOM,amount=5}
+        - mmoitem{type=MATERIAL,id=NULL_CELL,amount=36}
+        - mmoitem{type=MATERIAL,id=VOID_STONE,amount=64}
+        - mmoitem{type=MATERIAL,id=EXO_STONE,amount=16}

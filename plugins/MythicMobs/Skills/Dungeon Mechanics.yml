@@ -1,0 +1,57 @@
+Coven_Entrance:
+  Skills:
+  - sound{s=block.end_portal.spawn;v=1;p=0} @World
+  - potion{type=BLINDNESS;d=60;p=false;i=false} @World
+  - message{m="&4???<&co>&7 So the prophecy was true, there you are."} @World
+  - message{m="&4???<&co>&7 You really think you can get past someone like me ?";delay=60} @World
+  - message{m="&4???<&co>&7 Well, deal with this!";delay=140} @World
+Coven_1stWave:
+  Skills:
+  - effect:particleline{particle=reddust;color=#DC143C;amount=5;fromOrigin=false} @Forward{f=25;y=-2;sideOffset=0.0}
+  - effect:particles{p=reddust;color=#DC143C;amount=1000;speed=0;hS=0.4;vS=1} @Forward{f=25;y=-2;sideOffset=0.0}
+  - sound{s=block.ender_chest.close;v=1;p=0} @World
+  - summon{type=HexWarrior;amount=8} @Forward{f=25;y=-2;sideOffset=0.0}
+  - summon{type=HexArcher;amount=5} @Forward{f=25;y=-2;sideOffset=0.0}
+Coven_2ndWave:
+  Skills:
+  - message{m="&4???<&co>&7 Impressive, but not merely enough."} @World
+  - effect:particleline{particle=reddust;color=#6a0dad;amount=5;fromOrigin=false;delay=30} @Forward{f=25;y=-1;sideOffset=0.0}
+  - effect:particles{p=reddust;color=#6a0dad;amount=1000;speed=0;hS=0.4;vS=1;delay=30} @Forward{f=25;y=-1;sideOffset=0.0}
+  - sound{s=block.ender_chest.close;v=1;p=0;delay=30} @World
+  - summon{type=HexWarrior;amount=15;delay=30} @Forward{f=25;y=-1;sideOffset=0.0}
+  - summon{type=HexArcher;amount=9;delay=30} @Forward{f=25;y=-1;sideOffset=0.0}
+  - summon{type=HexSprinter;amount=4;delay=30} @Forward{f=25;y=-1;sideOffset=0.0}
+Coven_3rdWave:
+  Skills:
+  - message{m="&4???<&co>&7 Such courage, but is it enough?"} @World
+  - effect:particleline{particle=reddust;color=#000000;amount=5;fromOrigin=false;delay=30} @Forward{f=25;y=-0.3;sideOffset=0.0}
+  - effect:particles{p=reddust;color=#000000;amount=1000;speed=0;hS=0.4;vS=1;delay=30} @Forward{f=25;y=-1;sideOffset=0.0}
+  - sound{s=block.ender_chest.close;v=1;p=0;delay=30} @World
+  - summon{type=HexWarrior;amount=15;delay=30} @Forward{f=25;y=-0.3;sideOffset=0.0}
+  - summon{type=HexArcher;amount=9;delay=30} @Forward{f=25;y=-0.3;sideOffset=0.0}
+  - summon{type=HexSprinter;amount=4;delay=30} @Forward{f=25;y=-0.3;sideOffset=0.0}
+  - summon{type=Hexmancer;amount=3;delay=30} @Forward{f=25;y=-0.3;sideOffset=0.0}
+Coven_Summon:
+  Skills:
+  - message{m="&4???<&co>&7 Still standing?"} @World
+  - message{m="&4???<&co>&7 The best I've seen, but don't get too cocky";delay=60} @World
+  - message{m="&4???<&co>&7 Let's see how you handle this.";delay=140} @World
+  - sound{s=entity.illusioner.cast_spell;v=1;p=0;repeat=12;repeatinterval=10} @World
+  - effect:particleline{particle=reddust;color=#DC143C;amount=5;fromOrigin=false;repeat=12;repeatinterval=10} @Forward{f=25;y=-0.3;sideOffset=0.0}
+  - effect:particleline{p=reddust;color=#000000;startYOffset;amount=5;fromOrigin=false;startYOffset=1;repeat=7;repeatinterval=10;delay=50} @Forward{f=25;y=-0.3;sideOffset=0.0}
+  - effect:particleline{p=reddust;color=#6a0dad;amount=5;;fromOrigin=false;startYOffset=-1;repeat=4;repeatinterval=10;delay=80} @Forward{f=25;y=-0.3;sideOffset=0.0}
+  - effect:particles{p=reddust;color=#DC143C;amount=1000;speed=0;hS=0.4;vS=1;repeat=12;repeatinterval=10} @Forward{f=25;y=-1;sideOffset=0.0}
+  - effect:particles{p=reddust;color=#000000;amount=1000;speed=0;hS=0.4;vS=1;repeat=7;repeatinterval=10;delay=50} @Forward{f=25;y=-1;sideOffset=0.0}
+  - effect:particles{p=reddust;color=#6a0dad;amount=1000;speed=0;hS=0.4;vS=1;repeat=4;repeatinterval=10;delay=80} @Forward{f=25;y=-1;sideOffset=0.0}
+  - effect:particles{p=reddust;color=#6a0dad;amount=1000;speed=0;hS=0.4;vS=1;repeat=4;repeatinterval=10;delay=80} @Forward{f=25;y=-1;sideOffset=0.0}
+  - effect:particles{p=lava;amount=100;speed=0;hS=0.4;vS=1;delay=120} @Forward{f=25;y=-1;sideOffset=0.0} 
+  - effect:particles{p=smoke_large;amount=100;speed=0;hS=0.4;vS=1;delay=120} @Forward{f=25;y=-1;sideOffset=0.0}
+  - summon{type=SERAPHI_INANIS;amount=1;delay=120} @Forward{f=25;y=-1;sideOffset=0.0}
+Coven_Summon-Tick:
+  Skills: 
+  - effect:particles{p=reddust;color=#DC143C;amount=10;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particles{p=reddust;color=#000000;amount=10;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particles{p=flame;amount=2;speed=0;hS=0.2;vS=0.2} @origin 
+Coven_Summon-Success:
+  Skills:
+  - summon{type=SERAPHI_INANIS;amount=1} @Location{8.552,9,6.455,358,0.15}

@@ -1,0 +1,128 @@
+open_command: []
+size: 54
+open_commands:
+    - "[sound] BLOCK_ENDER_CHEST_OPEN"
+menu_title: '> ᴅᴜɴɢᴇᴏɴ ɢᴀᴛᴇ'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'outerfill':
+    material: CLAY_BALL
+    model_data: 1
+    hide_attributes: true
+    display_name: "&f"
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,50,51,52,17,26,35,44,52,53,10,11,12,13,14,15,16,19,20,22,24,25,28,29,31,33,34,37,38,39,40,41,42,43,48,19,21,23]
+  'dungeon1':
+    material: BOOK
+    model_data: 75
+    slot: 12
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&dEntrance &8- &5ȶɦɛ ʋɛɨʟ"
+    lore:
+      - ""
+      - "&8&oThe gate to the Dark Dimension"
+      - "&8&ois heavily guarded by undead"
+      - "&8&omonsters and their mastermind,"
+      - "&8&othe Coven."
+      - ""
+      - "&7Size: &aSmall"
+      - "&7Party size: &9%md_dungeon_coven_min_players%-%md_dungeon_coven_max_players%"
+      - "&7Lives: &c%md_dungeon_coven_lives%!"
+      - "&7Difficulty: &eIntermediate"
+      - ""
+      - "&7Recommended gear level:"
+      - "&8- &325 S.Power"
+      - "&8- &5Upgraded Netherite&7 Gears"
+      - "&8- &bDiamond&8/&dNetherite &7Gears"
+      - "&8- &aHealing Items/Foods"
+      - ""
+      - "&eClick to queue!"
+    left_click_commands:
+      - "[player] md play coven"
+      - "[sound] ENTITY_ENDERMAN_TELEPORT"
+      - "[close] a"
+  'comingsoon':
+    material: GRAY_DYE
+    slots: [13,14]
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&cNot coming soon"
+    lore: []
+  '1':
+    material: BOOK
+    model_data: 73
+    slot: 30
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&6The Dungeons"
+    lore:
+      - "&7Dungeons are auto-generated"
+      - "&7combat-oriented places, where"
+      - "&7you can solve puzzle, explore,"
+      - "&7and fight!"
+      - ""
+      - "&7To access dungeons, you need"
+      - "&7a &6dungeon key&7! If you are going"
+      - "&7with a party, &call members&7 need"
+      - "&7to have a dungeon key!"
+      - ""
+      - "&fHelpful commands:"
+      - "&6/leave&8 Immediate leaves"
+      - "&6/stuck&8 Dies immediately"
+  '2':
+    material: BOOK
+    model_data: 50
+    slot: 29
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&aParty / Queueing"
+    lore:
+      - "&7Dungeons can be played"
+      - "&asolo&7 or in &aparty&7. A party"
+      - "&7is a group of players to"
+      - "&7join the dungeon."
+      - "&7"
+      - "&7Only &a5&7 parties can play"
+      - "&7the same dungeon at a"
+      - "&7time. Any parties beyond"
+      - "&7will be placed in a queue"
+      - "&7to wait."
+  '3':
+    material: BOOK
+    model_data: 74
+    slot: 32
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&eDungeon Stats"
+    lore:
+      - "&8To be added..."
+  '4':
+    material: BOOK
+    model_data: 98
+    slot: 33
+    item_flags:
+    - HIDE_POTION_EFFECTS
+    display_name: "&3Dungeoneering"
+    lore:
+      - "&7Items acquired from dungeons"
+      - "&7or originated from dungeons'"
+      - "&7materials can be &bupgraded&7. Each"
+      - "&7level increases &7&omost&7 of its stats"
+      - "&7by &b5%&7, up to &b50%&7! &8(Max +10)"
+      - ""
+      - "&7Affected stats: &c🗡 &9☠ &f🛡 &c❤ &#9966cc۞ &6🏹 &4🗡"
+      - ""
+      - "&eClick to access!"
+    left_click_commands:
+      - "[console] mi stations open dungeoneering %player_name%"
+      - "[sound] BLOCK_LEVER_CLICK"

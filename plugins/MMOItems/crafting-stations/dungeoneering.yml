@@ -1,0 +1,156 @@
+
+name: '&fォ &0Dungeoneering (#page#/#max#)'
+
+max-queue-size: 1
+
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+layout: upgrade
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_DYE
+        name: '&8Not Available'
+    no-queue-item:
+        material: GRAY_DYE
+        name: '&8No Item in Queue'
+
+recipes:
+    upgrade1:
+        item:
+            type: SWORD
+            id: CALAMITY
+
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=32}'
+    upgrade2:
+        item:
+            type: STAFF
+            id: CATACLYSM
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=32}'
+    upgrade3:
+        item:
+            type: BOW
+            id: CATASTROPHE
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=32}'
+
+    upgrade4:
+        item:
+            type: ARMOR
+            id: QUINERUS_BATTLEHELM
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=QUINERUS_CLOAK,amount=1}'
+    upgrade5:
+        item:
+            type: ARMOR
+            id: QUINERUS_CHESTPLATE
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=QUINERUS_CLOAK,amount=1}'
+    upgrade6:
+        item:
+            type: ARMOR
+            id: QUINERUS_LEGGINGS
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=QUINERUS_CLOAK,amount=1}'
+    upgrade7:
+        item:
+            type: ARMOR
+            id: QUINERUS_BOOTS
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=QUINERUS_CLOAK,amount=1}'
+
+    upgrade8:
+        item:
+            type: ARMOR
+            id: MORTOS_ARMET
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=MORTOS_BELT,amount=1}'
+    upgrade9:
+        item:
+            type: ARMOR
+            id: MORTOS_CHESTPLATE
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=MORTOS_BELT,amount=1}'
+    upgrade10:
+        item:
+            type: ARMOR
+            id: MORTOS_LEGGINGS
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=MORTOS_BELT,amount=1}'
+    upgrade11:
+        item:
+            type: ARMOR
+            id: MORTOS_BOOTS
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=MORTOS_BELT,amount=1}'
+
+    upgrade12:
+        item:
+            type: ARMOR
+            id: CAELETUS_SALLET
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=CAELETUS_RING,amount=1}'
+    upgrade13:
+        item:
+            type: ARMOR
+            id: CAELETUS_CHESTPLATE
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=CAELETUS_RING,amount=1}'
+    upgrade14:
+        item:
+            type: ARMOR
+            id: CAELETUS_LEGGINGS
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=CAELETUS_RING,amount=1}'
+    upgrade15:
+        item:
+            type: ARMOR
+            id: CAELETUS_BOOTS
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=CAELETUS_RING,amount=1}'
+
+
+    upgrade16:
+        item:
+            type: ARMOR
+            id: HEXIM_JUDENHAT
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=HEXIM_NECKLACE,amount=1}'
+    upgrade17:
+        item:
+            type: ARMOR
+            id: HEXIM_CHESTPLATE
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=HEXIM_NECKLACE,amount=1}'
+    upgrade18:
+        item:
+            type: ARMOR
+            id: HEXIM_LEGGINGS
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=HEXIM_NECKLACE,amount=1}'
+    upgrade19:
+        item:
+            type: ARMOR
+            id: HEXIM_BOOTS
+        ingredients:
+        - 'mmoitem{type=MATERIAL,id=WITCH_BLOOD,amount=16}'
+        - 'mmoitem{type=MATERIAL,id=HEXIM_NECKLACE,amount=1}'

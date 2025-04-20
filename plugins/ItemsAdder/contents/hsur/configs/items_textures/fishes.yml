@@ -1,0 +1,328 @@
+info:
+  namespace: hsur
+
+items:
+  
+  fishes1:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 1
+      material: SALMON
+      textures:
+      - custom/items/fish/eel
+
+  fishes2:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 2
+      material: SALMON
+      textures:
+      - custom/items/fish/carp
+
+  fishes3:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 3
+      material: SALMON
+      textures:
+      - custom/items/fish/crab
+
+  fishes4:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 4
+      material: SALMON
+      textures:
+      - custom/items/fish/jellyfish
+
+  fishes5:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 5
+      material: SALMON
+      textures:
+      - custom/items/fish/lobster
+
+  fishes6:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 6
+      material: SALMON
+      textures:
+      - custom/items/fish/mackerel
+
+  fishes7:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 7
+      material: SALMON
+      textures:
+      - custom/items/fish/shrimp
+
+  fishes8:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 8
+      material: SALMON
+      textures:
+      - custom/items/fish/starfish
+
+  fishes9:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 9
+      material: SALMON
+      textures:
+      - custom/items/fish/moss_carp
+
+  fishes10:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  10
+      material: SALMON
+      textures:
+      - custom/items/fish/moss_eel
+
+  fishes11:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  11
+      material: SALMON
+      textures:
+      - custom/items/fish/moss_mackerel
+
+  fishes12:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  12
+      material: SALMON
+      textures:
+      - custom/items/fish/moss_salmon
+
+  fishes13:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  13
+      material: SALMON
+      textures:
+      - custom/items/fish/saphire_jellyfish
+
+  fishes14:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  14
+      material: SALMON
+      textures:
+      - custom/items/fish/saphire_lobster
+
+  fishes15:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  15
+      material: SALMON
+      textures:
+      - custom/items/fish/saphire_pufferfish
+
+  fishes16:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  16
+      material: SALMON
+      textures:
+      - custom/items/fish/saphire_rockfish
+
+  fishes17:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  17
+      material: SALMON
+      textures:
+      - custom/items/fish/saphire_salmon
+
+  fishes18:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  18
+      material: SALMON
+      textures:
+      - custom/items/fish/hexified_crab
+
+  fishes19:
+    enabled: true
+    resource:
+      generate: true
+      model_id:  19
+      material: SALMON
+      textures:
+      - custom/items/fish/hexified_lobster
+
+  fishes20:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 20
+      material: SALMON
+      textures:
+      - custom/items/fish/hexified_squid
+
+  fishes21:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 21
+      material: SALMON
+      textures:
+      - custom/items/fish/hexified_starfish
+
+  fishes22:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 22
+      material: SALMON
+      textures:
+      - custom/items/fish/hexified_voidfish
+
+  fishes23:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 23
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_carp
+
+  fishes24:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 24
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_crab
+
+  fishes25:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 25
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_eel
+
+  fishes26:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 26
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_frog
+
+  fishes27:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 27
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_jellyfish
+
+  fishes28:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 28
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_lobster
+
+  fishes29:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 29
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_mackerel
+
+  fishes30:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 30
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_pufferfish
+
+  fishes31:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 31
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_rockfish
+
+  fishes32:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 32
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_shrimp
+
+  fishes33:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 33
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_squid
+
+  fishes34:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 34
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_starfish
+
+  fishes35:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 35
+      material: SALMON
+      textures:
+      - custom/items/fish/golden_voidfish
+
+  fishes36:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 36
+      material: SALMON
+      textures:
+      - custom/items/fish/squid

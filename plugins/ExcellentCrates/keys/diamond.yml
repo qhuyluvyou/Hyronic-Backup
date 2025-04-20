@@ -1,0 +1,15 @@
+Name: §b§lDiamond Crate Key
+Virtual: false
+Item:
+  Material: PAPER
+  Amount: 1
+  Durability: 0
+  Name: '&fCrate Key (Diamond)'
+  Lore:
+  - ''
+  - '&7Used to open a crate of'
+  - '&7the same type.'
+  Custom_Model_Data: 15
+  Item_Flags:
+  - HIDE_ATTRIBUTES
+  Unbreakable: false

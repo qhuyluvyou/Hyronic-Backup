@@ -1,0 +1,121 @@
+info:
+  namespace: hsur
+
+items:
+
+  sword1:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 1
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/harbinger_of_death
+
+  sword2:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 2
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/harbinger_of_death
+
+  sword3:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 3
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/ark_of_the_cosmos
+
+  sword4:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 4
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/absolute_zero
+
+  sword5:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 5
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/the_trickster
+
+  sword6:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 6
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/calamity
+
+  sword7:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 7
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/mythril_greatsword
+
+  sword8:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 8
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/orichalcum_sword
+
+  sword9:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 9
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/titanium_blade
+
+  sword10:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 10
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/immolus
+
+  sword11:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 11
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/securus
+
+  sword12:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 12
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/daedalus_replica
+
+  sword13:
+    enabled: true
+    resource:
+      generate: true
+      model_id: 13
+      material: IRON_SWORD
+      textures:
+      - custom/items/sword/cobra

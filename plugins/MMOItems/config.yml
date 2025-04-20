@@ -1,0 +1,213 @@
+
+config-version: 8
+
+update-notify: true
+
+iterate-whole-inventory: false
+
+locked-skins: true
+
+preferred-rpg-provider: AURELIUM_SKILLS
+
+inventory-update-delay: 10
+
+item-level-spread: 2
+
+default-item-capacity:
+    base: 3
+    scale: 0
+    spread: 0
+    max-spread: 0
+
+default:
+    attack-speed: 0.67
+    range: 16
+    blunt-rating: 33
+    recoil: 0.1
+    attack-damage: 500
+
+dropped-items:
+
+    tier-glow: true
+
+    hints: true
+    
+op-item-stats:
+    enabled: false
+    stats:
+        - COMMANDS
+        - CUSTOM_NBT
+
+item-upgrading:
+
+    name-suffix: ' <GRADIENT:#F3C6A5:#E5E1AB>+#lvl#'
+
+    display-in-name: true
+
+    display-stat-changes: true
+    stat-change-suffix: ' &8(<p>#stat#&8)'
+    stat-change-positive: '&a'
+    stat-change-negative: '&c'
+
+stats-displaying:
+
+    color-positive: ''
+    color-negative: '&c'
+
+    range-dash: ' <#E5E1AB>→ &f'
+
+soulbound:
+
+    damage:
+        base: 1
+        per-lvl: 1
+        
+    keep-on-death: true
+    
+    can-drop: true
+
+item-ability:
+    staff:
+        enabled: false
+        cooldown: 30
+        power: 1
+    gauntlet:
+        enabled: true
+        cooldown: 60
+        power: 1
+    blunt:
+        aoe:
+            enabled: true
+            cooldown: 2
+        stun:
+            enabled: true
+            chance: 5
+            cooldown: 30
+            power: 1
+    slashing:
+        enabled: false
+        cooldown: 2
+    piercing:
+        enabled: false
+        cooldown: 4
+
+gem-sockets:
+
+    uncolored: 'Universal'
+
+custom-blocks:
+
+    enable-world-gen: true
+
+    replace-mushroom-drops: true
+
+anvil-text-input: false
+
+item-upgrade-requirements-check: true
+
+two-handed-item-restriction: true
+
+cooldown-progress-bar-char: █
+
+action-bar-display:
+    ability-cooldown: false
+    item-cooldown: false
+    not-enough-mana: false
+    not-enough-stamina: false
+    two-handed: false
+    cant-use-item: false
+    mitigation: false
+    item-break: false
+
+recipes:
+
+    use-recipe-book: true
+
+disable-interactions:
+    interact: false
+    repair: false
+    enchant: false
+    smelt: false
+    smith: false
+    craft: false
+    arrow-shooting: false
+
+block-blacklist:
+    - OBSIDIAN
+
+permissions:
+    abilities: false
+    items: true
+
+additive-spread-formula: false
+
+disable-vanilla-recipes: []
+
+item-revision:
+
+    default-item-level: -1
+
+    keep-tiers: true
+
+    drop-extra-gems: true
+
+    kept-lore-prefix: '&7'
+
+    keep-data:
+
+        display-name: true
+
+        enchantments: true
+
+        soulbound: true
+
+        gems: true
+
+        upgrades: true
+
+        lore: false
+
+        exsh: true
+
+        reroll: false
+
+        modifications: true
+
+        skins: true
+
+        tier: true
+
+        advanced-enchantments: true
+
+    phat-loots:
+        display-name: false
+        enchantments: false
+        soulbound: false
+        gems: true
+        upgrades: false
+        lore: false
+        exsh: false
+        skins: false
+        reroll: true
+        modifications: false
+        advanced-enchantments: false
+
+    disable-phat-loot:
+        - MANGO
+        - STEEL_HELMET
+
+    disable-on:
+        pickup: false
+        craft: true # 'true' recommended
+        click: false
+        join: false
+
+lootsplosion:
+    enabled: true
+    color: true
+    offset: .2
+    height: .6
+
+gem-upgrade-default: 'NEVER'
+
+disable-removed-items: true

@@ -1,0 +1,252 @@
+open_command: []
+size: 54
+menu_title: '         ᴊᴇᴡᴇʟᴇʀ ᴜᴘɢʀᴀᴅᴇꜱ'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_WOODEN_DOOR_CLOSE"
+  'fill':
+    material: CLAY_BALL
+    model_data: 1
+    hide_attributes: true
+    display_name: "&f"
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,50,51,52,17,26,35,44,52,53,10,11,12,19,21,28,29,30,37,38,39,40,41,42,43,20,22,23,24,25,13,14,15,16,31,32,33,34,48]
+  '1':
+    material: BOOK
+    model_data: 105
+    slot: 21
+    priority: 3
+    display_name: "&#F8C8DCᴜɴʟᴏᴄᴋ &f1st Accessory Slot"
+    lore:
+      - ""
+      - "&7Unlocking this will allow you"
+      - "&7to use the &#F8C8DC1st&7 accessory"
+      - "&7equipment slot."
+      - ""
+      - "&8Requires"
+      - "%changeoutput_>=_input:{javascript_power}_matcher:10.0_ifmatch:&a✔_else:&c✘% &310.0&3✯"
+      - "%changeoutput_>=_input:{vault_eco_balance}_matcher:10000_ifmatch:&a✔_else:&c✘% &610k&f௣"
+      - "%changeoutput_>=_input:{playerpoints_points}_matcher:10000_ifmatch:&a✔_else:&c✘% &f100&fௗ"
+      - ""
+      - "&#C3B1E1→ Click to unlock!"
+    left_click_requirement:
+      requirements:
+        1:
+          type: ">="
+          input: "%vault_eco_balance%"
+          output: 10000
+        2:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: 100
+        3:
+          type: ">="
+          input: "%javascript_power%"
+          output: 10
+      deny_commands:
+      - "[message] &4&l! &cRequirements are not met!"
+    left_click_commands:
+      - "[console] eco take %player_name% 10000"
+      - "[console] points take %player_name% 100"
+      - "[console] lp user %player_name% permission set slot.accessory1"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 1"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 2<delay=10>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 2.5<delay=20>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 2<delay=30>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 1<delay=40>"
+      - "[sound] BLOCK_CHAIN_BREAK 1 0<delay=50>"
+      - "[close] a"
+  '2':
+    material: BOOK
+    model_data: 105
+    slot: 21
+    priority: 2
+    display_name: "&#FF69B4ᴜɴʟᴏᴄᴋ &f2nd Accessory Slot"
+    lore:
+      - ""
+      - "&7Unlocking this will allow you"
+      - "&7to use the &#FF69B42nd&7 accessory"
+      - "&7equipment slot."
+      - ""
+      - "&8Requires"
+      - "%changeoutput_>=_input:{javascript_power}_matcher:10.0_ifmatch:&a✔_else:&c✘% &325.0&3✯"
+      - "%changeoutput_>=_input:{vault_eco_balance}_matcher:10000_ifmatch:&a✔_else:&c✘% &6100k&f௣"
+      - "%changeoutput_>=_input:{vault_eco_balance}_matcher:10000_ifmatch:&a✔_else:&c✘% &f500&fௗ"
+      - ""
+      - "&#C3B1E1→ Click to unlock!"
+    left_click_requirement:
+      requirements:
+        1:
+          type: ">="
+          input: "%vault_eco_balance%"
+          output: 100000
+        2:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: 500
+        3:
+          type: ">="
+          input: "%javascript_power%"
+          output: 25
+      deny_commands:
+      - "[message] &4&l! &cRequirements are not met!"
+    left_click_commands:
+      - "[console] eco take %player_name% 100000"
+      - "[console] points take %player_name% 500"
+      - "[console] lp user %player_name% permission set slot.accessory2"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 1"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 2<delay=10>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 2.5<delay=20>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 2<delay=30>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 1<delay=40>"
+      - "[sound] BLOCK_CHAIN_BREAK 1 0<delay=50>"
+      - "[close] a"
+    view_requirement:
+      requirements:
+        1:
+          type: has permission
+          permission: slot.accessory1
+  '3':
+    material: BOOK
+    model_data: 105
+    slot: 21
+    priority: 1
+    display_name: "&#DB7093ᴜɴʟᴏᴄᴋ &f3rd Accessory Slot"
+    lore:
+      - ""
+      - "&7Unlocking this will allow you"
+      - "&7to use the &#DB70933rd&7 accessory"
+      - "&7equipment slot."
+      - ""
+      - "&8Requires"
+      - "%changeoutput_>=_input:{javascript_power}_matcher:10.0_ifmatch:&a✔_else:&c✘% &340.0&3✯"
+      - "%changeoutput_>=_input:{vault_eco_balance}_matcher:10000_ifmatch:&a✔_else:&c✘% &62m&f௣"
+      - "%changeoutput_>=_input:{vault_eco_balance}_matcher:10000_ifmatch:&a✔_else:&c✘% &f2000&fௗ"
+      - ""
+      - "&#C3B1E1→ Click to unlock!"
+    left_click_requirement:
+      requirements:
+        1:
+          type: ">="
+          input: "%vault_eco_balance%"
+          output: 2000000
+        2:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: 2000
+        3:
+          type: ">="
+          input: "%javascript_power%"
+          output: 40
+      deny_commands:
+      - "[message] &4&l! &cRequirements are not met!"
+    left_click_commands:
+      - "[console] eco take %player_name% 2000000"
+      - "[console] points take %player_name% 2000"
+      - "[console] lp user %player_name% permission set slot.accessory3"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 0"
+      - "[sound] BLOCK_NOTE_BLOCK_BASS 1 0"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 0<delay=20>"
+      - "[sound] BLOCK_NOTE_BLOCK_BASS 1 0<delay=20>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 0<delay=25>"
+      - "[sound] BLOCK_NOTE_BLOCK_BASS 1 0<delay=25>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 1<delay=40>"
+      - "[sound] BLOCK_NOTE_BLOCK_BASS 1 1<delay=40>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 1<delay=45>"
+      - "[sound] BLOCK_NOTE_BLOCK_BASS 1 1<delay=45>"
+      - "[sound] BLOCK_CHAIN_BREAK 1 0<delay=55>"
+      - "[close] a"
+    view_requirement:
+      requirements:
+        1:
+          type: has permission
+          permission: slot.accessory2
+  '4':
+    material: BOOK
+    model_data: 63
+    slot: 21
+    priority: 0
+    display_name: "&6Out of stock!"
+    lore:
+      - "&7You have unlocked"
+      - "&7everything I have"
+      - "&7to offer!"
+    view_requirement:
+      requirements:
+        1:
+          type: has permission
+          permission: slot.accessory3
+
+  '5':
+    material: BOOK
+    model_data: 107
+    slot: 23
+    priority: 1
+    display_name: "&#B22222ᴜɴʟᴏᴄᴋ &fEmblem Slot"
+    lore:
+      - ""
+      - "&7Unlocking this will allow you"
+      - "&7to use the &#B22222emblem&7 equipment"
+      - "&7slot."
+      - ""
+      - "&8Requires"
+      - "%changeoutput_>=_input:{javascript_power}_matcher:10.0_ifmatch:&a✔_else:&c✘% &330.0&3✯"
+      - "%changeoutput_>=_input:{vault_eco_balance}_matcher:10000_ifmatch:&a✔_else:&c✘% &6250k&f௣"
+      - "%changeoutput_>=_input:{vault_eco_balance}_matcher:10000_ifmatch:&a✔_else:&c✘% &f500&fௗ"
+      - ""
+      - "&#C3B1E1→ Click to unlock!"
+    left_click_requirement:
+      requirements:
+        1:
+          type: ">="
+          input: "%vault_eco_balance%"
+          output: 250000
+        2:
+          type: ">="
+          input: "%playerpoints_points%"
+          output: 500
+        3:
+          type: ">="
+          input: "%javascript_power%"
+          output: 30
+      deny_commands:
+      - "[message] &4&l! &cRequirements are not met!"
+    left_click_commands:
+      - "[console] eco take %player_name% 250000"
+      - "[console] points take %player_name% 500"
+      - "[console] lp user %player_name% permission set slot.emblem"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 0"
+      - "[sound] BLOCK_NOTE_BLOCK_BASS 1 0"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 0<delay=20>"
+      - "[sound] BLOCK_NOTE_BLOCK_BASS 1 0<delay=20>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 0<delay=25>"
+      - "[sound] BLOCK_NOTE_BLOCK_BASS 1 0<delay=25>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 1<delay=40>"
+      - "[sound] BLOCK_NOTE_BLOCK_BASS 1 1<delay=40>"
+      - "[sound] BLOCK_NOTE_BLOCK_BELL 1 1<delay=45>"
+      - "[sound] BLOCK_NOTE_BLOCK_BASS 1 1<delay=45>"
+      - "[sound] BLOCK_CHAIN_BREAK 1 0<delay=55>"
+      - "[close] a"
+  '6':
+    material: BOOK
+    model_data: 63
+    slot: 23
+    priority: 0
+    display_name: "&6Out of stock!"
+    lore:
+      - "&7You have unlocked"
+      - "&7everything I have"
+      - "&7to offer!"
+    view_requirement:
+      requirements:
+        1:
+          type: has permission
+          permission: slot.emblem

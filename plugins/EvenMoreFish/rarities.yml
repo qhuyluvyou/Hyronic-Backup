@@ -1,0 +1,43 @@
+
+
+rarities:
+  Common:
+    weight: 100
+    colour: '&f'
+    worth-multiplier: 0.1
+    broadcast: false
+    size:
+      minSize: 1
+      maxSize: 30
+  Junk:
+    weight: 5
+    colour: '&#888888'
+    worth-multiplier: 0.2
+    broadcast: false
+    size:
+      minSize: 15
+      maxSize: 45
+  Rare:
+    weight: 10
+    colour: '&9'
+    worth-multiplier: 0.2
+    broadcast: false
+    size:
+      minSize: 20
+      maxSize: 150
+  Legendary:
+    weight: 1
+    colour: '&6'
+    worth-multiplier: 0.2
+    broadcast: true
+    size:
+      minSize: 800
+      maxSize: 4000
+  Apocryphal:
+    weight: 0.1
+    colour: '&#7851a9'
+    worth-multiplier: 2.5
+    broadcast: true
+    size:
+      minSize: 2000
+      maxSize: 6000

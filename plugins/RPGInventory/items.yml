@@ -1,0 +1,142 @@
+
+HELMET:
+    type: helmet
+    material: DIAMOND_HOE
+    durability: 1
+    name: '&f఍ &3ꜱʟᴏᴛ: &fʜᴇʟᴍᴇᴛ'
+    slot: 4
+    lore:
+    - ""
+    - "&7Armor provides defense which"
+    - "&7helps ward off incoming damage"
+    - "&7and sometimes some extra stats"
+    - "&7such as speed, tenacity, etc."
+    - "&7Wearing full set also unlocks"
+    - "&7special abilities/passives."
+    - ""
+    - "&7       &8ᴅʀᴀɢ & ᴅʀᴏᴘ ᴀɴ ɪᴛᴇᴍ"
+    - "&7       &8          ʜᴇʀᴇ     "
+CHESTPLATE:
+    type: chestplate
+    material: DIAMOND_HOE
+    durability: 2
+    name: '&fఎ &3ꜱʟᴏᴛ: &fᴄʜᴇꜱᴛᴘʟᴀᴛᴇ'
+    slot: 13
+    lore:
+    - ""
+    - "&7Armor provides defense which"
+    - "&7helps ward off incoming damage"
+    - "&7and sometimes some extra stats"
+    - "&7such as speed, tenacity, etc."
+    - "&7Wearing full set also unlocks"
+    - "&7special abilities/passives."
+    - ""
+    - "&7       &8ᴅʀᴀɢ & ᴅʀᴏᴘ ᴀɴ ɪᴛᴇᴍ"
+    - "&7       &8          ʜᴇʀᴇ     "
+LEGGINGS:
+    type: leggings
+    material: DIAMOND_HOE
+    durability: 3
+    name: '&fఏ &3ꜱʟᴏᴛ: &fʟᴇɢɢɪɴɢꜱ'
+    slot: 22
+    lore:
+    - ""
+    - "&7Armor provides defense which"
+    - "&7helps ward off incoming damage"
+    - "&7and sometimes some extra stats"
+    - "&7such as speed, tenacity, etc."
+    - "&7Wearing full set also unlocks"
+    - "&7special abilities/passives."
+    - ""
+    - "&7       &8ᴅʀᴀɢ & ᴅʀᴏᴘ ᴀɴ ɪᴛᴇᴍ"
+    - "&7       &8          ʜᴇʀᴇ     "
+BOOTS:
+    type: boots
+    material: DIAMOND_HOE
+    durability: 4
+    name: '&fఐ &3ꜱʟᴏᴛ: &fʙᴏᴏᴛꜱ'
+    slot: 31
+    lore:
+    - ""
+    - "&7Armor provides defense which"
+    - "&7helps ward off incoming damage"
+    - "&7and sometimes some extra stats"
+    - "&7such as speed, tenacity, etc."
+    - "&7Wearing full set also unlocks"
+    - "&7special abilities/passives."
+    - ""
+    - "&7       &8ᴅʀᴀɢ & ᴅʀᴏᴘ ᴀɴ ɪᴛᴇᴍ"
+    - "&7       &8          ʜᴇʀᴇ     "
+OFF_HAND:
+    type: off_hand
+    material: DIAMOND_HOE
+    durability: 14
+    name: '&f఑ &eꜱʟᴏᴛ: &fᴏꜰꜰ-ʜᴀɴᴅ'
+    slot: 12
+    lore:
+    - ""
+    - "&7Off-hand slot allows you to"
+    - "&7equip some items for extra"
+    - "&7ultilities, such as shield or"
+    - "&7totem of undying."
+    - ""
+    - "&7    &8ᴅʀᴀɢ & ᴅʀᴏᴘ ᴀɴ ɪᴛᴇᴍ"
+    - "&7    &8          ʜᴇʀᴇ     "
+
+ARTIFACT_1:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 10
+    name: '&6ఒ &6ꜱʟᴏᴛ: &fᴀᴄᴄᴇꜱꜱᴏʀʏ'
+    slot: 48
+    restrictions:
+    - 'mitype{type=ACCESSORY}'
+    - 'unique{enabled=true}'
+    - 'perm{perm=slot.accessory1}'
+    lore:
+    - ""
+    - "&7Artifacts are pieces of"
+    - "&7equipments which grant"
+    - "&7small stats bonus and"
+    - "&7even unique abilities."
+    - ""
+    - "&7  &8ᴅʀᴀɢ & ᴅʀᴏᴘ ᴀɴ ɪᴛᴇᴍ"
+    - "&7  &8          ʜᴇʀᴇ     "
+ARTIFACT_2:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 10
+    name: '&6ఒ &6ꜱʟᴏᴛ: &fᴀᴄᴄᴇꜱꜱᴏʀʏ'
+    slot: 49
+    restrictions:
+    - 'mitype{type=ACCESSORY}'
+    - 'unique{enabled=true}'
+    - 'perm{perm=slot.accessory2}'
+    lore:
+    - ""
+    - "&7Artifacts are pieces of"
+    - "&7equipments which grant"
+    - "&7small stats bonus and"
+    - "&7even unique abilities."
+    - ""
+    - "&7  &8ᴅʀᴀɢ & ᴅʀᴏᴘ ᴀɴ ɪᴛᴇᴍ"
+    - "&7  &8          ʜᴇʀᴇ     "
+ARTIFACT_3:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 10
+    name: '&6ఒ &6ꜱʟᴏᴛ: &fᴀᴄᴄᴇꜱꜱᴏʀʏ'
+    slot: 50
+    restrictions:
+    - 'mitype{type=ACCESSORY}'
+    - 'unique{enabled=true}'
+    - 'perm{perm=slot.accessory3}'
+    lore:
+    - ""
+    - "&7Artifacts are pieces of"
+    - "&7equipments which grant"
+    - "&7small stats bonus and"
+    - "&7even unique abilities."
+    - ""
+    - "&7  &8ᴅʀᴀɢ & ᴅʀᴏᴘ ᴀɴ ɪᴛᴇᴍ"
+    - "&7  &8          ʜᴇʀᴇ     "

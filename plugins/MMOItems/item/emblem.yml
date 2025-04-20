@@ -1,0 +1,20 @@
+IRIDIUM_EMBLEM:
+  base:
+    material: BONE
+    custom-model-data: 7.0
+    name: <GRADIENT:#F8C8DC:#FDFD96>Iridium Emblem
+    lore:
+    - '&fష Chance Dictator &8(Passive)'
+    - '&7Upon entering combat, convert all'
+    - '&7of your &9☣ Crit Chance&7 into &9☠ Crit'
+    - '&9Damage&7. Then set your &9☣&7 to &910%&7.'
+    - '&7Ratio: &91%☣ &8= &93%☠'
+    critical-strike-power: 60.0
+    critical-strike-chance: -10
+    weapon-damage: 15
+    tier: A
+    ability:
+      ability1:
+        type: CHANCE_DICTATOR
+        mode: ATTACK
+        cooldown: 5.0

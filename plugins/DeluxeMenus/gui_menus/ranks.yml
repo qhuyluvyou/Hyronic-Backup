@@ -1,0 +1,192 @@
+open_command: 
+  - rank
+  - ranks
+size: 54
+menu_title: '> ʀᴀɴᴋ ᴘᴇʀᴋꜱ'
+items:
+  'close':
+    material: BOOK
+    model_data: 2
+    slot: 49
+    display_name: "&cClose Interface"
+    lore:
+      - "&7Click this to close"
+      - "&7this interface!"
+    left_click_commands:
+      - "[close] menu"
+      - "[sound] BLOCK_LEVER_CLICK"
+  'outerfill':
+    material: black_stained_glass_pane
+    slots: [0,1,2,3,4,5,6,7,8,9,18,27,36,45,46,47,48,50,51,52,17,26,35,44,53]
+    display_name: ""
+    lore: []
+  'innerfill':
+    material: gray_stained_glass_pane
+    slots: [10,19,28,37,16,25,34,43]
+    display_name: ""
+    lore: [] 
+  'fill1':
+    material: white_stained_glass_pane
+    slots: [11,29,38]
+    display_name: ""
+    lore: []
+  'fill2':
+    material: yellow_stained_glass_pane
+    slots: [12,30,39]
+    display_name: ""
+    lore: []
+  'fill3':
+    material: red_stained_glass_pane
+    slots: [13,31,40]
+    display_name: ""
+    lore: []
+  'fill4':
+    material: blue_stained_glass_pane
+    slots: [14,32,41]
+    display_name: ""
+    lore: []
+  'fill5':
+    material: green_stained_glass_pane
+    slots: [15,33,42]
+    display_name: ""
+    lore: []
+  '1':
+    material: IRON_INGOT
+    slot: 20
+    display_name: "&a"
+    lore:
+      - "&f        ʀᴀɴᴋ ᴘᴇʀᴋꜱ        "
+      - "&f            ீ"
+      - ""
+      - "&8- &fName Prefix: &fீ"
+      - "&8- &fText Color: &#C0C0C0Hey!"
+      - "&8- &fAccess to &e6&f emojis!"
+      - "&8  &fぢ っ つ づ て で"
+      - "&6"
+      - "&a- &fMax &#8e9eab/sethome&f: &a3"
+      - "&a- &fMax &#8e9eabauctions&f: &a6"
+      - ""
+      - "&6- &fAccess to &6/workbench"
+      - "&6- &fAccess to &6/near"
+      - "&6- &fAccess to &6/feed"
+      - ""
+      - "&6&lCOSTS &f10.99$"
+  '2':
+    material: GOLD_INGOT
+    slot: 21
+    display_name: "&a"
+    lore:
+      - "&f        ʀᴀɴᴋ ᴘᴇʀᴋꜱ        "
+      - "&f            ு"
+      - ""
+      - "&8- &fName Prefix: &fு"
+      - "&8- &fText Color: &#E7D27CHey!"
+      - "&8- &fAccess to &e12&f emojis!"
+      - "&8  &fぢ っ つ づ て で"
+      - "&8  &fと ど に ぬ ね ろ"
+      - "&6"
+      - "&a- &fMax &#8e9eab/sethome&f: &a4"
+      - "&a- &fMax &#8e9eabauctions&f: &a7"
+      - ""
+      - "&6- &fAccess to &6/workbench"
+      - "&6- &fAccess to &6/near"
+      - "&6- &fAccess to &6/feed"
+      - "&6- &fAccess to &6/ec"
+      - "&6- &fAccess to &6/heal"
+      - ""
+      - "&6&lCOSTS &f14.99$"
+  '3':
+    material: REDSTONE
+    slot: 22
+    display_name: "&a"
+    lore:
+      - "&f        ʀᴀɴᴋ ᴘᴇʀᴋꜱ        "
+      - "&f         ூ"
+      - ""
+      - "&8- &fName Prefix: &fூ"
+      - "&8- &fText Color: &#ff6961Hey!"
+      - "&8- &fAccess to &e18&f emojis!"
+      - "&8  &fぢ っ つ づ て で"
+      - "&8  &fと ど に ぬ ね ろ"
+      - "&8  &fは ば ぱ び ぴ ふ"
+      - "&6"
+      - "&a- &fMax &#8e9eab/sethome&f: &a5"
+      - "&a- &fMax &#8e9eabauctions&f: &a8"
+      - ""
+      - "&6- &fAccess to &6/workbench"
+      - "&6- &fAccess to &6/near"
+      - "&6- &fAccess to &6/feed"
+      - "&6- &fAccess to &6/ec"
+      - "&6- &fAccess to &6/heal"
+      - "&6- &fAccess to &6/back"
+      - "&6- &fAccess to &6/fix"
+      - ""
+      - "&6&lCOSTS &f19.99$"
+  '4':
+    material: DIAMOND
+    slot: 23
+    display_name: "&a"
+    lore:
+      - "&f        ʀᴀɴᴋ ᴘᴇʀᴋꜱ        "
+      - "&f          ௃"
+      - ""
+      - "&8- &fName Prefix: &f௃"
+      - "&8- &fText Color: &#A7C7E7Hey!"
+      - "&8- &#A7C7E7Color Codes&f In Chat!"
+      - "&8- &fAccess to &e24&f emojis!"
+      - "&8  &fぢ っ つ づ て で"
+      - "&8  &fと ど に ぬ ね ろ"
+      - "&8  &fは ば ぱ び ぴ ふ"
+      - "&8  &fぶ ぷ へ べ ぺ ほ"
+      - "&6"
+      - "&a- &fMax &#8e9eab/sethome&f: &a6"
+      - "&a- &fMax &#8e9eabauctions&f: &a9"
+      - ""
+      - "&6- &fAccess to &6/workbench"
+      - "&6- &fAccess to &6/near"
+      - "&6- &fAccess to &6/feed"
+      - "&6- &fAccess to &6/ec"
+      - "&6- &fAccess to &6/heal"
+      - "&6- &fAccess to &6/back"
+      - "&6- &fAccess to &6/fix"
+      - "&6- &fAccess to &6/hat"
+      - "&6- &fAccess to &6/sellgui"
+      - ""
+      - "&6&lCOSTS &f24.99$"
+  '5':
+    material: EMERALD
+    slot: 24
+    display_name: "&a"
+    lore:
+      - "&f        ʀᴀɴᴋ ᴘᴇʀᴋꜱ        "
+      - "&f          ௄"
+      - ""
+      - "&8- &fName Prefix: &f௄"
+      - "&8- &fText Color: &#77DD77Hey!"
+      - "&8- &#77DD77Color Codes&f In Chat!"
+      - "&8- &#77DD77Format Codes&f In Chat!"
+      - "&8- &fAccess to &e32&f emojis!"
+      - "&8  &fぢ っ つ づ て で"
+      - "&8  &fと ど に ぬ ね ろ"
+      - "&8  &fは ば ぱ び ぴ ふ"
+      - "&8  &fぶ ぷ へ べ ぺ ほ"
+      - "&8  &fぼ ぽ み む る り"
+      - "&6"
+      - "&a- &fMax &#8e9eab/sethome&f: &a7"
+      - "&a- &fMax &#8e9eabauctions&f: &a10"
+      - "&a- &#8e9eabFull Server &fBypass!"
+      - ""
+      - "&6- &fAccess to &6/workbench"
+      - "&6- &fAccess to &6/near"
+      - "&6- &fAccess to &6/feed"
+      - "&6- &fAccess to &6/ec"
+      - "&6- &fAccess to &6/heal"
+      - "&6- &fAccess to &6/back"
+      - "&6- &fAccess to &6/fix"
+      - "&6- &fAccess to &6/hat"
+      - "&6- &fAccess to &6/sellgui"
+      - "&6- &fAccess to &6/fix all"
+      - "&6- &fAccess to &6/ptime"
+      - "&6- &fAccess to &6/pweather"
+      - ""
+      - "&6&lCOSTS &f29.99$"

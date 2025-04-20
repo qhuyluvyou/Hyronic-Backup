@@ -1,0 +1,13 @@
+
+MonstersIgnoreDisguises: false
+
+DisablePvP: false
+DisablePvE: false
+
+BlowDisguisesWhenAttacking: false
+
+BlowDisguisesWhenAttacked: false
+
+RetaliationCombat: false
+
+PvPTimer: 5

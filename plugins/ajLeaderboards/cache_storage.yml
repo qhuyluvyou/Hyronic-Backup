@@ -1,0 +1,22 @@
+
+method: h2
+
+
+ip: "127.0.0.1:3306"
+username: mc
+password: password
+database: mc
+
+characterEncoding: utf8
+
+table_prefix: ajlb_
+
+minConnections: 1
+maxConnections: 20
+
+allowPublicKeyRetrieval: false
+useSSL: false
+
+
+
+config-version: 5

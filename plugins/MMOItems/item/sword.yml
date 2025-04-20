@@ -1,0 +1,383 @@
+WOODEN_SWORD:
+  base:
+    material: WOODEN_SWORD
+    tier: D
+    attack-damage: 4.0
+    critical-strike-chance: 5.0
+    will-break: true
+    name: Wooden Sword
+STONE_SWORD:
+  base:
+    material: STONE_SWORD
+    tier: D
+    attack-damage: 5.0
+    critical-strike-chance: 5.0
+    will-break: true
+    name: Stone Sword
+IRON_SWORD:
+  base:
+    material: IRON_SWORD
+    tier: C
+    attack-damage: 6.0
+    critical-strike-chance: 5.0
+    will-break: true
+    name: Iron Sword
+GOLD_SWORD:
+  base:
+    material: GOLDEN_SWORD
+    tier: D
+    attack-damage: 4.0
+    critical-strike-chance: 5.0
+    will-break: true
+    name: Gold Sword
+DIAMOND_SWORD:
+  base:
+    material: DIAMOND_SWORD
+    tier: C
+    attack-damage: 7.0
+    critical-strike-chance: 10.0
+    will-break: true
+    name: Diamond Sword
+    critical-strike-power: 10.0
+NETHERITE_SWORD:
+  base:
+    material: NETHERITE_SWORD
+    tier: B
+    attack-damage: 8.0
+    critical-strike-chance: 10.0
+    will-break: true
+    name: Netherite Sword
+    critical-strike-power: 15.0
+EVERBURN:
+  base:
+    material: IRON_SWORD
+    tier: A
+    attack-damage: 22.0
+    critical-strike-chance: 20.0
+    critical-strike-power: 35.0
+    lore:
+    - '&fｮ Living Flames &8(Right-Click)'
+    - '&7Casts bolts of living flames'
+    - '&7onto target, exploding upon'
+    - '&7impact dealing&6 30&7 damage,'
+    - '&7and igniting them for &63s'
+    - '&8Cooldown: &31s'
+    - '&8Mana Cost: &335'
+    ability:
+      ability1:
+        type: FIRE_STORM
+        mode: RIGHT_CLICK
+        damage: 30.0
+        ignite: 3.0
+        cooldown: 1.0
+        mana: 35.0
+    gem-sockets: []
+    max-durability: 3064.0
+    durability-bar: true
+    disable-attack-passive: true
+    name: Immolus
+    custom-model-data: 10.0
+    crafting:
+      smithing:
+        '1':
+          input: v NETHERITE_SWORD 1.0..|m MATERIAL IGNETTO_ALLOY 1.0..
+          enchantments: MAXIMUM
+SECURUS:
+  base:
+    material: IRON_SWORD
+    name: Securus
+    tier: A
+    attack-damage: 17.0
+    critical-strike-chance: 10.0
+    critical-strike-power: 20.0
+    defense: 30.0
+    durability-bar: true
+    disable-attack-passive: true
+    damage-reduction: 5.0
+    max-durability: 3562.0
+    lore:
+    - '&fｯ Evade &8(Right-Click)'
+    - '&7You become <#1a748c>immune&7 to'
+    - '&7all damage for <#1a748c>5s&7 or'
+    - '&7until you attack again.'
+    - '&8Cooldown: &320s'
+    - '&8Mana Cost:&3 30'
+    ability:
+      ability1:
+        type: EVADE
+        mode: RIGHT_CLICK
+        duration: 5.0
+        mana: 30.0
+        cooldown: 20.0
+    custom-model-data: 11.0
+    crafting:
+      smithing:
+        '1':
+          input: v NETHERITE_SWORD 1.0..|m MATERIAL WARDEN_HEART 1.0..
+HARBINGER_OF_DEATH:
+  base:
+    material: IRON_SWORD
+    tier: A
+    attack-damage: 30.0
+    critical-strike-chance: 25.0
+    critical-strike-power: 45.0
+    lore:
+    - '&fヅ Deep Wound &8(Passive)'
+    - '&7Attacking enemies deals a'
+    - '&7second blow, dealing &c25'
+    - '&7base damage, scaling with'
+    - '&7target''s &cmissing health&7.'
+    - '&8Cooldown: &31s'
+    ability:
+      ability1:
+        type: DEEP_WOUND
+        damage: 25.0
+        cooldown: 1.0
+        mode: ATTACK
+        extra: 100.0
+    gem-sockets: []
+    max-durability: 5000.0
+    durability-bar: true
+    disable-attack-passive: true
+    custom-model-data: 2.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    additional-strength: 50.0
+ARK_OF_THE_COSMOS:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 3.0
+    name: Ark of the Cosmos
+    tier: S
+    attack-damage: 50.0
+    attack-speed: 2.0
+    critical-strike-chance: -50.0
+    critical-strike-power: 500.0
+    unbreakable: true
+    lore:
+    - '&fテ Cosmic Ally &8(Right-Click)'
+    - '&7Summons three comets which'
+    - '&7fall from the sky, exploding'
+    - '&7upon contact dealing &c500&7'
+    - '&7damage to nearby enemies.'
+    - '&73 &dCosmic Terrors&7 will spawn'
+    - '&7on impact, attacking nearby'
+    - '&7enemies.'
+    - '&8Lifespan: &315s'
+    - '&8Cooldown: &340s'
+    - '&8Mana Cost: &3200'
+    - '&7'
+    - '&8&oEmanates huge quantity of'
+    - '&8&ocosmic radiation. Cannot be'
+    - '&8&obroken.'
+    ability:
+      ability1:
+        type: COSMIC_ALLY
+        mode: RIGHT_CLICK
+        mana: 200.0
+        cooldown: 40.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+ABSOLUTE_ZERO:
+  base:
+    material: IRON_SWORD
+    name: <GRADIENT:#93fafb:#d3fafb>Absolute Zero
+    lore:
+    - '&fぁ Ice Spikes &8(Right-Click)'
+    - '&7Summons ice spikes from'
+    - '&7the ground, which attack'
+    - '&7enemies above, dealing &c100'
+    - '&7damage and &9⚓ root&7 them'
+    - '&7for &93s&7.'
+    - '&8Cooldown: &35s'
+    - '&8Mana Cost: &350'
+    - ''
+    - '&f௻ &82022 Chrismas exclusive!'
+    tier: S
+    custom-model-data: 4.0
+    attack-speed: 5.0
+    critical-strike-chance: 23.0
+    critical-strike-power: 45.0
+    movement-speed: 0.02
+    ability:
+      ability1:
+        type: ICE_SPIKES
+        mode: RIGHT_CLICK
+        damage: 100.0
+        mana: 50.0
+        slow: 9.0
+        cooldown: 5.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    attack-damage: 20.0
+THE_TRICKSTER:
+  base:
+    material: IRON_SWORD
+    name: The Trickster
+    attack-damage: 29.0
+    attack-speed: 3.5
+    critical-strike-chance: 20.0
+    critical-strike-power: 30.0
+    damage-reduction: 5.0
+    tier: S
+    movement-speed: 0.04
+    lore:
+    - '&fデ Trickery &8(Right-Click)'
+    - '&7Creates a moving effigy that'
+    - '&7attracts nearby enemies.'
+    - '&8Cooldown: &960s'
+    - '&8Mana Cost: &9100'
+    - '&8Effigy health: &9350'
+    custom-model-data: 5.0
+    ability:
+      ability1:
+        type: DOPPELGANGER
+        mode: RIGHT_CLICK
+        cooldown: 2.0
+    upgrade:
+      reference: dungeon
+      max: 10
+      template: dungeon
+    defense: 50.0
+CALAMITY:
+  base:
+    material: IRON_SWORD
+    name: <GRADIENT:#3a2b79:#6c35a4>The Calamity
+    custom-model-data: 6.0
+    attack-damage: 36.0
+    critical-strike-chance: -1000.0
+    critical-strike-power: 200.0
+    tier: S+
+    unbreakable: true
+    lore:
+    - '&fヰ Calamitous Ray &8(Right Click)'
+    - '&7Charges for &33s&7 then unleashes'
+    - '&7a death ray dealing &c1000&7 base'
+    - '&7damage, multiplied by &3100%☠&7 to'
+    - '&7hit target.'
+    - '&8Cooldown: &360s'
+    - '&8Mana Cost: &3350'
+    ability:
+      ability1:
+        type: CALAMITOUS_RAY
+        mode: RIGHT_CLICK
+        mana: 350.0
+        cooldown: 60.0
+    upgrade:
+      template: dungeon
+      max: 10
+    gem-sockets: []
+MYTHRIL_SWORD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 7.0
+    name: Mythril Greatsword
+    attack-damage: 12.0
+    attack-speed: 2.0
+    critical-strike-chance: 20.0
+    critical-strike-power: 40.0
+    unstackable: true
+    tier: B
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m MATERIAL MYTHRIL_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+ORICHALCUM_SWORD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 8.0
+    name: Orichalcum Sword
+    attack-damage: 11.0
+    attack-speed: 8.0
+    critical-strike-chance: 17.5
+    critical-strike-power: 35.0
+    unstackable: true
+    movement-speed: 0.01
+    tier: B
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m MATERIAL ORICHALCUM_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+TITANIUM_SWORD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 9.0
+    name: Titanium Blade
+    attack-damage: 15.0
+    defense: 50
+    critical-strike-chance: 25.0
+    critical-strike-power: 45.0
+    unstackable: true
+    tier: A
+    knockback-resistance: 0.1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m MATERIAL TITANIUM_INGOT 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+DAEDALUS:
+  base:
+    material: IRON_SWORD
+    name: <GRADIENT:#F8C8DC:#FDFD96>The Daedalus
+    custom-model-data: 12.0
+    attack-damage: 100.0
+    critical-strike-chance: -50.0
+    tier: S+
+    unbreakable: true
+    lore:
+    - '&fヰ Stellar Strike &8(Right Click)'
+    - '&7Charges your weapon with'
+    - '&7celestial energy, boosting'
+    - '&7your next attack damage by'
+    - <#F8C8DC>500%&7. Boosted attack also
+    - <#FDFD96>stuns&7 target for <#F8C8DC>3s
+    - '&8Cooldown: &360s'
+    gem-sockets: []
+    attack-speed: 2.0
+    ability:
+      ability1:
+        type: STELLAR_STRIKE
+        mode: RIGHT_CLICK
+        cooldown: 60.0
+    disable-attack-passive: true
+
+COBRA:
+  base:
+    material: IRON_SWORD
+    name: <GRADIENT:#E0FF66:#a2c42f>Cobra
+    custom-model-data: 13.0
+    attack-damage: 30.0
+    critical-strike-chance: 100.0
+    tier: S+
+    unbreakable: true
+    lore:
+    - '&fస Cobra Curse &8(Right Click)'
+    - '&7Emits a deadly toxic aura,'
+    - '&7dealing <#E0FF66>200❤/s&7 to nearby'
+    - '&7enemies. Gain <#ADD8E6>+100 ☁Speed'
+    - '&7and &f+100 🛡Defense&7 while'
+    - '&7active.'
+    - '&8Duration: &38s'
+    - '&8Cooldown: &330s'
+    - '&8Mana Cost: &380'
+    ability:
+      ability1:
+        type: COBRA_CURSE
+        mode: RIGHT_CLICK
+        cooldown: 30.0
+        mana: 80
+    gem-sockets: []

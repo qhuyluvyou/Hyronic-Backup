@@ -1,0 +1,730 @@
+[Mon Jul 10 13:23:48 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 13:24:03 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 13:26:04 ICT 2023] prisq: /mi reload all
+[Mon Jul 10 13:26:07 ICT 2023] prisq: /chatmanager reloa
+[Mon Jul 10 13:26:08 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 13:26:16 ICT 2023] prisq: /menu
+[Mon Jul 10 13:26:51 ICT 2023] prisq: /luckperms user prisq parent set iron
+[Mon Jul 10 13:27:09 ICT 2023] prisq: /luckperms user prisq parent set iron
+[Mon Jul 10 13:27:11 ICT 2023] prisq: /luckperms user prisq parent set gold
+[Mon Jul 10 13:27:14 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 13:27:46 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 13:28:58 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 13:31:50 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 13:32:15 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 13:32:27 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 13:32:41 ICT 2023] prisq: /menu
+[Mon Jul 10 13:32:43 ICT 2023] prisq: /tag
+[Mon Jul 10 13:32:51 ICT 2023] prisq: /menu
+[Mon Jul 10 13:32:53 ICT 2023] prisq: /tag
+[Mon Jul 10 13:35:12 ICT 2023] prisq: /menu
+[Mon Jul 10 13:35:18 ICT 2023] prisq: /warp jeweler
+[Mon Jul 10 13:35:22 ICT 2023] prisq: /;;$/5-choice 9f3ad505-89bf-4a69-9343-c76b3fb7ac31 1
+[Mon Jul 10 13:35:23 ICT 2023] prisq: /menu
+[Mon Jul 10 13:35:39 ICT 2023] prisq: /mi stations open alchemist prisq
+[Mon Jul 10 13:35:41 ICT 2023] prisq: /mi stations open alchemist prisq
+[Mon Jul 10 13:35:55 ICT 2023] prisq: /menu
+[Mon Jul 10 13:35:57 ICT 2023] prisq: /skill
+[Mon Jul 10 13:36:08 ICT 2023] prisq: /mi stations open alchemist prisq
+[Mon Jul 10 21:18:59 ICT 2023] prisq: /menu
+[Mon Jul 10 21:19:01 ICT 2023] prisq: /mmoinventory
+[Mon Jul 10 21:19:11 ICT 2023] prisq: /plugins
+[Mon Jul 10 21:19:14 ICT 2023] prisq: /menu
+[Mon Jul 10 21:19:16 ICT 2023] prisq: /tag
+[Mon Jul 10 21:19:45 ICT 2023] prisq: /warp
+[Mon Jul 10 21:19:47 ICT 2023] prisq: /excellentenchants list
+[Mon Jul 10 21:19:58 ICT 2023] prisq: /menu
+[Mon Jul 10 21:19:58 ICT 2023] prisq: /skill
+[Mon Jul 10 21:19:59 ICT 2023] prisq: /menu
+[Mon Jul 10 21:26:15 ICT 2023] prisq: /tab reload
+[Mon Jul 10 21:26:25 ICT 2023] prisq: /oraxen printglyph crate
+[Mon Jul 10 21:26:51 ICT 2023] prisq: /oraxen reload all
+[Mon Jul 10 21:27:17 ICT 2023] prisq: /oraxen printglyph crate
+[Mon Jul 10 21:28:00 ICT 2023] prisq: /crates reload
+[Mon Jul 10 21:28:09 ICT 2023] prisq: /crates reload
+[Mon Jul 10 21:28:24 ICT 2023] prisq: /crates reload
+[Mon Jul 10 21:28:52 ICT 2023] prisq: /crates reload
+[Mon Jul 10 21:29:02 ICT 2023] prisq: /crates reload
+[Mon Jul 10 21:30:48 ICT 2023] prisq: /crates reload
+[Mon Jul 10 21:30:51 ICT 2023] prisq: /oraxen reload all
+[Mon Jul 10 21:32:59 ICT 2023] prisq: /oraxen reload all
+[Mon Jul 10 21:33:05 ICT 2023] prisq: /menu
+[Mon Jul 10 21:33:07 ICT 2023] prisq: /skill
+[Mon Jul 10 21:35:03 ICT 2023] prisq: /oraxen reload all
+[Mon Jul 10 21:36:23 ICT 2023] prisq: /crates reload
+[Mon Jul 10 21:36:47 ICT 2023] prisq: /crate editor
+[Mon Jul 10 21:37:14 ICT 2023] prisq: /#values 2 true
+[Mon Jul 10 21:37:17 ICT 2023] prisq: /#values 3 true
+[Mon Jul 10 21:37:49 ICT 2023] prisq: /#exit
+[Mon Jul 10 21:37:58 ICT 2023] prisq: /#values 2 true
+[Mon Jul 10 21:38:01 ICT 2023] prisq: /#values 3 true
+[Mon Jul 10 21:38:05 ICT 2023] prisq: /#values 4 true
+[Mon Jul 10 21:38:09 ICT 2023] prisq: /#values 5 true
+[Mon Jul 10 21:38:12 ICT 2023] prisq: /#values 6 true
+[Mon Jul 10 21:38:16 ICT 2023] prisq: /#values 7 true
+[Mon Jul 10 21:38:18 ICT 2023] prisq: /#values 8 true
+[Mon Jul 10 21:38:24 ICT 2023] prisq: /SOUL_FIRE_FLAME
+[Mon Jul 10 21:40:03 ICT 2023] prisq: /crate editor
+[Mon Jul 10 21:40:33 ICT 2023] prisq: /crate reload
+[Mon Jul 10 21:41:11 ICT 2023] prisq: /crate reload
+[Mon Jul 10 21:41:34 ICT 2023] prisq: /crate reload
+[Mon Jul 10 21:42:47 ICT 2023] prisq: /crate reload
+[Mon Jul 10 21:43:28 ICT 2023] prisq: /oraxen printglyph logo
+[Mon Jul 10 21:43:32 ICT 2023] prisq: /oraxen printglyph logo1
+[Mon Jul 10 21:44:01 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 21:45:28 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 21:45:43 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 21:49:39 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 21:51:00 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 21:52:41 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 21:52:53 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 21:54:58 ICT 2023] prisq: /menu
+[Mon Jul 10 21:55:01 ICT 2023] prisq: /warp shop
+[Mon Jul 10 21:55:01 ICT 2023] prisq: /menu
+[Mon Jul 10 21:55:03 ICT 2023] prisq: /shop
+[Mon Jul 10 21:55:04 ICT 2023] prisq: /menu
+[Mon Jul 10 21:55:06 ICT 2023] prisq: /warp ah
+[Mon Jul 10 21:55:07 ICT 2023] prisq: /ah
+[Mon Jul 10 22:03:20 ICT 2023] prisq: /menu
+[Mon Jul 10 22:03:21 ICT 2023] prisq: /mmoinventory
+[Mon Jul 10 22:04:14 ICT 2023] prisq: /chatmanager reload
+[Mon Jul 10 22:04:15 ICT 2023] prisq: /menu
+[Mon Jul 10 22:05:44 ICT 2023] prisq: /deop prisq
+[Mon Jul 10 22:05:46 ICT 2023] prisq: /warp
+[Mon Jul 10 22:05:47 ICT 2023] prisq: /tpr world
+[Mon Jul 10 22:05:54 ICT 2023] prisq: /menu
+[Mon Jul 10 22:05:58 ICT 2023] prisq: /menu
+[Mon Jul 10 22:06:00 ICT 2023] prisq: /menu
+[Mon Jul 10 22:06:25 ICT 2023] prisq: /menu
+[Mon Jul 10 22:06:32 ICT 2023] prisq: /setup
+[Mon Jul 10 22:06:34 ICT 2023] prisq: /menu
+[Mon Jul 10 22:06:35 ICT 2023] prisq: /menu
+[Mon Jul 10 22:06:36 ICT 2023] prisq: /mmoinventory
+[Mon Jul 10 22:06:36 ICT 2023] prisq: /menu
+[Mon Jul 10 22:06:39 ICT 2023] prisq: /mmoinventory
+[Mon Jul 10 22:06:58 ICT 2023] prisq: /menu
+[Mon Jul 10 22:07:00 ICT 2023] prisq: /tpr world
+[Mon Jul 10 22:07:08 ICT 2023] prisq: /spawn
+[Mon Jul 10 22:07:11 ICT 2023] prisq: /spawn
+[Mon Jul 10 22:18:55 ICT 2023] prisq: /menu
+[Mon Jul 10 22:18:55 ICT 2023] prisq: /mmoinventory
+[Mon Jul 10 22:18:58 ICT 2023] prisq: /menu
+[Mon Jul 10 22:18:58 ICT 2023] prisq: /mmoinventory
+[Mon Jul 10 22:19:02 ICT 2023] prisq: /stop
+[Fri Jul 14 21:57:12 ICT 2023] prisq: /mi reloada ll
+[Fri Jul 14 21:57:17 ICT 2023] prisq: /mi reload all
+[Fri Jul 14 21:57:21 ICT 2023] prisq: /gm 1
+[Fri Jul 14 21:57:23 ICT 2023] prisq: /menu
+[Fri Jul 14 21:57:25 ICT 2023] prisq: /warp alchemy
+[Fri Jul 14 21:57:26 ICT 2023] prisq: /mi stations open alchemist prisq
+[Fri Jul 14 21:57:41 ICT 2023] prisq: /mi browse
+[Fri Jul 14 21:57:56 ICT 2023] prisq: /gm 1
+[Fri Jul 14 21:57:58 ICT 2023] prisq: /dm reload all
+[Fri Jul 14 21:57:59 ICT 2023] prisq: /mi reload all
+[Fri Jul 14 21:58:00 ICT 2023] prisq: /mi stations open alchemist prisq
+[Fri Jul 14 21:58:08 ICT 2023] prisq: /mi stations open alchemist prisq
+[Fri Jul 14 21:58:58 ICT 2023] prisq: /evenmorefish shop
+[Fri Jul 14 21:59:09 ICT 2023] prisq: /;;$/5-choice 9edd18f3-2343-402b-b07a-e4a12146a72b 1
+[Fri Jul 14 21:59:14 ICT 2023] prisq: /mi browse
+[Fri Jul 14 22:00:47 ICT 2023] prisq: /mi reload all
+[Fri Jul 14 22:00:47 ICT 2023] prisq: /mi browse
+[Fri Jul 14 22:01:06 ICT 2023] prisq: /mi browse
+[Fri Jul 14 22:04:56 ICT 2023] prisq: /md play coven prisq
+[Fri Jul 14 22:05:19 ICT 2023] prisq: /mi reload all
+[Fri Jul 14 22:05:20 ICT 2023] prisq: /mi browse
+[Fri Jul 14 22:05:30 ICT 2023] prisq: /mi reload all
+[Fri Jul 14 22:05:31 ICT 2023] prisq: /mi reload all
+[Fri Jul 14 22:05:32 ICT 2023] prisq: /mi browse
+[Fri Jul 14 22:06:56 ICT 2023] prisq: /mi reload all
+[Fri Jul 14 22:07:04 ICT 2023] prisq: /menu
+[Fri Jul 14 22:07:06 ICT 2023] prisq: /mmoinventory
+[Fri Jul 14 22:13:40 ICT 2023] prisq: /menu
+[Fri Jul 14 22:13:40 ICT 2023] prisq: /mmoinventory
+[Fri Jul 14 22:16:24 ICT 2023] prisq: /ia reload all
+[Fri Jul 14 22:16:27 ICT 2023] prisq: /iareload
+[Fri Jul 14 22:18:09 ICT 2023] prisq: /menu
+[Fri Jul 14 22:18:10 ICT 2023] prisq: /mmoinventory
+[Fri Jul 14 22:18:38 ICT 2023] prisq: /gm 1
+[Fri Jul 14 22:28:47 ICT 2023] prisq: /shop
+[Fri Jul 14 22:28:50 ICT 2023] prisq: /shop
+[Sat Jul 15 00:14:00 ICT 2023] prisq: /stop
+[Sat Jul 15 03:24:10 ICT 2023] prisq: /menu
+[Sat Jul 15 03:25:08 ICT 2023] prisq: /menu
+[Sat Jul 15 03:25:11 ICT 2023] prisq: /mmoinventory
+[Sat Jul 15 03:25:15 ICT 2023] prisq: /menu
+[Sat Jul 15 03:25:16 ICT 2023] prisq: /codex
+[Sat Jul 15 03:25:16 ICT 2023] prisq: /menu
+[Sat Jul 15 03:29:28 ICT 2023] prisq: /menu
+[Sat Jul 15 03:29:29 ICT 2023] prisq: /mmoinventory
+[Sun Jul 16 21:23:18 ICT 2023] prisq: /menu
+[Sun Jul 16 21:23:22 ICT 2023] prisq: /evenmorefish shop
+[Sun Jul 16 21:24:23 ICT 2023] prisq: /menu
+[Sun Jul 16 21:24:24 ICT 2023] prisq: /mmoinventory
+[Sun Jul 16 21:24:45 ICT 2023] prisq: /oraxen inventory
+[Sun Jul 16 21:25:09 ICT 2023] prisq: /excellentenchants list
+[Sun Jul 16 21:25:46 ICT 2023] prisq: /mi browse
+[Sun Jul 16 21:25:52 ICT 2023] prisq: /deop prisq
+[Sun Jul 16 21:26:05 ICT 2023] prisq: /md play coven prisq
+[Sun Jul 16 21:26:32 ICT 2023] prisq: /md play coven prisq
+[Sun Jul 16 21:26:35 ICT 2023] prisq: /md play coven prisq
+[Sun Jul 16 21:27:01 ICT 2023] prisq: /md play coven prisq
+[Sun Jul 16 21:27:23 ICT 2023] prisq: /md play coven
+[Sun Jul 16 21:27:27 ICT 2023] prisq: /spawn
+[Sun Jul 16 21:27:33 ICT 2023] prisq: /leave
+[Sun Jul 16 21:56:20 ICT 2023] prisq: /gm 1
+[Sun Jul 16 21:57:45 ICT 2023] prisq: /stop
+[Sun Jul 16 22:10:53 ICT 2023] prisq: /acceptprivacy
+[Sun Jul 16 22:11:24 ICT 2023] prisq: /mi browse
+[Sun Jul 16 22:12:30 ICT 2023] prisq: /mi browse
+[Sun Jul 16 22:19:58 ICT 2023] prisq: /stop
+[Sun Jul 16 23:13:37 ICT 2023] prisq: /menu
+[Sun Jul 16 23:21:21 ICT 2023] prisq: /menu
+[Sun Jul 16 23:22:43 ICT 2023] prisq: /menu
+[Sun Jul 16 23:22:45 ICT 2023] prisq: /mmoinventory
+[Sun Jul 16 23:23:17 ICT 2023] prisq: /mi reload all
+[Sun Jul 16 23:23:21 ICT 2023] prisq: /iazip
+[Sun Jul 16 23:23:58 ICT 2023] prisq: /menu
+[Sun Jul 16 23:23:59 ICT 2023] prisq: /mmoinventory
+[Sun Jul 16 23:24:00 ICT 2023] prisq: /menu
+[Sun Jul 16 23:24:01 ICT 2023] prisq: /menu
+[Sun Jul 16 23:24:03 ICT 2023] prisq: /menu
+[Sun Jul 16 23:24:03 ICT 2023] prisq: /codex
+[Sun Jul 16 23:26:54 ICT 2023] prisq: /menu
+[Sun Jul 16 23:26:55 ICT 2023] prisq: /mmoinventory
+[Sun Jul 16 23:26:56 ICT 2023] prisq: /menu
+[Sun Jul 16 23:27:26 ICT 2023] prisq: /iazip
+[Sun Jul 16 23:28:00 ICT 2023] prisq: /menu
+[Sun Jul 16 23:32:17 ICT 2023] prisq: /fish
+[Sun Jul 16 23:32:18 ICT 2023] prisq: /fishing
+[Sun Jul 16 23:32:36 ICT 2023] prisq: /emf
+[Sun Jul 16 23:32:38 ICT 2023] prisq: /emf admin
+[Sun Jul 16 23:32:43 ICT 2023] prisq: /emf admin fish Apocryphal Hexified_Crab
+[Sun Jul 16 23:33:56 ICT 2023] prisq: /menu
+[Sun Jul 16 23:34:08 ICT 2023] prisq: /stop
+[Mon Jul 17 16:36:15 ICT 2023] prisq: /mi browse
+[Mon Jul 17 16:43:16 ICT 2023] prisq: /iazip
+[Mon Jul 17 16:47:52 ICT 2023] prisq: /iazip
+[Mon Jul 17 16:48:55 ICT 2023] prisq: /mi browse
+[Mon Jul 17 16:50:38 ICT 2023] prisq: /mi browse
+[Mon Jul 17 16:51:05 ICT 2023] prisq: /iazip
+[Mon Jul 17 16:59:37 ICT 2023] prisq: /iazip
+[Mon Jul 17 16:59:39 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:00:07 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:00:14 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:00:20 ICT 2023] prisq: /give prisq arrow
+[Mon Jul 17 17:02:47 ICT 2023] prisq: /iazip
+[Mon Jul 17 17:04:25 ICT 2023] prisq: /iazip
+[Mon Jul 17 17:10:54 ICT 2023] prisq: /iazip
+[Mon Jul 17 17:11:55 ICT 2023] prisq: /gm 1
+[Mon Jul 17 17:11:57 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:12:16 ICT 2023] prisq: /iazip
+[Mon Jul 17 17:12:17 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:12:27 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:12:47 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:13:13 ICT 2023] prisq: /iazip
+[Mon Jul 17 17:14:00 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:14:08 ICT 2023] prisq: /iazip
+[Mon Jul 17 17:15:02 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:15:26 ICT 2023] prisq: /iazip
+[Mon Jul 17 17:16:28 ICT 2023] prisq: /menu
+[Mon Jul 17 17:16:30 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:17:29 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:32:45 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:33:10 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:37:19 ICT 2023] prisq: /mi reload all
+[Mon Jul 17 17:37:26 ICT 2023] prisq: /iazip
+[Mon Jul 17 17:38:23 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:39:58 ICT 2023] prisq: /iagive prisq hsur:uraniumwe
+[Mon Jul 17 17:40:00 ICT 2023] prisq: /iazip
+[Mon Jul 17 17:40:42 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:42:56 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:43:07 ICT 2023] prisq: /iagive prisq hsur:uranium_boots
+[Mon Jul 17 17:43:15 ICT 2023] prisq: /iagive prisq hsur:uranium_chestplate
+[Mon Jul 17 17:44:39 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:44:54 ICT 2023] prisq: /clear
+[Mon Jul 17 17:44:58 ICT 2023] prisq: /clear
+[Mon Jul 17 17:45:05 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:45:12 ICT 2023] prisq: /iagive prisq hsur:uranium_chestplate
+[Mon Jul 17 17:45:44 ICT 2023] prisq: /mi reloada ll
+[Mon Jul 17 17:45:46 ICT 2023] prisq: /mi reload
+[Mon Jul 17 17:45:49 ICT 2023] prisq: /mi browse ARMOR
+[Mon Jul 17 17:45:57 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:47:35 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:49:00 ICT 2023] prisq: /clear
+[Mon Jul 17 17:49:03 ICT 2023] prisq: /clear
+[Mon Jul 17 17:49:29 ICT 2023] prisq: /iagive prisq hsur:uranium_chestplate
+[Mon Jul 17 17:49:38 ICT 2023] prisq: /data get entity prisq
+[Mon Jul 17 17:49:54 ICT 2023] prisq: /mi reload all
+[Mon Jul 17 17:49:55 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:51:15 ICT 2023] prisq: /mi reloada lkl
+[Mon Jul 17 17:51:17 ICT 2023] prisq: /mi reload alldw
+[Mon Jul 17 17:51:18 ICT 2023] prisq: /mi reload alld
+[Mon Jul 17 17:51:19 ICT 2023] prisq: /mi browse
+[Mon Jul 17 17:51:25 ICT 2023] prisq: /clear
+[Mon Jul 17 17:52:41 ICT 2023] prisq: /menu
+[Mon Jul 17 17:52:42 ICT 2023] prisq: /mmoinventory
+[Mon Jul 17 18:02:27 ICT 2023] prisq: /menu
+[Mon Jul 17 18:02:28 ICT 2023] prisq: /mmoinventory
+[Mon Jul 17 18:02:32 ICT 2023] prisq: /menu
+[Mon Jul 17 18:05:18 ICT 2023] prisq: /iazip
+[Mon Jul 17 18:06:01 ICT 2023] prisq: /mi browse
+[Mon Jul 17 18:06:04 ICT 2023] prisq: /menu
+[Mon Jul 17 18:06:11 ICT 2023] prisq: /iaapply
+[Mon Jul 17 18:06:29 ICT 2023] prisq: /menu
+[Mon Jul 17 18:07:11 ICT 2023] prisq: /menu
+[Mon Jul 17 18:07:15 ICT 2023] prisq: /stop
+[Mon Jul 17 18:09:22 ICT 2023] prisq: /menu
+[Mon Jul 17 18:09:25 ICT 2023] prisq: /menu
+[Mon Jul 17 18:11:40 ICT 2023] prisq: /iazip
+[Mon Jul 17 18:12:22 ICT 2023] prisq: /menu
+[Mon Jul 17 18:12:25 ICT 2023] prisq: /menu
+[Mon Jul 17 18:12:26 ICT 2023] prisq: /mmoinventory
+[Mon Jul 17 18:14:14 ICT 2023] prisq: /mi browse
+[Mon Jul 17 18:14:30 ICT 2023] prisq: /ah
+[Mon Jul 17 18:18:53 ICT 2023] prisq: /ah
+[Mon Jul 17 18:19:01 ICT 2023] prisq: /mi browse
+[Mon Jul 17 18:19:04 ICT 2023] prisq: /ah
+[Mon Jul 17 18:19:16 ICT 2023] prisq: /ah
+[Mon Jul 17 18:19:41 ICT 2023] prisq: /ah
+[Mon Jul 17 18:19:45 ICT 2023] prisq: /ahadmin prisq
+[Mon Jul 17 18:19:49 ICT 2023] prisq: /ahadmin reload
+[Mon Jul 17 18:22:14 ICT 2023] prisq: /op prisq
+[Mon Jul 17 18:22:15 ICT 2023] prisq: /ah
+[Mon Jul 17 18:24:28 ICT 2023] prisq: /ah relaod
+[Mon Jul 17 18:24:32 ICT 2023] prisq: /ahadmin reload
+[Mon Jul 17 18:24:37 ICT 2023] prisq: /ah
+[Mon Jul 17 18:26:00 ICT 2023] prisq: /ah
+[Mon Jul 17 18:26:05 ICT 2023] prisq: /deop prisq
+[Mon Jul 17 18:26:06 ICT 2023] prisq: /ah
+[Mon Jul 17 18:26:09 ICT 2023] prisq: /ah
+[Mon Jul 17 18:26:24 ICT 2023] prisq: /ahadmin prisq
+[Mon Jul 17 18:26:33 ICT 2023] prisq: /ahadmin
+[Mon Jul 17 18:26:48 ICT 2023] prisq: /ahview
+[Mon Jul 17 18:26:51 ICT 2023] prisq: /ah help
+[Mon Jul 17 18:26:54 ICT 2023] prisq: /ahadmin help
+[Mon Jul 17 18:28:29 ICT 2023] prisq: /ah
+[Mon Jul 17 18:28:33 ICT 2023] prisq: /mi browse
+[Mon Jul 17 18:28:36 ICT 2023] prisq: /ah
+[Mon Jul 17 18:28:50 ICT 2023] prisq: /lp user prisq clear
+[Mon Jul 17 18:28:54 ICT 2023] prisq: /ah
+[Mon Jul 17 18:31:22 ICT 2023] prisq: /ah
+[Mon Jul 17 18:31:25 ICT 2023] prisq: /ahreload
+[Mon Jul 17 18:31:27 ICT 2023] prisq: /ahadmin reload
+[Mon Jul 17 18:31:30 ICT 2023] prisq: /ah
+[Mon Jul 17 18:31:33 ICT 2023] prisq: /ah
+[Mon Jul 17 18:31:35 ICT 2023] prisq: /menu
+[Mon Jul 17 18:31:37 ICT 2023] prisq: /ah
+[Mon Jul 17 18:31:38 ICT 2023] prisq: /menu
+[Mon Jul 17 18:31:41 ICT 2023] prisq: /clear
+[Mon Jul 17 18:32:24 ICT 2023] prisq: /warp
+[Mon Jul 17 18:32:25 ICT 2023] prisq: /tpr world
+[Mon Jul 17 18:33:13 ICT 2023] prisq: /admin reload
+[Mon Jul 17 18:33:15 ICT 2023] prisq: /ahadmin reload
+[Mon Jul 17 18:33:16 ICT 2023] prisq: /warp
+[Mon Jul 17 18:33:18 ICT 2023] prisq: /warp ah
+[Mon Jul 17 18:33:20 ICT 2023] prisq: /ah
+[Mon Jul 17 18:33:22 ICT 2023] prisq: /menu
+[Mon Jul 17 18:33:23 ICT 2023] prisq: /ah
+[Mon Jul 17 18:33:24 ICT 2023] prisq: /menu
+[Mon Jul 17 18:33:26 ICT 2023] prisq: /ah
+[Mon Jul 17 18:33:29 ICT 2023] prisq: /stop
+[Mon Jul 17 18:34:29 ICT 2023] prisq: /ah
+[Mon Jul 17 18:34:31 ICT 2023] prisq: /menu
+[Mon Jul 17 18:34:33 ICT 2023] prisq: /ah
+[Mon Jul 17 18:34:58 ICT 2023] prisq: /ah
+[Mon Jul 17 18:35:00 ICT 2023] prisq: /menu
+[Mon Jul 17 18:35:01 ICT 2023] prisq: /ah
+[Mon Jul 17 18:35:32 ICT 2023] prisq: /mi browse
+[Mon Jul 17 18:35:34 ICT 2023] prisq: /ah
+[Mon Jul 17 18:35:43 ICT 2023] prisq: /eco set prisq 9999
+[Mon Jul 17 18:35:44 ICT 2023] prisq: /ah
+[Mon Jul 17 18:35:47 ICT 2023] prisq: /ah
+[Mon Jul 17 18:35:50 ICT 2023] prisq: /ah
+[Mon Jul 17 18:36:14 ICT 2023] prisq: /ah
+[Mon Jul 17 18:36:23 ICT 2023] prisq: /ah
+[Mon Jul 17 18:36:30 ICT 2023] prisq: /ahadmin reload
+[Mon Jul 17 18:36:30 ICT 2023] prisq: /ah
+[Mon Jul 17 18:36:32 ICT 2023] prisq: /menu
+[Mon Jul 17 18:36:33 ICT 2023] prisq: /ah
+[Mon Jul 17 18:36:34 ICT 2023] prisq: /menu
+[Mon Jul 17 18:40:40 ICT 2023] prisq: /itemsjoin reload
+[Mon Jul 17 18:40:42 ICT 2023] prisq: /ij reload
+[Mon Jul 17 18:40:46 ICT 2023] prisq: /ij purge
+[Mon Jul 17 18:40:49 ICT 2023] prisq: /ij purge
+[Mon Jul 17 18:40:52 ICT 2023] prisq: /ij removeAll
+[Mon Jul 17 18:40:59 ICT 2023] prisq: /ij getAll
+[Mon Jul 17 18:41:01 ICT 2023] prisq: /menu
+[Mon Jul 17 18:41:08 ICT 2023] prisq: /ah
+[Mon Jul 17 18:41:19 ICT 2023] prisq: /clear
+[Mon Jul 17 18:41:26 ICT 2023] prisq: /mi browse
+[Mon Jul 17 18:41:48 ICT 2023] prisq: /ah
+[Mon Jul 17 18:42:03 ICT 2023] prisq: /ahadmin reload
+[Mon Jul 17 18:42:04 ICT 2023] prisq: /ah
+[Mon Jul 17 18:42:10 ICT 2023] prisq: /ij getAll
+[Mon Jul 17 18:42:11 ICT 2023] prisq: /ah
+[Mon Jul 17 18:42:17 ICT 2023] prisq: /clear
+[Mon Jul 17 18:42:18 ICT 2023] prisq: /ah
+[Mon Jul 17 18:42:35 ICT 2023] prisq: /mi browse
+[Mon Jul 17 18:42:43 ICT 2023] prisq: /ah
+[Mon Jul 17 18:42:47 ICT 2023] prisq: /deop prisq
+[Mon Jul 17 18:42:47 ICT 2023] prisq: /ah
+[Mon Jul 17 18:42:50 ICT 2023] prisq: /ah
+[Mon Jul 17 18:42:54 ICT 2023] prisq: /ah
+[Mon Jul 17 18:43:12 ICT 2023] prisq: /menu
+[Mon Jul 17 18:43:13 ICT 2023] prisq: /ranks
+[Mon Jul 17 18:44:00 ICT 2023] prisq: /ah
+[Mon Jul 17 18:44:03 ICT 2023] prisq: /ah
+[Mon Jul 17 18:44:06 ICT 2023] prisq: /ah
+[Mon Jul 17 18:44:09 ICT 2023] prisq: /ah
+[Mon Jul 17 18:44:17 ICT 2023] prisq: /ah
+[Mon Jul 17 18:44:20 ICT 2023] prisq: /ah
+[Mon Jul 17 18:49:16 ICT 2023] prisq: /ah
+[Mon Jul 17 18:49:18 ICT 2023] prisq: /ah
+[Mon Jul 17 18:49:21 ICT 2023] prisq: /mi browse
+[Mon Jul 17 18:49:23 ICT 2023] prisq: /ah
+[Mon Jul 17 18:49:53 ICT 2023] prisq: /ah
+[Mon Jul 17 18:49:56 ICT 2023] prisq: /ah
+[Mon Jul 17 20:20:42 ICT 2023] prisq: /ah
+[Mon Jul 17 20:20:44 ICT 2023] prisq: /ah
+[Mon Jul 17 20:20:46 ICT 2023] prisq: /ah
+[Mon Jul 17 20:20:56 ICT 2023] prisq: /ah
+[Mon Jul 17 20:23:12 ICT 2023] prisq: /ah
+[Mon Jul 17 20:24:41 ICT 2023] prisq: /menu
+[Mon Jul 17 20:24:44 ICT 2023] prisq: /menu
+[Mon Jul 17 20:26:39 ICT 2023] prisq: /menu
+[Mon Jul 17 20:26:41 ICT 2023] prisq: /warp ah
+[Mon Jul 17 20:26:42 ICT 2023] prisq: /ah
+[Mon Jul 17 20:26:50 ICT 2023] prisq: /ah
+[Mon Jul 17 20:28:27 ICT 2023] prisq: /ah
+[Mon Jul 17 20:34:43 ICT 2023] prisq: /ah
+[Mon Jul 17 20:34:47 ICT 2023] prisq: /ah
+[Mon Jul 17 20:35:44 ICT 2023] prisq: /ah
+[Mon Jul 17 20:37:37 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:37:39 ICT 2023] prisq: /ah reload
+[Mon Jul 17 20:37:43 ICT 2023] prisq: /ah reload
+[Mon Jul 17 20:37:48 ICT 2023] prisq: /ah
+[Mon Jul 17 20:37:49 ICT 2023] prisq: /ah
+[Mon Jul 17 20:37:50 ICT 2023] prisq: /ah
+[Mon Jul 17 20:37:53 ICT 2023] prisq: /ah
+[Mon Jul 17 20:39:43 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:39:44 ICT 2023] prisq: /ah
+[Mon Jul 17 20:39:47 ICT 2023] prisq: /ah
+[Mon Jul 17 20:39:48 ICT 2023] prisq: /ah
+[Mon Jul 17 20:40:01 ICT 2023] prisq: /ah
+[Mon Jul 17 20:41:04 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:41:08 ICT 2023] prisq: /ah
+[Mon Jul 17 20:41:09 ICT 2023] prisq: /ah
+[Mon Jul 17 20:41:37 ICT 2023] prisq: /ah
+[Mon Jul 17 20:42:05 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:42:06 ICT 2023] prisq: /ah
+[Mon Jul 17 20:42:10 ICT 2023] prisq: /ah
+[Mon Jul 17 20:43:15 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:43:21 ICT 2023] prisq: /ah
+[Mon Jul 17 20:44:33 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:44:37 ICT 2023] prisq: /ah
+[Mon Jul 17 20:45:02 ICT 2023] prisq: /ah
+[Mon Jul 17 20:45:03 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:45:08 ICT 2023] prisq: /ah
+[Mon Jul 17 20:45:10 ICT 2023] prisq: /ah
+[Mon Jul 17 20:46:48 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:46:53 ICT 2023] prisq: /ah
+[Mon Jul 17 20:46:55 ICT 2023] prisq: /ah
+[Mon Jul 17 20:47:31 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:47:35 ICT 2023] prisq: /ah
+[Mon Jul 17 20:47:36 ICT 2023] prisq: /ah
+[Mon Jul 17 20:47:52 ICT 2023] prisq: /ah
+[Mon Jul 17 20:48:01 ICT 2023] prisq: /ah
+[Mon Jul 17 20:48:05 ICT 2023] prisq: /ahcreate
+[Mon Jul 17 20:48:07 ICT 2023] prisq: /ah create
+[Mon Jul 17 20:48:13 ICT 2023] prisq: /ah sell
+[Mon Jul 17 20:48:16 ICT 2023] prisq: /ah sell 9999
+[Mon Jul 17 20:48:27 ICT 2023] prisq: /ah
+[Mon Jul 17 20:49:14 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:49:20 ICT 2023] prisq: /ah
+[Mon Jul 17 20:49:58 ICT 2023] prisq: /ah
+[Mon Jul 17 20:50:33 ICT 2023] prisq: /gm 1
+[Mon Jul 17 20:50:38 ICT 2023] prisq: /ah sell 9999
+[Mon Jul 17 20:50:41 ICT 2023] prisq: /gm 0
+[Mon Jul 17 20:50:42 ICT 2023] prisq: /ah sell 9999
+[Mon Jul 17 20:50:44 ICT 2023] prisq: /ah
+[Mon Jul 17 20:50:50 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:50:55 ICT 2023] prisq: /ah
+[Mon Jul 17 20:51:23 ICT 2023] prisq: /ah sell
+[Mon Jul 17 20:51:28 ICT 2023] prisq: /ah cancel
+[Mon Jul 17 20:51:30 ICT 2023] prisq: /ah collect
+[Mon Jul 17 20:51:37 ICT 2023] prisq: /ah sell
+[Mon Jul 17 20:51:42 ICT 2023] prisq: /ah
+[Mon Jul 17 20:52:19 ICT 2023] prisq: /ah
+[Mon Jul 17 20:53:06 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:53:11 ICT 2023] prisq: /ah
+[Mon Jul 17 20:53:52 ICT 2023] prisq: /auctionhouse reload
+[Mon Jul 17 20:53:57 ICT 2023] prisq: /ah
+[Mon Jul 17 20:57:56 ICT 2023] prisq: /mi browse
+[Mon Jul 17 20:58:09 ICT 2023] prisq: /iazip
+[Mon Jul 17 21:01:16 ICT 2023] prisq: /mi browse
+[Mon Jul 17 21:03:31 ICT 2023] prisq: /stop
+[Mon Jul 17 21:05:05 ICT 2023] prisq: /mi browse
+[Mon Jul 17 21:05:21 ICT 2023] prisq: /iacleancache items
+[Mon Jul 17 21:05:43 ICT 2023] prisq: /menu
+[Mon Jul 17 21:05:47 ICT 2023] prisq: /mi browse
+[Mon Jul 17 21:06:32 ICT 2023] prisq: /clear
+[Mon Jul 17 21:07:00 ICT 2023] prisq: /mi browse
+[Mon Jul 17 21:07:07 ICT 2023] prisq: /stop
+[Tue Jul 18 00:05:02 ICT 2023] prisq: /md play coven
+[Tue Jul 18 00:05:12 ICT 2023] prisq: /stop
+[Tue Jul 18 11:10:32 ICT 2023] prisq: /menu
+[Tue Jul 18 11:10:34 ICT 2023] prisq: /menu
+[Tue Jul 18 11:10:34 ICT 2023] prisq: /mmoinventory
+[Tue Jul 18 11:10:36 ICT 2023] prisq: /mi browse
+[Tue Jul 18 11:11:16 ICT 2023] prisq: /menu
+[Tue Jul 18 11:11:18 ICT 2023] prisq: /warp ah
+[Tue Jul 18 11:11:20 ICT 2023] prisq: /ah
+[Tue Jul 18 11:12:21 ICT 2023] prisq: /ah reload
+[Tue Jul 18 11:12:25 ICT 2023] prisq: /ah
+[Tue Jul 18 11:12:26 ICT 2023] prisq: /ah
+[Tue Jul 18 11:12:27 ICT 2023] prisq: /ah
+[Tue Jul 18 11:14:24 ICT 2023] prisq: /stop
+[Tue Jul 18 11:16:15 ICT 2023] prisq: /menu
+[Tue Jul 18 11:16:18 ICT 2023] prisq: /warp library
+[Tue Jul 18 11:16:32 ICT 2023] prisq: /iaget hsur:uranium_ore
+[Tue Jul 18 11:17:47 ICT 2023] prisq: /iazip
+[Tue Jul 18 11:18:30 ICT 2023] prisq: /iaget hsur:uranium_ore
+[Tue Jul 18 11:18:57 ICT 2023] prisq: /dm reload
+[Tue Jul 18 11:19:33 ICT 2023] prisq: /iazip
+[Tue Jul 18 11:20:15 ICT 2023] prisq: /iaget hsur:mythril_ore
+[Tue Jul 18 11:20:24 ICT 2023] prisq: /gm 1
+[Tue Jul 18 11:20:37 ICT 2023] prisq: /iaget hsur:mythril_pickaxe
+[Tue Jul 18 11:20:38 ICT 2023] prisq: /gm 0
+[Tue Jul 18 11:21:35 ICT 2023] prisq: /iareload
+[Tue Jul 18 11:21:59 ICT 2023] prisq: /gm 9
+[Tue Jul 18 11:22:00 ICT 2023] prisq: /gm 0
+[Tue Jul 18 11:22:04 ICT 2023] prisq: /gm 1
+[Tue Jul 18 11:22:38 ICT 2023] prisq: /iazp
+[Tue Jul 18 11:22:41 ICT 2023] prisq: /iazip
+[Tue Jul 18 11:23:38 ICT 2023] prisq: /dm reload
+[Tue Jul 18 11:23:44 ICT 2023] prisq: /iaget hsur:mythril_pickaxe
+[Tue Jul 18 11:23:47 ICT 2023] prisq: /iaget hsur:mythril_ore
+[Tue Jul 18 11:23:58 ICT 2023] prisq: /data get entity prisq
+[Tue Jul 18 11:25:32 ICT 2023] prisq: /iareload
+[Tue Jul 18 11:25:34 ICT 2023] prisq: /iazip
+[Tue Jul 18 11:26:09 ICT 2023] prisq: /iaget hsur:mythril_ore
+[Tue Jul 18 11:26:14 ICT 2023] prisq: /iaget hsur:mythril_ore
+[Tue Jul 18 11:26:17 ICT 2023] prisq: /data get entity prisq
+[Tue Jul 18 11:28:14 ICT 2023] prisq: /gm 1
+[Tue Jul 18 11:28:22 ICT 2023] prisq: /iaget hsur:mythril_ore
+[Tue Jul 18 11:28:27 ICT 2023] prisq: /data get entity prisq
+[Tue Jul 18 11:28:49 ICT 2023] prisq: /iaget hsur:orichalcum_ore_ore
+[Tue Jul 18 11:28:51 ICT 2023] prisq: /iaget hsur:orichalcum_ore
+[Tue Jul 18 11:28:54 ICT 2023] prisq: /data get entity prisq
+[Tue Jul 18 11:29:43 ICT 2023] prisq: /iazip
+[Tue Jul 18 11:30:16 ICT 2023] prisq: /iaget hsur:orichalcum_ore_ore
+[Tue Jul 18 11:30:19 ICT 2023] prisq: /iaget hsur:mythril_ore
+[Tue Jul 18 11:31:22 ICT 2023] prisq: /iazip
+[Tue Jul 18 11:31:55 ICT 2023] prisq: /iaget hsur:mythril_ore
+[Tue Jul 18 11:31:58 ICT 2023] prisq: /data get entity prisq
+[Tue Jul 18 11:32:16 ICT 2023] prisq: /iaget hsur:mythril_ore
+[Tue Jul 18 11:32:17 ICT 2023] prisq: /data get entity prisq
+[Tue Jul 18 11:32:31 ICT 2023] prisq: /mi browse
+[Tue Jul 18 11:34:59 ICT 2023] prisq: /gm 1
+[Tue Jul 18 11:35:45 ICT 2023] prisq: /dm reload
+[Tue Jul 18 11:35:47 ICT 2023] prisq: /menu
+[Tue Jul 18 11:35:51 ICT 2023] prisq: /warp library
+[Tue Jul 18 11:36:01 ICT 2023] prisq: /stop
+[Tue Jul 18 11:37:50 ICT 2023] prisq: /oraxen reload all
+[Tue Jul 18 11:38:04 ICT 2023] prisq: /menu
+[Tue Jul 18 11:38:06 ICT 2023] prisq: //mi browse
+[Tue Jul 18 11:38:07 ICT 2023] prisq: /mi browse
+[Tue Jul 18 11:38:15 ICT 2023] prisq: /menu
+[Tue Jul 18 11:38:16 ICT 2023] prisq: /mi browse
+[Tue Jul 18 11:38:35 ICT 2023] prisq: /menu
+[Tue Jul 18 11:38:36 ICT 2023] prisq: /warp library
+[Tue Jul 18 11:38:57 ICT 2023] prisq: /oraxen reload all
+[Tue Jul 18 11:39:15 ICT 2023] prisq: /mi browse
+[Tue Jul 18 11:39:41 ICT 2023] prisq: /mi stations open alchemist prisq
+[Tue Jul 18 11:40:08 ICT 2023] prisq: /stop
+[Sun Apr 20 05:28:13 UTC 2025] qhuyluvyou: /gmc
+[Sun Apr 20 05:29:15 UTC 2025] qhuyluvyou: /tags
+[Sun Apr 20 05:29:24 UTC 2025] qhuyluvyou: /sb
+[Sun Apr 20 05:29:28 UTC 2025] qhuyluvyou: /scoreboard
+[Sun Apr 20 05:29:46 UTC 2025] qhuyluvyou: /tab cpu
+[Sun Apr 20 05:30:02 UTC 2025] qhuyluvyou: /tab scoreboard on
+[Sun Apr 20 05:30:22 UTC 2025] qhuyluvyou: /rank
+[Sun Apr 20 05:30:31 UTC 2025] qhuyluvyou: /heal
+[Sun Apr 20 05:30:38 UTC 2025] qhuyluvyou: /plugins
+[Sun Apr 20 05:30:45 UTC 2025] qhuyluvyou: /deluxemenu
+[Sun Apr 20 05:30:49 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 05:30:51 UTC 2025] qhuyluvyou: /codex
+[Sun Apr 20 05:31:57 UTC 2025] qhuyluvyou: /codex
+[Sun Apr 20 05:32:17 UTC 2025] qhuyluvyou: /crate key give qhuyluvyou diamond 10
+[Sun Apr 20 05:32:27 UTC 2025] qhuyluvyou: /papi ecloud download Player
+[Sun Apr 20 05:32:29 UTC 2025] qhuyluvyou: /papi ecloud download PlayerList
+[Sun Apr 20 05:32:31 UTC 2025] qhuyluvyou: /papi ecloud download PlayerTime
+[Sun Apr 20 05:32:38 UTC 2025] qhuyluvyou: /papi ecloud download PlayerStats
+[Sun Apr 20 05:32:40 UTC 2025] qhuyluvyou: /papi reload
+[Sun Apr 20 05:33:04 UTC 2025] qhuyluvyou: /tags
+[Sun Apr 20 05:33:20 UTC 2025] qhuyluvyou: /rank
+[Sun Apr 20 05:35:04 UTC 2025] qhuyluvyou: /plugins
+[Sun Apr 20 05:36:42 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 05:42:14 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 05:42:46 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 05:44:36 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 05:48:00 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 05:48:56 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 05:49:17 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 05:49:37 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 05:50:16 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 05:50:19 UTC 2025] qhuyluvyou: /time set day
+[Sun Apr 20 05:50:22 UTC 2025] qhuyluvyou: /gmc
+[Sun Apr 20 05:50:31 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 05:51:21 UTC 2025] qhuyluvyou: /shop
+[Sun Apr 20 05:56:11 UTC 2025] qhuyluvyou: /plugins
+[Sun Apr 20 06:02:29 UTC 2025] qhuyluvyou: /aureliumskills
+[Sun Apr 20 06:02:40 UTC 2025] qhuyluvyou: /restart
+[Sun Apr 20 06:04:20 UTC 2025] qhuyluvyou: /gmc
+[Sun Apr 20 06:04:51 UTC 2025] qhuyluvyou: /skill help
+[Sun Apr 20 06:05:00 UTC 2025] qhuyluvyou: /skill xp add qhuyluvyou mining 999999
+[Sun Apr 20 06:05:10 UTC 2025] qhuyluvyou: /skill
+[Sun Apr 20 06:05:23 UTC 2025] qhuyluvyou: /skills
+[Sun Apr 20 06:05:47 UTC 2025] qhuyluvyou: /luckperms
+[Sun Apr 20 06:05:54 UTC 2025] qhuyluvyou: /luckperms editor
+[Sun Apr 20 06:05:58 UTC 2025] qhuyluvyou: /uptime
+[Sun Apr 20 06:06:15 UTC 2025] qhuyluvyou: /luckperms trusteditor adcb-63fc
+[Sun Apr 20 06:14:15 UTC 2025] qhuyluvyou: /luckperms editor
+[Sun Apr 20 06:25:40 UTC 2025] qhuyluvyou: /dungeon
+[Sun Apr 20 06:25:50 UTC 2025] qhuyluvyou: /dungeon join
+[Sun Apr 20 06:25:58 UTC 2025] qhuyluvyou: /md create
+[Sun Apr 20 06:26:01 UTC 2025] qhuyluvyou: /md create qhuy
+[Sun Apr 20 06:26:05 UTC 2025] qhuyluvyou: /md join qhuy
+[Sun Apr 20 06:26:13 UTC 2025] qhuyluvyou: /md edit
+[Sun Apr 20 06:26:17 UTC 2025] qhuyluvyou: /md edit qhuy
+[Sun Apr 20 06:28:43 UTC 2025] qhuyluvyou: /md leave
+[Sun Apr 20 06:28:52 UTC 2025] qhuyluvyou: /md delete qhuy
+[Sun Apr 20 06:28:54 UTC 2025] qhuyluvyou: /md delete qhuy
+[Sun Apr 20 06:29:14 UTC 2025] qhuyluvyou: /mythicdungeons
+[Sun Apr 20 06:29:19 UTC 2025] qhuyluvyou: /gms
+[Sun Apr 20 06:29:21 UTC 2025] qhuyluvyou: /gmc
+[Sun Apr 20 06:31:38 UTC 2025] qhuyluvyou: /tags
+[Sun Apr 20 06:34:39 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:34:48 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:35:03 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:39:03 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:39:23 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:39:33 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:40:59 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:41:44 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:42:05 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:42:34 UTC 2025] qhuyluvyou: /sb
+[Sun Apr 20 06:42:35 UTC 2025] qhuyluvyou: /sb
+[Sun Apr 20 06:46:12 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:46:43 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:47:10 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:47:12 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:47:19 UTC 2025] qhuyluvyou: /tab reload
+[Sun Apr 20 06:47:42 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:48:19 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:48:40 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:48:42 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:48:49 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:52:54 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:52:55 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:53:35 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:53:40 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:53:53 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:54:12 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:55:06 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:55:34 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:55:35 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:56:52 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:56:52 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:57:21 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:57:22 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:57:29 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:57:46 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:57:46 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:58:26 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:58:48 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:58:48 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:59:01 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:59:01 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:59:11 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:59:12 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 06:59:44 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 06:59:44 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:00:03 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:00:04 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:01:57 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:02:10 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:02:10 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:02:35 UTC 2025] qhuyluvyou: /mmoinventory
+[Sun Apr 20 07:02:40 UTC 2025] qhuyluvyou: /mmoinventory
+[Sun Apr 20 07:02:50 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:02:51 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:03:55 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:03:55 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:04:11 UTC 2025] qhuyluvyou: /mmoinventory
+[Sun Apr 20 07:04:14 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:04:15 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:04:22 UTC 2025] qhuyluvyou: /dmenu edit
+[Sun Apr 20 07:04:25 UTC 2025] qhuyluvyou: /dm help
+[Sun Apr 20 07:04:35 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:04:59 UTC 2025] qhuyluvyou: /dm help
+[Sun Apr 20 07:05:00 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:05:02 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:05:03 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:05:18 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:05:18 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:05:49 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:05:50 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:06:41 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:06:42 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:07:47 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:07:49 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:08:43 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:08:44 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:08:49 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:08:52 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:08:53 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:09:23 UTC 2025] qhuyluvyou: /dmenu reload
+[Sun Apr 20 07:09:24 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:09:30 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:09:45 UTC 2025] qhuyluvyou: /tpr world
+[Sun Apr 20 07:10:10 UTC 2025] qhuyluvyou: /gmc
+[Sun Apr 20 07:12:29 UTC 2025] qhuyluvyou: /spawn
+[Sun Apr 20 07:13:07 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:13:11 UTC 2025] qhuyluvyou: /spawn
+[Sun Apr 20 07:13:12 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:13:20 UTC 2025] qhuyluvyou: /tpr world
+[Sun Apr 20 07:13:52 UTC 2025] qhuyluvyou: /spawn
+[Sun Apr 20 07:13:55 UTC 2025] qhuyluvyou: /rtp
+[Sun Apr 20 07:14:03 UTC 2025] qhuyluvyou: /tprandom
+[Sun Apr 20 07:14:17 UTC 2025] qhuyluvyou: /sethome
+[Sun Apr 20 07:14:58 UTC 2025] qhuyluvyou: /spawn
+[Sun Apr 20 07:15:11 UTC 2025] qhuyluvyou: /menu
+[Sun Apr 20 07:15:19 UTC 2025] qhuyluvyou: /warp shop
+[Sun Apr 20 07:15:45 UTC 2025] qhuyluvyou: /warp ah
+[Sun Apr 20 07:16:10 UTC 2025] qhuyluvyou: /warp library
+[Sun Apr 20 07:16:27 UTC 2025] qhuyluvyou: /warp blacksmith
+[Sun Apr 20 07:16:31 UTC 2025] qhuyluvyou: /warp dungeon
+[Sun Apr 20 07:16:42 UTC 2025] qhuyluvyou: /warp alchemy
+[Sun Apr 20 07:17:00 UTC 2025] qhuyluvyou: /warp hall_of_fame
+[Sun Apr 20 07:17:13 UTC 2025] qhuyluvyou: /fortune
+[Sun Apr 20 07:17:40 UTC 2025] qhuyluvyou: /gmc
+[Sun Apr 20 07:18:05 UTC 2025] qhuyluvyou: /warp jeweler
+[Sun Apr 20 07:18:28 UTC 2025] qhuyluvyou: /warp shop
+[Sun Apr 20 07:19:03 UTC 2025] qhuyluvyou: /warp library
+[Sun Apr 20 07:19:08 UTC 2025] qhuyluvyou: /warp hall_of_fame
+[Sun Apr 20 07:19:13 UTC 2025] qhuyluvyou: /holograms
+[Sun Apr 20 07:19:16 UTC 2025] qhuyluvyou: /holograms help
+[Sun Apr 20 07:19:38 UTC 2025] qhuyluvyou: /dh version
+[Sun Apr 20 07:19:43 UTC 2025] qhuyluvyou: /dh help
+[Sun Apr 20 07:19:46 UTC 2025] qhuyluvyou: /dh list 1
+[Sun Apr 20 07:19:48 UTC 2025] qhuyluvyou: /dh list 2
+[Sun Apr 20 07:19:52 UTC 2025] qhuyluvyou: /dh list 3
+[Sun Apr 20 07:19:53 UTC 2025] qhuyluvyou: /dh list 4
+[Sun Apr 20 07:20:03 UTC 2025] qhuyluvyou: /dh help
+[Sun Apr 20 07:20:15 UTC 2025] qhuyluvyou: /dh features help
+[Sun Apr 20 07:20:19 UTC 2025] qhuyluvyou: /dh features list
+[Sun Apr 20 07:20:28 UTC 2025] qhuyluvyou: /dh help
+[Sun Apr 20 07:22:31 UTC 2025] qhuyluvyou: /eco set qhuyluvyou 9999999
+[Sun Apr 20 07:22:39 UTC 2025] qhuyluvyou: /ajlb reload
+[Sun Apr 20 07:25:31 UTC 2025] qhuyluvyou: /warp shop

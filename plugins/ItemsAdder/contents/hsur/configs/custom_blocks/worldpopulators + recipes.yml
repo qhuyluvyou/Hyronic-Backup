@@ -1,0 +1,116 @@
+info:
+  namespace: hsur
+
+worlds_populators:
+  mythril_ore:
+    block: hsur:mythril_ore
+    worlds:
+    - world
+    replaceable_custom/blocks:
+    - STONE
+    chunk_chance: 100.0
+    max_height: 32
+    min_height: -32
+    vein_custom/blocks: 6
+    chunk_veins: 20
+  orichalcum_ore:
+    block: hsur:orichalcum_ore
+    worlds:
+    - world
+    replaceable_custom/blocks:
+    - STONE
+    chunk_chance: 100.0
+    max_height: 32
+    min_height: -32
+    vein_custom/blocks: 6
+    chunk_veins: 15
+  titanium_ore:
+    block: hsur:titanium_ore
+    worlds:
+    - world
+    replaceable_custom/blocks:
+    - STONE
+    chunk_chance: 100.0
+    max_height: 32
+    min_height: -32
+    vein_custom/blocks: 6
+    chunk_veins: 10
+  iridium_ore:
+    block: hsur:iridium_ore
+    worlds:
+    - world_the_end
+    replaceable_custom/blocks:
+    - END_STONE
+    chunk_chance: 100.0
+    max_height: 100
+    min_height: -200
+    vein_custom/blocks: 5
+    chunk_veins: 300
+  uranium_ore:
+    block: hsur:uranium_ore
+    worlds:
+    - world_the_end
+    biomes:
+    - END_MIDLANDS
+    - END_BARRENS
+    - END_HIGHLANDS
+    - SMALL_END_ISLANDS
+    replaceable_custom/blocks:
+    - END_STONE
+    chunk_chance: 100.0
+    max_height: 100
+    min_height: -200
+    vein_custom/blocks: 5
+    chunk_veins: 100
+
+
+recipes:
+  crafting_table:
+    mythril_pickaxe:
+      enabled: true
+      pattern:
+      - MMM
+      - XSX
+      - XSX
+      ingredients:
+        M: hsur:mythril_ingot 
+        S: STICK
+      result:
+        item: hsur:mythril_pickaxe
+        amount: 1
+    orichalcum_pickaxe:
+      enabled: true
+      pattern:
+      - OOO
+      - XSX
+      - XSX
+      ingredients:
+        O: hsur:orichalcum_ingot 
+        S: STICK
+      result:
+        item: hsur:orichalcum_pickaxe
+        amount: 1
+    titanium_pickaxe:
+      enabled: true
+      pattern:
+      - TTT
+      - XSX
+      - XSX
+      ingredients:
+        T: hsur:titanium_ingot 
+        S: STICK
+      result:
+        item: hsur:titanium_pickaxe
+        amount: 1
+    iridium_pickaxe:
+      enabled: true
+      pattern:
+      - III
+      - XSX
+      - XSX
+      ingredients:
+        I: hsur:iridium_crystal 
+        S: STICK
+      result:
+        item: hsur:iridium_pickaxe
+        amount: 1

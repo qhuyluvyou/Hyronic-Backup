@@ -1,0 +1,154 @@
+
+commands:
+  enabled: false
+
+armorpotioneffects:
+  enabled: true
+
+consumable:
+  enabled: true
+
+consumablepotioneffects:
+  enabled: true
+
+custom:
+  enabled: true
+
+itemtype:
+  enabled: true
+
+soulbound:
+  enabled: true
+
+backpack:
+  enabled: true
+
+music_disc:
+  enabled: true
+
+
+
+custom_block_sounds:
+  noteblock_and_block: true
+  stringblock_and_furniture: true
+
+block:
+  tool_types:
+  - WOODEN
+  - STONE
+  - IRON
+  - GOLDEN
+  - DIAMOND
+  - NETHERITE
+  enabled: false
+
+noteblock:
+  tool_types:
+  - WOODEN
+  - STONE
+  - IRON
+  - GOLDEN
+  - DIAMOND
+  - NETHERITE
+  - MYTHRIL
+  - ORICHALCUM
+  - TITANIUM
+  - IRIDIUM
+  - null
+  farmblock_check_delay: 1000
+  enabled: true
+
+stringblock:
+  tool_types:
+  - WOODEN
+  - STONE
+  - IRON
+  - GOLDEN
+  - DIAMOND
+  - NETHERITE
+  sapling_growth_check_delay: 4000
+  enabled: true
+  disable_vanilla_strings: false
+
+furniture:
+  tool_types:
+  - WOODEN
+  - STONE
+  - IRON
+  - GOLDEN
+  - DIAMOND
+  - NETHERITE
+  evolution_check_delay: 200
+  enabled: false
+  detect_viabackwards: true
+
+durability:
+  enabled: true
+
+efficiency:
+  enabled: true
+
+repair:
+  enabled: true
+  oraxen_durability_only: false
+
+food:
+  enabled: true
+
+
+
+aura:
+  enabled: true
+
+hat:
+  enabled: true
+
+skin:
+  enabled: true
+
+skinnable:
+  enabled: true
+
+
+
+lifeleech:
+  enabled: true
+
+energyblast:
+  enabled: true
+
+fireball:
+  enabled: true
+
+thor:
+  enabled: true
+
+witherskull:
+  enabled: true
+
+
+
+bigmining:
+  enabled: true
+
+smelting:
+  enabled: true
+  blacklist_cooked:
+  - WET_SPONGE
+
+bottledexp:
+  enabled: true
+  durability_cost: 10
+
+bedrockbreak:
+  enabled: true
+  disable_on_first_layer: false # Set it on true to avoid player breaking the ground ...completely
+  durability_cost: 500
+
+harvesting:
+  enabled: true
+
+watering:
+  enabled: true
+misc:
+  enabled: true

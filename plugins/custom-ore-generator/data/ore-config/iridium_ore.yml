@@ -1,0 +1,29 @@
+
+value:
+  ==: CustomOreGenerator#OreConfig
+  name: iridium_ore
+  material: NOTE_BLOCK
+  ore-generator: VANILLA_MINABLE_GENERATOR
+  block-selector: COUNT_RANGE
+  activated: true
+  generated-all: false
+  biomes:
+  - END_BARRENS
+  - END_HIGHLANDS
+  - THE_END
+  - SMALL_END_ISLANDS
+  - END_MIDLANDS
+  replace-materials:
+  - END_STONE
+  custom-data:
+    ORAXEN: iridium_ore
+  ore-generator-settings:
+    ==: CustomOreGenerator#OreSettingsContainer
+    ore-settings:
+      VEIN_SIZE: 5.0
+  block-selector-settings:
+    ==: CustomOreGenerator#OreSettingsContainer
+    ore-settings:
+      MINIMUM_HEIGHT: 0.0
+      HEIGHT_RANGE: 200.0
+      VEINS_PER_CHUNK: 100.0

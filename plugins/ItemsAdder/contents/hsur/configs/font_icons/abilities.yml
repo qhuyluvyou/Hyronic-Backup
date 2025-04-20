@@ -1,0 +1,208 @@
+info:
+  namespace: hsur
+font_images:
+
+  warden_blessing:
+    show_in_gui: true
+    path: "custom/abilities/warden_blessing.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｪ"
+  doomslayer:
+    show_in_gui: true
+    path: "custom/abilities/doomslayer.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｦ"
+  tradeoff:
+    show_in_gui: true
+    path: "custom/abilities/tradeoff.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｧ"
+  reposition:
+    show_in_gui: true
+    path: "custom/abilities/reposition.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｨ"
+  frail_hex:
+    show_in_gui: true
+    path: "custom/abilities/frail_hex.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｩ"
+  firelord:
+    show_in_gui: true
+    path: "custom/abilities/firelord.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｫ"
+  mystic_burst:
+    show_in_gui: true
+    path: "custom/abilities/mystic_burst.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ロ"
+  banish:
+    show_in_gui: true
+    path: "custom/abilities/banish.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｭ"
+  living_flames:
+    show_in_gui: true
+    path: "custom/abilities/living_flames.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｮ"
+  evade:
+    show_in_gui: true
+    path: "custom/abilities/evade.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｯ"
+  focus:
+    show_in_gui: true
+    path: "custom/abilities/focus.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｰ"
+  necromancy:
+    show_in_gui: true
+    path: "custom/abilities/necromancy.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ｱ"
+  deep_wound:
+    show_in_gui: true
+    path: "custom/abilities/deep_wound.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ヅ"
+  cosmic_ally:
+    show_in_gui: true
+    path: "custom/abilities/cosmic_ally.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "テ"
+  ice_spikes:
+    show_in_gui: true
+    path: "custom/abilities/ice_spikes.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ぁ"
+  frosty_trusty:
+    show_in_gui: true
+    path: "custom/abilities/frosty_trusty.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "だ"
+  doppelganger:
+    show_in_gui: true
+    path: "custom/abilities/doppelganger.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "デ"
+  adaptive:
+    show_in_gui: true
+    path: "custom/abilities/adaptive.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ヱ"
+  calamitous_ray:
+    show_in_gui: true
+    path: "custom/abilities/calamitous_ray.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ヰ"
+  retribution:
+    show_in_gui: true
+    path: "custom/abilities/retribution.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "レ"
+  voidborne:
+    show_in_gui: true
+    path: "custom/abilities/voidborne.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ポ"
+  ritual_of_the_end:
+    show_in_gui: true
+    path: "custom/abilities/ritual_of_the_end.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ヷ"
+  matching_attires:
+    show_in_gui: true
+    path: "custom/abilities/matching_attires.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ヸ"
+  radiation:
+    show_in_gui: true
+    path: "custom/abilities/radiation.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ヹ"
+  toxic_fumes:
+    show_in_gui: true
+    path: "custom/abilities/toxic_fumes.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ఖ"
+  bloodthirst:
+    show_in_gui: true
+    path: "custom/abilities/bloodthirst.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "వ"
+  celestial_aid:
+    show_in_gui: true
+    path: "custom/abilities/celestial_aid.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "శ"
+  chance_dictator:
+    show_in_gui: true
+    path: "custom/abilities/chance_dictator.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ష"
+  cobra_curse:
+    show_in_gui: true
+    path: "custom/abilities/cobra_curse.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "స"
+  essence_theft:
+    show_in_gui: true
+    path: "custom/abilities/essence_theft.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "హ"
+  grasp:
+    show_in_gui: true
+    path: "custom/abilities/grasp.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "఼"
+  starborne_conversion:
+    show_in_gui: true
+    path: "custom/abilities/starborne_conversion.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "఻"
+  ice_reaper:
+    show_in_gui: true
+    path: "custom/abilities/ice_reaper.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ఽ"
+  frosty_fury:
+    show_in_gui: true
+    path: "custom/abilities/ice_reaper.png"
+    scale_ratio: 10
+    y_position: 9
+    symbol: "ా"

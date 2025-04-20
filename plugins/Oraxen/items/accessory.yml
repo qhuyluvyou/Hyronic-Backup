@@ -1,0 +1,99 @@
+
+ac1:
+  displayname: ''
+  material: BONE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 1
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/uranium_canister
+
+ac2:
+  displayname: ''
+  material: BONE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/uranium_gloves
+
+ac3:
+  displayname: ''
+  material: BONE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/uranium_ring
+
+ac4:
+  displayname: ''
+  material: BONE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/iridium_claw
+
+ac5:
+  displayname: ''
+  material: BONE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 5
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/iridium_heart
+
+ac6:
+  displayname: ''
+  material: BONE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 6
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/iridium_glove
+
+ac7:
+  displayname: ''
+  material: BONE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 7
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/iridium_emblem
+
+ac8:
+  displayname: ''
+  material: BONE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 8
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/runicator
+
+ac9:
+  displayname: ''
+  material: BONE
+  excludeFromInventory: true
+  Pack:
+    generate_model: true
+    custom_model_data: 9
+    parent_model: item/generated
+    textures:
+    - custom/items/accessory/nullifying_necklace

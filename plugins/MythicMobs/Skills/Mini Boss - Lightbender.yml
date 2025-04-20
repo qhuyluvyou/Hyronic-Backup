@@ -1,0 +1,88 @@
+LightBender_Spawn:
+  Skills:
+  - sendtitle{title="<#8B008B>ꜱᴘᴇᴄɪᴀʟ ʜᴀʀʙɪɴɢᴇʀ!";subtitle="<#EE82EE>Light Bender will spawn in &f10s<#EE82EE>!";d=20;fo=10} @PlayersInRadius{r=5}
+  - sound{s=entity.wither.spawn;v=2} @self
+  - delay 20
+  - sound{s=entity.evoker.cast_spell;pitch=0;repeat=6;repeatInterval=20} @self
+  - effect:particle{p=redstone;color=#F8C8DC;a=20;hs=0.5;vs=0.5;y=0.5;repeat=6;repeatInterval=20} @self
+  - effect:particle{p=redstone;color=#FDFD96;a=20;hs=0.5;vs=0.5;y=0.5;epeat=6;repeatInterval=20} @self
+  - delay 120
+  - sound{s=entity.evoker.cast_spell;pitch=1} @self
+  - effect:particle{p=redstone;color=#F8C8DC;a=40;hs=0.5;vs=0.5} @self
+  - effect:particle{p=redstone;color=#FDFD96;a=40;hs=0.5;vs=0.5} @self
+  - delay 20
+  - sound{s=entity.evoker.cast_spell;pitch=2} @self
+  - effect:particle{p=redstone;color=#F8C8DC;a=80;hs=0.5;vs=0.5} @self
+  - effect:particle{p=redstone;color=#FDFD96;a=80;hs=0.5;vs=0.5} @self
+  - delay 20
+  - sound{s=entity.evoker.cast_spell;pitch=3} @self
+  - effect:particle{p=redstone;color=#F8C8DC;a=120;hs=0.5;vs=0.5} @self
+  - effect:particle{p=redstone;color=#FDFD96;a=120;hs=0.5;vs=0.5} @self
+  - delay 20
+  - effect:lightning @self
+  - sound{s=entity.ender_dragon.growl;v=2} @self
+  - effect:particle{p=redstone;color=#F8C8DC;a=300;hs=1;vs=1} @self
+  - effect:particle{p=redstone;color=#FDFD96;a=300;hs=1;vs=1} @self
+  - summon{type=LightBender;amount=1;radius=1} @self
+
+LightBending:
+  Skills:
+  - potion{type=SLOW;duration=60;level=10;p=false;i=false} @self
+  - effect:particleorbital{p=redstone;color=#F8C8DC;a=2;points=15;y=1.75;in=2;r=1;rx=1;ticks=60;oy=-0.5} @self
+  - effect:particleorbital{p=redstone;color=#FDFD96;a=2;points=15;y=1.75;in=2;r=1;rz=1;ticks=60;oy=-0.5} @self
+  - sound{s=entity.illusioner.prepare_mirror;v=2} @self
+  - delay 60
+  - skill{s=LightBending-Activate} @PIR{r=6}
+  - sound{s=entity.evoker.cast_spell;v=2} @self
+  - effect:particles{p=fireworks_spark;amount=50;hs=0.2;vs=0.2;speed=1} @self
+LightBending-Activate:
+  Skills:
+  - projectile{bulletType=ITEM;material=NETHER_STAR;onTick=LightBending-Tick;onEnd=LightBending-Hit;v=60;i=1;hR=1;vR=1;type=meteor;hfs=7.5;g=0.4}
+LightBending-Tick:
+  Skills:
+  - effect:particles{p=fireworks_spark;amount=2;hs=0.2;vs=0.2}
+  - effect:particleorbital{p=redstone;color=#F8C8DC;a=5;points=10;an=1;y=1.75;in=1;r=1;ticks=20}
+  - effect:particleorbital{p=redstone;color=#FDFD96;a=5;points=10;an=1;y=1.75;in=1;r=1;reverse=true;ticks=20}
+LightBending-Hit:
+  Skills:
+  - effect:particles{p=hugeexplosion;amount=1;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particles{p=end_rod;amount=100;hs=1;vs=1} @origin
+  - effect:particles{p=redstone;color=#F8C8DC;a=100;hs=1.25;vs=1.25} @origin
+  - effect:particles{p=redstone;color=#FDFD96;a=100;hs=1.25;vs=1.25} @origin
+  - sound{s=entity.generic.explode} @origin
+  - mmodamage{a=150;types=MAGIC,SKILL;pk=true} @ENO{r=5;ignore=monsters,animals}
+
+AirborneThreat:
+  Skills:
+  - potion{type=SLOW;duration=60;level=10;p=false;i=false} @self
+  - effect:particleorbital{p=redstone;color=#F8C8DC;a=2;points=15;y=1.75;in=2;r=1;rx=1;ticks=60;oy=-0.5} @self
+  - effect:particleorbital{p=redstone;color=#FDFD96;a=2;points=15;y=1.75;in=2;r=1;rz=1;ticks=60;oy=-0.5} @self
+  - sound{s=entity.illusioner.prepare_mirror;v=2} @self
+  - delay 60
+  - velocity{m=set;x=0;y=1;z=0} @self
+  - delay 10
+  - projectile{onTick=AirborneThreat-Tick;onHit=AirborneThreat-Hit;v=20;i=1;hR=1;vR=1} @PlayersInRadius{r=10}
+  - effect:particles{p=fireworks_spark;amount=50;hs=0.2;vs=0.2;speed=1} @self
+AirborneThreat-Tick:
+  Skills:
+  - effect:particles{p=reddust;color=#F8C8DC;amount=5;speed=0;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=reddust;color=#FDFD96;amount=5;speed=0;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=fireworks_spark;amount=1;speed=0;hS=0.2;vS=0.2} @origin 
+AirborneThreat-Hit:
+  Skills:
+  - mmodamage{a=200} 
+  - sound{s=entity.generic.extinguish_fire;v=1;p=1} @self
+  - potion{type=BLINDNESS;duration=100;lvl=1}
+
+RainbowTether:
+  Skills:
+  - potion{type=SLOW;duration=60;level=10;p=false;i=false} @self
+  - effect:particleorbital{p=redstone;color=#F8C8DC;a=2;points=15;y=1.75;in=2;r=1;rx=1;ticks=60;oy=-0.5} @self
+  - effect:particleorbital{p=redstone;color=#FDFD96;a=2;points=15;y=1.75;in=2;r=1;rz=1;ticks=60;oy=-0.5} @self
+  - sound{s=entity.illusioner.prepare_mirror;v=2} @self
+  - delay 60
+  - effect:particleline{p=reddust;color=#F8C8DC;amount=3;syo=1;tyo=1;repeat=10;repeatinterval=10} @PlayersInRadius{r=8}
+  - effect:particleline{p=reddust;color=#FDFD96;amount=3;syo=1;tyo=1;repeat=10;repeatinterval=10} @PlayersInRadius{r=8}
+  - sound{s=entity.evoker.cast_spell;repeat=10;repeatinterval=10} @self
+  - mmodamage{a=50;repeat=10;repeatinterval=10} @PIR{r=8}
+  - potion{type=SLOW;duration=10;level=2;p=true;i=true;repeat=10;repeatinterval=10} @PIR{r=8} 

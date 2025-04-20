@@ -1,0 +1,130 @@
+General:
+  Version: 1
+  DisplayName: '&dThe Veil'
+  ShowTitleOnStart: false
+  Lobby:
+    Enabled: false
+    Location:
+      ==: org.bukkit.Location
+      x: 8.0
+      y: 10.0
+      z: 36.0
+      pitch: 0.0
+      yaw: 0.0
+  Gamemode: SURVIVAL
+  PlayerLives: 1
+  DeadPlayersSpectate: true
+  KeepInventoryOnEnter: true
+  KeepHealthOnEnter: false
+  KeepFoodOnEnter: false
+  KeepPotionEffectsOnEnter: false
+  KickOfflinePlayers: true
+  KickOfflinePlayersDelay: 300
+  MaxBackups: 3
+  MaxInstances: 5
+  
+  GiveLootAfterCompletion: false
+  LootCooldown:
+    Enabled: false
+    PerReward: true
+    CooldownType: DAILY
+    CooldownTime: 0
+    ResetDay: 1
+  
+  
+  AccessCooldown:
+    Enabled: false
+    CooldownType: DAILY
+    CooldownTime: 0
+    ResetDay: 1
+
+Requirements:
+  Permissions: []
+  MinPartySize: 1
+  MaxPartySize: 4
+  DungeonsComplete: []
+  Cost: 0
+
+AccessKeys:
+  KeyItems:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Rusty
+        Key"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"Can be used to access "},{"italic":false,"color":"dark_aqua","text":"The"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_aqua","text":"Veil"},{"italic":false,"color":"gray","text":"
+        dungeon once!"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"white","text":"஻"}],"text":""}'
+      custom-model-data: 14
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: mmoitemsDecoy
+          uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/52QvUrEQBSFr9qMwi4q2FiNU6SykS0WUhmSYRM2k5HMRAghDDE7/oAksJkUy7KvJFhb+iI+iomQ4GJnc4v7nXvu4ZwAILhgjAeSMqG8NHJY4KqQxxT8jJBrYs3dosIPGreNXmFT46IsddNgayafdc9n9/rl1ZrjVVs96brCdVXqqw707PHr7YPkCM7HD/1UMr2jMGGBcGkYOhHliUBwuq8JPJh4SbSgPFJLmqob1F0Mii4lheO4bcwGL/UGwdQXMk4VjVzfiaSA2y0RpjDEJsOqi8MXwtTrDbGzLRmtBq4+3xuz7g6ynOzy3RFcjhI3EZIzxbhHQ+U50gGAKYKzPx5wmOW/Y/7UaGf/7XDPSwY0hgMHvgH+rklmsgEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Rusty
+        Key: "},{"italic":false,"color":"light_purple","text":"The Veil"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"Can be used to access "},{"italic":false,"color":"light_purple","text":"The"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"light_purple","text":"Veil"},{"italic":false,"color":"gray","text":"
+        dungeon once!"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"white","text":"஻"}],"text":""}'
+      custom-model-data: 14
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: mmoitemsDecoy
+          uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/52QPWuEQBCGJ0kjlw+SwDWpNltYpT+wE11O0XWDu3cgIovRzQcEhXMt5Li/dJA6Zf5Ifko0gtxBqjQDw/sw88zMAAyYU8p8QSiXbhLZ1HdkyGICXorxAzYXTl6hJ4XaRpVI1ygvCtU0yCzFqxrycq3e3s0FKtvqRdUVqqtC3ffBkD1/7z9xZsDttGGoUiSPBM7dVbQkLJIBSQy4PiZ8Fy6ER+Sa+OEIXE5Ar0hgHreN7lCgOmtUQYPGGdxNmLPiglFJmUtC6drCBoArA24mgESOZ0eCw2naK848LuJkHB5sMde5xhYe2v4QtuS63nTYSrf4yEN+fTR604N/6uBdtjs0/32rlf73p9nhLOGTGE5s+AFWPdj5wgEAAA==
+  Consume: true
+
+Rules:
+  SpawnMobs: false
+  SpawnAnimals: false
+  SpawnMonsters: false
+  AllowBreakBlocks: false
+  AllowPlaceBlocks: false
+  AllowEnderpearl: false
+  AllowChorusFruit: false
+  AllowBucket: false
+  PreventPlantGrowth: true
+  PvP: false
+  HideDeathMessages: true
+  AllowedCommands:
+  - party
+  - p
+  - dungeon leave
+  - md leave
+  - leave
+  BannedItems: []
+  CustomBannedItems: []
+  AllowPickupBannedItems: false
+  AllowCraftBannedItems: false
+  AllowStorageBannedItems: false
+  BlockPlaceWhitelist: []
+  BlockBreakWhitelist: []
+  BlockPlaceBlacklist: []
+  BlockBreakBlacklist: []

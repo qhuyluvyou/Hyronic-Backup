@@ -1,0 +1,268 @@
+Plugin:
+  language: english
+  commands:
+    repair:
+      oraxen_durability_only: false # will not repair vanilla items if set to true
+    emoji_list:
+      only_show_emojis_with_permission: true # will only show emojis player has permission to use if set to true
+  generation:
+    default_assets: false
+    default_configs: false
+  worldedit: # Please note these are both experimental still and should be used with caution
+    noteblock_mechanic: false
+    stringblock_mechanic: false # Works, but is buggy with some stringblocks, specifically with Tall-property
+  experimental:
+    verify_pack_files: true
+    exclude_malformed_from_atlas: true
+  keep_this_up_to_date: true
+  formatting:
+    inventory_titles: true # Formats all inventory titles made by any plugin
+    titles: true # Formats all titles made by any plugin
+    subtitles: true # Formats all subtitles made by any plugin
+    action_bar: true # Formats all action bars made by any plugin
+    anvil: true # Formats the result item based on the Anvil Text made by any plugin
+    signs: true # Formats text on signs when placed or edited
+    chat: true # Formats text and glyphs in chat. Disable if using a chat-plugin and you are experiencing issues
+    books: true # Formats glyphs in books.
+
+Pack:
+  generation:
+    generate: true # Unlike Plugin.generation.default_assets, this will enable/disable all pack generation
+    armor_resolution: 16
+    automatically_generate_shader_compatible_armor: true
+    compression: BEST_COMPRESSION # see Deflater.class
+    protection: false
+    comment: |-
+      The content of this texture pack
+      belongs to the owner of the Oraxen
+      plugin and any complete or partial
+      use must comply with the terms and
+      conditions of Oraxen.
+    excluded_file_extensions: []
+    auto_generated_models_follow_texture_path: false
+    animated_armor_framerate: 24
+    generate_armor_shader_files: true
+    generate_custom_armor_textures: true
+    atlas:
+      generate: true
+      type: SPRITE # "SPRITE" or "DIRECTORY"
+  
+  upload:
+    enabled: true
+    type: polymath # transfer.sh or polymath
+    polymath:
+      server: atlas.oraxen.com # you can also host your own polymath instance
+  
+  dispatch:
+    send_pack: true
+    delay: -1
+    send_pack_advanced:
+      enabled: true
+      mandatory: true
+      message: <#fa4943>Accept the pack to enjoy a full <b><gradient:#9055FF:#13E2DA>Oraxen</b><#fa4943>
+        experience
+    join_message:
+      enabled: false
+      delay: -1
+    send_on_reload: true
+  
+  receive:
+    enabled: true
+    
+    loaded:
+      actions:
+        sound:
+          enabled: false
+          type: minecraft:welcome
+          volume: 1.0
+          pitch: 1.0
+        delay: 5 # delay in ticks
+        message:
+          enabled: false
+          type: ACTION_BAR
+          content: <#55ffa4><bold>ResourcePack loaded
+        commands:
+          console: []
+          player: []
+          opped_player: []
+    
+    accepted:
+      actions:
+        message:
+          type: ACTION_BAR
+          content: <#55ffa4><bold>ResourcePack accepted
+        commands:
+          console: []
+          player: []
+          opped_player: []
+    
+    denied:
+      actions:
+        message:
+          enabled: false
+          type: CHAT
+          content: <red>You refused the ResourcePack, but you need it in order to
+            see the new items. Please </red><click:run_command:'/oraxen pack send
+            @p'><hover:show_text:'<green>Display more informations'><green><bold>CLICK
+            HERE</bold></hover></click> <red>or type <bold>/oraxen pack send @p
+        commands:
+          console: []
+          player: []
+          opped_player: []
+    
+    failed_download:
+      actions:
+        message:
+          enabled: false
+          type: CHAT
+          content: <red>You failed to download the ResourcePack, but you need it in
+            order to see the new items. Please </red><click:run_command:'/oraxen pack
+            send @p'><hover:show_text:'<red>! loading the resourcepack from the game
+            can cause lags'><red><bold>CLICK HERE</bold></hover></click> <red>to retry
+            or type <bold>/oraxen pack send @p</bold>
+        commands:
+          console: []
+          player: []
+          opped_player: []
+  import:
+    merge_duplicates: false
+    retain_custom_model_data: false
+    merge_item_base_models: false
+    merge_duplicate_fonts: true
+
+ConfigsTools:
+  skipped_model_data_numbers: []
+  enable_configs_updater: true
+  error_item:
+    material: PODZOL
+    excludeFromInventory: false # set to true if you don't want to display it inside inventory
+    injectID: false
+  disable_automatic_model_data: false
+  disable_automatic_glyph_code: false
+
+CustomArmor:
+  disable_leather_repair: true # Makes custom armor not repairable with leather, only with copies of said custom armor
+
+Misc:
+  reset_recipes: true
+  
+  hide_scoreboard_numbers: false
+  
+  armor_equip_event_bypass:
+  - FURNACE
+  - CHEST
+  - TRAPPED_CHEST
+  - BEACON
+  - DISPENSER
+  - DROPPER
+  - HOPPER
+  - WORKBENCH
+  - ENCHANTMENT_TABLE
+  - ENDER_CHEST
+  - ANVIL
+  - BED_BLOCK
+  - FENCE_GATE
+  - SPRUCE_FENCE_GATE
+  - BIRCH_FENCE_GATE
+  - ACACIA_FENCE_GATE
+  - JUNGLE_FENCE_GATE
+  - DARK_OAK_FENCE_GATE
+  - IRON_DOOR_BLOCK
+  - WOODEN_DOOR
+  - SPRUCE_DOOR
+  - BIRCH_DOOR
+  - JUNGLE_DOOR
+  - ACACIA_DOOR
+  - DARK_OAK_DOOR
+  - WOOD_BUTTON
+  - STONE_BUTTON
+  - TRAP_DOOR
+  - IRON_TRAPDOOR
+  - DIODE_BLOCK_OFF
+  - DIODE_BLOCK_ON
+  - REDSTONE_COMPARATOR_OFF
+  - REDSTONE_COMPARATOR_ON
+  - FENCE
+  - SPRUCE_FENCE
+  - BIRCH_FENCE
+  - JUNGLE_FENCE
+  - DARK_OAK_FENCE
+  - ACACIA_FENCE
+  - NETHER_FENCE
+  - BREWING_STAND
+  - CAULDRON
+  - LEGACY_SIGN_POST
+  - LEGACY_WALL_SIGN
+  - LEGACY_SIGN
+  - ACACIA_SIGN
+  - ACACIA_WALL_SIGN
+  - BIRCH_SIGN
+  - BIRCH_WALL_SIGN
+  - DARK_OAK_SIGN
+  - DARK_OAK_WALL_SIGN
+  - JUNGLE_SIGN
+  - JUNGLE_WALL_SIGN
+  - OAK_SIGN
+  - OAK_WALL_SIGN
+  - SPRUCE_SIGN
+  - SPRUCE_WALL_SIGN
+  - LEVER
+  - BLACK_SHULKER_BOX
+  - BLUE_SHULKER_BOX
+  - BROWN_SHULKER_BOX
+  - CYAN_SHULKER_BOX
+  - GRAY_SHULKER_BOX
+  - GREEN_SHULKER_BOX
+  - LIGHT_BLUE_SHULKER_BOX
+  - LIME_SHULKER_BOX
+  - MAGENTA_SHULKER_BOX
+  - ORANGE_SHULKER_BOX
+  - PINK_SHULKER_BOX
+  - PURPLE_SHULKER_BOX
+  - RED_SHULKER_BOX
+  - SILVER_SHULKER_BOX
+  - WHITE_SHULKER_BOX
+  - YELLOW_SHULKER_BOX
+  - DAYLIGHT_DETECTOR_INVERTED
+  - DAYLIGHT_DETECTOR
+  - BARREL
+  - BLAST_FURNACE
+  - SMOKER
+  - CARTOGRAPHY_TABLE
+  - COMPOSTER
+  - GRINDSTONE
+  - LECTERN
+  - LOOM
+  - STONECUTTER
+  - BELL
+  
+  shield_display: '{"thirdperson_righthand":{"rotation":[0,90,0],"translation":[10,6,-4],"scale":[1,1,1]},"thirdperson_lefthand":{"rotation":[0,90,0],"translation":[10,6,12],"scale":[1,1,1]},"firstperson_righthand":{"rotation":[0,180,5],"translation":[-10,2,-10],"scale":[1.25,1.25,1.25]},"firstperson_lefthand":{"rotation":[0,180,5],"translation":[10,0,-10],"scale":[1.25,1.25,1.25]},"gui":{"rotation":[15,-25,-5],"translation":[2,3,0],"scale":[0.65,0.65,0.65]},"fixed":{"rotation":[0,180,0],"translation":[-2,4,-5],"scale":[0.5,0.5,0.5]},"ground":{"rotation":[0,0,0],"translation":[4,4,2],"scale":[0.25,0.25,0.25]}}'
+  
+  bow_display: '{"thirdperson_righthand":{"rotation":[-80,260,-40],"translation":[-1,-2,2.5],"scale":[0.9,0.9,0.9]},"thirdperson_lefthand":{"rotation":[-80,-280,40],"translation":[-1,-2,2.5],"scale":[0.9,0.9,0.9]},"firstperson_righthand":{"rotation":[0,-90,25],"translation":[1.13,3.2,1.13],"scale":[0.68,0.68,0.68]},"firstperson_lefthand":{"rotation":[0,90,-25],"translation":[1.13,3.2,1.13],"scale":[0.68,0.68,0.68]}}'
+  
+  crossbow_display: '{"thirdperson_righthand":{"rotation":[-90,0,-60],"translation":[2,0.1,-3],"scale":[0.9,0.9,0.9]},"thirdperson_lefthand":{"rotation":[-90,0,30],"translation":[2,0.1,-3],"scale":[0.9,0.9,0.9]},"firstperson_righthand":{"rotation":[-90,0,-55],"translation":[1.13,3.2,1.13],"scale":[0.68,0.68,0.68]},"firstperson_lefthand":{"rotation":[-90,0,35],"translation":[1.13,3.2,1.13],"scale":[0.68,0.68,0.68]}}'
+  add_recipes_to_book: true
+  unicode_completions: true
+debug: false
+Gestures:
+  enabled: false # Enabled gesture-mechanic and generates needed files
+oraxen_inventory:
+  menu_rows: 6
+  main_menu_title: <shift:-18><glyph:menu_items><shift:-193>
+  menu_layout:
+    ingots:
+      icon: mythril_bar
+      slot: 1
+      title: <main_menu_title><#362753><glyph:menu_items_overlay:colorable>
+    blocks:
+      icon: mythril_bar
+      slot: 1
+      title: <main_menu_title><#362753><glyph:menu_items_overlay:colorable>
+ItemUpdater:
+  auto_update_items: false
+  override_renamed_items: false
+  override_lore: true
+  update_items_on_reload: true
+  update_furniture_on_reload: true
+  update_furniture_on_load: true
+  furniture_update_delay_in_seconds: 5

@@ -1,0 +1,74 @@
+mythril_pickaxe:
+  displayname: <#FFFFFF>Mythril Pickaxe
+  material: NETHERITE_PICKAXE
+  lore:
+  - ''
+  - '<#D3D3D3>Strong enough to break:'
+  - <#FFC0CB> Orichalcum Ore
+  Mechanics:
+    itemtype:
+      value: MYTHRIL
+  Pack:
+    generate_model: true
+    custom_model_data: 1
+    parent_model: item/generated
+    textures:
+    - custom/items/pickaxe/mythril_pickaxe
+
+
+orichalcum_pickaxe:
+  displayname: <#ffffff>Orichalcum Pickaxe
+  material: NETHERITE_PICKAXE
+  lore:
+  - ''
+  - '<#D3D3D3>Strong enough to break:'
+  - <#FFC0CB> Orichalcum Ore
+  - <#C0C0C0> Titanium Ore
+  Mechanics:
+    itemtype:
+      value: ORICHALCUM
+  Pack:
+    generate_model: true
+    custom_model_data: 2
+    parent_model: item/generated
+    textures:
+    - custom/items/pickaxe/orichalcum_pickaxe
+
+titanium_pickaxe:
+  displayname: <#ffffff>Titanium Pickaxe
+  material: NETHERITE_PICKAXE
+  lore:
+  - ''
+  - '<#D3D3D3>Strong enough to break:'
+  - <#FFC0CB> Orichalcum Ore
+  - <#C0C0C0> Titanium Ore
+  - <#953553> Iridium Ore
+  Mechanics:
+    itemtype:
+      value: TITANIUM
+  Pack:
+    generate_model: true
+    custom_model_data: 3
+    parent_model: item/generated
+    textures:
+    - custom/items/pickaxe/titanium_pickaxe
+
+iridium_pickaxe:
+  displayname: <#ffffff>Iridium Pickaxe
+  material: NETHERITE_PICKAXE
+  lore:
+  - ''
+  - '<#D3D3D3>Strong enough to break:'
+  - <#FFC0CB> Orichalcum Ore
+  - <#C0C0C0> Titanium Ore
+  - <#953553> Iridium Ore
+  - <#3cff49> Uranium Ore
+  Mechanics:
+    itemtype:
+      value: IRIDIUM
+  Pack:
+    generate_model: true
+    custom_model_data: 4
+    parent_model: item/generated
+    textures:
+    - custom/items/pickaxe/iridium_pickaxe

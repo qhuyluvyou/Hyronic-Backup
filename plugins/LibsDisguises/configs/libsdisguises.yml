@@ -1,0 +1,15 @@
+
+ContactMojangServers: true
+
+Translations: false
+
+NotifyUpdate: true
+AutoUpdate: true
+
+UpdatesBranch: 'SAME_BUILDS'
+
+VerboseConfig: false
+
+ChangedConfig: false
+
+UpdateConfig: true

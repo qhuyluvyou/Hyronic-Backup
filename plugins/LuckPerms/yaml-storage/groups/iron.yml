@@ -1,0 +1,43 @@
+name: iron
+permissions:
+- auctionmaster.limit.bids.6
+- betterprofiles.toggle.profile
+- chat.iron
+- commandprompter.cancel
+- commandprompter.use
+- displayname.&f🟦 ɪʀᴏɴ
+- dungeons.stuck
+- emoji.iron
+- essentials.balance
+- essentials.delhome
+- essentials.feed
+- essentials.home
+- essentials.ignore
+- essentials.keepinv
+- essentials.msg
+- essentials.near
+- essentials.pay
+- essentials.sethome
+- essentials.sethome.multiple
+- essentials.sethome.multiple.rank1
+- essentials.spawn
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.tpahere
+- essentials.tptoggle
+- essentials.workbench
+- landlord.limit.5
+- odailyquests.use
+- pw.desc
+- pw.limit.2
+- pw.lock
+- pw.open
+- pw.remove
+- pw.rename
+- tab.scoreboard.toggle
+- tradesystem.trade
+- tradesystem.trade.initiate
+- weight.1
+parents:
+- default

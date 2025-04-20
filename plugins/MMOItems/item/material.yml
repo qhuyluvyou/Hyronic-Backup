@@ -1,0 +1,438 @@
+IGNETTO_ALLOY:
+  base:
+    material: PAPER
+    name: Ignetto Alloy
+    tier: A
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjY2YxYTFhNmY0YjE4MDU0YmY0ZWM2NmJjZDM3OWYxMjE1YjA2ZjM3NTk4YmE3OWUwZGUyMDkyODIzZmI1In19fQ==
+      uuid: dfbccc60-52ab-46af-910d-8c9c83a37c78
+    lore:
+    - '&7Can be used to upgrade'
+    - '&7Netherite equipments in'
+    - '&7smithing table to damage-'
+    - '&7focused gears.'
+    custom-model-data: 5.0
+    crafting:
+      smithing: {}
+WARDEN_HEART:
+  base:
+    material: PAPER
+    name: Warden Heart
+    tier: A
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTgyZDM2Yjk3M2U1N2U0YzBmZTI4YzM3MWE3ZjExZmMwNGEyYTM0MmE4OGE3ZTVlNWQ4M2VkYmNhYjYxNzcwZSJ9fX0=
+      uuid: dfbccc60-52ab-46af-910d-8c9c83a37c78
+    lore:
+    - '&7Can be used to upgrade'
+    - '&7Netherite equipments in'
+    - '&7smithing table to defense-'
+    - '&7focused gears.'
+    custom-model-data: 6.0
+DIVINE_GEODE:
+  base:
+    material: Paper
+    name: Divine Geode
+    tier: A
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY3OTRhNzVlODc3ZmM0OGJiNzcyZDU5ZWJmNmUwNzZkMWIwYTU0ZTlmMmJkMzE3ZjFhMTIyNDk5N2RlZWIzNyJ9fX0
+      uuid: dfbccc60-52ab-46af-910d-8c9c83a37c78
+    lore:
+    - '&7Can be used to upgrade'
+    - '&7Netherite equipments in'
+    - '&7smithing table to ranged-'
+    - '&7focused gears.'
+    custom-model-data: 7.0
+WITHERED_ROSE:
+  base:
+    material: PAPER
+    name: Withered Rose
+    tier: A
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY3OTRhNzVlODc3ZmM0OGJiNzcyZDU5ZWJmNmUwNzZkMWIwYTU0ZTlmMmJkMzE3ZjFhMTIyNDk5N2RlZWIzNyJ9fX0
+      uuid: dfbccc60-52ab-46af-910d-8c9c83a37c78
+    lore:
+    - '&7Can be used to upgrade'
+    - '&7Netherite equipments in'
+    - '&7smithing table to magic-'
+    - '&7focused gears.'
+    custom-model-data: 8.0
+WITCH_BLOOD:
+  base:
+    material: PAPER
+    custom-model-data: 9.0
+    name: Witch Blood
+    tier: A
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Can be used to upgrade'
+    - '&dThe Veil''s&7 equipments.'
+HEXIM_NECKLACE:
+  base:
+    material: PAPER
+    name: Hexim Necklace
+    custom-model-data: 10.0
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Used to upgrade Apocalypse'
+    - '&7armor or convert specialized'
+    - '&7Apocalypse armor into &dHexim'
+    - '&7armor in smithing table.'
+    - ''
+    - '&8&oBelongs to &d&oHexim&8&o - The Elder'
+    - '&8&oGod. The cruel tyrant of all'
+    - '&8&orealms, his reign of terror'
+    - '&8&oonly stopped when &5&othe witch'
+    - '&8&osarcrificed herself, causing'
+    - '&8&oa huge magical blast to erupt'
+    - '&8&okilling all four primordal gods'
+    - '&8&oand fragmenting all realms.'
+    tier: S
+MORTOS_BELT:
+  base:
+    material: PAPER
+    name: Mortos Belt
+    custom-model-data: 11.0
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Used to upgrade Apocalypse'
+    - '&7armor or convert specialized'
+    - '&7Apocalypse armor into &3Mortos'
+    - '&7armor in smithing table.'
+    - ''
+    - '&8&oBelongs to &3&oMortos&8&o - the God'
+    - '&8&oof Death. A loyal companion'
+    - '&8&oto Hexim, his mere presence'
+    - '&8&owas a sign of total calamity.'
+    - '&8&oWas destroyed alongside the'
+    - '&8&ofour primordal gods when &c&othe'
+    - '&c&owar&8&o ended.'
+    tier: S
+CAELETUS_RING:
+  base:
+    material: PAPER
+    name: Caeletus Ring
+    custom-model-data: 12.0
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Used to upgrade Apocalypse'
+    - '&7armor or convert specialized'
+    - '&7Apocalypse armor into the'
+    - '&6Caeletus&7 armor via smithing'
+    - '&7table.'
+    - ''
+    - '&8&oBelongs to &6&oCaeletus&8&o - God of'
+    - '&8&oPeace and Wealth. The only god'
+    - '&8&oon human''s side, Caeletus went'
+    - '&8&oagainst the other gods, fighting'
+    - '&8&owith humans in the war, before'
+    - '&8&osarcrificing itself to protect'
+    - '&8&oHyronia from destruction at the'
+    - '&8&oend of &c&othe war&8&o.'
+    tier: S
+QUINERUS_CLOAK:
+  base:
+    material: PAPER
+    name: Quinerus Cloak
+    custom-model-data: 13.0
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7Used to upgrade Apocalypse'
+    - '&7armor or convert specialized'
+    - '&7Apocalypse armor into the'
+    - '&4Quinerus&7 armor via smithing'
+    - '&7table.'
+    - ''
+    - '&8&oBelongs to &4&oQuinerus&8&o - God of'
+    - '&8&owar and destruction. Quinerus'
+    - '&8&owas on neutral side when the'
+    - '&8&owar happened, but still fought'
+    - '&8&obecause of its thirst for war'
+    - '&8&oWas destroyed alongside the'
+    - '&8&ofour primordal gods when &c&othe'
+    - '&c&owar&8&o ended.'
+    tier: S
+MYTHRIL_INGOT:
+  base:
+    material: PAPER
+    custom-model-data: 20.0
+    name: Mythril Ingot
+    lore:
+    - '&7Thought to be fictitious, this'
+    - '&7priceless metal is ingrained'
+    - '&7into the deepest part of'
+    - '&7Hyronia.'
+    tier: A
+ORICHALCUM_INGOT:
+  base:
+    material: PAPER
+    custom-model-data: 21.0
+    name: Orichalcum Ingot
+    tier: A
+    lore:
+    - '&7Best known for its special'
+    - '&7affinity for magic'
+TITANIUM_INGOT:
+  base:
+    material: PAPER
+    custom-model-data: 19.0
+    name: Titanium Ingot
+    lore:
+    - '&7Its special property of magic'
+    - '&7resistance makes it the most'
+    - '&7preferable choice for witch'
+    - '&7hunter.'
+    tier: S
+NIGHTMARE_FUEL:
+  base:
+    material: PAPER
+    custom-model-data: 25.0
+    name: <GRADIENT:#2335a4:#35286a>Nightmare Fuel
+    lore:
+    - '&7Being near this induces'
+    - '&7petrifying nightmares.'
+    tier: S
+NIGHTMARE_BAR:
+  base:
+    material: PAPER
+    name: <GRADIENT:#2335a4:#35286a>Nightmare Bar
+    custom-model-data: 26.0
+    tier: S+
+    lore:
+    - '&7An ingot forged out of'
+    - '&7pure terror.'
+EXO_STONE:
+  base:
+    material: PAPER
+    custom-model-data: 24.0
+    name: <Gradient:#F8C8DC:#aec6cf>Exo Stone
+    lore:
+    - '&7The legendary element forged'
+    - '&7from three fabled metals.'
+    tier: S
+CALAMITY_HANDLE:
+  base:
+    material: PAPER
+    custom-model-data: 27.0
+    name: Broken Handle
+    lore:
+    - '&7The remain of once a powerful'
+    - '&7weapon. Maybe the blacksmith'
+    - '&7can restore it?'
+    tier: A
+CATACLYSM_HANDLE:
+  base:
+    material: PAPER
+    custom-model-data: 29.0
+    name: Broken Staff
+    lore:
+    - '&7The remain of once a powerful'
+    - '&7weapon. Maybe the blacksmith'
+    - '&7can restore it?'
+    tier: A
+CATASTROPHE_BROKEN:
+  base:
+    material: PAPER
+    custom-model-data: 28.0
+    lore:
+    - '&7The remain of once a powerful'
+    - '&7weapon. Maybe the blacksmith'
+    - '&7can restore it?'
+    tier: A
+    name: Broken Bow
+RED_CANDYCANE:
+  base:
+    material: PAPER
+    custom-model-data: 32.0
+    name: '&cRed Candycane'
+    lore:
+    - '&7A common sweet loved by'
+    - '&7Hyronians, used to trade'
+    - '&7exclusive items, equipments'
+    - '&7and weapons with &cSanta'
+    - '&a'
+    - '&fి &82022 Chrismas exclusive!'
+    tier: B
+BLUE_CANDYCANE:
+  base:
+    material: PAPER
+    custom-model-data: 33.0
+    name: '&9Blue Candycane'
+    lore:
+    - '&7A rarer sweet loved by'
+    - '&7Hyronians, used to trade'
+    - '&7exclusive items, equipments'
+    - '&7and weapons with &cSanta'
+    - '&a'
+    - '&fి &82022 Chrismas exclusive!'
+    tier: A
+SHARD_OF_TRUE_ICE:
+  base:
+    material: PAPER
+    custom-model-data: 34.0
+    name: <#b3fafb>Shard of True Ice
+    lore:
+    - '&7A small shard of the mythic'
+    - <#b3fafb>True Ice&7, especially sought
+    - '&7after by &cSanta&7!'
+    - '&a'
+    - '&fి &82022 Chrismas exclusive!'
+    tier: S
+URANIUM_DEBRIS:
+  base:
+    material: PAPER
+    custom-model-data: 39.0
+    name: <GRADIENT:#3cff49:#ccffcf>Uranium Debris
+    lore:
+    - '&7A piece of hyper-radioactive'
+    - '&7metal. Holding this makes you sick.'
+    tier: A
+URANIUM:
+  base:
+    material: PAPER
+    custom-model-data: 40.0
+    name: <GRADIENT:#3cff49:#ccffcf>Uranium
+    lore:
+    - '&7It gives off a strong'
+    - '&7green light. You keep'
+    - '&7hearing ringing inside'
+    - '&7your ears.'
+    tier: S
+IRIDIUM_SHARD:
+  base:
+    material: PAPER
+    custom-model-data: 41.0
+    name: <#CBC3E3>Iridium Shard
+    lore:
+    - '&7It''s giving off strange'
+    - '&7glow.'
+    tier: A
+IRIDIUM_CRYSTAL:
+  base:
+    material: PAPER
+    custom-model-data: 42.0
+    name: <#CBC3E3>Iridium Crystal
+    lore:
+    - '&7An otherworldly crystal from'
+    - '&7from the heavens.'
+    tier: S
+ENDERCORE:
+  base:
+    material: PAPER
+    custom-model-data: 44.0
+    name: <GRADIENT:#702963:#770737>Endercore
+    lore:
+    - '&7Can be combined in smithing'
+    - '&7table with these items to imbue'
+    - '&7them with immense &5draconic'
+    - '&5power&7, amplifying their power:'
+    - '&f'
+    - <#DA70D6> Hellfire Armor
+    - <#DA70D6> Warden Armor
+    - <#DA70D6> Apollo Armor
+    - <#DA70D6> Death Armor
+    - '&7'
+    - '&8&oA hex machinery implanted into'
+    - '&8&othe Ender Dragon eons ago'
+    - '&8&oby the Coven in order to take'
+    - '&8&ocontrol of the beast.'
+    tier: S+
+DRAGON_SCALE:
+  base:
+    material: PAPER
+    custom-model-data: 43.0
+    name: '&dDragon''s Scale'
+    lore:
+    - '&7A mythical piece of flesh'
+    - '&7from the Ender Dragon,'
+    - '&7being one of the most'
+    - '&7resillient material in the'
+    - '&7world.'
+    tier: S
+VOID_GEM:
+  base:
+    material: PAPER
+    custom-model-data: 45.0
+    name: <GRADIENT:#702963:#770737>Void Gem
+    lore:
+    - '&7An extremely volatile gem'
+    - '&7containing the primordial'
+    - '&7energy of <#770737>The Void&7.'
+    tier: S
+NULL_CELL:
+  base:
+    material: PAPER
+    custom-model-data: 46.0
+    name: <#483248>Null Cell
+    lore:
+    - '&7Contains cell that cannot'
+    - '&7be identified.'
+    tier: S
+BLOOM_DOOM:
+  base:
+    material: PAPER
+    name: <#dc143c>Bloom Doom
+    custom-model-data: 47.0
+    tier: A
+    lore:
+    - '&7A flower only blooms'
+    - '&7when &cchaos&7 and &ddeath'
+    - '&7meet.'
+VOID_STONE:
+  base:
+    material: PAPER
+    name: <#DA70D6>Void Stone
+    custom-model-data: 48.0
+    lore:
+    - '&7A pebble originated from'
+    - '&7the void, holding numerous'
+    - '&7anomalous properties.'
+    tier: A

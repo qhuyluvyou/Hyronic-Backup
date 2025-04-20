@@ -1,0 +1,545 @@
+config-version: 1.1.9
+
+language-file: lang-en.yml
+
+
+
+
+locale: en-US
+
+
+
+
+update-checking: true
+
+
+
+debug: true
+
+use-nms: true
+
+
+
+transaction-log: true
+
+
+
+enable-disabled-worlds: false
+
+disabled-worlds-per-command:
+    shop:
+    - 'testbuilding'
+    sellall:
+    - 'randompvp'
+    editshop:
+    - 'boss-fights'
+    - 'Survival-Spawn'
+
+
+
+
+economy-provider: VAULT
+
+
+currency-formats:
+  player-points:
+    singular: Point
+    plural: Points
+    friendly: Points
+  vault:
+    singular: '%currency-symbol%'
+    plural: '%currency-symbol%'
+    friendly: money
+  gems-economy:Example:
+    singular: Example
+    plural: Examples
+    friendly: Examples
+
+
+
+spawner-provider: DEFAULT
+
+
+
+enable-discordsrv-hook: false
+
+
+discordsrv-transactions:
+  channel: shop-transactions
+  raw: ''
+  embed:
+    color: '0x006FFF'
+    title: ''
+    description: ''
+    author:
+      title: New shop transaction
+      imageURL: https://api.creepernation.net/avatar/%player_name%
+    fields:
+      1:
+        title: Player
+        message: '```%player_displayname%```'
+      2:
+        title: Mode
+        message: '```%bought/sold%```'
+      3:
+        title: Amount
+        message: '```%amount%```'
+      4:
+        title: Product(s)
+        message: '```%items%```'
+      5:
+        title: Price
+        message: '```%price%```'
+    footer:
+      title: ''
+      imageURL: ''
+
+
+
+log-player-transactions: true
+
+drop-remaining-items-on-ground: false
+
+sell-shulker-boxes: true
+
+banned-gamemodes:
+- 'CREATIVE'
+- 'SPECTATOR'
+
+use-item-name: true
+
+
+
+mainshop-size: 6
+
+resize-gui-for-bedrock: true
+
+
+
+
+main-menu-nav-bar:
+    1:
+      material: black_stained_glass_pane
+    2:
+      material: black_stained_glass_pane
+    3:
+      material: black_stained_glass_pane
+    4:
+      material: black_stained_glass_pane
+    5:
+      material: barrier
+      name: '%translations-cancel%'
+      action: BACK
+    6:
+      material: black_stained_glass_pane
+    7:
+      material: black_stained_glass_pane
+    8:
+      material: black_stained_glass_pane
+    9:
+      material: black_stained_glass_pane
+
+shops-nav-bar:
+    1:
+      material: black_stained_glass_pane
+    2:
+      material: black_stained_glass_pane
+    3:
+      material: black_stained_glass_pane
+    4:
+      material: arrow
+      name: '%translations-previous-page%'
+      action: PAGE_BACK
+    5:
+      material: nether_star
+      name: '%translations-current-page%'
+    6:
+      material: arrow
+      name: '%translations-next-page%'
+      action: PAGE_NEXT
+    7:
+      material: black_stained_glass_pane
+    8:
+      material: black_stained_glass_pane
+    9:
+      material: barrier
+      name: '%translations-back%'
+      action: BACK
+
+transaction-screens-nav-bar:
+    1:
+      material: black_stained_glass_pane
+    2:
+      material: black_stained_glass_pane
+    3:
+      material: black_stained_glass_pane
+    4:
+      material: black_stained_glass_pane
+    5:
+      material: black_stained_glass_pane
+    6:
+      material: black_stained_glass_pane
+    7:
+      material: black_stained_glass_pane
+    8:
+      material: black_stained_glass_pane
+    9:
+      material: barrier
+      name: '%translations-back%'
+      action: BACK
+
+sellgui-nav-bar:
+    1:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    2:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    3:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    4:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    5:
+      material: NETHER_STAR
+      name: '&6Selling Bin'
+      lore:
+      - '&7Drop items in to sell'
+      - '&7upon closing, everything'
+      - '&7will be sold'
+      - '&8Items that couldn''t be sold'
+      - '&8will be given back to you.'
+    6:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    7:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    8:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+    9:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ' '
+
+
+
+allow-renamed-items: false
+
+allow-lore-items: true
+
+bought-items-lore: true
+
+allow-unsafe-enchants: true
+
+allow-illegal-stacks: true
+
+sold-items-ignored-NBTtags:
+- 'RepairCost'
+
+max-shop-pages: 50
+
+
+
+buy-screen:
+  menu-size: 5
+  items:
+    1:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-thirty-two%'
+      stack-size: 32
+      action: REMOVE32
+      slot: 19
+
+    2:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-sixteen%'
+      stack-size: 16
+      action: REMOVE16
+      slot: 20
+
+    3:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-one%'
+      action: REMOVE1
+      slot: 21
+
+    4:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-one%'
+      action: ADD1
+      slot: 23
+
+    5:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-sixteen%'
+      stack-size: 16
+      action: ADD16
+      slot: 24
+
+    6:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-thirty-two%'
+      stack-size: 32
+      action: ADD32
+      slot: 25
+
+    7:
+      material: paper
+      name: '%translations-buy%'
+      lore:
+      - '&3%price%'
+      action: CONFIRM_TRANSACTION
+      slot: 13
+      type: CONFIRM
+
+    8:
+      slot: 22
+      type: SELECTED_ITEM
+
+    9:
+      material: chest
+      name: '%translations-buy-stacks%'
+      slot: 31
+      action: OPEN_BUY_STACKS
+
+sell-screen:
+  menu-size: 5
+  items:
+    1:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-thirty-two%'
+      stack-size: 32
+      action: REMOVE32
+      slot: 19
+
+    2:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-sixteen%'
+      stack-size: 16
+      action: REMOVE16
+      slot: 20
+
+    3:
+      material: magenta_stained_glass_pane
+      name: '%translations-min-one%'
+      action: REMOVE1
+      slot: 21
+
+    4:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-one%'
+      action: ADD1
+      slot: 23
+
+    5:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-sixteen%'
+      stack-size: 16
+      action: ADD16
+      slot: 24
+
+    6:
+      material: light_blue_stained_glass_pane
+      name: '%translations-plus-thirty-two%'
+      stack-size: 32
+      action: ADD32
+      slot: 25
+
+    7:
+      material: paper
+      name: '%translations-sell%'
+      lore:
+      - '&3%price%'
+      action: CONFIRM_TRANSACTION
+      slot: 13
+      type: CONFIRM
+
+    8:
+      slot: 22
+      type: SELECTED_ITEM
+
+    9:
+      material: emerald
+      name: '%translations-sell-all%'
+      slot: 31
+      action: SELL_ALL
+
+buy-stacks-screen:
+  menu-size: 5
+  items:
+    1:
+      material: magenta_stained_glass
+      name: '%translations-min-thirty-two%'
+      stack-size: 32
+      action: REMOVE32
+      slot: 19
+
+    2:
+      material: magenta_stained_glass
+      name: '%translations-min-sixteen%'
+      stack-size: 16
+      action: REMOVE16
+      slot: 20
+
+    3:
+      material: magenta_stained_glass
+      name: '%translations-min-one%'
+      action: REMOVE1
+      slot: 21
+
+    4:
+      material: light_blue_stained_glass
+      name: '%translations-plus-one%'
+      action: ADD1
+      slot: 23
+
+    5:
+      material: light_blue_stained_glass
+      name: '%translations-plus-sixteen%'
+      stack-size: 16
+      action: ADD16
+      slot: 24
+
+    6:
+      material: light_blue_stained_glass
+      name: '%translations-plus-thirty-two%'
+      stack-size: 32
+      action: ADD32
+      slot: 25
+
+    7:
+      material: paper
+      name: '%translations-buy%'
+      lore:
+      - '&3%price%'
+      action: CONFIRM_TRANSACTION
+      slot: 13
+      type: CONFIRM
+
+    8:
+      slot: 22
+      type: SELECTED_ITEM
+
+
+enable-discounts: false
+
+discounts:
+    Blocks:
+      vip: 20
+      gold: 2.5
+    Farming:
+      vip: 15
+    Redstone:
+      diamond: 30
+
+
+
+enable-sell-multipliers: false
+
+sell-multipliers:
+  all:
+    vip: 20
+    gold: 2.5
+    coal: 1
+  Spawners:
+    gold: 12.5
+
+
+
+override-sell-command: true
+
+old-sellall-command: false
+
+commands:
+    sellall: true
+    shop: true
+    sreload: true
+    editshop: true
+    sellgui: true
+
+shop-commands:
+- 'shop'
+
+sellall-commands:
+- 'sellall'
+
+sellgui-commands:
+- 'sellgui'
+
+
+
+disableBackButtonWithShopSectionCommand: false
+
+
+
+enable-joinmessage: false
+
+
+
+enable-levelevent: false
+
+leveleventmoney5/10/15: 10
+
+leveleventmoney20/25/30: 50
+
+
+
+
+enable-spawnerbreak: true
+
+enable-spawnerplace: true
+
+allow-spawner-type-change: false
+
+player-placed-spawners-drop-exp: false
+
+spawner-break-tools:
+    1:
+      material: DIAMOND_PICKAXE
+      enchantments:
+      - 'SILK_TOUCH'
+    2:
+      material: IRON_PICKAXE
+      enchantments:
+      - 'SILK_TOUCH'
+      - 'EFFICIENCY:2'
+    3:
+      material: NETHERITE_PICKAXE
+      enchantments:
+      - 'SILK_TOUCH'
+buy-sell-screen:
+    remove32:
+      material: magenta_stained_glass_pane
+    remove16:
+      material: magenta_stained_glass_pane
+    remove1:
+      material: magenta_stained_glass_pane
+    add1:
+      material: light_blue_stained_glass_pane
+    add16:
+      material: light_blue_stained_glass_pane
+    add32:
+      material: light_blue_stained_glass_pane
+    remove32stacks:
+      material: magenta_stained_glass
+    remove16stacks:
+      material: magenta_stained_glass
+    remove1stack:
+      material: magenta_stained_glass
+    add1stack:
+      material: light_blue_stained_glass
+    add16stacks:
+      material: light_blue_stained_glass
+    add32stacks:
+      material: light_blue_stained_glass
+    buy-items:
+      material: paper
+    sell-items:
+      material: paper
+    buy-stacks:
+      material: chest
+    sell-all:
+      material: emerald
+

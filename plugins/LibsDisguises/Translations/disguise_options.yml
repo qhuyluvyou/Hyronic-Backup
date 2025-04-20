@@ -1,0 +1,381 @@
+"setColor": "setColor"
+
+"setIgnoreRadius": "setIgnoreRadius"
+
+"setParticle": "setParticle"
+
+"setRadius": "setRadius"
+
+"setAddEntityAnimations": "setAddEntityAnimations"
+
+"setArmor": "setArmor"
+
+"setBoots": "setBoots"
+
+"setBossBarColor": "setBossBarColor"
+
+"setBossBarStyle": "setBossBarStyle"
+
+"setBurning": "setBurning"
+
+"setChestplate": "setChestplate"
+
+"setCustomName": "setCustomName"
+
+"setCustomNameVisible": "setCustomNameVisible"
+
+"setDisguiseName": "setDisguiseName"
+
+"setDynamicName": "setDynamicName"
+
+"setEntityPose": "setEntityPose"
+
+"setExpires": "setExpires"
+
+"setFlyingWithElytra": "setFlyingWithElytra"
+
+"setGlowColor": "setGlowColor"
+
+"setGlowing": "setGlowing"
+
+"setHearSelfDisguise": "setHearSelfDisguise"
+
+"setHelmet": "setHelmet"
+
+"setHideArmorFromSelf": "setHideArmorFromSelf"
+
+"setHideHeldItemFromSelf": "setHideHeldItemFromSelf"
+
+"setHidePlayer": "setHidePlayer"
+
+"setInvisible": "setInvisible"
+
+"setItemInMainHand": "setItemInMainHand"
+
+"setItemInOffHand": "setItemInOffHand"
+
+"setLeggings": "setLeggings"
+
+"setMainHandRaised": "setMainHandRaised"
+
+"setNameYModifier": "setNameYModifier"
+
+"setNoGravity": "setNoGravity"
+
+"setNotifyBar": "setNotifyBar"
+
+"setPitchLock": "setPitchLock"
+
+"setPitchLocked": "setPitchLocked"
+
+"setRightClicking": "setRightClicking"
+
+"setSelfDisguiseVisible": "setSelfDisguiseVisible"
+
+"setSleeping": "setSleeping"
+
+"setSneaking": "setSneaking"
+
+"setSoundGroup": "setSoundGroup"
+
+"setSprinting": "setSprinting"
+
+"setSwimming": "setSwimming"
+
+"setTallDisguisesVisible": "setTallDisguisesVisible"
+
+"setUpsideDown": "setUpsideDown"
+
+"setYawLock": "setYawLock"
+
+"setYawLocked": "setYawLocked"
+
+"setYModifier": "setYModifier"
+
+"setBody": "setBody"
+
+"setHead": "setHead"
+
+"setLeftArm": "setLeftArm"
+
+"setLeftLeg": "setLeftLeg"
+
+"setMarker": "setMarker"
+
+"setNoBasePlate": "setNoBasePlate"
+
+"setRightArm": "setRightArm"
+
+"setRightLeg": "setRightLeg"
+
+"setShowArms": "setShowArms"
+
+"setSmall": "setSmall"
+
+"setArrowsSticking": "setArrowsSticking"
+
+"setBedPosition": "setBedPosition"
+
+"setHealth": "setHealth"
+
+"setMaxHealth": "setMaxHealth"
+
+"setOffhandRaised": "setOffhandRaised"
+
+"setParticlesColor": "setParticlesColor"
+
+"setPotionParticlesAmbient": "setPotionParticlesAmbient"
+
+"setSpinning": "setSpinning"
+
+"setCritical": "setCritical"
+
+"setPierceLevel": "setPierceLevel"
+
+"setAI": "setAI"
+
+"setBaby": "setBaby"
+
+"setEnraged": "setEnraged"
+
+"setMainHand": "setMainHand"
+
+"setPlayingDead": "setPlayingDead"
+
+"setVariant": "setVariant"
+
+"setHanging": "setHanging"
+
+"setBeeAnger": "setBeeAnger"
+
+"setFlipped": "setFlipped"
+
+"setHasNectar": "setHasNectar"
+
+"setHasStung": "setHasStung"
+
+"setBlazing": "setBlazing"
+
+"setBoatShake": "setBoatShake"
+
+"setBoatType": "setBoatType"
+
+"setDamage": "setDamage"
+
+"setLeftPaddling": "setLeftPaddling"
+
+"setRightPaddling": "setRightPaddling"
+
+"setCollarColor": "setCollarColor"
+
+"setLookingUp": "setLookingUp"
+
+"setLyingDown": "setLyingDown"
+
+"setSitting": "setSitting"
+
+"setTamed": "setTamed"
+
+"setType": "setType"
+
+"setClimbing": "setClimbing"
+
+"setIgnited": "setIgnited"
+
+"setPowered": "setPowered"
+
+"setCarryingChest": "setCarryingChest"
+
+"setEating": "setEating"
+
+"setGrazing": "setGrazing"
+
+"setRearing": "setRearing"
+
+"setReproduced": "setReproduced"
+
+"setSaddled": "setSaddled"
+
+"setConverting": "setConverting"
+
+"setItemStack": "setItemStack"
+
+"setRetractingSpikes": "setRetractingSpikes"
+
+"setTarget": "setTarget"
+
+"setBeamTarget": "setBeamTarget"
+
+"setShowBottom": "setShowBottom"
+
+"setPhase": "setPhase"
+
+"setAggressive": "setAggressive"
+
+"setCastingSpell": "setCastingSpell"
+
+"setBlock": "setBlock"
+
+"setBlockData": "setBlockData"
+
+"setGridLocked": "setGridLocked"
+
+"setAttachedEntity": "setAttachedEntity"
+
+"setFirework": "setFirework"
+
+"setShotAtAngle": "setShotAtAngle"
+
+"setHooked": "setHooked"
+
+"setHookedId": "setHookedId"
+
+"setAngry": "setAngry"
+
+"setCrouching": "setCrouching"
+
+"setHeadTilted": "setHeadTilted"
+
+"setSpringing": "setSpringing"
+
+"setTipToeing": "setTipToeing"
+
+"setItem": "setItem"
+
+"setRotation": "setRotation"
+
+"setDarkTicksRemaining": "setDarkTicksRemaining"
+
+"setScreaming": "setScreaming"
+
+"setShaking": "setShaking"
+
+"setHorseArmor": "setHorseArmor"
+
+"setStyle": "setStyle"
+
+"setCracks": "setCracks"
+
+"setCarpet": "setCarpet"
+
+"setStrength": "setStrength"
+
+"setSize": "setSize"
+
+"setBlockOffset": "setBlockOffset"
+
+"setViewBlockInCart": "setViewBlockInCart"
+
+"setFueled": "setFueled"
+
+"setTrusting": "setTrusting"
+
+"setArt": "setArt"
+
+"setHeadShaking": "setHeadShaking"
+
+"setHiddenGene": "setHiddenGene"
+
+"setMainGene": "setMainGene"
+
+"setSneeze": "setSneeze"
+
+"setTumble": "setTumble"
+
+"setDancing": "setDancing"
+
+"setUsingCrossbow": "setUsingCrossbow"
+
+"setAimingBow": "setAimingBow"
+
+"setCapeEnabled": "setCapeEnabled"
+
+"setDisplayedInTab": "setDisplayedInTab"
+
+"setHatEnabled": "setHatEnabled"
+
+"setJacketEnabled": "setJacketEnabled"
+
+"setLeftPantsEnabled": "setLeftPantsEnabled"
+
+"setLeftShoulderHasParrot": "setLeftShoulderHasParrot"
+
+"setLeftShoulderParrot": "setLeftShoulderParrot"
+
+"setLeftSleeveEnabled": "setLeftSleeveEnabled"
+
+"setName": "setName"
+
+"setNameVisible": "setNameVisible"
+
+"setRightPantsEnabled": "setRightPantsEnabled"
+
+"setRightShoulderHasParrot": "setRightShoulderHasParrot"
+
+"setRightShoulderParrot": "setRightShoulderParrot"
+
+"setRightSleeveEnabled": "setRightSleeveEnabled"
+
+"setSkin": "setSkin"
+
+"setDeadmau5Ears": "setDeadmau5Ears"
+
+"setStanding": "setStanding"
+
+"setPuffState": "setPuffState"
+
+"setRainbowWool": "setRainbowWool"
+
+"setSheared": "setSheared"
+
+"setAttachmentPosition": "setAttachmentPosition"
+
+"setFacingDirection": "setFacingDirection"
+
+"setShieldHeight": "setShieldHeight"
+
+"setConvertingStray": "setConvertingStray"
+
+"setDerp": "setDerp"
+
+"setPotionId": "setPotionId"
+
+"setSplashPotion": "setSplashPotion"
+
+"setEnchanted": "setEnchanted"
+
+"setBodyColor": "setBodyColor"
+
+"setPattern": "setPattern"
+
+"setPatternColor": "setPatternColor"
+
+"setEgg": "setEgg"
+
+"setBiome": "setBiome"
+
+"setLevel": "setLevel"
+
+"setProfession": "setProfession"
+
+"setInvulnerability": "setInvulnerability"
+
+"setBlue": "setBlue"
+
+"setAnger": "setAnger"
+
+"setBegging": "setBegging"
+
+"baby": "baby"
+
+"adult": "adult"
+
+"setGene": "setGene"
+
+"setCanDuplicate": "setCanDuplicate"
+
+"setHasLeftHorn": "setHasLeftHorn"
+
+"setHasRightHorn": "setHasRightHorn"
+
+"setUnsafeSize": "setUnsafeSize"
