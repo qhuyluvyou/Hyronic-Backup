@@ -12,4 +12,4 @@
 ✅ Everything else should work like a charm. Have fun breaking stuff!
 
 Run this command :
-`curl -sSL https://raw.githubusercontent.com/qhuyluvyou/Hyronic-Backup/refs/heads/main/setup.sh bash`
+`curl -sSL https://raw.githubusercontent.com/qhuyluvyou/Hyronic-Backup/refs/heads/main/setup.sh | bash`
