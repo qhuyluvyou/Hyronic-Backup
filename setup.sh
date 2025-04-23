@@ -71,10 +71,40 @@ rm -rf .git
 sleep 3
 
 echo "disable sleep and timed out..."
+echo "WARNING: THIS WILL NUKE GNOME AUTO IDLE, SLEEP, LOCK, LOGOUT"
+sleep 3
+
+echo "Ready??"
+
+# GNOME settings
+gsettings set org.gnome.desktop.session idle-delay 0
+gsettings set org.gnome.desktop.screensaver lock-enabled false
+gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
+gsettings set org.gnome.desktop.lockdown disable-lock-screen true
 gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
 gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
 gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'
 gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
-gsettings set org.gnome.desktop.session idle-delay 0
+
+# systemd overrides
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+sudo systemctl mask systemd-logind.service
+
+# logind.conf
+sudo sed -i 's/^#*HandleLidSwitch=.*/HandleLidSwitch=ignore/' /etc/systemd/logind.conf
+sudo sed -i 's/^#*HandlePowerKey=.*/HandlePowerKey=ignore/' /etc/systemd/logind.conf
+sudo sed -i 's/^#*HandleSuspendKey=.*/HandleSuspendKey=ignore/' /etc/systemd/logind.conf
+sudo sed -i 's/^#*IdleAction=.*/IdleAction=ignore/' /etc/systemd/logind.conf
+sudo systemctl restart systemd-logind
+
+# Polkit power rule
+sudo tee /etc/polkit-1/localauthority/50-local.d/nosleep.pkla > /dev/null <<EOF
+[Disable Power Management]
+Identity=unix-user:*
+Action=org.freedesktop.login1.*
+ResultActive=no
+ResultAny=no
+ResultInactive=no
+EOF
 
 echo "🎉 Setup complete! Now restart your terminal (or run source ~/.bashrc) and summon your mighty server with 'qhuy'"
