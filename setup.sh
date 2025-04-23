@@ -70,8 +70,11 @@ echo "🗑️ Removing Git repository files..."
 rm -rf .git
 sleep 3
 
-echo "🚀 Starting ngrok tunnel..."
-screen -dmS tunnel ngrok tcp 11611
-sleep 3
+echo "disable sleep and timed out..."
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+gsettings set org.gnome.desktop.session idle-delay 0
 
 echo "🎉 Setup complete! Now restart your terminal (or run source ~/.bashrc) and summon your mighty server with 'qhuy'"
