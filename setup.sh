@@ -18,7 +18,7 @@ sudo apt install -y openjdk-17-jdk ufw ngrok screen unzip p7zip-full neofetch bt
 sleep 3
 
 echo "📂 Creating directory 'Main'..."
-mkdir Main
+mkdir ~/Main
 sleep 3
 
 echo "🔑 Configuring ngrok with your authtoken..."
@@ -33,8 +33,8 @@ wget -O ~/Main/paper.jar https://api.papermc.io/v2/projects/paper/versions/1.20.
 sleep 3
 
 echo "✍️ Creating startup script..."
-touch ~/Main/startup.sh
-echo "java -Xms8G -Xmx24G -XX:+UseG1GC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseCompressedOops -Dfile.encoding=UTF-8 -XX:+UseStringDeduplication -XX:+OptimizeStringConcat -XX:+UnlockDiagnosticVMOptions -XX:+ParallelRefProcEnabled -XX:InitiatingHeapOccupancyPercent=75 -jar ~/Server/paper.jar -o true --nogui" >> ~/Main/startup.sh
+touch ~/Server/startup.sh
+echo "java -Xms8G -Xmx24G -XX:+UseG1GC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseCompressedOops -Dfile.encoding=UTF-8 -XX:+UseStringDeduplication -XX:+OptimizeStringConcat -XX:+UnlockDiagnosticVMOptions -XX:+ParallelRefProcEnabled -XX:InitiatingHeapOccupancyPercent=75 -jar ~/Server/paper.jar -o true --nogui" >> ~/Server/startup.sh
 sleep 3
 
 echo "📜 Adding alias for easy startup command..."
