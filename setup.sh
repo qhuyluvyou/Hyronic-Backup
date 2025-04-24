@@ -34,7 +34,7 @@ sleep 3
 
 echo "✍️ Creating startup script..."
 touch ~/Main/startup.sh
-echo "java -Xms50G -Xmx50G -jar ~/Main/paper.jar -o true --nogui" >> ~/Main/startup.sh
+echo "java -Xms8G -Xmx24G -XX:+UseG1GC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseCompressedOops -Dfile.encoding=UTF-8 -XX:+UseStringDeduplication -XX:+OptimizeStringConcat -XX:+UnlockDiagnosticVMOptions -XX:+ParallelRefProcEnabled -XX:InitiatingHeapOccupancyPercent=75 -jar ~/Server/paper.jar -o true --nogui" >> ~/Main/startup.sh
 sleep 3
 
 echo "📜 Adding alias for easy startup command..."
