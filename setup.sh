@@ -88,7 +88,6 @@ gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-tim
 
 # systemd overrides
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
-sudo systemctl mask systemd-logind.service
 
 # logind.conf
 sudo sed -i 's/^#*HandleLidSwitch=.*/HandleLidSwitch=ignore/' /etc/systemd/logind.conf
@@ -96,15 +95,5 @@ sudo sed -i 's/^#*HandlePowerKey=.*/HandlePowerKey=ignore/' /etc/systemd/logind.
 sudo sed -i 's/^#*HandleSuspendKey=.*/HandleSuspendKey=ignore/' /etc/systemd/logind.conf
 sudo sed -i 's/^#*IdleAction=.*/IdleAction=ignore/' /etc/systemd/logind.conf
 sudo systemctl restart systemd-logind
-
-# Polkit power rule
-sudo tee /etc/polkit-1/localauthority/50-local.d/nosleep.pkla > /dev/null <<EOF
-[Disable Power Management]
-Identity=unix-user:*
-Action=org.freedesktop.login1.*
-ResultActive=no
-ResultAny=no
-ResultInactive=no
-EOF
 
 echo "🎉 Setup complete! Now restart your terminal (or run source ~/.bashrc) and summon your mighty server with 'qhuy'"
