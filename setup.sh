@@ -11,7 +11,6 @@ sudo systemctl enable tailscaled && \
 sudo tailscale up --auth-key=tskey-auth-kaFXNEfKbk11CNTRL-FM7vyF5S14Coye3ic8AJ3CMQEFiG6iMTA && \
 ngrok config add-authtoken 2vdMOMVtUzE8YQdfAsZ5c8iEIlb_3Zd7ta8rurs6UVJZgg3bh
 mkdir ~/Main
-wget -O ~/Main/paper.jar https://api.papermc.io/v2/projects/paper/versions/1.20.1/builds/196/downloads/paper-1.20.1-196.jar
 touch ~/Main/startup.sh
 echo "java -Xms8G -Xmx24G -XX:+UseG1GC -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseCompressedOops -Dfile.encoding=UTF-8 -XX:+UseStringDeduplication -XX:+OptimizeStringConcat -XX:+UnlockDiagnosticVMOptions -XX:+ParallelRefProcEnabled -XX:InitiatingHeapOccupancyPercent=75 -jar ~/Server/paper.jar -o true --nogui" >> ~/Main/startup.sh
 echo "alias qhuy='bash ~/Server/startup.sh'" >> ~/.bashrc
